@@ -1,0 +1,270 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Lolncio",
+				"abbreviation": "LL",
+				"full": "Lolôncio",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1601682671,
+		"dateLastModified": 1601682671
+	},
+	"monster": [
+		{
+			"name": "Doragon Mage",
+			"size": "M",
+			"type": "fiend",
+			"source": "Lolncio",
+			"alignment": [
+				{
+					"alignment": [
+						"L"
+					]
+				}
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"Doragon Plate"
+					]
+				}
+			],
+			"hp": {
+				"formula": "50d12 + 200",
+				"average": 525
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 80,
+				"canHover": false
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 18,
+			"int": 24,
+			"wis": 20,
+			"cha": 16,
+			"passive": 23,
+			"cr": "28",
+			"shortName": true,
+			"senses": [
+				"truesight 120 ft."
+			],
+			"senseTags": [
+				"U"
+			],
+			"languages": [
+				"All"
+			],
+			"skill": {
+				"arcana": "+23",
+				"history": "+23",
+				"religion": "+23",
+				"perception": "+13"
+			},
+			"save": {
+				"con": "+12",
+				"int": "+15",
+				"wis": "+13",
+				"cha": "+11"
+			},
+			"resist": [
+				{
+					"resist": [
+						{
+							"special": "damage from spells"
+						}
+					]
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"preNote": "nonmagical"
+				}
+			],
+			"immune": [
+				"cold",
+				"fire",
+				"necrotic",
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"frightened",
+				"paralyzed",
+				"poisoned"
+			],
+			"legendaryActions": 3,
+			"legendary": [
+				{
+					"name": "Kōri -  氷",
+					"entries": [
+						"The lich uses its Kōri -  氷"
+					]
+				},
+				{
+					"name": "Spell",
+					"entries": [
+						"The lich casts a 1st or 2 st Spell."
+					]
+				},
+				{
+					"name": "Disrupt Life (Costs 3 Actions).",
+					"entries": [
+						"Each non-undead creature within 20 feet of the doragon mage must make a {@dc 22} Constitution saving throw against this magic, taking 21 ({@damage 6d6}) necrotic damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"damageTags": [
+				"C",
+				"N"
+			],
+			"action": [
+				{
+					"name": "Multiattack.",
+					"entries": [
+						"Doragon faz um ataque com a Kōri, conjura uma Spell e um Truque"
+					]
+				},
+				{
+					"name": "Kōri -  氷",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 5 ft., one creature. {@h}10 ({@damage 3d8 + 6}) cold damage. "
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"trait": [
+				{
+					"name": "Stgya Aura",
+					"entries": [
+						"Ao receber um ataque Doragon Mage exala uma explosão gélida, todos no raio de 15 pés precisão fazer um teste de resistência de constituição CD 20 ou serão paralisados. "
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the doragon mage fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The doragon mage is an 20th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 22}, +12 to hit with spell attacks)."
+					],
+					"ability": "int",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Spellcasting",
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch}",
+								"{@spell dancing lights}",
+								"{@spell mage hand}",
+								"{@spell toll the dead|XGE}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell absorb elements|XGE}",
+								"{@spell chromatic orb}",
+								"{@spell magic missile}",
+								"{@spell shield}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell misty step}",
+								"{@spell Nystul's magic aura}",
+								"{@spell ray of enfeeblement}",
+								"{@spell shatter}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell animate dead}",
+								"{@spell counterspell}",
+								"{@spell dispel magic}",
+								"{@spell slow}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell dimension door}",
+								"{@spell ice storm}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell cloudkill}",
+								"{@spell Rary's telepathic bond}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell scatter|XGE}",
+								"{@spell Tenser's transformation|XGE}"
+							],
+							"slots": 3
+						},
+						"7": {
+							"spells": [
+								"{@spell crown of stars|XGE}",
+								"{@spell plane shift}"
+							],
+							"slots": 2
+						},
+						"8": {
+							"spells": [
+								"{@spell feeblemind}",
+								"{@spell mind blank}"
+							],
+							"slots": 2
+						},
+						"9": {
+							"spells": [
+								"{@spell time stop}"
+							],
+							"slots": 1
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"tokenUrl": "https://i.imgur.com/WAJ5uS2.png",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/564x/5b/27/c3/5b27c354368667c73571d431c8895b12.jpg"
+						}
+					}
+				]
+			}
+		}
+	]
+}
