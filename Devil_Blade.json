@@ -1,0 +1,161 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Lolncio",
+				"abbreviation": "LLGM",
+				"full": "LolôncioGM",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1601704747,
+		"dateLastModified": 1601704747
+	},
+	"monster": [
+		{
+			"name": "Devil Blade",
+			"source": "Lolncio",
+			"size": "M",
+			"type": "fiend",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"Doragon  Plate"
+					]
+				}
+			],
+			"hp": {
+				"average": 127,
+				"formula": "15d8 + 60"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 18,
+			"int": 11,
+			"wis": 12,
+			"cha": 14,
+			"skill": {
+				"athletics": "+7",
+				"perception": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"resist": [
+				"cold",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"fire",
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"frightened",
+				"poisoned",
+				"unconscious"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Essência De Avernus",
+					"entries": [
+						"Com a ação bônus o devil blade faz um ataque com sua espada, esse ataque causa ({@damage 2d8}) dano de fogo extra quando acerta. Quando usado o devil blade tem vantagem em seus ataques até o inicio de seu próximo turno.  "
+					]
+				},
+				{
+					"name": "Devil's Sight",
+					"entries": [
+						"Magical darkness doesn't impede the devil blade's darkvision."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"O Devil Blade faz dois ataques com sua Hellfire Sword."
+					]
+				},
+				{
+					"name": "Hellfire Longsword",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. 9 ({@damage 1d10 + 4}) slashing damage if used with two hands. Any humanoid killed by an attack made with this weapon has its soul funneled into the River Styx, where it's reborn instantly as a lemure devil."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Chamado Infernal",
+					"entries": [
+						"O Devil Blade pode convocar {@dice 1d4 + 1} {@creature Spined Devil} para o combate. Os diabos obedecem os comandos do Devil Blade até a morte. Quando mortos eles se tornam uma poça de acido."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"S",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"RNG"
+			],
+			"tokenUrl": "https://i.imgur.com/bE5IQ4v.png",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/564x/a5/5d/81/a55d81c311087f3a5b94c6625630c830.jpg"
+						}
+					}
+				]
+			},
+			"shortName": true,
+			"languages": [
+				"Common",
+				"Infernal"
+			],
+			"languageTags": [
+				"C",
+				"I"
+			],
+			"senseTags": [
+				"D"
+			],
+			"traitTags": [
+				"Devil's Sight"
+			]
+		}
+	]
+}
