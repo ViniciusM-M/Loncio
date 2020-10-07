@@ -1,0 +1,118 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UlucaiDM",
+				"abbreviation": "ULDM",
+				"full": "Ulucai DM",
+				"url": "",
+				"authors": [
+					"Ulucai"
+				],
+				"convertedBy": [
+					"Ulucai"
+				]
+			}
+		],
+		"dateAdded": 1602106548,
+		"dateLastModified": 1602106548
+	},
+	"monster": [
+		{
+			"name": "Lonçolock",
+			"size": "M",
+			"type": "humanoid",
+			"source": "UlucaiDM",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"{@item half plate armor|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d8 + 80",
+				"average": 170
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 14,
+			"con": 18,
+			"int": 14,
+			"wis": 15,
+			"cha": 20,
+			"passive": 16,
+			"cr": "12",
+			"shortName": "warlock",
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languages": [
+				"Common"
+			],
+			"languageTags": [
+				"C"
+			],
+			"save": {
+				"cha": "+9",
+				"con": "+8",
+				"wis": "+6"
+			},
+			"skill": {
+				"insight": "+6",
+				"history": "+6",
+				"perception": "+6",
+				"deception": "+9"
+			},
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"spells": {
+						"5": {
+							"spells": [
+								"{@spell armor of Agathys}",
+								"{@spell misty step}"
+							],
+							"slots": 4,
+							"lower": 1
+						}
+					},
+					"will": [
+						"{@spell arms of Hadar}",
+						"{@spell disguise self}",
+						"{@spell hex}",
+						"{@spell invisibility}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell forcecage}",
+							"{@spell maddening darkness|XGE}",
+							"{@spell plane shift}",
+							"{@spell psychic scream|XGE}",
+							"{@spell shadow of moil|XGE}"
+						]
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Master of Hexes",
+					"entries": [
+						"Your {@spell hex} spell doesn't require concentration and last 24 hours."
+					]
+				}
+			]
+		}
+	]
+}
