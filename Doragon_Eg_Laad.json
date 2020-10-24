@@ -1,0 +1,202 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Lolncio",
+				"abbreviation": "LLGM",
+				"full": "LolôncioGM",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1603568666,
+		"dateLastModified": 1603568666
+	},
+	"monster": [
+		{
+			"name": "Doragon Eg Laad",
+			"source": "Lolncio",
+			"page": 187,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"warforged"
+				]
+			},
+			"alignment": [
+				{
+					"alignment": null
+				},
+				{
+					"alignment": [
+						"L",
+						"N"
+					]
+				}
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"Doragon Plate"
+					]
+				}
+			],
+			"hp": {
+				"average": 150,
+				"formula": "20d8 + 60"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 16,
+			"int": 12,
+			"wis": 14,
+			"cha": 22,
+			"save": {
+				"dex": "+6",
+				"con": "+7",
+				"wis": "+6",
+				"cha": "+10"
+			},
+			"skill": {
+				"perception": "+6",
+				"stealth": "+6"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 16,
+			"cr": "11",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"will": [
+						"{@spell disguise self}",
+						"{@spell hex}",
+						"{@spell shield}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell armor of Agathys}",
+							"{@spell darkness}",
+							"{@spell levitate} (self only)",
+							"{@spell plane shift} (self only)"
+						]
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Shadow Step",
+					"entries": [
+						"While in dim light or darkness, the warforged can teleport as a bonus action up to 60 feet to an unoccupied space it can see that is also in dim light or darkness. It then has advantage on the first melee attack it makes before the end of the turn."
+					]
+				},
+				{
+					"name": "Devil's Sight",
+					"entries": [
+						"Magical darkness doesn't impede the doragon eg laad's darkvision."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The warforged makes two attacks with its shadow sword. If either attack hits and the target is within 10 feet of a 5-foot cube of darkness created by the shadow sword on a previous turn, the drow can dismiss that darkness and cause the target to take 21 ({@damage 6d6}) force damage. The drow can dismiss darkness in this way no more than once per turn."
+					]
+				},
+				{
+					"name": "Force Sword",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage plus 10 ({@damage 3d6}) force damage and 10 ({@damage 3d6}) force damage. The warforged can then fill an unoccupied 5-foot cube within 5 feet of the target with magical darkness, which remains for 1 minute."
+					]
+				}
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/drow-shadowblade.mp3?v=1.113.9"
+			},
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"O",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"tokenUrl": "https://i.imgur.com/aN5229P.png",
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "quote",
+										"entries": [
+											"Many creatures enjoy torture, but the dark elves have made it into an exquisite art."
+										],
+										"by": "Mordenkainen"
+									},
+									{
+										"type": "entries",
+										"name": "Drow Shadowblade",
+										"entries": [
+											"Drow shadowblades steal down the darkened passages of the Underdark, bound on errands of mayhem. Ruthless killers, shadowblades find employment with a noble house, usually involving the elimination of a rival in another house. Shadowblades also protect enclaves and Underdark cities from enemies and track down thieves who make off with prized treasures. In whatever role they serve, they move undetected until the moment they attack. And then they are the last thing their victims see.",
+											"A shadowblade harnesses a dark magic that is said to arise from a fiendish ritual in which the drow kills a lesser demon and mystically prevents it from reforming in the Abyss. This ritual creates a shadow demon and infuses the drow with shadow magic."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/564x/e4/cd/b2/e4cdb2759c3d83042279883f609f9587.jpg"
+						}
+					}
+				]
+			},
+			"languages": [
+				"Common",
+				"Infernal"
+			],
+			"languageTags": [
+				"C",
+				"I"
+			],
+			"immune": [
+				"fire",
+				"poison"
+			],
+			"resist": [
+				"cold"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"traitTags": [
+				"Devil's Sight"
+			]
+		}
+	]
+}
