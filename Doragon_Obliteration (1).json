@@ -1,0 +1,233 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Lolncio",
+				"abbreviation": "LLGM",
+				"full": "LolôncioGM",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1603711734,
+		"dateLastModified": 1603711734
+	},
+	"monster": [
+		{
+			"name": "Doragon Obliteration",
+			"source": "Lolncio",
+			"page": 201,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"warforged"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"Doragon Plate"
+					]
+				}
+			],
+			"hp": {
+				"formula": "13d10 + 39",
+				"average": 111
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 14,
+			"dex": 20,
+			"con": 16,
+			"int": 11,
+			"wis": 13,
+			"cha": 20,
+			"save": {
+				"dex": "+9",
+				"con": "+7",
+				"wis": "+5"
+			},
+			"skill": {
+				"perception": "+5",
+				"stealth": "+13",
+				"intimidation": "+9"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 15,
+			"cr": "11",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"will": [
+						"{@spell dancing lights}",
+						"{@spell detect thoughts}",
+						"{@spell disguise self}",
+						"{@spell hex}",
+						"{@spell levitate}",
+						"{@spell misty step}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell banishing smite}",
+							"{@spell globe of invulnerability}",
+							"{@spell greater invisibility}",
+							"{@spell plane shift} (Self only)"
+						]
+					},
+					"type": "spellcasting"
+				},
+				{
+					"name": "Innate Spellcasting",
+					"daily": {
+						"3": [
+							"{@spell dimension door}",
+							"{@spell scatter|XGE}"
+						]
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Gunslinger",
+					"entries": [
+						"Being within 5 feet of a hostile creature or attacking at long range doesn't impose disadvantage on the doragon's ranged attack rolls with a gun. In addition, the doragon ignores half cover and three-quarters cover when making ranged attacks."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The doragon obliteration has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The doragon obliteration's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the doragon obliteration is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the doragon obliteration instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The doragon makes two Antimatter rifle attacks and cast spell."
+					]
+				},
+				{
+					"name": "Antimatter rifle",
+					"entries": [
+						"{@atk rw} {@hit 12} to hit, range 120/360 ft., one target. {@h}19 ({@damage 4d6 + 5}) force damage."
+					]
+				},
+				{
+					"name": "Hex Antimatter rifle",
+					"entries": [
+						"{@atk rw} {@hit 12} to hit, range 120/360 ft., one target. {@h}22 ({@damage 5d6 + 5}) force damage, plus 4 ({@damage 1d6}) necrotic damage."
+					]
+				},
+				{
+					"name": "Penetrating Shot",
+					"entries": [
+						"{@atk rw} {@hit 12} to hit, range 120/360 ft., one target. {@h}19 ({@damage 4d6 + 5}) force damage. A creature 10 feet from the target takes damage from the shot."
+					]
+				},
+				{
+					"name": "Empowered shooting {@recharge 5}",
+					"entries": [
+						"The doragon shoot in one single target  in a 360ft. The creature in that range must make a {@dc 19} Dexterity saving throw, taking 63 ({@damage 18d6}) force damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"O",
+				"N"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"tokenUrl": "https://i.imgur.com/WdkwqgJ.png",
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Firearms aren't widely available in the North, but some members of Bregan D'aerthe are equipped with Lantanese pistols, bullets, and packets of smokepowder. These drow gunslingers are expert pistoleers, as skilled with their guns as the best archers are with their bows."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/564x/90/bf/b8/90bfb8477f32dfd44510c48b6170d5cf.jpg"
+						}
+					}
+				]
+			},
+			"languages": [
+				"Common",
+				"Infernal",
+				"Elvish",
+				"Celestial",
+				"Undercommon"
+			],
+			"languageTags": [
+				"C",
+				"I",
+				"E",
+				"CE",
+				"U"
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"environment": [
+				"urban"
+			],
+			"miscTags": [
+				"RW"
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"resist": [
+				"cold"
+			]
+		}
+	]
+}
