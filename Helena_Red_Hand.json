@@ -1,0 +1,333 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Lolncio",
+				"abbreviation": "LLGM",
+				"full": "LolôncioGM",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1605400439,
+		"dateLastModified": 1605400439
+	},
+	"monster": [
+		{
+			"name": "Helena Red Hand",
+			"isNpc": true,
+			"source": "Lolncio",
+			"page": 207,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"{@item +3 plate armor}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "50d8 + 250",
+				"average": 475
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 120,
+				"canHover": false
+			},
+			"str": 29,
+			"dex": 17,
+			"con": 20,
+			"int": 20,
+			"wis": 20,
+			"cha": 19,
+			"save": {
+				"int": "+14",
+				"wis": "+14",
+				"con": "+14",
+				"cha": "+13"
+			},
+			"skill": {
+				"arcana": "+23",
+				"history": "+23",
+				"insight": "+14",
+				"perception": "+23",
+				"persuasion": "+13",
+				"acrobatics": "+12"
+			},
+			"senses": [
+				"truesight 60 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 33,
+			"resist": [
+				"fire",
+				{
+					"special": "Magic damage"
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Common",
+				"Draconic",
+				"Dwarvish",
+				"Elvish",
+				"Giant",
+				"Infernal"
+			],
+			"cr": "29",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Laeral is a 19th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 21}, {@hit 13} to hit with spell attacks). Laeral has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell booming blade|SCAG}",
+								"{@spell light}",
+								"{@spell mage hand}",
+								"{@spell minor illusion}",
+								"{@spell prestidigitation}",
+								"{@spell ray of frost}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell detect magic}",
+								"{@spell disguise self}",
+								"{@spell magic missile}",
+								"{@spell shield}"
+							],
+							"slots": 0
+						},
+						"2": {
+							"spells": [
+								"{@spell detect thoughts}",
+								"{@spell invisibility}",
+								"{@spell misty step}"
+							],
+							"slots": 0
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell fly}",
+								"{@spell sending}",
+								"{@spell tongues}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell banishment}",
+								"{@spell greater invisibility}",
+								"{@spell Otiluke's resilient sphere}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell cone of cold}",
+								"{@spell geas}",
+								"{@spell Rary's telepathic bond}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell globe of invulnerability}",
+								"{@spell mass suggestion}"
+							],
+							"slots": 2
+						},
+						"7": {
+							"spells": [
+								"{@spell prismatic spray}",
+								"{@spell teleport}"
+							],
+							"slots": 1
+						},
+						"8": {
+							"spells": [
+								"{@spell feeblemind}",
+								"{@spell power word stun}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell time stop}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Helena wears a {@item vorpal longue sword}. She wields a {@item +3 plate armor} and {@item Belt of Storm Giant Strength}."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The helena red hand has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The helena red hand's weapon attacks are magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Helena makes three attacks with Vorpal, in any combination. She can cast one of her cantrips or 1 - 2st-level spells before or after making these attacks."
+					]
+				},
+				{
+					"name": "Shine - 死ね",
+					"entries": [
+						"{@atk mw} {@hit 18} to hit, reach 5 ft., one target. {@h}25 ({@damage 3d8 + 12}) slashing damage.",
+						"When you attack a creature that has at least one head with this weapon and roll a 20 on the attack roll, you cut off one of the creature's heads. The creature dies if it can't survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, doesn't have or need a head, has legendary actions, or the DM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra {@damage 6d8} slashing damage from the hit."
+					]
+				},
+				{
+					"name": "Kaminari no bakuhatsu",
+					"entries": [
+						"{@atk mw} {@hit 18} to hit, reach 5 ft., one target. {@h}25 ({@damage 3d8 + 12}) slashing damage, plus 13 ({@damage 3d8}) thunder damage."
+					]
+				},
+				{
+					"name": "Hellish Contact (Recharge {@dice 4–6}).",
+					"entries": [
+						"Helena can call to help her up to 60 feet away {@dice 2d4} {@creature Horned Devil} and {@dice 1d6} {@creature Erinyes} "
+					]
+				},
+				{
+					"name": "Spellfire (Recharges after a Long Rest)",
+					"entries": [
+						"Magical, heatless, silver fire harmlessly erupts from Helena and surrounds her until she is {@condition incapacitated} or until she uses an action to quench it. She gains one of the following benefits of her choice, which lasts until the silver fire ends:",
+						{
+							"type": "list",
+							"items": [
+								"She can breathe underwater.",
+								"She can survive without food and water.",
+								"She is immune to magic that would ascertain her thoughts, truthfulness, alignment, or creature type.",
+								"She gains resistance to cold damage, and she is unharmed by temperatures as low as -50 degrees Fahrenheit."
+							]
+						},
+						"While the silver fire is present, she has the following additional action options:",
+						{
+							"type": "list",
+							"items": [
+								"Cast the {@spell cure wounds} spell. The target regains {@dice 1d8 + 5} hit points. After Helena takes this action, roll a {@dice d6}. On a roll of 1, the silver fire disappears.",
+								"Cast the {@spell revivify} spell without material components. After Helena takes this action, roll a {@dice d6}. On a roll of 1-2, the silver fire disappears.",
+								"Release a 60-foot line of silver fire that is 5 feet wide or a 30-foot cone of silver fire. Objects in the area that aren't being worn or carried take 26 ({@damage 4d12}) fire damage. Each creature in the area must succeed on a {@dc 21} Dexterity saving throw, taking 26 ({@damage 4d12}) fire damage on a failed save, or half as much damage on a successful one. After Laeral takes this action, roll a {@dice d6}. On a roll of 1-3, the silver fire disappears."
+							]
+						}
+					]
+				}
+			],
+			"senseTags": [
+				"U",
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"D",
+				"E",
+				"GI",
+				"I"
+			],
+			"damageTags": [
+				"S",
+				"T",
+				"F"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"charmed",
+				"incapacitated",
+				"invisible",
+				"petrified",
+				"restrained",
+				"stunned"
+			],
+			"tokenUrl": "https://i.imgur.com/yLJ6ei3.png",
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": []
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/564x/f3/8f/e7/f38fe79418cd4ff1bd702725ae491aa8.jpg"
+						}
+					}
+				]
+			},
+			"traitTags": [
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"environment": [
+				"urban"
+			]
+		}
+	]
+}
