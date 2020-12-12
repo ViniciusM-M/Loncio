@@ -1,0 +1,359 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UlucaiDM",
+				"abbreviation": "ULDM",
+				"full": "Ulucai DM",
+				"url": "",
+				"authors": [
+					"Ulucai"
+				],
+				"convertedBy": [
+					"Ulucai"
+				]
+			}
+		],
+		"dateAdded": 1607800935,
+		"dateLastModified": 1607800935
+	},
+	"monster": [
+		{
+			"name": "Kiralei - Second",
+			"source": "UlucaiDM",
+			"page": 666,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"Shroud of Death"
+					]
+				}
+			],
+			"hp": {
+				"formula": "24d8 + 144",
+				"average": 252
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 12,
+			"dex": 18,
+			"con": 22,
+			"int": 18,
+			"wis": 24,
+			"cha": 20,
+			"save": {
+				"con": "+12",
+				"wis": "+13",
+				"cha": "+11"
+			},
+			"skill": {
+				"insight": "+13",
+				"perception": "+13",
+				"religion": "+10",
+				"stealth": "+10",
+				"history": "+10",
+				"deception": "+17",
+				"arcana": "+10",
+				"animal handling": "+13",
+				"medicine": "+13"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 23,
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"Elvish",
+				"Common",
+				"Infernal",
+				"Abyssal",
+				"Telepathy 120 ft."
+			],
+			"cr": "17",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Kiralei's innate spellcasting ability is Wisdom (spell save {@dc 21}). She can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell alter self}",
+						"{@spell awaken}",
+						"{@spell detect magic}",
+						"{@spell disguise self}",
+						"{@spell friends}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell clairvoyance}",
+							"{@spell darkness}",
+							"{@spell detect thoughts}",
+							"{@spell dispel magic}",
+							"{@spell etherealness}",
+							"{@spell shatter}",
+							"{@spell suggestion}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Kiralei is a 20th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 21}, {@hit 13} to hit with spell attacks). She has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell guidance}",
+								"{@spell poison spray}",
+								"{@spell resistance}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell inflict wounds}",
+								"{@spell sanctuary}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell blindness/deafness}",
+								"{@spell hold person}",
+								"{@spell silence}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell bestow curse}",
+								"{@spell dispel magic}",
+								"{@spell magic circle}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell banishment}",
+								"{@spell divination}",
+								"{@spell freedom of movement}",
+								"{@spell guardian of faith}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell contagion}",
+								"{@spell dispel evil and good}",
+								"{@spell geas}",
+								"{@spell scrying}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell harm}",
+								"{@spell heal}",
+								"{@spell word of recall}"
+							],
+							"slots": 2
+						},
+						"7": {
+							"spells": [
+								"{@spell divine word}",
+								"{@spell etherealness}"
+							],
+							"slots": 2
+						},
+						"8": {
+							"spells": [
+								"{@spell antimagic field}",
+								"{@spell earthquake}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell mass heal}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Poison Absorption",
+					"entries": [
+						"Whenever Kiralei is subjected to poison damage, she takes no damage and instead regains a number of hit points equal to the poison damage dealt.",
+						"Additionally when Kiralei is subject to a poison that requires a Saving Throw she can choose to fail it."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Kiralei has advantage on saving throws against being {@condition charmed}, and magic can't put Kiralei to sleep."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Kiralei has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Everlasting Poisons",
+					"entries": [
+						"Kiralei's poisons ignore resistances and lasts until cured. If a creature tries to remove the poison it must succeed on a ability check with its spellcasting ability {@dc 19}.",
+						"Additionally whenever Kiralei's poisons causes damage on a creature that is immune to poison it causes necrotic damage instead."
+					]
+				},
+				{
+					"name": "Infuse Poison",
+					"entries": [
+						"As a bonus action Kiralei infuses her hands with dark energy, choosing one of the following effects to affect any creature she touches {@dc 21}.",
+						"{@i 1. Truth Serum} The creature must succeed on a Constitution saving throw or be {@condition poisoned}. The {@condition poisoned} creature can't knowingly speak a lie, as if under the effect of a {@spell zone of truth} spell.",
+						"{@i 2. Carrion Poison} The creature must succeed on a Constitution saving throw or be {@condition poisoned}. The {@condition poisoned} creature is {@condition paralyzed}. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+						"{@i 3. Dark Poison} The creature must succeed on a Constitution saving throw or be {@condition poisoned}. If the saving throw fails by 5 or more, the creature is also {@condition unconscious}  while {@condition poisoned} in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.",
+						"{@i 4. Burning Breath} The creature must succeed on a Constitution saving throw or be {@condition poisoned}. The creature repeats the saving throw at the start of each of its turns. On each successive failed save, the creature takes 7 ({@damage 2d6}) poison damage. Damage caused by this poison doesn't causes a creature to wake up or end effects that would normally be ended by damage. After three successful saves, the poison ends."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Kiralei makes two poison touch or gentle touch attacks."
+					]
+				},
+				{
+					"name": "Poison Touch",
+					"entries": [
+						"{@atk ms} {@hit 13} to hit, reach 15 ft., one target. {@h}8 ({@damage 3d6 + 7}) poison damage. The target is subject to one of Kiralei's infused poisons."
+					]
+				},
+				{
+					"name": "Gentle Touch",
+					"entries": [
+						"{@atk ms} {@hit 13} to hit, reach 15 ft., one target. The target is subject to one of Kiralei's infused poisons and makes the saving throw with disadvantage."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"traitTags": [
+				"Damage Absorption",
+				"Fey Ancestry",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"E",
+				"C",
+				"I",
+				"AB"
+			],
+			"damageTags": [
+				"I"
+			],
+			"spellcastingTags": [
+				"I",
+				"CC"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"deafened",
+				"incapacitated",
+				"poisoned",
+				"stunned"
+			],
+			"tokenUrl": "https://i.imgur.com/a5Syyxz.png",
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					]
+				},
+				{
+					"resist": [
+						"acid",
+						"cold",
+						"fire",
+						"lightning",
+						"thunder"
+					]
+				}
+			],
+			"conditionInflict": [
+				"poisoned",
+				"paralyzed",
+				"unconscious"
+			],
+			"legendary": [
+				{
+					"name": "Poison (or Gentle) Touch",
+					"entries": [
+						"Kiralei uses her Poison Touch or Gentle Touch."
+					]
+				},
+				{
+					"name": "Cast lower Spells",
+					"entries": [
+						"Kiralei casts a spell."
+					]
+				}
+			],
+			"shortName": "Kiralei",
+			"miscTags": [
+				"RCH"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/rIqTPuT.png"
+						}
+					}
+				]
+			}
+		}
+	]
+}
