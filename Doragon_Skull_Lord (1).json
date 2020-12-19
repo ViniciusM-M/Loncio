@@ -1,0 +1,307 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Lolncio",
+				"abbreviation": "LLGM",
+				"full": "LolôncioGM",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1608342898,
+		"dateLastModified": 1608342898
+	},
+	"monster": [
+		{
+			"name": "Doragon Skull Lord",
+			"source": "Lolncio",
+			"page": 230,
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 105,
+				"formula": "14d8 + 42"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 14,
+			"dex": 16,
+			"con": 17,
+			"int": 16,
+			"wis": 15,
+			"cha": 21,
+			"skill": {
+				"athletics": "+7",
+				"history": "+8",
+				"perception": "+12",
+				"stealth": "+8"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 22,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"cold",
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"poisoned",
+				"stunned",
+				"unconscious"
+			],
+			"languages": [
+				"all the languages it knew in life"
+			],
+			"cr": "15",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The skull lord is a 13th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 18}, {@hit 10} to hit with spell attacks). The skull lord knows the following sorcerer spells:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch}",
+								"{@spell fire bolt}",
+								"{@spell mage hand}",
+								"{@spell poison spray}",
+								"{@spell ray of frost}",
+								"{@spell shocking grasp}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell magic missile}",
+								"{@spell shield}",
+								"{@spell thunderwave}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell mirror image}",
+								"{@spell scorching ray}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell fear}",
+								"{@spell haste}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell dimension door}",
+								"{@spell ice storm}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell cloudkill}",
+								"{@spell cone of cold}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell eyebite}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell finger of death}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the skull lord fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Master of the Grave",
+					"entries": [
+						"While within 30 feet of the skull lord, any undead ally of the skull lord makes saving throws with advantage, and that ally regains {@dice 3d6} hit points whenever it starts its turn there."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the skull lord is subjected to an effect that allows it to make a Dexterity saving throw to take only half the damage, the skull lord instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The skull lord makes three bone staff attacks or make two attacks and cast a spell."
+					]
+				},
+				{
+					"name": "Bone Blade",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 5}) slashing damage, plus 14 ({@damage 4d6}) necrotic damage."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Bone Staff (Costs 2 Actions)",
+					"entries": [
+						"The skull lord makes a bone staff attack."
+					]
+				},
+				{
+					"name": "Cantrip",
+					"entries": [
+						"The skull lord casts a cantrip."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"The skull lord moves up to its speed without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Summon Undead (Costs 3 Actions)",
+					"entries": [
+						"Up to five {@creature skeleton||skeletons} or {@creature zombie||zombies} appear in unoccupied spaces within 30 feet of the skull lord and remain until destroyed. Undead summoned in this way roll initiative and act in the next available turn. The skull lord can have up to five undead summoned by this ability at a time."
+					]
+				},
+				{
+					"name": "Comand Undead",
+					"entries": [
+						"The skull lord can command an undead in 60 feet, he needs to see the undead."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"swamp",
+				"underdark"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/skull-lord.mp3?v=1.117.4"
+			},
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"damageTags": [
+				"S",
+				"N"
+			],
+			"spellcastingTags": [
+				"CS"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenUrl": "https://i.imgur.com/QYLRKYV.png",
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Skull Lord",
+										"entries": [
+											"The skull lords have claimed vast regions of the Shadowfell as their dominion. From these blighted lands, they wage war against their rivals, commanding hordes of undead in a bid to establish dominance. Yet skull lords always prove to be their own worst enemies; as a combined being born from three hateful individuals, they constantly plot against themselves."
+										]
+									},
+									{
+										"name": "Creatures of Betrayal",
+										"type": "entries",
+										"entries": [
+											"Infighting and treachery brought the skull lords into existence. The first of them appeared in the aftermath of Vecna's bid to conquer the world of Greyhawk, after the vampire Kas betrayed Vecna and took his eye and hand. In the confusion resulting from this turn of events, Vecna's warlords turned against each other, and the dark one's plans were dashed. In a rage, Vecna gathered up his generals and captains and bound them in groups of three, fusing them into undead abominations cursed to fight among themselves for all time. Since the first skull lords were exiled into shadow, others have joined them, typically after being created from other leaders who betrayed their masters."
+										]
+									},
+									{
+										"name": "Undead Nature",
+										"type": "entries",
+										"entries": [
+											"A skull lord doesn't require air, food, drink, or sleep."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/564x/ac/14/ad/ac14ad3e1ffa5f777800e46c7b9f9a55.jpg"
+						}
+					}
+				]
+			},
+			"save": {
+				"cha": "+10",
+				"int": "+8",
+				"con": "+8",
+				"dex": "+8"
+			}
+		}
+	]
+}
