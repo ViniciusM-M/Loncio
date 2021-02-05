@@ -1,0 +1,214 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "XAPLAU",
+				"abbreviation": "XAP",
+				"full": "XAPLAU",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1612559964,
+		"dateLastModified": 1612559964
+	},
+	"monster": [
+		{
+			"name": "Doragon Draconic",
+			"source": "XAPLAU",
+			"page": 212,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dragonborn"
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"Doragon Plate"
+					]
+				}
+			],
+			"hp": {
+				"formula": "22d8 + 110",
+				"average": 209
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 40,
+				"canHover": false,
+				"climb": 20
+			},
+			"str": 25,
+			"dex": 15,
+			"con": 20,
+			"int": 10,
+			"wis": 14,
+			"cha": 18,
+			"save": {
+				"str": "+12",
+				"con": "+10",
+				"cha": "+9"
+			},
+			"skill": {
+				"athletics": "+17",
+				"intimidation": "+9",
+				"perception": "+7",
+				"history": "+5"
+			},
+			"passive": 17,
+			"languages": [
+				"Common",
+				"Draconic",
+				"Infernal"
+			],
+			"cr": "15",
+			"trait": [
+				{
+					"name": "Indomitable (2/Day)",
+					"entries": [
+						"The Doragon Draconiano rerolls a failed saving throw."
+					]
+				},
+				{
+					"name": "Second Wind (Recharges after a Short or Long Rest)",
+					"entries": [
+						"As a bonus action, the champion can regain 50 hit points."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Doragon Draconic makes three attacks with its greatsword or one with its sword and one breath."
+					]
+				},
+				{
+					"name": "Dragon tooth",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}14 ({@damage 2d6 + 7}) slashing damage, plus 7 ({@damage 3d4}) fire damage."
+					]
+				},
+				{
+					"name": "Fire Breath (Recharge {@dice 6}).",
+					"entries": [
+						"The Doragon Draconic exhales fire in a 60-foot cone. Each creature in that area must make a {@dc 18} Dexterity saving throw, taking 38 ({@damage 9d6}) fire damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"urban"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/champion.mp3?v=1.121.2"
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"I"
+			],
+			"damageTags": [
+				"S",
+				"F"
+			],
+			"tokenUrl": "https://5e.tools/img/VGM/Champion.png?v=1.121.2",
+			"fluff": {
+				"name": "Champion",
+				"source": "VGM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Champions are mighty warriors who honed their fighting skills in wars or gladiatorial pits. To soldiers and other people who fight for a living, champions are as influential as nobles, and their presence is courted as a sign of status among rulers."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/VGM/Champion.jpg"
+						}
+					}
+				]
+			},
+			"senses": [
+				"tremorsense 60 ft.",
+				"blindsight 20 ft."
+			],
+			"senseTags": [
+				"T",
+				"B"
+			],
+			"immune": [
+				"fire"
+			],
+			"resist": [
+				"cold"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"shortName": true,
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"bonus": [
+				{
+					"name": "Fire Dash",
+					"entries": [
+						"When used, everyone in a 40-foot line must do a CD 18 dexterity resistance test or receive 6 ({@dice 2d6}) fire. Non-magical and flammable objects are spliced. An action to put out the fire. "
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"will": [
+						"{@spell fire bolt}"
+					],
+					"daily": {
+						"1": [
+							"{@spell plane shift}",
+							"{@spell power word heal}"
+						],
+						"3": [
+							"{@spell dragon's breath|XGE}",
+							"{@spell fire shield}",
+							"{@spell fireball}"
+						]
+					},
+					"type": "spellcasting"
+				}
+			]
+		}
+	]
+}
