@@ -1,0 +1,224 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "LolncioGM",
+				"abbreviation": "LLGM",
+				"full": "LolôncioGM",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1612753103,
+		"dateLastModified": 1612753103
+	},
+	"monster": [
+		{
+			"name": "Bartolomeu The Blade Master",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"Drow"
+				]
+			},
+			"source": "LolncioGM",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 23,
+					"from": [
+						"Dark Blessed Robe"
+					]
+				}
+			],
+			"hp": {
+				"formula": "26d8 + 104",
+				"average": 221
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 12,
+			"dex": 24,
+			"con": 18,
+			"int": 20,
+			"wis": 14,
+			"cha": 18,
+			"passive": 22,
+			"cr": "16",
+			"shortName": true,
+			"senses": [
+				"darkvision 120 ft.",
+				"blindsight 20 ft."
+			],
+			"senseTags": [
+				"SD",
+				"B"
+			],
+			"languages": [
+				"Common",
+				"Elvish",
+				"Undercommon",
+				"Infernal"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"U",
+				"I"
+			],
+			"skill": {
+				"acrobatics": "+17",
+				"arcana": "+10",
+				"deception": "+14",
+				"insight": "+7",
+				"investigation": "+15",
+				"perception": "+12",
+				"stealth": "+17",
+				"sleight of hand": "+12",
+				"performance": "+9",
+				"persuasion": "+9"
+			},
+			"save": {
+				"dex": "+12",
+				"con": "+9",
+				"int": "+10",
+				"wis": "+7"
+			},
+			"conditionImmune": [
+				"grappled",
+				"unconscious"
+			],
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The bartolomeu the blade master has advantage on saving throws against being {@condition charmed}, and magic can't put the bartolomeu the blade master to sleep."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the bartolomeu the blade master is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the bartolomeu the blade master instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Freedom of Movement",
+					"entries": [
+						"The bartolomeu the blade master ignores difficult terrain, and magical effects can't reduce its speed or cause it to be {@condition restrained}. It can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}."
+					]
+				},
+				{
+					"name": "Shadow Stealth",
+					"entries": [
+						"While in dim light or darkness, the Bartolomeu The Blade Master can take the {@action Hide} action as a bonus action."
+					]
+				},
+				{
+					"name": "Corrida Sombria.",
+					"entries": [
+						"Em penumbra ou escuridão, o Drow tem seu deslocamento dobrado e se torna parcialmente invisível. Testes de percepção são feitos com desvantagem."
+					]
+				}
+			],
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"damageTags": [
+				"P"
+			],
+			"action": [
+				{
+					"name": "Multiattack.",
+					"entries": [
+						"Bartolomeu conjura uma magia de ilusão e faz três ataques com suas adagas ou um ataque com seus braceletes."
+					]
+				},
+				{
+					"name": "Kuroi - 黒い刃",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}14 ({@damage 3d4 + 7}) piercing damage."
+					]
+				},
+				{
+					"name": "Dark Bracers Of Darks Blades (Recarrega No final do próximo turno)",
+					"entries": [
+						"{@atk rw} {@hit 12} to hit, range 40/40 ft., one target. {@h}37 ({@damage 12d4 + 7}) damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"isNamedCreature": true,
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Bartolomeu The Blade Master é um conjurador Inato. {@dc 18}"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell dancing lights}"
+							]
+						}
+					},
+					"will": [
+						"{@spell color spray}",
+						"{@spell illusory script}",
+						"{@spell invisibility}",
+						"{@spell major image}",
+						"{@spell mislead}"
+					],
+					"daily": {
+						"1": [
+							"{@spell slow}",
+							"{@spell telekinesis}",
+							"{@spell teleportation circle}"
+						],
+						"3": [
+							"{@spell confusion}",
+							"{@spell dominate person}",
+							"{@spell modify memory}"
+						]
+					},
+					"type": "spellcasting"
+				}
+			],
+			"bonus": [
+				{
+					"name": "Assalto",
+					"entries": [
+						"O Drow, com uma ação bônus pode se teleportar em até 30 pés aonde possa ver. Para cada local que o Drow se teleporta, ele deixa uma runa da escola de ilusão. Depois de três runas o Drow pode gastar sua reação para conjurar Mirror Image sem componentes. Após conjurar todas as runas desaparecem."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					"Mercenários existem em vários lugares, mas nenhum se compara a mim... Nem todos são tocados pelas sombras como eu..."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/707243691118690314/808165613373227018/Nigga.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/707243691118690314/808168940873842708/Nigga_be_like.png"
+		}
+	]
+}
