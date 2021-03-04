@@ -1,0 +1,368 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "LolncioGM",
+				"abbreviation": "LLGM",
+				"full": "LolôncioGM",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1614881530,
+		"dateLastModified": 1614881530
+	},
+	"monster": [
+		{
+			"name": "Bartolomeu The Blade Master",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"Drow"
+				]
+			},
+			"source": "LolncioGM",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 23,
+					"from": [
+						"Dark Blessed Robe"
+					]
+				},
+				{
+					"ac": 28,
+					"from": [
+						"Dark Blessed Robe"
+					],
+					"condition": "Quando Em Encontros Míticos"
+				}
+			],
+			"hp": {
+				"formula": "28d20 + 112",
+				"average": 406
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 12,
+			"dex": 24,
+			"con": 18,
+			"int": 20,
+			"wis": 14,
+			"cha": 18,
+			"passive": 28,
+			"cr": "27",
+			"shortName": true,
+			"senses": [
+				"darkvision 120 ft.",
+				"blindsight 20 ft."
+			],
+			"senseTags": [
+				"SD",
+				"B"
+			],
+			"languages": [
+				"Common",
+				"Elvish",
+				"Undercommon",
+				"Infernal"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"U",
+				"I"
+			],
+			"skill": {
+				"acrobatics": "+23",
+				"arcana": "+13",
+				"deception": "+20",
+				"insight": "+10",
+				"investigation": "+21",
+				"perception": "+18",
+				"stealth": "+23",
+				"sleight of hand": "+15",
+				"performance": "+12",
+				"persuasion": "+12"
+			},
+			"save": {
+				"dex": "+15",
+				"con": "+12",
+				"int": "+13",
+				"wis": "+10"
+			},
+			"conditionImmune": [
+				"grappled",
+				"poisoned",
+				"unconscious"
+			],
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The bartolomeu the blade master has advantage on saving throws against being {@condition charmed}, and magic can't put the bartolomeu the blade master to sleep."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the bartolomeu the blade master is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the bartolomeu the blade master instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Freedom of Movement",
+					"entries": [
+						"The bartolomeu the blade master ignores difficult terrain, and magical effects can't reduce its speed or cause it to be {@condition restrained}. It can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}."
+					]
+				},
+				{
+					"name": "Shadow Stealth",
+					"entries": [
+						"While in dim light or darkness, the Bartolomeu The Blade Master can take the {@action Hide} action as a bonus action."
+					]
+				},
+				{
+					"name": "Corrida Sombria.",
+					"entries": [
+						"Em penumbra ou escuridão, o Drow tem seu deslocamento dobrado e se torna parcialmente invisível. Testes de percepção são feitos com desvantagem."
+					]
+				},
+				{
+					"name": "Sangramento",
+					"entries": [
+						"Passiva de sangramento, ao ser ferido pelas lâminas o alvo recebe sangramento e perde ({@damage 4d6}) de vida atual no final de cada um de seus turnos, o alvo pode usar a ação para fazer um Teste De Medicina CD 18 se passar o alvo encera o efeito."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The Bartolomeu The Blade Master's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Aura Sombria",
+					"entries": [
+						"Com uma ação livre, o Drow pode libertar parte do legado de sua espada, ao fazer isso o Drow é envolto de escuridão magica que se expande em até 20 pés centrada no Drow."
+					]
+				},
+				{
+					"name": "Demoniac Eyes",
+					"entries": [
+						"Magical darkness doesn't impede the Bartolomeu The Blade Master's darkvision."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The Bartolomeu The Blade Master has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"traitTags": [
+				"Fey Ancestry",
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"damageTags": [
+				"S",
+				"P"
+			],
+			"action": [
+				{
+					"name": "Tanári Dark Blade - (Apenas Em Mythic Encounter)",
+					"entries": [
+						"{@atk mw} {@hit 18} to hit, reach 10 ft., one target. {@h}24 ({@damage 4d6 + 10}) slashing damage and ({@damage 7d8 + 30}) necrotic damage.",
+						"O Drow se cura com o dano necrótico provindo dessa espada."
+					]
+				},
+				{
+					"name": "Multiattack.",
+					"entries": [
+						"Bartolomeu conjura uma magia de ilusão e faz três ataques com suas adagas ou um ataque com seus braceletes.",
+						"Em encontro místico O Drow conjura uma spell de ilusão e faz três ataques com sua espada. "
+					]
+				},
+				{
+					"name": "Kuroi - 黒い刃",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}14 ({@damage 3d4 + 7}) piercing damage."
+					]
+				},
+				{
+					"name": "Dark Bracers Of Darks Blades.",
+					"entries": [
+						"{@atk rw} {@hit 15} to hit, range 40/40 ft., one target. {@h}37 ({@damage 12d4 + 7}) damage."
+					]
+				},
+				{
+					"name": "Blade Fall (Recharge {@dice 4-6})",
+					"entries": [
+						"Em uma areá de 40 pés, o Drow conjura uma chuva de laminas, todos dentro dessa areá devem fazer um Teste De Resistência De Destreza CD 21, se falharem recebem ({@damage 8d4}) Perfurante ou metade se passar."
+					]
+				},
+				{
+					"name": "Relampago Prateado (Recharge {@dice 4-6})",
+					"entries": [
+						"O Drow se torna um com suas lâminas, cinco criaturas a escolha do Drow que estejam a 60 pés devem fazer um Teste De Resistência De Destreza CD 21, se falharem recebem ({@damage 6d10}) perfurante e sangramento, se passarem recebem metade e não recebem sangramento. Após usado o Drow pode teleportar a 5 pés de qualquer alvo que foi afetado pelo ataque."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"isNamedCreature": true,
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Bartolomeu The Blade Master é um conjurador Inato. {@dc 18}"
+					],
+					"will": [
+						"({@spell finger of death} Somente se sacar a espada.)",
+						"{@spell color spray}",
+						"{@spell illusory script}",
+						"{@spell invisibility}",
+						"{@spell major image}",
+						"{@spell mirror image}",
+						"{@spell mislead}",
+						"{@spell Nystul's magic aura}",
+						"{@spell silence}"
+					],
+					"daily": {
+						"1": [
+							"{@spell slow}",
+							"{@spell telekinesis}",
+							"{@spell teleport}",
+							"{@spell teleportation circle}"
+						],
+						"3": [
+							"{@spell confusion}",
+							"{@spell dominate person}",
+							"{@spell modify memory}"
+						]
+					},
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell dancing lights}"
+							]
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"bonus": [
+				{
+					"name": "Assalto",
+					"entries": [
+						"O Drow, com uma ação bônus pode se teleportar em até 30 pés aonde possa ver. Para cada local que o Drow se teleporta, ele deixa uma runa da escola de ilusão."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					"Mercenários existem em vários lugares, mas nenhum se compara a mim... Nem todos são tocados pelas sombras como eu..."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/707243691118690314/808165613373227018/Nigga.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://media.discordapp.net/attachments/707243691118690314/808168940873842708/Nigga_be_like.png?width=678&height=678",
+			"mythicHeader": [
+				"Se vendo em uma situação desfavorável, Bartolomeu ainda não cumpriu seu objetivo de vida, ele ainda não salvou seu irmão das garras pútridas do abismo. Então, com esse fogo em seu coração ele não morrerá tão fácil."
+			],
+			"mythic": [
+				{
+					"name": "O Saque Da Lâmina Obscura",
+					"entries": [
+						"Bartolomeu saca a espada em suas costas e libera uma grande quantidade de escuridão magica, parte de seu corpo absorve a escuridão se regenerando no processo, Bartolomeu recebe ({@spell power word heal}) em si mesmo.",
+						"Com a espada em mãos o Drow tem seu deslocamento dobrado e recebe seu bônus de inteligência em sua armadura. ",
+						"Ao ferir o alvo, a Lâmina conjura ({@spell finger of death}) sem componentes."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Blade Blast",
+					"entries": [
+						"Ao acertar um ataque com os braceletes ou alguém falhar no teste contra o Blade Fall, o Drow usa sua reação para explodir suas adagas forçando todos que estão a 10 pés das adagas a fazerem um Teste De Resistência De Destreza CD 21, se falharem recebem ({@damage 12d4}) perfurante e recebem sangramento, se passarem recebem metade e não ficam com sangramento."
+					]
+				},
+				{
+					"name": "Convocar Duplicatas",
+					"entries": [
+						"Depois de realizar dois assaltos o Drow pode usar sua reação para conjurar {@spell mirror image} sem componentes. Após conjurar todas as runas desaparecem."
+					]
+				},
+				{
+					"name": "Manto Dos Segredos",
+					"entries": [
+						"Ao matar uma criatura com sua Lâmina Sombria, o Drow pode roubar sua sombra e caso queira tomar a aparecia de seu alvo, o Drow em posse da sombra possui todas as informações que a criatura teve em vida e parte de seus segredos. O efeito de disfarce dura 8 horas ou até ser dissipado com uma ação livre."
+					]
+				}
+			],
+			"legendaryActions": 3,
+			"legendaryHeader": [
+				"The Drow can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Drow regains spent legendary actions at the start of its turn."
+			],
+			"legendary": [
+				{
+					"name": "Fuga Estratégica",
+					"entries": [
+						"O Drow pode mover seu deslocamento sem receber ataques de oportunidade."
+					]
+				},
+				{
+					"name": "Tirando Magia Do Bolso (Custa 2 Ações)",
+					"entries": [
+						"O Drow conjura uma Spell."
+					]
+				},
+				{
+					"name": "Blade Blast... Esse machuca. (Custa 2 Ações)",
+					"entries": [
+						"O Drow usa a sua habilidade Blade Blast."
+					]
+				}
+			],
+			"resist": [
+				{
+					"resist": [
+						"cold",
+						"fire",
+						"lightning",
+						{
+							"resist": [
+								"bludgeoning",
+								"piercing",
+								"slashing"
+							],
+							"note": "from nonmagical weapon"
+						}
+					]
+				}
+			],
+			"immune": [
+				"poison"
+			]
+		}
+	]
+}
