@@ -1,0 +1,183 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "LolncioGM",
+				"abbreviation": "LLGM",
+				"full": "LolôncioGM",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1614881496,
+		"dateLastModified": 1614881496
+	},
+	"monster": [
+		{
+			"name": "Naergoth Bladelord",
+			"isNpc": true,
+			"source": "LolncioGM",
+			"page": 90,
+			"size": "L",
+			"type": "undead",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 135,
+				"formula": "18d8 + 54"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 20,
+			"dex": 12,
+			"con": 16,
+			"int": 12,
+			"wis": 14,
+			"cha": 16,
+			"save": {
+				"dex": "+5",
+				"wis": "+6"
+			},
+			"skill": {
+				"perception": "+6",
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 16,
+			"resist": [
+				"necrotic",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't silvered",
+					"cond": true
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"Common",
+				"Draconic",
+				"Abyssal"
+			],
+			"cr": "11",
+			"trait": [
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, Naergoth has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Naergoth makes three attacks, either with his longsword or longbow. He can use Life Drain in place of one longsword attack."
+					]
+				},
+				{
+					"name": "Life Drain",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}20 ({@damage 5d6 + 3}) necrotic damage. The target must succeed on a {@dc 15} Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage, or 10 ({@dice 1d10 + 5}) if used with two hands, plus 10 ({@damage 3d6}) necrotic damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 150/600 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage plus 10 ({@damage 3d6}) necrotic damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"AB"
+			],
+			"damageTags": [
+				"N",
+				"S",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"RNG"
+			],
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/RoT/Naergoth Bladelord.png?v=1.123.0",
+			"fluff": {
+				"name": "Naergoth Bladelord",
+				"source": "RoT",
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/RoT/Naergoth Bladelord.jpg"
+						}
+					}
+				]
+			},
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"will": [
+						"{@spell armor of Agathys} (5° Ciclo)",
+						"{@spell chill touch}",
+						"{@spell darkness}"
+					],
+					"daily": {
+						"3": [
+							"{@spell misty step}",
+							"{@spell thunderous smite}"
+						]
+					},
+					"rest": {
+						"1": [
+							"{@spell spirit shroud|TCE}"
+						]
+					},
+					"type": "spellcasting"
+				}
+			]
+		}
+	]
+}
