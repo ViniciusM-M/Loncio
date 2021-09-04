@@ -1,4 +1,5 @@
 {
+	"siteVersion": "1.135.0",
 	"_meta": {
 		"sources": [
 			{
@@ -10,8 +11,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1614881496,
-		"dateLastModified": 1614881496
+		"dateAdded": 1630722353,
+		"dateLastModified": 1630722353
 	},
 	"monster": [
 		{
@@ -89,6 +90,12 @@
 					"entries": [
 						"While in sunlight, Naergoth has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
 					]
+				},
+				{
+					"name": "Brute",
+					"entries": [
+						"A melee weapon deals one extra die of its damage when the naergoth bladelord hits with it."
+					]
 				}
 			],
 			"action": [
@@ -118,6 +125,7 @@
 				}
 			],
 			"traitTags": [
+				"Brute",
 				"Sunlight Sensitivity"
 			],
 			"senseTags": [
