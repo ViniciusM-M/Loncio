@@ -11,8 +11,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1632176367,
-		"dateLastModified": 1632176367
+		"dateAdded": 1632393355,
+		"dateLastModified": 1632393355
 	},
 	"monster": [
 		{
@@ -42,8 +42,8 @@
 				"average": 76
 			},
 			"speed": {
-				"walk": 35,
-				"climb": 10
+				"walk": 40,
+				"climb": 20
 			},
 			"str": 16,
 			"dex": 20,
@@ -72,7 +72,7 @@
 				"blindsight 30 ft."
 			],
 			"passive": 17,
-			"cr": "7",
+			"cr": "10",
 			"trait": [
 				{
 					"name": "Gunslinger",
@@ -115,6 +115,12 @@
 					"entries": [
 						"Clay can reload his weapon and drop bombs with his bonus action."
 					]
+				},
+				{
+					"name": "Skirmisher",
+					"entries": [
+						"Clay can move up to half his speed as a reaction when an enemy approaches. This move does not provoke attacks of opportunity."
+					]
 				}
 			],
 			"senseTags": [
@@ -122,7 +128,8 @@
 				"B"
 			],
 			"damageTags": [
-				"P"
+				"P",
+				"B"
 			],
 			"tokenUrl": "https://i.imgur.com/mpcrLLF.png",
 			"fluff": {
@@ -172,19 +179,22 @@
 				{
 					"name": "Multiattack.",
 					"entries": [
-						"Clay pode realizar dois ataques com armas a distancia, três ataques com armas corpo a corpo leves e com propriedade acuidade."
+						"Clay pode realizar dois ataques com armas a distancia, três ataques com armas corpo a corpo leves e com propriedade acuidade.",
+						"Ações : End Of Line, Shotgun, Rifle Butt."
 					]
 				},
 				{
 					"name": "Automatic Pistol",
 					"entries": [
-						"{@atk rw} {@hit 9} to hit, range 50/150 ft., one target. {@h}12 ({@damage 2d6 + 5}) piercing damage."
+						"{@atk rw} {@hit 9} to hit, range 50/150 ft., one target. {@h}12 ({@damage 2d6 + 5}) piercing damage.",
+						"***Dead Eye.*** ({@damage 29}) piercing damage."
 					]
 				},
 				{
 					"name": "Hunting Rifle",
 					"entries": [
-						"{@atk rw} {@hit 9} to hit, range 80/240 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage."
+						"{@atk rw} {@hit 9} to hit, range 80/240 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage.",
+						"***Dead Eye.*** ({@damage 45}) piercing damage."
 					]
 				},
 				{
@@ -197,14 +207,26 @@
 				{
 					"name": "End Of Line",
 					"entries": [
-						"{@atk rw} {@hit 9} to hit, range 240/240 ft., one target. {@h}27 ({@damage 4d10 + 5}) piercing damage."
+						"{@atk rw} {@hit 9} to hit, range 240/240 ft., one target. {@h}27 ({@damage 4d10 + 5}) piercing damage.",
+						"***Dead Eye.*** ({@damage 85}) piercing damage."
 					]
 				},
 				{
 					"name": "Shotgun",
 					"entries": [
 						"{@atk rw} {@hit 9} to hit, range 15/60 ft., one target. {@h}28 ({@damage 2d12 + 15}) piercing damage.",
-						"If the target is a creature, it must succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}."
+						"If the target is a creature, it must succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}.",
+						"***Dead Eye.*** ({@damage 63}) piercing damage."
+					]
+				},
+				{
+					"name": "Rifle Butt",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage.",
+						"Whenever Clay hits a creature with this attacks, he can impose one of the following effects on that target.",
+						"It must succeed on a CD 17 Dexterity saving throw or be knocked {@condition prone}.",
+						"It must make a CD 17 Strength saving throw. If it fails, you can push it up to 15 feet away from you.",
+						"It can't take reactions until the end of your next turn."
 					]
 				}
 			],
