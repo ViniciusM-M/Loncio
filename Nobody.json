@@ -1,0 +1,3907 @@
+{
+    "schema_version": 3,
+    "type": "character",
+    "character": {
+        "oldId": "-MkPkXxkobLdxxUT1WFp",
+        "name": "The Gunslinger",
+        "avatar": "https://i.pinimg.com/564x/e2/6e/c5/e26ec51985dd8f72e4ace9915926c940.jpg",
+        "bio": "%3Cdiv%20class%3D%22userscript-rd__b%20userscript-%20userscript-rd__b--3%22%3E%3Cdiv%20class%3D%22userscript-rd__b%20userscript-%20userscript-rd__b--3%22%3E%3Cdiv%20class%3D%22userscript-rd__b%20userscript-%20userscript-rd__b--3%22%3E%3Cdiv%20class%3D%22userscript-rd__b%20userscript-%20userscript-rd__b--3%22%3E%3C/div%3E%3Cdiv%20class%3D%22userscript-rd__spc-inline-post%22%3E%3C/div%3E%3C/div%3E%3Cdiv%20class%3D%22userscript-rd__spc-inline-post%22%3E%3C/div%3E%3C/div%3E%3Cdiv%20class%3D%22userscript-rd__spc-inline-post%22%3E%3C/div%3E%3C/div%3E",
+        "gmnotes": "",
+        "defaulttoken": "{\"represents\":\"-MkPkXxkobLdxxUT1WFp\",\"name\":\"The Gunslinger\",\"imgsrc\":\"https://i.imgur.com/mpcrLLF.png?1632536506792\",\"width\":70,\"height\":70,\"compact_bar\":\"standard\",\"light_hassight\":true,\"light_radius\":\"120\",\"light_dimradius\":\"120\"}",
+        "tags": "[\"creature-humanoid\",\"creature-cr-28\",\"creature-lolncio\",\"creature-medium\",\"creature-urban\",\"creature\"]",
+        "controlledby": "",
+        "inplayerjournals": "",
+        "attribs": [
+            {
+                "name": "npc",
+                "current": 1,
+                "max": "",
+                "id": "-MkPkY-8zpp5trxblOnm"
+            },
+            {
+                "name": "npc_toggle",
+                "current": 1,
+                "max": "",
+                "id": "-MkPkY-9OO0tSkeDYqCe"
+            },
+            {
+                "name": "npc_options-flag",
+                "current": 0,
+                "max": "",
+                "id": "-MkPkY-Amxl6oqAtTDlx"
+            },
+            {
+                "name": "mancer_confirm_flag",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY-Amxl6oqAtTDly"
+            },
+            {
+                "name": "mancer_cancel",
+                "current": "on",
+                "max": "",
+                "id": "-MkPkY-Bb63J27vY4i56"
+            },
+            {
+                "name": "l1mancer_status",
+                "current": "completed",
+                "max": "",
+                "id": "-MkPkY-Bb63J27vY4i57"
+            },
+            {
+                "name": "wtype",
+                "current": "@{whispertoggle}",
+                "max": "",
+                "id": "-MkPkY-DLHMSbMiuqW6M"
+            },
+            {
+                "name": "rtype",
+                "current": "@{advantagetoggle}",
+                "max": "",
+                "id": "-MkPkY-FZQkxHc8txKnS"
+            },
+            {
+                "name": "advantagetoggle",
+                "current": "{{query=1}} {{normal=1}} {{r2=[[0d20",
+                "max": "",
+                "id": "-MkPkY-FZQkxHc8txKnT"
+            },
+            {
+                "name": "whispertoggle",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY-G5E79tdi--VP_"
+            },
+            {
+                "name": "dtype",
+                "current": "full",
+                "max": "",
+                "id": "-MkPkY-H9H81PaPEScMq"
+            },
+            {
+                "name": "npc_name",
+                "current": "The Gunslinger",
+                "max": "",
+                "id": "-MkPkY-IhE0u8dRZmmw8"
+            },
+            {
+                "name": "npc_size",
+                "current": "Medium",
+                "max": "",
+                "id": "-MkPkY-IhE0u8dRZmmw9"
+            },
+            {
+                "name": "type",
+                "current": "humanoid",
+                "max": "",
+                "id": "-MkPkY-JBJ8JnoivLhZA"
+            },
+            {
+                "name": "npc_type",
+                "current": "Medium humanoid, neutral",
+                "max": "",
+                "id": "-MkPkY-KTjMT_P7ZQW9S"
+            },
+            {
+                "name": "npc_alignment",
+                "current": "neutral",
+                "max": "",
+                "id": "-MkPkY-LgGJCUyBQka8G"
+            },
+            {
+                "name": "npc_ac",
+                "current": "24",
+                "max": "",
+                "id": "-MkPkY-LgGJCUyBQka8H"
+            },
+            {
+                "name": "npc_actype",
+                "current": "renegade's cloak",
+                "max": "",
+                "id": "-MkPkY-MgtCu9K_5Xkql"
+            },
+            {
+                "name": "hp",
+                "current": 190,
+                "max": 190,
+                "id": "-MkPkY-NkrkXzCO4auje"
+            },
+            {
+                "name": "npc_hpbase",
+                "current": 190,
+                "max": 190,
+                "id": "-MkPkY-OfR_ZQZbNWv1x"
+            },
+            {
+                "name": "npc_hpformula",
+                "current": "20d8 + 100",
+                "max": "",
+                "id": "-MkPkY-PKtCvA3yFPsa1"
+            },
+            {
+                "name": "repeating_hpmod_-MkPkY-PKtCvA3yFPsa2_source",
+                "current": "CON",
+                "max": "",
+                "id": "-MkPkY-PKtCvA3yFPsa3"
+            },
+            {
+                "name": "repeating_hpmod_-MkPkY-PKtCvA3yFPsa2_mod",
+                "current": 5,
+                "max": "",
+                "id": "-MkPkY-Qa95H_pQ1Me3I"
+            },
+            {
+                "name": "npc_speed",
+                "current": "40 ft., climb 40 ft.",
+                "max": "",
+                "id": "-MkPkY-RK9pFy4CXAbH6"
+            },
+            {
+                "name": "strength",
+                "current": 12,
+                "max": "",
+                "id": "-MkPkY-Sx8V4QvlxUG5y"
+            },
+            {
+                "name": "strength_base",
+                "current": "12",
+                "max": "",
+                "id": "-MkPkY-TKc1b-kfQtZAG"
+            },
+            {
+                "name": "strength_mod",
+                "current": 1,
+                "max": "",
+                "id": "-MkPkY-UGe-qbD-UKv0k"
+            },
+            {
+                "name": "npc_str_negative",
+                "current": 0,
+                "max": "",
+                "id": "-MkPkY-UGe-qbD-UKv0l"
+            },
+            {
+                "name": "strength_flag",
+                "current": 0,
+                "max": "",
+                "id": "-MkPkY-V7yh9EkOWXZZX"
+            },
+            {
+                "name": "dexterity",
+                "current": 20,
+                "max": "",
+                "id": "-MkPkY-W6P_CatJrfVrl"
+            },
+            {
+                "name": "dexterity_base",
+                "current": "20",
+                "max": "",
+                "id": "-MkPkY-W6P_CatJrfVrm"
+            },
+            {
+                "name": "dexterity_mod",
+                "current": 5,
+                "max": "",
+                "id": "-MkPkY-XEeGbXkokAlxB"
+            },
+            {
+                "name": "npc_dex_negative",
+                "current": 0,
+                "max": "",
+                "id": "-MkPkY-XEeGbXkokAlxC"
+            },
+            {
+                "name": "dexterity_flag",
+                "current": 0,
+                "max": "",
+                "id": "-MkPkY-YX0lLSkEblkkM"
+            },
+            {
+                "name": "constitution",
+                "current": 20,
+                "max": "",
+                "id": "-MkPkY-YX0lLSkEblkkN"
+            },
+            {
+                "name": "constitution_base",
+                "current": "20",
+                "max": "",
+                "id": "-MkPkY-ZdYN2qAr3YVdJ"
+            },
+            {
+                "name": "constitution_mod",
+                "current": 5,
+                "max": "",
+                "id": "-MkPkY-ZdYN2qAr3YVdK"
+            },
+            {
+                "name": "npc_con_negative",
+                "current": 0,
+                "max": "",
+                "id": "-MkPkY-_aMoJHODlCixV"
+            },
+            {
+                "name": "constitution_flag",
+                "current": 0,
+                "max": "",
+                "id": "-MkPkY-axPCX1S8Oq1eG"
+            },
+            {
+                "name": "intelligence",
+                "current": 18,
+                "max": "",
+                "id": "-MkPkY-axPCX1S8Oq1eH"
+            },
+            {
+                "name": "intelligence_base",
+                "current": "18",
+                "max": "",
+                "id": "-MkPkY-bb5SR54C3NfxO"
+            },
+            {
+                "name": "intelligence_mod",
+                "current": 4,
+                "max": "",
+                "id": "-MkPkY-bb5SR54C3NfxP"
+            },
+            {
+                "name": "npc_int_negative",
+                "current": 0,
+                "max": "",
+                "id": "-MkPkY-cwiF8s-hJiHFc"
+            },
+            {
+                "name": "intelligence_flag",
+                "current": 0,
+                "max": "",
+                "id": "-MkPkY-cwiF8s-hJiHFd"
+            },
+            {
+                "name": "wisdom",
+                "current": 18,
+                "max": "",
+                "id": "-MkPkY-dnxKAadw17adP"
+            },
+            {
+                "name": "wisdom_base",
+                "current": "18",
+                "max": "",
+                "id": "-MkPkY-dnxKAadw17adQ"
+            },
+            {
+                "name": "wisdom_mod",
+                "current": 4,
+                "max": "",
+                "id": "-MkPkY-e173ynrFyr8Dx"
+            },
+            {
+                "name": "npc_wis_negative",
+                "current": 0,
+                "max": "",
+                "id": "-MkPkY-flKp6cx6xqcXt"
+            },
+            {
+                "name": "wisdom_flag",
+                "current": 0,
+                "max": "",
+                "id": "-MkPkY-gnx3tiAejCydR"
+            },
+            {
+                "name": "charisma",
+                "current": 22,
+                "max": "",
+                "id": "-MkPkY-gnx3tiAejCydS"
+            },
+            {
+                "name": "charisma_base",
+                "current": "22",
+                "max": "",
+                "id": "-MkPkY-hkVDad5l-K6E4"
+            },
+            {
+                "name": "charisma_mod",
+                "current": 6,
+                "max": "",
+                "id": "-MkPkY-i5U9xdXLyWwPt"
+            },
+            {
+                "name": "npc_cha_negative",
+                "current": 0,
+                "max": "",
+                "id": "-MkPkY-i5U9xdXLyWwPu"
+            },
+            {
+                "name": "charisma_flag",
+                "current": 0,
+                "max": "",
+                "id": "-MkPkY-j5WUx4oYE5gg4"
+            },
+            {
+                "name": "initiative_bonus",
+                "current": 5,
+                "max": "",
+                "id": "-MkPkY-ke_686hGbYElQ"
+            },
+            {
+                "name": "passive",
+                "current": 30,
+                "max": "",
+                "id": "-MkPkY-ke_686hGbYElR"
+            },
+            {
+                "name": "npc_languages",
+                "current": "All languages",
+                "max": "",
+                "id": "-MkPkY-lT2uAkr4cH2dd"
+            },
+            {
+                "name": "npc_challenge",
+                "current": "28",
+                "max": "",
+                "id": "-MkPkY-mynvMN2D7wb4S"
+            },
+            {
+                "name": "pb",
+                "current": 8,
+                "max": "",
+                "id": "-MkPkY-mynvMN2D7wb4T"
+            },
+            {
+                "name": "level",
+                "current": 20,
+                "max": "",
+                "id": "-MkPkY-njyCIHwVCcgGe"
+            },
+            {
+                "name": "npc_xp",
+                "current": 120000,
+                "max": "",
+                "id": "-MkPkY-pj1MAKqHPHCUD"
+            },
+            {
+                "name": "npc_vulnerabilities",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY-q0-rJAZLY8x6V"
+            },
+            {
+                "name": "damage_vulnerabilities",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY-rXwyPSzu53KDI"
+            },
+            {
+                "name": "npc_resistances",
+                "current": "All damages ",
+                "max": "",
+                "id": "-MkPkY-sHnwDq4J_lI5-"
+            },
+            {
+                "name": "damage_resistances",
+                "current": "All damages ",
+                "max": "",
+                "id": "-MkPkY-uiIaXRudbZYoU"
+            },
+            {
+                "name": "npc_immunities",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY-w7xwfSRJ9HxLR"
+            },
+            {
+                "name": "damage_immunities",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY-xTCe4wTYeYQF1"
+            },
+            {
+                "name": "npc_condition_immunities",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY-xTCe4wTYeYQF2"
+            },
+            {
+                "name": "damage_condition_immunities",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY-y1Hkicz-RkQMr"
+            },
+            {
+                "name": "npc_senses",
+                "current": "darkvision 120 ft., blindsight 30 ft., passive Perception 30",
+                "max": "",
+                "id": "-MkPkY-y1Hkicz-RkQMs"
+            },
+            {
+                "name": "npc_saving_flag",
+                "current": "1337",
+                "max": "",
+                "id": "-MkPkY07NWMxSiwzS9_u"
+            },
+            {
+                "name": "npc_dex_save_flag",
+                "current": 1,
+                "max": "",
+                "id": "-MkPkY08qGcW6UXHtkiB"
+            },
+            {
+                "name": "npc_dex_save_base",
+                "current": 13,
+                "max": "",
+                "id": "-MkPkY08qGcW6UXHtkiC"
+            },
+            {
+                "name": "npc_dex_save",
+                "current": 13,
+                "max": "",
+                "id": "-MkPkY09ogJcd7OYIFd_"
+            },
+            {
+                "name": "npc_str_save_flag",
+                "current": 1,
+                "max": "",
+                "id": "-MkPkY0AOwl9zuKk4sb_"
+            },
+            {
+                "name": "npc_str_save_base",
+                "current": 9,
+                "max": "",
+                "id": "-MkPkY0AOwl9zuKk4sba"
+            },
+            {
+                "name": "npc_str_save",
+                "current": 9,
+                "max": "",
+                "id": "-MkPkY0B4pgN6XIVsX1W"
+            },
+            {
+                "name": "npc_con_save_flag",
+                "current": 1,
+                "max": "",
+                "id": "-MkPkY0CjlxWoMreGIHZ"
+            },
+            {
+                "name": "npc_con_save_base",
+                "current": 13,
+                "max": "",
+                "id": "-MkPkY0CjlxWoMreGIH_"
+            },
+            {
+                "name": "npc_con_save",
+                "current": 13,
+                "max": "",
+                "id": "-MkPkY0DirFFAqeqqbpL"
+            },
+            {
+                "name": "npc_cha_save_flag",
+                "current": 1,
+                "max": "",
+                "id": "-MkPkY0DirFFAqeqqbpM"
+            },
+            {
+                "name": "npc_cha_save_base",
+                "current": 14,
+                "max": "",
+                "id": "-MkPkY0E4VV_fAtlyakd"
+            },
+            {
+                "name": "npc_cha_save",
+                "current": 14,
+                "max": "",
+                "id": "-MkPkY0FkDTcc7X5QO-a"
+            },
+            {
+                "name": "npc_skills_flag",
+                "current": "1337",
+                "max": "",
+                "id": "-MkPkY0GdTQA7rPbW_mu"
+            },
+            {
+                "name": "npc_acrobatics_base",
+                "current": "21",
+                "max": "",
+                "id": "-MkPkY0HQig5cwUubBZD"
+            },
+            {
+                "name": "npc_acrobatics",
+                "current": 21,
+                "max": "",
+                "id": "-MkPkY0HQig5cwUubBZE"
+            },
+            {
+                "name": "npc_acrobatics_flag",
+                "current": 1,
+                "max": "",
+                "id": "-MkPkY0IxbHZDjmJDSd1"
+            },
+            {
+                "name": "npc_deception_base",
+                "current": "22",
+                "max": "",
+                "id": "-MkPkY0JtwCndEgAdghC"
+            },
+            {
+                "name": "npc_deception",
+                "current": 22,
+                "max": "",
+                "id": "-MkPkY0JtwCndEgAdghD"
+            },
+            {
+                "name": "npc_deception_flag",
+                "current": 1,
+                "max": "",
+                "id": "-MkPkY0K6ZanxjvAxNXP"
+            },
+            {
+                "name": "npc_investigation_base",
+                "current": "12",
+                "max": "",
+                "id": "-MkPkY0K6ZanxjvAxNXQ"
+            },
+            {
+                "name": "npc_investigation",
+                "current": 12,
+                "max": "",
+                "id": "-MkPkY0LzrP1SZXOSV4G"
+            },
+            {
+                "name": "npc_investigation_flag",
+                "current": 1,
+                "max": "",
+                "id": "-MkPkY0LzrP1SZXOSV4H"
+            },
+            {
+                "name": "npc_perception_base",
+                "current": "20",
+                "max": "",
+                "id": "-MkPkY0MRRyPNHigtA_l"
+            },
+            {
+                "name": "npc_perception",
+                "current": 20,
+                "max": "",
+                "id": "-MkPkY0MRRyPNHigtA_m"
+            },
+            {
+                "name": "npc_perception_flag",
+                "current": 1,
+                "max": "",
+                "id": "-MkPkY0Np8quCHYgyAQq"
+            },
+            {
+                "name": "npc_persuasion_base",
+                "current": "14",
+                "max": "",
+                "id": "-MkPkY0Np8quCHYgyAQr"
+            },
+            {
+                "name": "npc_persuasion",
+                "current": 14,
+                "max": "",
+                "id": "-MkPkY0Ozzx7TOPuYbPw"
+            },
+            {
+                "name": "npc_persuasion_flag",
+                "current": 1,
+                "max": "",
+                "id": "-MkPkY0PLES8DjWl-qK0"
+            },
+            {
+                "name": "npc_sleight_of_hand_base",
+                "current": "21",
+                "max": "",
+                "id": "-MkPkY0PLES8DjWl-qK1"
+            },
+            {
+                "name": "npc_sleight_of_hand",
+                "current": 21,
+                "max": "",
+                "id": "-MkPkY0QLo_M-XUlzp8G"
+            },
+            {
+                "name": "npc_sleight_of_hand_flag",
+                "current": 1,
+                "max": "",
+                "id": "-MkPkY0RALSZqMOSPg22"
+            },
+            {
+                "name": "npc_stealth_base",
+                "current": "21",
+                "max": "",
+                "id": "-MkPkY0RALSZqMOSPg23"
+            },
+            {
+                "name": "npc_stealth",
+                "current": 21,
+                "max": "",
+                "id": "-MkPkY0SWUGwX-OhF2Mf"
+            },
+            {
+                "name": "npc_stealth_flag",
+                "current": 1,
+                "max": "",
+                "id": "-MkPkY0SWUGwX-OhF2Mg"
+            },
+            {
+                "name": "npc_history_base",
+                "current": "12",
+                "max": "",
+                "id": "-MkPkY0Td_6TVqGMAXTQ"
+            },
+            {
+                "name": "npc_history",
+                "current": 12,
+                "max": "",
+                "id": "-MkPkY0UDQl3mBUyY2Jo"
+            },
+            {
+                "name": "npc_history_flag",
+                "current": 1,
+                "max": "",
+                "id": "-MkPkY0VglERF9-h5GJY"
+            },
+            {
+                "name": "npc_survival_base",
+                "current": "12",
+                "max": "",
+                "id": "-MkPkY0WMY6jMBBZyeH_"
+            },
+            {
+                "name": "npc_survival",
+                "current": 12,
+                "max": "",
+                "id": "-MkPkY0Xhpvvn1_1t18P"
+            },
+            {
+                "name": "npc_survival_flag",
+                "current": 1,
+                "max": "",
+                "id": "-MkPkY0Xhpvvn1_1t18Q"
+            },
+            {
+                "name": "npc_athletics_base",
+                "current": "9",
+                "max": "",
+                "id": "-MkPkY0Y-EMrzGdalr6h"
+            },
+            {
+                "name": "npc_athletics",
+                "current": 9,
+                "max": "",
+                "id": "-MkPkY0Y-EMrzGdalr6i"
+            },
+            {
+                "name": "npc_athletics_flag",
+                "current": 1,
+                "max": "",
+                "id": "-MkPkY0Z_YbTleptbHho"
+            },
+            {
+                "name": "npcspellcastingflag",
+                "current": "1",
+                "max": "",
+                "id": "-MkPkY0aS_rQ-0_KhsFK"
+            },
+            {
+                "name": "spellcasting_ability",
+                "current": "@{charisma_mod}+",
+                "max": "",
+                "id": "-MkPkY0b10plMowGWX0b"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY0cyDpnmNCnlOdt_name",
+                "current": "Spellcasting",
+                "max": "",
+                "id": "-MkPkY0hU_6fu5r7eKCC"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY0cyDpnmNCnlOdt_desc",
+                "current": "Innate Spellasting. The gunslinger spellcasting ability is Charisma (spell save DC 24, +14 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\n\n- At will: fog cloud, major image, swift quiver, wristpocket\n\n- 1/rest: hunter's mark, locate creature\n\n- 1/day: freedom of movement, mislead, teleport",
+                "max": "",
+                "id": "-MkPkY0iUcZgd5-K2lUL"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY0mFSTrtoeydrcV_name",
+                "current": "Gunslinger",
+                "max": "",
+                "id": "-MkPkY0mFSTrtoeydrcW"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY0mFSTrtoeydrcV_desc",
+                "current": "Being within 5 feet of a hostile creature or attacking at long range doesn't impose disadvantage on gunslinger ranged attack rolls with a gun. In addition, he ignores half cover and three-quarters cover when making ranged attacks.",
+                "max": "",
+                "id": "-MkPkY0pKRAYKbEKfnJy"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY0qri9q94ZUhD9w_name",
+                "current": "Hunter's Intuition.",
+                "max": "",
+                "id": "-MkPkY0qri9q94_UhD9x"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY0qri9q94ZUhD9w_desc",
+                "current": "When gunslinger make a Wisdom (Perception) or Wisdom (Survival) check, he can roll a d4 and add the number rolled to the ability check.",
+                "max": "",
+                "id": "-MkPkY0tdLCVc0crB0xa"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY0u1FJO9vvzrl4c_name",
+                "current": "Finder's Magic.",
+                "max": "",
+                "id": "-MkPkY0u1FJO9vvzrl4d"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY0u1FJO9vvzrl4c_desc",
+                "current": "The gunslinger can cast the hunter's mark spell with this trait. And, he can also cast the locate object spell with it. Once gunslinger cast either spell with this trait, he can't cast that spell with it again until finish a long rest.",
+                "max": "",
+                "id": "-MkPkY0wQ2OOQ3mczdr3"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY0x0cedm1M01shn_name",
+                "current": "Relentless Endurance.",
+                "max": "",
+                "id": "-MkPkY0x0cedm1M01sho"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY0x0cedm1M01shn_desc",
+                "current": "When gunslinger are reduced to 0 hit points but not killed outright, he drop to 1 hit point instead. gunslinger can't use this feature again until finish a long rest.",
+                "max": "",
+                "id": "-MkPkY106Z6j_B3Bmq5n"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY11ZwfF5FDTLUxi_name",
+                "current": "Dead Eye.",
+                "max": "",
+                "id": "-MkPkY11_wfF5FDTLUxj"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY11ZwfF5FDTLUxi_desc",
+                "current": "When gunslinger score a critical hit with a ranged weapon attack, he can it maximizes the damage from this attack.",
+                "max": "",
+                "id": "-MkPkY13Bp3_rwx3EId2"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY14O11pgF6M929n_name",
+                "current": "Avoidance",
+                "max": "",
+                "id": "-MkPkY14O11pgF6M929o"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY14O11pgF6M929n_desc",
+                "current": "If the gunslinger is subjected to an effect that allows it to make a saving throw to only take half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.",
+                "max": "",
+                "id": "-MkPkY171K4zoOF2L_f6"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY18S8gLrnpz9Tvx_name",
+                "current": "Magic Weapons",
+                "max": "",
+                "id": "-MkPkY18S8gLrnpz9Tvy"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY18S8gLrnpz9Tvx_desc",
+                "current": "The gunslinger's weapon attacks are magical.",
+                "max": "",
+                "id": "-MkPkY1A9EWD_8ui3lin"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY1BpWnS2JnDABz6_name",
+                "current": "Special Equipment.",
+                "max": "",
+                "id": "-MkPkY1BpWnS2JnDABz7"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY1BpWnS2JnDABz6_desc",
+                "current": "The gunslinger wears a white Mantle of Spell Resistance, Dagger of Blindsight and Adamantine armor (renegade's cloak)",
+                "max": "",
+                "id": "-MkPkY1ET346ehSWGiny"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY1FDbMhvrfAEBQ7_name",
+                "current": "Adamantine Plating.",
+                "max": "",
+                "id": "-MkPkY1FDbMhvrfAEBQ8"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY1FDbMhvrfAEBQ7_desc",
+                "current": "Any critical hit against the gunslinger becomes a normal hit. Because the adamantine armor.",
+                "max": "",
+                "id": "-MkPkY1IdjROYkbdiLwl"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY1J7q5EKdRj1lOJ_name",
+                "current": "Not in the face",
+                "max": "",
+                "id": "-MkPkY1J7q5EKdRj1lOK"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY1J7q5EKdRj1lOJ_desc",
+                "current": "If the gunslinger shoots a fallen target at 5 feet with the shotgun, this attack is considered critical if it hits.",
+                "max": "",
+                "id": "-MkPkY1MrKrha9ak9ZwZ"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY1MrKrha9ak9ZwZ_name",
+                "current": "Infused Magazine.",
+                "max": "",
+                "id": "-MkPkY1NVYpy5Q56X19I"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY1MrKrha9ak9ZwZ_desc",
+                "current": "1. Power bullets; when hitting someone with this ammo, objects and creatures within 10 feet of the target take 4d6 force damage, including who was hit.\n\n2. Stun Bullets; the target of this attack has its mind bombarded with psychic energy, the target must make a wisdom saving throw DC 22 or it takes 4d6 psychic damage and will be stunned until the end of the gunslinger's next turn.\n\n3. Curved bullets; if this attack misses the target, the bullet is redirected to a target within 60 feet of the original target; if it hits, the damage of that attack is reduced by half.",
+                "max": "",
+                "id": "-MkPkY1P_hmpz-5_vFYd"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1S3Z7lYgbfjYNJ_name",
+                "current": "Multiattack.",
+                "max": "",
+                "id": "-MkPkY1S3_7lYgbfjYNK"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1S3Z7lYgbfjYNJ_npc_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkY1T79dNdizOF796"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1S3Z7lYgbfjYNJ_description",
+                "current": "O gunslinger pode realizar dois ataques com armas a distancia, três ataques com armas corpo a corpo leves e com propriedade acuidade.\n\nAções : End Of Line, Shotgun, Rifle Butt.",
+                "max": "",
+                "id": "-MkPkY1UWdB6Y8XEnqM7"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1S3Z7lYgbfjYNJ_attack_tohitrange",
+                "current": "+0",
+                "max": "",
+                "id": "-MkPkY1V8hOYTV-VX-JW"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1S3Z7lYgbfjYNJ_attack_onhit",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY1WUyE3aYsjgHAp"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1S3Z7lYgbfjYNJ_damage_flag",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY1WUyE3aYsjgHAq"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1S3Z7lYgbfjYNJ_attack_crit",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY1Xzd_BVXI6jMfg"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1S3Z7lYgbfjYNJ_attack_crit2",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY1YFtu9ah8QCppx"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1S3Z7lYgbfjYNJ_rollbase",
+                "current": "@{wtype}&{template:npcaction} @{npc_name_flag} {{rname=@{name}}} {{description=@{show_desc}}} @{charname_output}",
+                "max": "",
+                "id": "-MkPkY1YFtu9ah8QCppy"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1bDiRfpJ6ZzbWb_name",
+                "current": "Automatic Pistol",
+                "max": "",
+                "id": "-MkPkY1cHOqa3R-TZWqC"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1bDiRfpJ6ZzbWb_attack_flag",
+                "current": "on",
+                "max": "",
+                "id": "-MkPkY1dQrK6lOaO63sE"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1bDiRfpJ6ZzbWb_npc_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkY1dQrK6lOaO63sF"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1bDiRfpJ6ZzbWb_attack_display_flag",
+                "current": "{{attack=1}}",
+                "max": "",
+                "id": "-MkPkY1eHQ5lQaY1_hft"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1bDiRfpJ6ZzbWb_attack_options",
+                "current": "{{attack=1}}",
+                "max": "",
+                "id": "-MkPkY1fJlNXPrq4sE-9"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1bDiRfpJ6ZzbWb_attack_tohit",
+                "current": "13",
+                "max": "",
+                "id": "-MkPkY1gRuMuHr-RRqrP"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1bDiRfpJ6ZzbWb_attack_damage",
+                "current": "4d6 + 5",
+                "max": "",
+                "id": "-MkPkY1gRuMuHr-RRqrQ"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1bDiRfpJ6ZzbWb_attack_crit",
+                "current": "4d6",
+                "max": "",
+                "id": "-MkPkY1hcc9N94A_RHwk"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1bDiRfpJ6ZzbWb_attack_damagetype",
+                "current": "piercing",
+                "max": "",
+                "id": "-MkPkY1ixF7_a4y9o1Z0"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1bDiRfpJ6ZzbWb_name_display",
+                "current": "Automatic Pistol",
+                "max": "",
+                "id": "-MkPkY1jmF5L8_mj9GJQ"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1bDiRfpJ6ZzbWb_rollbase",
+                "current": "@{wtype}&{template:npcfullatk} {{attack=1}} @{damage_flag} @{npc_name_flag} {{rname=@{name}}} {{r1=[[@{d20}+(@{attack_tohit}+0)]]}} @{rtype}+(@{attack_tohit}+0)]]}} {{dmg1=[[@{attack_damage}+0]]}} {{dmg1type=@{attack_damagetype}}} {{dmg2=[[@{attack_damage2}+0]]}} {{dmg2type=@{attack_damagetype2}}} {{crit1=[[@{attack_crit}+0]]}} {{crit2=[[@{attack_crit2}+0]]}} {{description=@{show_desc}}} @{charname_output}",
+                "max": "",
+                "id": "-MkPkY1kLnBO6CdAfKGV"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1bDiRfpJ6ZzbWb_attack_type",
+                "current": "Ranged",
+                "max": "",
+                "id": "-MkPkY1kLnBO6CdAfKGW"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1bDiRfpJ6ZzbWb_attack_type_display",
+                "current": "Ranged Weapon Attack:",
+                "max": "",
+                "id": "-MkPkY1lTMkfuE7rW_xO"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1bDiRfpJ6ZzbWb_attack_tohitrange",
+                "current": "+13, Range 50/150 ft., one target",
+                "max": "",
+                "id": "-MkPkY1mxGgCRkXV6kBD"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1bDiRfpJ6ZzbWb_attack_range",
+                "current": "50/150 ft.",
+                "max": "",
+                "id": "-MkPkY1nQiC4m0AgEfXb"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1bDiRfpJ6ZzbWb_attack_target",
+                "current": "one target",
+                "max": "",
+                "id": "-MkPkY1oPK5Tn2wb8kck"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1bDiRfpJ6ZzbWb_damage_flag",
+                "current": "{{damage=1}} {{dmg1flag=1}} ",
+                "max": "",
+                "id": "-MkPkY1oPK5Tn2wb8kcl"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1bDiRfpJ6ZzbWb_attack_onhit",
+                "current": "19 (4d6 + 5) piercing damage",
+                "max": "",
+                "id": "-MkPkY1pp8UX2V1siRyu"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1bDiRfpJ6ZzbWb_description",
+                "current": "***Dead Eye.*** (53) piercing damage.",
+                "max": "",
+                "id": "-MkPkY1qrXtzSzLtPyz-"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1bDiRfpJ6ZzbWb_description_flag",
+                "current": 3,
+                "max": "",
+                "id": "-MkPkY1r08DaJKCSy7_z"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1bDiRfpJ6ZzbWb_show_desc",
+                "current": "@{description}",
+                "max": "",
+                "id": "-MkPkY1sG3oVT_vgQtjh"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1vaz2B0LNuI-aq_name",
+                "current": "Hunting Rifle",
+                "max": "",
+                "id": "-MkPkY1vaz2B0LNuI-ar"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1vaz2B0LNuI-aq_attack_flag",
+                "current": "on",
+                "max": "",
+                "id": "-MkPkY1xnodGqJE8TV-o"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1vaz2B0LNuI-aq_npc_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkY1yj_S53aLwY02h"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1vaz2B0LNuI-aq_attack_display_flag",
+                "current": "{{attack=1}}",
+                "max": "",
+                "id": "-MkPkY1yj_S53aLwY02i"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1vaz2B0LNuI-aq_attack_options",
+                "current": "{{attack=1}}",
+                "max": "",
+                "id": "-MkPkY20Q4j6tImF5q0M"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1vaz2B0LNuI-aq_attack_tohit",
+                "current": "13",
+                "max": "",
+                "id": "-MkPkY20Q4j6tImF5q0N"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1vaz2B0LNuI-aq_attack_damage",
+                "current": "3d10 + 5",
+                "max": "",
+                "id": "-MkPkY21u1DFe3khBA4F"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1vaz2B0LNuI-aq_attack_crit",
+                "current": "3d10",
+                "max": "",
+                "id": "-MkPkY22TmKOsngfPp6U"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1vaz2B0LNuI-aq_attack_damagetype",
+                "current": "piercing",
+                "max": "",
+                "id": "-MkPkY232iZPiu3BjvsA"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1vaz2B0LNuI-aq_name_display",
+                "current": "Hunting Rifle",
+                "max": "",
+                "id": "-MkPkY240VR3W5vTIgWD"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1vaz2B0LNuI-aq_rollbase",
+                "current": "@{wtype}&{template:npcfullatk} {{attack=1}} @{damage_flag} @{npc_name_flag} {{rname=@{name}}} {{r1=[[@{d20}+(@{attack_tohit}+0)]]}} @{rtype}+(@{attack_tohit}+0)]]}} {{dmg1=[[@{attack_damage}+0]]}} {{dmg1type=@{attack_damagetype}}} {{dmg2=[[@{attack_damage2}+0]]}} {{dmg2type=@{attack_damagetype2}}} {{crit1=[[@{attack_crit}+0]]}} {{crit2=[[@{attack_crit2}+0]]}} {{description=@{show_desc}}} @{charname_output}",
+                "max": "",
+                "id": "-MkPkY25Ck3k1Us6D-5r"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1vaz2B0LNuI-aq_attack_type",
+                "current": "Ranged",
+                "max": "",
+                "id": "-MkPkY27umiYHB9UqjU6"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1vaz2B0LNuI-aq_attack_type_display",
+                "current": "Ranged Weapon Attack:",
+                "max": "",
+                "id": "-MkPkY280aMN7RzRUoMh"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1vaz2B0LNuI-aq_attack_tohitrange",
+                "current": "+13, Range 80/240 ft., one target",
+                "max": "",
+                "id": "-MkPkY29reGlNBR7IaEl"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1vaz2B0LNuI-aq_attack_range",
+                "current": "80/240 ft.",
+                "max": "",
+                "id": "-MkPkY29reGlNBR7IaEm"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1vaz2B0LNuI-aq_attack_target",
+                "current": "one target",
+                "max": "",
+                "id": "-MkPkY2AnL5S9UF1SlX7"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1vaz2B0LNuI-aq_damage_flag",
+                "current": "{{damage=1}} {{dmg1flag=1}} ",
+                "max": "",
+                "id": "-MkPkY2B7tx7itmx8go6"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1vaz2B0LNuI-aq_attack_onhit",
+                "current": "21 (3d10 + 5) piercing damage",
+                "max": "",
+                "id": "-MkPkY2CdgEwSDzsJDxC"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1vaz2B0LNuI-aq_description",
+                "current": "***Dead Eye.*** (65) piercing damage.",
+                "max": "",
+                "id": "-MkPkY2Daftffa8VqcUS"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1vaz2B0LNuI-aq_description_flag",
+                "current": 3,
+                "max": "",
+                "id": "-MkPkY2EnXx5PpH6Dzwl"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1vaz2B0LNuI-aq_show_desc",
+                "current": "@{description}",
+                "max": "",
+                "id": "-MkPkY2EnXx5PpH6Dzwm"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2Ix89R4xZCsNuU_name",
+                "current": "Dagger of Blindsight",
+                "max": "",
+                "id": "-MkPkY2Ix89R4xZCsNuV"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2Ix89R4xZCsNuU_attack_flag",
+                "current": "on",
+                "max": "",
+                "id": "-MkPkY2Jfjjv2O4aXajf"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2Ix89R4xZCsNuU_npc_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkY2KqIR2llA_1Os1"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2Ix89R4xZCsNuU_attack_display_flag",
+                "current": "{{attack=1}}",
+                "max": "",
+                "id": "-MkPkY2LKRbRuK29RTN4"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2Ix89R4xZCsNuU_attack_options",
+                "current": "{{attack=1}}",
+                "max": "",
+                "id": "-MkPkY2MVJ5RpXG4_C6R"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2Ix89R4xZCsNuU_attack_tohit",
+                "current": "13",
+                "max": "",
+                "id": "-MkPkY2OO6tVwr8iHeOy"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2Ix89R4xZCsNuU_attack_damage",
+                "current": "1d4 + 3",
+                "max": "",
+                "id": "-MkPkY2PkdfjQho84r-z"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2Ix89R4xZCsNuU_attack_crit",
+                "current": "1d4",
+                "max": "",
+                "id": "-MkPkY2PkdfjQho84r0-"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2Ix89R4xZCsNuU_attack_damagetype",
+                "current": "piercing",
+                "max": "",
+                "id": "-MkPkY2Qqgtyh0Ob8wbi"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2Ix89R4xZCsNuU_attack_damage2",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY2RnIGmORpjWx3T"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2Ix89R4xZCsNuU_attack_crit2",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY2Tng171rzGJd1O"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2Ix89R4xZCsNuU_attack_damagetype2",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY2U5nlDnvDsfvDL"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2Ix89R4xZCsNuU_name_display",
+                "current": "Dagger of Blindsight",
+                "max": "",
+                "id": "-MkPkY2Vki6NIRVkmDre"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2Ix89R4xZCsNuU_rollbase",
+                "current": "@{wtype}&{template:npcfullatk} {{attack=1}} @{damage_flag} @{npc_name_flag} {{rname=@{name}}} {{r1=[[@{d20}+(@{attack_tohit}+0)]]}} @{rtype}+(@{attack_tohit}+0)]]}} {{dmg1=[[@{attack_damage}+0]]}} {{dmg1type=@{attack_damagetype}}} {{dmg2=[[@{attack_damage2}+0]]}} {{dmg2type=@{attack_damagetype2}}} {{crit1=[[@{attack_crit}+0]]}} {{crit2=[[@{attack_crit2}+0]]}} {{description=@{show_desc}}} @{charname_output}",
+                "max": "",
+                "id": "-MkPkY2WrLNVxb8gCh3y"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2Ix89R4xZCsNuU_attack_type",
+                "current": "Melee or Ranged",
+                "max": "",
+                "id": "-MkPkY2Xpv_dr6PTkmG_"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2Ix89R4xZCsNuU_attack_type_display",
+                "current": "Melee or Ranged Weapon Attack:",
+                "max": "",
+                "id": "-MkPkY2Xpv_dr6PTkmGa"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2Ix89R4xZCsNuU_attack_tohitrange",
+                "current": "+13, Range 5 ft. or range 20/60 ft., one target",
+                "max": "",
+                "id": "-MkPkY2YvBJoPJVKLmk2"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2Ix89R4xZCsNuU_attack_range",
+                "current": "5 ft. or range 20/60 ft.",
+                "max": "",
+                "id": "-MkPkY2ZStwXER2bWXvZ"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2Ix89R4xZCsNuU_attack_target",
+                "current": "one target",
+                "max": "",
+                "id": "-MkPkY2aRj5Vuky5ItP2"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2Ix89R4xZCsNuU_damage_flag",
+                "current": "{{damage=1}} {{dmg1flag=1}} ",
+                "max": "",
+                "id": "-MkPkY2bj1TDsjTUddc-"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2Ix89R4xZCsNuU_attack_onhit",
+                "current": "5 (1d4 + 3) piercing damage",
+                "max": "",
+                "id": "-MkPkY2ccI-4pDl9fyHA"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2Ix89R4xZCsNuU_description",
+                "current": "Hit: 5 (1d4 + 3) piercing damage in melee, or 5 (1d4 + 3) piercing damage at range.\n\nThis rare magic item requires attunement. A creature attuned to it gains blindsight out to a range of 30 feet. The dagger has a saw-toothed edge and a black pearl nested in its pommel.",
+                "max": "",
+                "id": "-MkPkY2dDIcsHO3xeAk5"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2Ix89R4xZCsNuU_description_flag",
+                "current": 7,
+                "max": "",
+                "id": "-MkPkY2e7LrwUhoYwgtO"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2Ix89R4xZCsNuU_show_desc",
+                "current": " ",
+                "max": "",
+                "id": "-MkPkY2fg0YL_T5UJ2W_"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2izGHLugN7E5FD_name",
+                "current": "End Of Line",
+                "max": "",
+                "id": "-MkPkY2jjaaBTFf6svze"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2izGHLugN7E5FD_attack_flag",
+                "current": "on",
+                "max": "",
+                "id": "-MkPkY2knFsbWOJvFN32"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2izGHLugN7E5FD_npc_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkY2lltgRpvtxaBeL"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2izGHLugN7E5FD_attack_display_flag",
+                "current": "{{attack=1}}",
+                "max": "",
+                "id": "-MkPkY2mL1Jf6ILSUgcx"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2izGHLugN7E5FD_attack_options",
+                "current": "{{attack=1}}",
+                "max": "",
+                "id": "-MkPkY2nTCvauEA4H0cB"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2izGHLugN7E5FD_attack_tohit",
+                "current": "13",
+                "max": "",
+                "id": "-MkPkY2nTCvauEA4H0cC"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2izGHLugN7E5FD_attack_damage",
+                "current": "6d10 + 5",
+                "max": "",
+                "id": "-MkPkY2oF_TZzfH8xeOO"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2izGHLugN7E5FD_attack_crit",
+                "current": "6d10",
+                "max": "",
+                "id": "-MkPkY2oF_TZzfH8xeOP"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2izGHLugN7E5FD_attack_damagetype",
+                "current": "piercing",
+                "max": "",
+                "id": "-MkPkY2phUIQ77NSmXIY"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2izGHLugN7E5FD_name_display",
+                "current": "End Of Line",
+                "max": "",
+                "id": "-MkPkY2qpw5RmuHKkrby"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2izGHLugN7E5FD_rollbase",
+                "current": "@{wtype}&{template:npcfullatk} {{attack=1}} @{damage_flag} @{npc_name_flag} {{rname=@{name}}} {{r1=[[@{d20}+(@{attack_tohit}+0)]]}} @{rtype}+(@{attack_tohit}+0)]]}} {{dmg1=[[@{attack_damage}+0]]}} {{dmg1type=@{attack_damagetype}}} {{dmg2=[[@{attack_damage2}+0]]}} {{dmg2type=@{attack_damagetype2}}} {{crit1=[[@{attack_crit}+0]]}} {{crit2=[[@{attack_crit2}+0]]}} {{description=@{show_desc}}} @{charname_output}",
+                "max": "",
+                "id": "-MkPkY2r6NthN6qbqvK-"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2izGHLugN7E5FD_attack_type",
+                "current": "Ranged",
+                "max": "",
+                "id": "-MkPkY2r6NthN6qbqvK0"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2izGHLugN7E5FD_attack_type_display",
+                "current": "Ranged Weapon Attack:",
+                "max": "",
+                "id": "-MkPkY2sRV1LqKWjqav6"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2izGHLugN7E5FD_attack_tohitrange",
+                "current": "+13, Range 240/240 ft., one target",
+                "max": "",
+                "id": "-MkPkY2tkhPu0VTJlAz1"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2izGHLugN7E5FD_attack_range",
+                "current": "240/240 ft.",
+                "max": "",
+                "id": "-MkPkY2uWdNQvAAx4rt6"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2izGHLugN7E5FD_attack_target",
+                "current": "one target",
+                "max": "",
+                "id": "-MkPkY2vtOVgEoSPeMFD"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2izGHLugN7E5FD_damage_flag",
+                "current": "{{damage=1}} {{dmg1flag=1}} ",
+                "max": "",
+                "id": "-MkPkY2wY6uYNs_J_-K6"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2izGHLugN7E5FD_attack_onhit",
+                "current": "38 (6d10 + 5) piercing damage",
+                "max": "",
+                "id": "-MkPkY2xq1CR3P28luyr"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2izGHLugN7E5FD_description",
+                "current": "***Dead Eye.*** (125) piercing damage.",
+                "max": "",
+                "id": "-MkPkY2yIQGPLhP3p-pC"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2izGHLugN7E5FD_description_flag",
+                "current": 3,
+                "max": "",
+                "id": "-MkPkY2zREDeUBH2a-Ki"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2izGHLugN7E5FD_show_desc",
+                "current": "@{description}",
+                "max": "",
+                "id": "-MkPkY3-lZMyBaW5qXfo"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY32TerX1HF-WUSQ_name",
+                "current": "Shotgun",
+                "max": "",
+                "id": "-MkPkY32TerX1HF-WUSR"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY32TerX1HF-WUSQ_attack_flag",
+                "current": "on",
+                "max": "",
+                "id": "-MkPkY33PLI6Bu8ZOTEc"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY32TerX1HF-WUSQ_npc_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkY34mbOdCqAcABg6"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY32TerX1HF-WUSQ_attack_display_flag",
+                "current": "{{attack=1}}",
+                "max": "",
+                "id": "-MkPkY35WAxbw_lGem3N"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY32TerX1HF-WUSQ_attack_options",
+                "current": "{{attack=1}}",
+                "max": "",
+                "id": "-MkPkY36ukOlgBBOvO-B"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY32TerX1HF-WUSQ_attack_tohit",
+                "current": "13",
+                "max": "",
+                "id": "-MkPkY37Kt-eRwZa2oyW"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY32TerX1HF-WUSQ_attack_damage",
+                "current": "3d12 + 15",
+                "max": "",
+                "id": "-MkPkY37Kt-eRwZa2oyX"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY32TerX1HF-WUSQ_attack_crit",
+                "current": "3d12",
+                "max": "",
+                "id": "-MkPkY38U6Mn657nMMqy"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY32TerX1HF-WUSQ_attack_damagetype",
+                "current": "piercing",
+                "max": "",
+                "id": "-MkPkY39gY9IqsF_78vA"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY32TerX1HF-WUSQ_name_display",
+                "current": "Shotgun",
+                "max": "",
+                "id": "-MkPkY3A77FJHqKYb4kg"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY32TerX1HF-WUSQ_rollbase",
+                "current": "@{wtype}&{template:npcfullatk} {{attack=1}} @{damage_flag} @{npc_name_flag} {{rname=@{name}}} {{r1=[[@{d20}+(@{attack_tohit}+0)]]}} @{rtype}+(@{attack_tohit}+0)]]}} {{dmg1=[[@{attack_damage}+0]]}} {{dmg1type=@{attack_damagetype}}} {{dmg2=[[@{attack_damage2}+0]]}} {{dmg2type=@{attack_damagetype2}}} {{crit1=[[@{attack_crit}+0]]}} {{crit2=[[@{attack_crit2}+0]]}} {{description=@{show_desc}}} @{charname_output}",
+                "max": "",
+                "id": "-MkPkY3CvP4VPesfThNi"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY32TerX1HF-WUSQ_attack_type",
+                "current": "Ranged",
+                "max": "",
+                "id": "-MkPkY3D86sB40pMJUy7"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY32TerX1HF-WUSQ_attack_type_display",
+                "current": "Ranged Weapon Attack:",
+                "max": "",
+                "id": "-MkPkY3EVpcwgC2KUvWb"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY32TerX1HF-WUSQ_attack_tohitrange",
+                "current": "+13, Range 15/60 ft., one target",
+                "max": "",
+                "id": "-MkPkY3FtQFMyaWSMvdm"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY32TerX1HF-WUSQ_attack_range",
+                "current": "15/60 ft.",
+                "max": "",
+                "id": "-MkPkY3G8JlHWavifm3b"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY32TerX1HF-WUSQ_attack_target",
+                "current": "one target",
+                "max": "",
+                "id": "-MkPkY3Hvi5_6MQd1rcn"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY32TerX1HF-WUSQ_damage_flag",
+                "current": "{{damage=1}} {{dmg1flag=1}} ",
+                "max": "",
+                "id": "-MkPkY3I4TZ5M-ym6xBF"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY32TerX1HF-WUSQ_attack_onhit",
+                "current": "34 (3d12 + 15) piercing damage",
+                "max": "",
+                "id": "-MkPkY3Js7DiSKIICKx2"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY32TerX1HF-WUSQ_description",
+                "current": "If the target is a creature, it must succeed on a DC 22 Strength saving throw or be knocked prone.\n\n***Dead Eye.*** (87) piercing damage.",
+                "max": "",
+                "id": "-MkPkY3KTSCZs6ivFlPv"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY32TerX1HF-WUSQ_description_flag",
+                "current": 5,
+                "max": "",
+                "id": "-MkPkY3KTSCZs6ivFlPw"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY32TerX1HF-WUSQ_show_desc",
+                "current": "@{description}",
+                "max": "",
+                "id": "-MkPkY3LK5VetYS3Qk5_"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3Pzd090WuTTTNG_name",
+                "current": "Rifle Butt",
+                "max": "",
+                "id": "-MkPkY3Pzd090WuTTTNH"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3Pzd090WuTTTNG_attack_flag",
+                "current": "on",
+                "max": "",
+                "id": "-MkPkY3RQvuTFEs-R2t2"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3Pzd090WuTTTNG_npc_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkY3RQvuTFEs-R2t3"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3Pzd090WuTTTNG_attack_display_flag",
+                "current": "{{attack=1}}",
+                "max": "",
+                "id": "-MkPkY3SdOogj9kqA1P3"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3Pzd090WuTTTNG_attack_options",
+                "current": "{{attack=1}}",
+                "max": "",
+                "id": "-MkPkY3Th67xxIRGIkn9"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3Pzd090WuTTTNG_attack_tohit",
+                "current": "13",
+                "max": "",
+                "id": "-MkPkY3UaSFSa6V30dC0"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3Pzd090WuTTTNG_attack_damage",
+                "current": "2d6 + 3",
+                "max": "",
+                "id": "-MkPkY3Vjn05tDe562ha"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3Pzd090WuTTTNG_attack_crit",
+                "current": "2d6",
+                "max": "",
+                "id": "-MkPkY3Vjn05tDe562hb"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3Pzd090WuTTTNG_attack_damagetype",
+                "current": "bludgeoning",
+                "max": "",
+                "id": "-MkPkY3WeNyY0OaI_NnR"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3Pzd090WuTTTNG_name_display",
+                "current": "Rifle Butt",
+                "max": "",
+                "id": "-MkPkY3XAQTKTvINukP3"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3Pzd090WuTTTNG_rollbase",
+                "current": "@{wtype}&{template:npcfullatk} {{attack=1}} @{damage_flag} @{npc_name_flag} {{rname=@{name}}} {{r1=[[@{d20}+(@{attack_tohit}+0)]]}} @{rtype}+(@{attack_tohit}+0)]]}} {{dmg1=[[@{attack_damage}+0]]}} {{dmg1type=@{attack_damagetype}}} {{dmg2=[[@{attack_damage2}+0]]}} {{dmg2type=@{attack_damagetype2}}} {{crit1=[[@{attack_crit}+0]]}} {{crit2=[[@{attack_crit2}+0]]}} {{description=@{show_desc}}} @{charname_output}",
+                "max": "",
+                "id": "-MkPkY3YHFpZCOfWhZby"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3Pzd090WuTTTNG_attack_type",
+                "current": "Melee",
+                "max": "",
+                "id": "-MkPkY3ZpTwrtvhVnsn_"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3Pzd090WuTTTNG_attack_type_display",
+                "current": "Melee Weapon Attack:",
+                "max": "",
+                "id": "-MkPkY3_eF2Fcj4s1-mq"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3Pzd090WuTTTNG_attack_tohitrange",
+                "current": "+13, Reach 5 ft., one target",
+                "max": "",
+                "id": "-MkPkY3_eF2Fcj4s1-mr"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3Pzd090WuTTTNG_attack_range",
+                "current": "5 ft.",
+                "max": "",
+                "id": "-MkPkY3agUBqKsHz-nUJ"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3Pzd090WuTTTNG_attack_target",
+                "current": "one target",
+                "max": "",
+                "id": "-MkPkY3b-hQU0TuIIycH"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3Pzd090WuTTTNG_damage_flag",
+                "current": "{{damage=1}} {{dmg1flag=1}} ",
+                "max": "",
+                "id": "-MkPkY3cKfiqjd5ljUra"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3Pzd090WuTTTNG_attack_onhit",
+                "current": "10 (2d6 + 3) bludgeoning damage",
+                "max": "",
+                "id": "-MkPkY3d3nCD8HjI90u2"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3Pzd090WuTTTNG_description",
+                "current": "Whenever gunslinger hits a creature with this attacks, he can impose one of the following effects on that target.\n\nIt must succeed on a DC 22 Dexterity saving throw or be knocked prone.\n\nIt must make a DC 22 Strength saving throw. If it fails, gunslinger can push it up to 15 feet away from he.\n\nIt can't take reactions until the end of gunslinger next turn.",
+                "max": "",
+                "id": "-MkPkY3elu-GzSeE1PaQ"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3Pzd090WuTTTNG_description_flag",
+                "current": 8,
+                "max": "",
+                "id": "-MkPkY3f37iGmyK5szMN"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3Pzd090WuTTTNG_show_desc",
+                "current": "@{description}",
+                "max": "",
+                "id": "-MkPkY3hGmmaOvLUo3cu"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3lkANZHTDEf1U5_name",
+                "current": "It's High Noon (Recharge 6)",
+                "max": "",
+                "id": "-MkPkY3lkANZHTDEf1U6"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3lkANZHTDEf1U5_npc_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkY3mQd_FvMXZj1d9"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3lkANZHTDEf1U5_description",
+                "current": "The gunslinger gives up all his moves to lock the crosshairs on a target. The gunslinger's next attack is considered a critical hit.",
+                "max": "",
+                "id": "-MkPkY3nG8yOGgbwp8Xt"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3lkANZHTDEf1U5_attack_tohitrange",
+                "current": "+0",
+                "max": "",
+                "id": "-MkPkY3nG8yOGgbwp8Xu"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3lkANZHTDEf1U5_attack_onhit",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY3oXDA9O6xM0ulo"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3lkANZHTDEf1U5_damage_flag",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY3pcD4DrSh1HSav"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3lkANZHTDEf1U5_attack_crit",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY3qNKCrqe3Kd9m6"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3lkANZHTDEf1U5_attack_crit2",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY3qNKCrqe3Kd9m7"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3lkANZHTDEf1U5_rollbase",
+                "current": "@{wtype}&{template:npcaction} @{npc_name_flag} {{rname=@{name}}} {{description=@{show_desc}}} @{charname_output}",
+                "max": "",
+                "id": "-MkPkY3r5MtyF1_dMA5Z"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3u8hLjwOXqbzcS_name",
+                "current": "Burst Fire",
+                "max": "",
+                "id": "-MkPkY3u8hLjwOXqbzcT"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3u8hLjwOXqbzcS_npc_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkY3vnlVyRHgPlLIk"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3u8hLjwOXqbzcS_description",
+                "current": "The gunslinger can spray a 30-foot cone area with the automatic gun. Each creature in the area must make a Dexterity saving throw DC 22 or takes [[12d6 + 5]] piercing",
+                "max": "",
+                "id": "-MkPkY3w44d6DzijSlVg"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3u8hLjwOXqbzcS_attack_tohitrange",
+                "current": "+0",
+                "max": "",
+                "id": "-MkPkY3xf-DXAzDxhcJx"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3u8hLjwOXqbzcS_attack_onhit",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY3yiz5bj1TR8q6s"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3u8hLjwOXqbzcS_damage_flag",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY3yiz5bj1TR8q6t"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3u8hLjwOXqbzcS_attack_crit",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY3zLvYVlofms6vb"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3u8hLjwOXqbzcS_attack_crit2",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY4-X8bCKiUvhY24"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3u8hLjwOXqbzcS_rollbase",
+                "current": "@{wtype}&{template:npcaction} @{npc_name_flag} {{rname=@{name}}} {{description=@{show_desc}}} @{charname_output}",
+                "max": "",
+                "id": "-MkPkY40VcQPraiSxSMp"
+            },
+            {
+                "name": "bonusaction_flag",
+                "current": 1,
+                "max": "",
+                "id": "-MkPkY41mHaHZ__nxkPQ"
+            },
+            {
+                "name": "npcbonusactionsflag",
+                "current": 1,
+                "max": "",
+                "id": "-MkPkY42sQTLKnd4bvWM"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY44DCwnbKGzdFPs_name",
+                "current": "Bomb (Recharge 5–6)",
+                "max": "",
+                "id": "-MkPkY44DCwnbKGzdFPt"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY44DCwnbKGzdFPs_npc_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkY45UAUjdQGYBUWa"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY44DCwnbKGzdFPs_description",
+                "current": "Clay lights this bomb and drops it at a point up to 60 feet away. Each creature within 5 feet of that spot must make a DC 22 Dexterity saving throw or take 21 [[8d6]] fire damage.",
+                "max": "",
+                "id": "-MkPkY46qGDvtSJ3TFWt"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY44DCwnbKGzdFPs_attack_tohitrange",
+                "current": "+0",
+                "max": "",
+                "id": "-MkPkY46qGDvtSJ3TFWu"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY44DCwnbKGzdFPs_attack_onhit",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY47dsk_ckifTD5c"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY44DCwnbKGzdFPs_damage_flag",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY48wpeBcZqIZEfN"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY44DCwnbKGzdFPs_attack_crit",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY49SakSTP5Zq8HZ"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY44DCwnbKGzdFPs_attack_crit2",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY49SakSTP5Zq8H_"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY44DCwnbKGzdFPs_rollbase",
+                "current": "@{wtype}&{template:npcaction}  @{damage_flag} @{npc_name_flag} {{rname=@{name}}} {{r1=[[@{d20}+(@{attack_tohit}+0)]]}} @{rtype}+(@{attack_tohit}+0)]]}} {{dmg1=[[@{attack_damage}+0]]}} {{dmg1type=@{attack_damagetype}}} {{dmg2=[[@{attack_damage2}+0]]}} {{dmg2type=@{attack_damagetype2}}} {{crit1=[[@{attack_crit}+0]]}} {{crit2=[[@{attack_crit2}+0]]}} {{description=@{show_desc}}} @{charname_output}",
+                "max": "",
+                "id": "-MkPkY4AdDWJYZJbmmn-"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4DutQypkVM2iko_name",
+                "current": "The Gunslinger Inventory.",
+                "max": "",
+                "id": "-MkPkY4DutQypkVM2ikp"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4DutQypkVM2iko_npc_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkY4DutQypkVM2ikq"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4DutQypkVM2iko_description",
+                "current": "As a bonus action. The Gunslinger can send any object he carrying to a demiplane. He can also retrieve an object previously sent there.",
+                "max": "",
+                "id": "-MkPkY4EUAvutrJP_xXu"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4DutQypkVM2iko_attack_tohitrange",
+                "current": "+0",
+                "max": "",
+                "id": "-MkPkY4FZ75QGHKetD_k"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4DutQypkVM2iko_attack_onhit",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY4FZ75QGHKetD_l"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4DutQypkVM2iko_damage_flag",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY4G5R5_fKU_3n9s"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4DutQypkVM2iko_attack_crit",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY4IcvryKApdXWQp"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4DutQypkVM2iko_attack_crit2",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY4JVvNON3joAhvU"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4DutQypkVM2iko_rollbase",
+                "current": "@{wtype}&{template:npcaction}  @{damage_flag} @{npc_name_flag} {{rname=@{name}}} {{r1=[[@{d20}+(@{attack_tohit}+0)]]}} @{rtype}+(@{attack_tohit}+0)]]}} {{dmg1=[[@{attack_damage}+0]]}} {{dmg1type=@{attack_damagetype}}} {{dmg2=[[@{attack_damage2}+0]]}} {{dmg2type=@{attack_damagetype2}}} {{crit1=[[@{attack_crit}+0]]}} {{crit2=[[@{attack_crit2}+0]]}} {{description=@{show_desc}}} @{charname_output}",
+                "max": "",
+                "id": "-MkPkY4Ki58tHhTzI1yH"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4MERVMCcoxTDQN_name",
+                "current": "Eagle's Eye",
+                "max": "",
+                "id": "-MkPkY4MERVMCcoxTDQO"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4MERVMCcoxTDQN_npc_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkY4O8-4vL0nyxFS1"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4MERVMCcoxTDQN_description",
+                "current": "As a bonus action, the gunslinger can add 2d8 to its next attack or damage roll with a End Of Line. or Shotgun.",
+                "max": "",
+                "id": "-MkPkY4O8-4vL0nyxFS2"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4MERVMCcoxTDQN_attack_tohitrange",
+                "current": "+0",
+                "max": "",
+                "id": "-MkPkY4PGT5Q3ImcZIjM"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4MERVMCcoxTDQN_attack_onhit",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY4QP8a27JFABBS3"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4MERVMCcoxTDQN_damage_flag",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY4QP8a27JFABBS4"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4MERVMCcoxTDQN_attack_crit",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY4RCbgPsLEaRGFG"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4MERVMCcoxTDQN_attack_crit2",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY4S8NiFQnlZBlaH"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4MERVMCcoxTDQN_rollbase",
+                "current": "@{wtype}&{template:npcaction}  @{damage_flag} @{npc_name_flag} {{rname=@{name}}} {{r1=[[@{d20}+(@{attack_tohit}+0)]]}} @{rtype}+(@{attack_tohit}+0)]]}} {{dmg1=[[@{attack_damage}+0]]}} {{dmg1type=@{attack_damagetype}}} {{dmg2=[[@{attack_damage2}+0]]}} {{dmg2type=@{attack_damagetype2}}} {{crit1=[[@{attack_crit}+0]]}} {{crit2=[[@{attack_crit2}+0]]}} {{description=@{show_desc}}} @{charname_output}",
+                "max": "",
+                "id": "-MkPkY4T4dGV4U_FLfy3"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4WkxZCE-S03Y06_name",
+                "current": "Fast Hands",
+                "max": "",
+                "id": "-MkPkY4Wkx_CE-S03Y07"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4WkxZCE-S03Y06_npc_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkY4Wkx_CE-S03Y08"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4WkxZCE-S03Y06_description",
+                "current": "The gunslinger can reload his weapon and drop bombs with his bonus action.",
+                "max": "",
+                "id": "-MkPkY4Xg69TF9kuOK8H"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4WkxZCE-S03Y06_attack_tohitrange",
+                "current": "+0",
+                "max": "",
+                "id": "-MkPkY4YXI2_pY3jSMUk"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4WkxZCE-S03Y06_attack_onhit",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY4ZaAr27j7KA0T5"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4WkxZCE-S03Y06_damage_flag",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY4ZaAr27j7KA0T6"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4WkxZCE-S03Y06_attack_crit",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY4a6Az0MktB-SP4"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4WkxZCE-S03Y06_attack_crit2",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY4a6Az0MktB-SP5"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4WkxZCE-S03Y06_rollbase",
+                "current": "@{wtype}&{template:npcaction}  @{damage_flag} @{npc_name_flag} {{rname=@{name}}} {{r1=[[@{d20}+(@{attack_tohit}+0)]]}} @{rtype}+(@{attack_tohit}+0)]]}} {{dmg1=[[@{attack_damage}+0]]}} {{dmg1type=@{attack_damagetype}}} {{dmg2=[[@{attack_damage2}+0]]}} {{dmg2type=@{attack_damagetype2}}} {{crit1=[[@{attack_crit}+0]]}} {{crit2=[[@{attack_crit2}+0]]}} {{description=@{show_desc}}} @{charname_output}",
+                "max": "",
+                "id": "-MkPkY4bE6gvL5VRKsFo"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4d9fwVyJg1sBO1_name",
+                "current": "Nimble Escape.",
+                "max": "",
+                "id": "-MkPkY4d9fwVyJg1sBO2"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4d9fwVyJg1sBO1_npc_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkY4eLSlWdwu_B8AH"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4d9fwVyJg1sBO1_description",
+                "current": "The gunslinger allison can take the Disengage or Hide action as a bonus action on each of its turns.",
+                "max": "",
+                "id": "-MkPkY4fGpDVKwYyPLVX"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4d9fwVyJg1sBO1_attack_tohitrange",
+                "current": "+0",
+                "max": "",
+                "id": "-MkPkY4g9hEaGiT1bFv6"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4d9fwVyJg1sBO1_attack_onhit",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY4hcThVIq31D13z"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4d9fwVyJg1sBO1_damage_flag",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY4i50_rDgXJzFM0"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4d9fwVyJg1sBO1_attack_crit",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY4kgpx0vMX_Himj"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4d9fwVyJg1sBO1_attack_crit2",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY4la38ltnfx80r8"
+            },
+            {
+                "name": "repeating_npcbonusaction_-MkPkY4d9fwVyJg1sBO1_rollbase",
+                "current": "@{wtype}&{template:npcaction}  @{damage_flag} @{npc_name_flag} {{rname=@{name}}} {{r1=[[@{d20}+(@{attack_tohit}+0)]]}} @{rtype}+(@{attack_tohit}+0)]]}} {{dmg1=[[@{attack_damage}+0]]}} {{dmg1type=@{attack_damagetype}}} {{dmg2=[[@{attack_damage2}+0]]}} {{dmg2type=@{attack_damagetype2}}} {{crit1=[[@{attack_crit}+0]]}} {{crit2=[[@{attack_crit2}+0]]}} {{description=@{show_desc}}} @{charname_output}",
+                "max": "",
+                "id": "-MkPkY4mfq7tJ6lBcTG-"
+            },
+            {
+                "name": "reaction_flag",
+                "current": 1,
+                "max": "",
+                "id": "-MkPkY4mfq7tJ6lBcTG0"
+            },
+            {
+                "name": "npcreactionsflag",
+                "current": 1,
+                "max": "",
+                "id": "-MkPkY4ntldRXWkijKcV"
+            },
+            {
+                "name": "repeating_npcreaction_-MkPkY4oAfhGBBCokNEN_name",
+                "current": "Mobile",
+                "max": "",
+                "id": "-MkPkY4oAfhGBBCokNEO"
+            },
+            {
+                "name": "repeating_npcreaction_-MkPkY4oAfhGBBCokNEN_desc",
+                "current": "When the gunslinger is hit by a magical or physical attack, he can use the reaction and reduce the damage by 40. When using this reaction, he can roll up to 20 feet, this move does not provoke attacks of opportunity. After moving, in the same reaction, he can make an attack.",
+                "max": "",
+                "id": "-MkPkY4rcgbn1BaRDl0A"
+            },
+            {
+                "name": "repeating_npcreaction_-MkPkY4oAfhGBBCokNEN_description",
+                "current": "When the gunslinger is hit by a magical or physical attack, he can use the reaction and reduce the damage by 40. When using this reaction, he can roll up to 20 feet, this move does not provoke attacks of opportunity. After moving, in the same reaction, he can make an attack.",
+                "max": "",
+                "id": "-MkPkY4szb_28DuIF_EM"
+            },
+            {
+                "name": "repeating_npcreaction_-MkPkY4to7WnTzc0cn3J_name",
+                "current": "Skirmisher",
+                "max": "",
+                "id": "-MkPkY4to7WnTzc0cn3K"
+            },
+            {
+                "name": "repeating_npcreaction_-MkPkY4to7WnTzc0cn3J_desc",
+                "current": "The gunslinger can move up to half his speed as a reaction when an enemy approaches. This move does not provoke attacks of opportunity.",
+                "max": "",
+                "id": "-MkPkY4vJX6UkakET_a9"
+            },
+            {
+                "name": "repeating_npcreaction_-MkPkY4to7WnTzc0cn3J_description",
+                "current": "The gunslinger can move up to half his speed as a reaction when an enemy approaches. This move does not provoke attacks of opportunity.",
+                "max": "",
+                "id": "-MkPkY4wjtzV33mXPffx"
+            },
+            {
+                "name": "legendary_flag",
+                "current": "1",
+                "max": "",
+                "id": "-MkPkY4wjtzV33mXPffy"
+            },
+            {
+                "name": "npc_legendary_actions",
+                "current": "3",
+                "max": "",
+                "id": "-MkPkY4xHjPYRIbrZSRf"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY4zHsDzQqysBjFz_name",
+                "current": "Teleport",
+                "max": "",
+                "id": "-MkPkY4zHsDzQqysBjG-"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY4zHsDzQqysBjFz_npc_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkY5-RUg0mYDeOa7z"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY4zHsDzQqysBjFz_description",
+                "current": "The Gunslinger magically teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see.",
+                "max": "",
+                "id": "-MkPkY5-RUg0mYDeOa8-"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY4zHsDzQqysBjFz_attack_tohitrange",
+                "current": "+0",
+                "max": "",
+                "id": "-MkPkY50l-micge6j1Gr"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY4zHsDzQqysBjFz_attack_onhit",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY5132uRfvhXKpjM"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY4zHsDzQqysBjFz_damage_flag",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY5132uRfvhXKpjN"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY4zHsDzQqysBjFz_attack_crit",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY52nO1sSlS9bwsu"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY4zHsDzQqysBjFz_attack_crit2",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY53MsGNIKKFVfHP"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY4zHsDzQqysBjFz_rollbase",
+                "current": "@{wtype}&{template:npcaction} @{npc_name_flag} {{rname=@{name}}} {{description=@{show_desc}}} @{charname_output}",
+                "max": "",
+                "id": "-MkPkY53MsGNIKKFVfHQ"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY55lC-EPdFZi74K_name",
+                "current": "Reload",
+                "max": "",
+                "id": "-MkPkY55lC-EPdF_i74L"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY55lC-EPdFZi74K_npc_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkY56fv_9chcrEokq"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY55lC-EPdFZi74K_description",
+                "current": "The gunslinger reload your weapons.",
+                "max": "",
+                "id": "-MkPkY56fv_9chcrEokr"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY55lC-EPdFZi74K_attack_tohitrange",
+                "current": "+0",
+                "max": "",
+                "id": "-MkPkY572jmk5GTOJXgD"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY55lC-EPdFZi74K_attack_onhit",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY58NkU0zAnRl5Bj"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY55lC-EPdFZi74K_damage_flag",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY58NkU0zAnRl5Bk"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY55lC-EPdFZi74K_attack_crit",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY59eIs6NwpFpbjZ"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY55lC-EPdFZi74K_attack_crit2",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY5A7w4AJYxmKCiI"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY55lC-EPdFZi74K_rollbase",
+                "current": "@{wtype}&{template:npcaction} @{npc_name_flag} {{rname=@{name}}} {{description=@{show_desc}}} @{charname_output}",
+                "max": "",
+                "id": "-MkPkY5A7w4AJYxmKCiJ"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY5Bk9A7DQCMmIcQ_name",
+                "current": "Tick Tack",
+                "max": "",
+                "id": "-MkPkY5Bk9A7DQCMmIcR"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY5Bk9A7DQCMmIcQ_npc_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkY5CmqAY3aUiR4Nx"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY5Bk9A7DQCMmIcQ_description",
+                "current": "The Gunslinger make a ranged weapon attack.",
+                "max": "",
+                "id": "-MkPkY5DbijyK1f4leeC"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY5Bk9A7DQCMmIcQ_attack_tohitrange",
+                "current": "+0",
+                "max": "",
+                "id": "-MkPkY5Eb8s7XsuIDL1_"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY5Bk9A7DQCMmIcQ_attack_onhit",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY5Eb8s7XsuIDL1a"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY5Bk9A7DQCMmIcQ_damage_flag",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY5FkawyrEJtpvfe"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY5Bk9A7DQCMmIcQ_attack_crit",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY5Gu5FWjgZRIW3d"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY5Bk9A7DQCMmIcQ_attack_crit2",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY5HSAavs_Eg_JkY"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY5Bk9A7DQCMmIcQ_rollbase",
+                "current": "@{wtype}&{template:npcaction} @{npc_name_flag} {{rname=@{name}}} {{description=@{show_desc}}} @{charname_output}",
+                "max": "",
+                "id": "-MkPkY5HSAavs_Eg_JkZ"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY5JzGn7dufKOgh1_name",
+                "current": "Spell ( 2 actions)",
+                "max": "",
+                "id": "-MkPkY5JzGn7dufKOgh2"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY5JzGn7dufKOgh1_npc_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkY5K9r62WxXwmBFy"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY5JzGn7dufKOgh1_description",
+                "current": "The gunslinger cast a spell",
+                "max": "",
+                "id": "-MkPkY5L65US7hbo-UY3"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY5JzGn7dufKOgh1_attack_tohitrange",
+                "current": "+0",
+                "max": "",
+                "id": "-MkPkY5Mcj4v9GO98epd"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY5JzGn7dufKOgh1_attack_onhit",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY5Mcj4v9GO98epe"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY5JzGn7dufKOgh1_damage_flag",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY5NJOTFWLixfzFc"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY5JzGn7dufKOgh1_attack_crit",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY5Ov5CzrLEOpmUT"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY5JzGn7dufKOgh1_attack_crit2",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY5Ov5CzrLEOpmUU"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY5JzGn7dufKOgh1_rollbase",
+                "current": "@{wtype}&{template:npcaction} @{npc_name_flag} {{rname=@{name}}} {{description=@{show_desc}}} @{charname_output}",
+                "max": "",
+                "id": "-MkPkY5PhwcPTkd4169v"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY5QZHiV5wjPIl3p_name",
+                "current": "It's High Noon (If the skill is loaded) (3 actions)",
+                "max": "",
+                "id": "-MkPkY5QZHiV5wjPIl3q"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY5QZHiV5wjPIl3p_npc_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkY5R-4UoatdJHl4t"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY5QZHiV5wjPIl3p_description",
+                "current": "The gunslinger gives up all his moves to lock the crosshairs on a target. The gunslinger's next attack is considered a critical hit.",
+                "max": "",
+                "id": "-MkPkY5SPDfXerLCRm6J"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY5QZHiV5wjPIl3p_attack_tohitrange",
+                "current": "+0",
+                "max": "",
+                "id": "-MkPkY5SPDfXerLCRm6K"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY5QZHiV5wjPIl3p_attack_onhit",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY5TJg1YgrVY65rt"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY5QZHiV5wjPIl3p_damage_flag",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY5UjSYeDDrgeNVq"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY5QZHiV5wjPIl3p_attack_crit",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY5UjSYeDDrgeNVr"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY5QZHiV5wjPIl3p_attack_crit2",
+                "current": "",
+                "max": "",
+                "id": "-MkPkY5V6DZC_MLyr4xv"
+            },
+            {
+                "name": "repeating_npcaction-l_-MkPkY5QZHiV5wjPIl3p_rollbase",
+                "current": "@{wtype}&{template:npcaction} @{npc_name_flag} {{rname=@{name}}} {{description=@{show_desc}}} @{charname_output}",
+                "max": "",
+                "id": "-MkPkY5WZZijxSDmpmt-"
+            },
+            {
+                "name": "spell_save_dc",
+                "current": 24,
+                "max": "",
+                "id": "-MkPkY9JiCIed_TVwJd9"
+            },
+            {
+                "name": "lvl1_slots_total",
+                "current": 0,
+                "max": "",
+                "id": "-MkPkY9K7AjZAtY3libR"
+            },
+            {
+                "name": "lvl2_slots_total",
+                "current": 0,
+                "max": "",
+                "id": "-MkPkY9LX-H0BPGKtF57"
+            },
+            {
+                "name": "lvl3_slots_total",
+                "current": 0,
+                "max": "",
+                "id": "-MkPkY9MCNN1GTA4TNQz"
+            },
+            {
+                "name": "lvl4_slots_total",
+                "current": 0,
+                "max": "",
+                "id": "-MkPkY9NpV119T0xNeCZ"
+            },
+            {
+                "name": "lvl5_slots_total",
+                "current": 0,
+                "max": "",
+                "id": "-MkPkY9OAdtA_aR6VMkH"
+            },
+            {
+                "name": "lvl6_slots_total",
+                "current": 0,
+                "max": "",
+                "id": "-MkPkY9P1P369irJkUKY"
+            },
+            {
+                "name": "lvl7_slots_total",
+                "current": 0,
+                "max": "",
+                "id": "-MkPkY9Qb2BZg282C3ne"
+            },
+            {
+                "name": "lvl8_slots_total",
+                "current": 0,
+                "max": "",
+                "id": "-MkPkY9RlSQa2uVl7cCD"
+            },
+            {
+                "name": "lvl9_slots_total",
+                "current": 0,
+                "max": "",
+                "id": "-MkPkY9Sl6rFhnG5QSnB"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkY9XOZ425Zvj2KV9_spelllevel",
+                "current": "1",
+                "max": "",
+                "id": "-MkPkY9XO_425Zvj2KVA"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkY9XOZ425Zvj2KV9_spell_ability",
+                "current": "spell",
+                "max": "",
+                "id": "-MkPkY9YrrxND9-8CwGP"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkY9XOZ425Zvj2KV9_spellname",
+                "current": "Fog Cloud",
+                "max": "",
+                "id": "-MkPkY9Zg-z89jZBpx8w"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkY9XOZ425Zvj2KV9_spellschool",
+                "current": "conjuration",
+                "max": "",
+                "id": "-MkPkY9Zg-z89jZBpx8x"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkY9XOZ425Zvj2KV9_spellcastingtime",
+                "current": "1 action",
+                "max": "",
+                "id": "-MkPkY9_YNat1NcIDsLP"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkY9XOZ425Zvj2KV9_spellrange",
+                "current": "120 feet",
+                "max": "",
+                "id": "-MkPkY9a0CFofzLlU8SN"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkY9XOZ425Zvj2KV9_spellcomp_m",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkY9a0CFofzLlU8SO"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkY9XOZ425Zvj2KV9_spellconcentration",
+                "current": "{{concentration=1}}",
+                "max": "",
+                "id": "-MkPkY9bOMHK2Rad5CXY"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkY9XOZ425Zvj2KV9_spellduration",
+                "current": "up to 1 hour",
+                "max": "",
+                "id": "-MkPkY9cKqItSv9WDfIN"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkY9XOZ425Zvj2KV9_rollcontent",
+                "current": "@{wtype}&{template:spell} {{level=@{spellschool} ?{Cast at what level?|Level 1,1|Level 2,2|Level 3,3|Level 4,4|Level 5,5|Level 6,6|Level 7,7|Level 8,8|Level 9,9}}} {{name=@{spellname}}} {{castingtime=@{spellcastingtime}}} {{range=@{spellrange}}} {{target=@{spelltarget}}} @{spellcomp_v} @{spellcomp_s} @{spellcomp_m} {{material=@{spellcomp_materials}}} {{duration=@{spellduration}}} {{description=@{spelldescription}}} {{athigherlevels=@{spellathigherlevels}}} @{spellritual} {{innate=@{innate}}} @{spellconcentration} @{charname_output}",
+                "max": "",
+                "id": "-MkPkY9d-CjgMa1ahfiQ"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkY9XOZ425Zvj2KV9_spellathigherlevels",
+                "current": "When you cast this spell using a spell slot of 2nd level or higher, the radius of the fog increases by 20 feet for each slot level above 1st.",
+                "max": "",
+                "id": "-MkPkY9d-CjgMa1ahfiR"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkY9XOZ425Zvj2KV9_spelldescription",
+                "current": "You create a 20-foot-radius sphere of fog centered on a point within range. The sphere spreads around corners, and its area is heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.",
+                "max": "",
+                "id": "-MkPkY9e1RXV88Ujzu8e"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkY9XOZ425Zvj2KV9_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkY9fGewfjyDBDoSU"
+            },
+            {
+                "name": "repeating_spell-3_-MkPkY9j2FKzb8vMr7Zo_spelllevel",
+                "current": "3",
+                "max": "",
+                "id": "-MkPkY9j2FKzb8vMr7_p"
+            },
+            {
+                "name": "repeating_spell-3_-MkPkY9j2FKzb8vMr7Zo_spell_ability",
+                "current": "spell",
+                "max": "",
+                "id": "-MkPkY9kVTWmkXOX9OSY"
+            },
+            {
+                "name": "repeating_spell-3_-MkPkY9j2FKzb8vMr7Zo_spellname",
+                "current": "Major Image",
+                "max": "",
+                "id": "-MkPkY9loKIepvfPUZJk"
+            },
+            {
+                "name": "repeating_spell-3_-MkPkY9j2FKzb8vMr7Zo_spellschool",
+                "current": "illusion",
+                "max": "",
+                "id": "-MkPkY9maaeJ_YzP-Z_-"
+            },
+            {
+                "name": "repeating_spell-3_-MkPkY9j2FKzb8vMr7Zo_spellcastingtime",
+                "current": "1 action",
+                "max": "",
+                "id": "-MkPkY9maaeJ_YzP-Z_0"
+            },
+            {
+                "name": "repeating_spell-3_-MkPkY9j2FKzb8vMr7Zo_spellrange",
+                "current": "120 feet",
+                "max": "",
+                "id": "-MkPkY9nVxQ0t8y-a60m"
+            },
+            {
+                "name": "repeating_spell-3_-MkPkY9j2FKzb8vMr7Zo_spellcomp_materials",
+                "current": "a bit of fleece",
+                "max": "",
+                "id": "-MkPkY9oAgB55yQo-epF"
+            },
+            {
+                "name": "repeating_spell-3_-MkPkY9j2FKzb8vMr7Zo_spellconcentration",
+                "current": "{{concentration=1}}",
+                "max": "",
+                "id": "-MkPkY9oAgB55yQo-epG"
+            },
+            {
+                "name": "repeating_spell-3_-MkPkY9j2FKzb8vMr7Zo_spellduration",
+                "current": "up to 10 minutes",
+                "max": "",
+                "id": "-MkPkY9pIIuMtHH_gavV"
+            },
+            {
+                "name": "repeating_spell-3_-MkPkY9j2FKzb8vMr7Zo_rollcontent",
+                "current": "@{wtype}&{template:spell} {{level=@{spellschool} ?{Cast at what level?|Level 3,3|Level 4,4|Level 5,5|Level 6,6|Level 7,7|Level 8,8|Level 9,9}}} {{name=@{spellname}}} {{castingtime=@{spellcastingtime}}} {{range=@{spellrange}}} {{target=@{spelltarget}}} @{spellcomp_v} @{spellcomp_s} @{spellcomp_m} {{material=@{spellcomp_materials}}} {{duration=@{spellduration}}} {{description=@{spelldescription}}} {{athigherlevels=@{spellathigherlevels}}} @{spellritual} {{innate=@{innate}}} @{spellconcentration} @{charname_output}",
+                "max": "",
+                "id": "-MkPkY9q7IGdTLJnPxP7"
+            },
+            {
+                "name": "repeating_spell-3_-MkPkY9j2FKzb8vMr7Zo_spellathigherlevels",
+                "current": "When you cast this spell using a spell slot of 6th level or higher, the spell lasts until dispelled, without requiring your concentration.",
+                "max": "",
+                "id": "-MkPkY9q7IGdTLJnPxP8"
+            },
+            {
+                "name": "repeating_spell-3_-MkPkY9j2FKzb8vMr7Zo_spelldescription",
+                "current": "You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 20-foot cube. The image appears at a spot that you can see within range and lasts for the duration. It seems completely real, including sounds, smells, and temperature appropriate to the thing depicted. You can't create sufficient heat or cold to cause damage, a sound loud enough to deal thunder damage or deafen a creature, or a smell that might sicken a creature (like a troglodyte's stench).\n\nAs long as you are within range of the illusion, you can use your action to cause the image to move to any other spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking. Similarly, you can cause the illusion to make different sounds at different times, even making it carry on a conversation, for example.\n\nPhysical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature.",
+                "max": "",
+                "id": "-MkPkY9rKdez2kT1anAN"
+            },
+            {
+                "name": "repeating_spell-3_-MkPkY9j2FKzb8vMr7Zo_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkY9sZg2fNYy9v_0J"
+            },
+            {
+                "name": "repeating_spell-5_-MkPkY9tDHypSz1pfUOj_spelllevel",
+                "current": "5",
+                "max": "",
+                "id": "-MkPkY9tDHypSz1pfUOk"
+            },
+            {
+                "name": "repeating_spell-5_-MkPkY9tDHypSz1pfUOj_spell_ability",
+                "current": "spell",
+                "max": "",
+                "id": "-MkPkY9uutQgpUSBebt9"
+            },
+            {
+                "name": "repeating_spell-5_-MkPkY9tDHypSz1pfUOj_spellname",
+                "current": "Swift Quiver",
+                "max": "",
+                "id": "-MkPkY9vxsqsqXR20-6n"
+            },
+            {
+                "name": "repeating_spell-5_-MkPkY9tDHypSz1pfUOj_spellschool",
+                "current": "transmutation",
+                "max": "",
+                "id": "-MkPkY9wwwQguPBvxWf-"
+            },
+            {
+                "name": "repeating_spell-5_-MkPkY9tDHypSz1pfUOj_spellcastingtime",
+                "current": "1 bonus action",
+                "max": "",
+                "id": "-MkPkY9wwwQguPBvxWf0"
+            },
+            {
+                "name": "repeating_spell-5_-MkPkY9tDHypSz1pfUOj_spellrange",
+                "current": "Touch",
+                "max": "",
+                "id": "-MkPkY9x2dQYpUbyjACk"
+            },
+            {
+                "name": "repeating_spell-5_-MkPkY9tDHypSz1pfUOj_spellcomp_materials",
+                "current": "a quiver containing at least one piece of ammunition",
+                "max": "",
+                "id": "-MkPkY9yUoASXTTUogt0"
+            },
+            {
+                "name": "repeating_spell-5_-MkPkY9tDHypSz1pfUOj_spellconcentration",
+                "current": "{{concentration=1}}",
+                "max": "",
+                "id": "-MkPkY9yUoASXTTUogt1"
+            },
+            {
+                "name": "repeating_spell-5_-MkPkY9tDHypSz1pfUOj_spellduration",
+                "current": "up to 1 minute",
+                "max": "",
+                "id": "-MkPkY9zFOwyeOC_R4M8"
+            },
+            {
+                "name": "repeating_spell-5_-MkPkY9tDHypSz1pfUOj_spelldescription",
+                "current": "You transmute your quiver so it produces an endless supply of nonmagical ammunition, which seems to leap into your hand when you reach for it.\n\nOn each of your turns until the spell ends, you can use a bonus action to make two attacks with a weapon that uses ammunition from the quiver. Each time you make such a ranged attack, your quiver magically replaces the piece of ammunition you used with a similar piece of nonmagical ammunition. Any pieces of ammunition created by this spell disintegrate when the spell ends. If the quiver leaves your possession, the spell ends.",
+                "max": "",
+                "id": "-MkPkYA-AaaRRgey_t8M"
+            },
+            {
+                "name": "repeating_spell-5_-MkPkY9tDHypSz1pfUOj_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkYA0dycpul9kod5f"
+            },
+            {
+                "name": "repeating_spell-2_-MkPkYA2w1ETH1r0lbIh_spelllevel",
+                "current": "2",
+                "max": "",
+                "id": "-MkPkYA2w1ETH1r0lbIi"
+            },
+            {
+                "name": "repeating_spell-2_-MkPkYA2w1ETH1r0lbIh_spell_ability",
+                "current": "spell",
+                "max": "",
+                "id": "-MkPkYA3_R2_Fud75SBK"
+            },
+            {
+                "name": "repeating_spell-2_-MkPkYA2w1ETH1r0lbIh_spellname",
+                "current": "Wristpocket",
+                "max": "",
+                "id": "-MkPkYA4f_SEaS9DlAI1"
+            },
+            {
+                "name": "repeating_spell-2_-MkPkYA2w1ETH1r0lbIh_spellritual",
+                "current": "{{ritual=1}}",
+                "max": "",
+                "id": "-MkPkYA4f_SEaS9DlAI2"
+            },
+            {
+                "name": "repeating_spell-2_-MkPkYA2w1ETH1r0lbIh_spellschool",
+                "current": "conjuration",
+                "max": "",
+                "id": "-MkPkYA5_wXvaKBbFR8d"
+            },
+            {
+                "name": "repeating_spell-2_-MkPkYA2w1ETH1r0lbIh_spellcastingtime",
+                "current": "1 action",
+                "max": "",
+                "id": "-MkPkYA6wJ_gPUp-Nnps"
+            },
+            {
+                "name": "repeating_spell-2_-MkPkYA2w1ETH1r0lbIh_spellrange",
+                "current": "Self",
+                "max": "",
+                "id": "-MkPkYA6wJ_gPUp-Nnpt"
+            },
+            {
+                "name": "repeating_spell-2_-MkPkYA2w1ETH1r0lbIh_spellcomp_v",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkYA7KeCewQHQtUpm"
+            },
+            {
+                "name": "repeating_spell-2_-MkPkYA2w1ETH1r0lbIh_spellcomp_m",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkYA8yz7R_t--B3MN"
+            },
+            {
+                "name": "repeating_spell-2_-MkPkYA2w1ETH1r0lbIh_spellconcentration",
+                "current": "{{concentration=1}}",
+                "max": "",
+                "id": "-MkPkYA8yz7R_t--B3MO"
+            },
+            {
+                "name": "repeating_spell-2_-MkPkYA2w1ETH1r0lbIh_spellduration",
+                "current": "up to 1 hour",
+                "max": "",
+                "id": "-MkPkYA9QhKTrwbWcCh_"
+            },
+            {
+                "name": "repeating_spell-2_-MkPkYA2w1ETH1r0lbIh_spelldescription",
+                "current": "You flick your wrist, causing one object in your hand to vanish. The object, which only you can be holding and can weigh no more than 5 pounds, is transported to an extradimensional space, where it remains for the duration.\n\nUntil the spell ends, you can use your action to summon the object to your free hand, and you can use your action to return the object to the extradimensional space. An object still in the pocket plane when the spell ends appears in your space, at your feet.",
+                "max": "",
+                "id": "-MkPkYAAc95wcjXeydBe"
+            },
+            {
+                "name": "repeating_spell-2_-MkPkYA2w1ETH1r0lbIh_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkYAAc95wcjXeydBf"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkYAEuLHP9nDGPtCb_spelllevel",
+                "current": "1",
+                "max": "",
+                "id": "-MkPkYAEuLHP9nDGPtCc"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkYAEuLHP9nDGPtCb_spell_ability",
+                "current": "spell",
+                "max": "",
+                "id": "-MkPkYAF_PmROWNYvlQy"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkYAEuLHP9nDGPtCb_spellname",
+                "current": "Hunter's Mark",
+                "max": "",
+                "id": "-MkPkYAG99ElP8H8RjvH"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkYAEuLHP9nDGPtCb_spellschool",
+                "current": "divination",
+                "max": "",
+                "id": "-MkPkYAHIKqVf7jWbcIh"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkYAEuLHP9nDGPtCb_spellcastingtime",
+                "current": "1 bonus action",
+                "max": "",
+                "id": "-MkPkYAI4jVt6zYQ8o4_"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkYAEuLHP9nDGPtCb_spellrange",
+                "current": "90 feet",
+                "max": "",
+                "id": "-MkPkYAI4jVt6zYQ8o4a"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkYAEuLHP9nDGPtCb_spellcomp_s",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkYAJSl6pQScr5v5u"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkYAEuLHP9nDGPtCb_spellcomp_m",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkYAKG9-xiogkIei3"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkYAEuLHP9nDGPtCb_spellconcentration",
+                "current": "{{concentration=1}}",
+                "max": "",
+                "id": "-MkPkYAKG9-xiogkIei4"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkYAEuLHP9nDGPtCb_spellduration",
+                "current": "up to 1 hour",
+                "max": "",
+                "id": "-MkPkYALsfjO5S_3vUvq"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkYAEuLHP9nDGPtCb_spelloutput",
+                "current": "ATTACK",
+                "max": "",
+                "id": "-MkPkYAMVD2JixogVYKl"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkYAEuLHP9nDGPtCb_spelldamage",
+                "current": "1d6",
+                "max": "",
+                "id": "-MkPkYANXoa_I2Jyu6Hf"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkYAEuLHP9nDGPtCb_spellathigherlevels",
+                "current": "When you cast this spell using a spell slot of 3rd or 4th level, you can maintain your concentration on the spell for up to 8 hours. When you use a spell slot of 5th level or higher, you can maintain your concentration on the spell for up to 24 hours.",
+                "max": "",
+                "id": "-MkPkYAOYJ-mksZlK-FI"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkYAEuLHP9nDGPtCb_spelldescription",
+                "current": "You choose a creature you can see within range and mystically mark it as your quarry. Until the spell ends, you deal an extra [[1d6]] damage to the target whenever you hit it with a weapon attack, and you have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it. If the target drops to 0 hit points before this spell ends, you can use a bonus action on a subsequent turn of yours to mark a new creature.",
+                "max": "",
+                "id": "-MkPkYAOYJ-mksZlK-FJ"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkYAEuLHP9nDGPtCb_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkYAPDdFF-_66j5I-"
+            },
+            {
+                "name": "repeating_attack_-MkPkYAQeZmferQwDZYl_atkattr_base",
+                "current": "spell",
+                "max": "",
+                "id": "-MkPkYAR4WhOkmLm6LFS"
+            },
+            {
+                "name": "repeating_attack_-MkPkYAQeZmferQwDZYl_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkYASalZvSnchP7te"
+            },
+            {
+                "name": "repeating_attack_-MkPkYAQeZmferQwDZYl_spellid",
+                "current": "-mkpkyaeulhp9ndgptcb",
+                "max": "",
+                "id": "-MkPkYATh2fFOWp-W5Vu"
+            },
+            {
+                "name": "repeating_attack_-MkPkYAQeZmferQwDZYl_spelllevel",
+                "current": "1",
+                "max": "",
+                "id": "-MkPkYATh2fFOWp-W5Vv"
+            },
+            {
+                "name": "repeating_attack_-MkPkYAQeZmferQwDZYl_savedc",
+                "current": "(@{spell_save_dc})",
+                "max": "",
+                "id": "-MkPkYAUv7YUATg9VBmE"
+            },
+            {
+                "name": "repeating_attack_-MkPkYAQeZmferQwDZYl_atkname",
+                "current": "Hunter's Mark",
+                "max": "",
+                "id": "-MkPkYAVn84_EpG6fYxL"
+            },
+            {
+                "name": "repeating_attack_-MkPkYAQeZmferQwDZYl_atkflag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkYAVn84_EpG6fYxM"
+            },
+            {
+                "name": "repeating_attack_-MkPkYAQeZmferQwDZYl_dmgflag",
+                "current": "{{damage=1}} {{dmg1flag=1}}",
+                "max": "",
+                "id": "-MkPkYAWFkpE9pEoun2-"
+            },
+            {
+                "name": "repeating_attack_-MkPkYAQeZmferQwDZYl_dmgbase",
+                "current": "1d6",
+                "max": "",
+                "id": "-MkPkYAYRok25DPr0dwb"
+            },
+            {
+                "name": "repeating_attack_-MkPkYAQeZmferQwDZYl_dmgcustcrit",
+                "current": "",
+                "max": "",
+                "id": "-MkPkYAZD8N6I3qZOyKN"
+            },
+            {
+                "name": "repeating_attack_-MkPkYAQeZmferQwDZYl_dmgattr",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkYA_QQMoU6fwxpwJ"
+            },
+            {
+                "name": "repeating_attack_-MkPkYAQeZmferQwDZYl_dmgtype",
+                "current": "",
+                "max": "",
+                "id": "-MkPkYA_QQMoU6fwxpwK"
+            },
+            {
+                "name": "repeating_attack_-MkPkYAQeZmferQwDZYl_dmg2base",
+                "current": "",
+                "max": "",
+                "id": "-MkPkYAaCUzEKWRIJTcl"
+            },
+            {
+                "name": "repeating_attack_-MkPkYAQeZmferQwDZYl_dmg2attr",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkYAbc8LVCHOYjLhU"
+            },
+            {
+                "name": "repeating_attack_-MkPkYAQeZmferQwDZYl_dmg2flag",
+                "current": 0,
+                "max": "",
+                "id": "-MkPkYAbc8LVCHOYjLhV"
+            },
+            {
+                "name": "repeating_attack_-MkPkYAQeZmferQwDZYl_dmg2type",
+                "current": "",
+                "max": "",
+                "id": "-MkPkYAcOhlCfKJnMIn1"
+            },
+            {
+                "name": "repeating_attack_-MkPkYAQeZmferQwDZYl_atkrange",
+                "current": "90 feet",
+                "max": "",
+                "id": "-MkPkYAdpXwgbODSz03P"
+            },
+            {
+                "name": "repeating_attack_-MkPkYAQeZmferQwDZYl_saveflag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkYAdpXwgbODSz03Q"
+            },
+            {
+                "name": "repeating_attack_-MkPkYAQeZmferQwDZYl_saveeffect",
+                "current": "",
+                "max": "",
+                "id": "-MkPkYAefxUfm4fXChGy"
+            },
+            {
+                "name": "repeating_attack_-MkPkYAQeZmferQwDZYl_hldmg",
+                "current": "",
+                "max": "",
+                "id": "-MkPkYAfew29Qeab215N"
+            },
+            {
+                "name": "repeating_attack_-MkPkYAQeZmferQwDZYl_spell_innate",
+                "current": "",
+                "max": "",
+                "id": "-MkPkYAfew29Qeab215O"
+            },
+            {
+                "name": "repeating_attack_-MkPkYAQeZmferQwDZYl_atk_desc",
+                "current": "",
+                "max": "",
+                "id": "-MkPkYAg4sZP85sdmvY2"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkYAEuLHP9nDGPtCb_spellattackid",
+                "current": "-MkPkYAQeZmferQwDZYl",
+                "max": "",
+                "id": "-MkPkYAg4sZP85sdmvY3"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkYAEuLHP9nDGPtCb_rollcontent",
+                "current": "%{-MkPkXxkobLdxxUT1WFp|repeating_attack_-MkPkYAQeZmferQwDZYl_attack}",
+                "max": "",
+                "id": "-MkPkYAh-lYXSGIurCHJ"
+            },
+            {
+                "name": "repeating_spell-4_-MkPkYAl--mVvm6hAzka_spelllevel",
+                "current": "4",
+                "max": "",
+                "id": "-MkPkYAl--mVvm6hAzkb"
+            },
+            {
+                "name": "repeating_spell-4_-MkPkYAl--mVvm6hAzka_spell_ability",
+                "current": "spell",
+                "max": "",
+                "id": "-MkPkYAm9LRMlnV0oKiD"
+            },
+            {
+                "name": "repeating_spell-4_-MkPkYAl--mVvm6hAzka_spellname",
+                "current": "Locate Creature",
+                "max": "",
+                "id": "-MkPkYAm9LRMlnV0oKiE"
+            },
+            {
+                "name": "repeating_spell-4_-MkPkYAl--mVvm6hAzka_spellschool",
+                "current": "divination",
+                "max": "",
+                "id": "-MkPkYAnCaIihZMx1WOH"
+            },
+            {
+                "name": "repeating_spell-4_-MkPkYAl--mVvm6hAzka_spellcastingtime",
+                "current": "1 action",
+                "max": "",
+                "id": "-MkPkYAoazG76XzPXXTr"
+            },
+            {
+                "name": "repeating_spell-4_-MkPkYAl--mVvm6hAzka_spellrange",
+                "current": "Self",
+                "max": "",
+                "id": "-MkPkYApKmirB8s6otlW"
+            },
+            {
+                "name": "repeating_spell-4_-MkPkYAl--mVvm6hAzka_spellcomp_materials",
+                "current": "a bit of fur from a bloodhound",
+                "max": "",
+                "id": "-MkPkYAs5M1rJflrazPJ"
+            },
+            {
+                "name": "repeating_spell-4_-MkPkYAl--mVvm6hAzka_spellconcentration",
+                "current": "{{concentration=1}}",
+                "max": "",
+                "id": "-MkPkYAtCdGOnNEIsSOk"
+            },
+            {
+                "name": "repeating_spell-4_-MkPkYAl--mVvm6hAzka_spellduration",
+                "current": "up to 1 hour",
+                "max": "",
+                "id": "-MkPkYAtCdGOnNEIsSOl"
+            },
+            {
+                "name": "repeating_spell-4_-MkPkYAl--mVvm6hAzka_spelldescription",
+                "current": "Describe or name a creature that is familiar to you. You sense the direction to the creature's location, as long as that creature is within 1,000 feet of you. If the creature is moving, you know the direction of its movement.\n\nThe spell can locate a specific creature known to you, or the nearest creature of a specific kind (such as a human or a unicorn), so long as you have seen such a creature up close—within 30 feet—at least once. If the creature you described or named is in a different form, such as being under the effects of a polymorph spell, this spell doesn't locate the creature.\n\nThis spell can't locate a creature if running water at least 10 feet wide blocks a direct path between you and the creature.",
+                "max": "",
+                "id": "-MkPkYAuFUPpf1RucYCn"
+            },
+            {
+                "name": "repeating_spell-4_-MkPkYAl--mVvm6hAzka_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkYAv20h0BEeQbIz5"
+            },
+            {
+                "name": "repeating_spell-4_-MkPkYB-5zqLRHp5SVAo_spelllevel",
+                "current": "4",
+                "max": "",
+                "id": "-MkPkYB-5zqLRHp5SVAp"
+            },
+            {
+                "name": "repeating_spell-4_-MkPkYB-5zqLRHp5SVAo_spell_ability",
+                "current": "spell",
+                "max": "",
+                "id": "-MkPkYB0ruFSgG5Gus4C"
+            },
+            {
+                "name": "repeating_spell-4_-MkPkYB-5zqLRHp5SVAo_spellname",
+                "current": "Freedom of Movement",
+                "max": "",
+                "id": "-MkPkYB1Un0VDuZr_N0N"
+            },
+            {
+                "name": "repeating_spell-4_-MkPkYB-5zqLRHp5SVAo_spellschool",
+                "current": "abjuration",
+                "max": "",
+                "id": "-MkPkYB2E8uNNHTeCpHe"
+            },
+            {
+                "name": "repeating_spell-4_-MkPkYB-5zqLRHp5SVAo_spellcastingtime",
+                "current": "1 action",
+                "max": "",
+                "id": "-MkPkYB3My6A-fLuBy6B"
+            },
+            {
+                "name": "repeating_spell-4_-MkPkYB-5zqLRHp5SVAo_spellrange",
+                "current": "Touch",
+                "max": "",
+                "id": "-MkPkYB4mFHMDJpRcdFl"
+            },
+            {
+                "name": "repeating_spell-4_-MkPkYB-5zqLRHp5SVAo_spellcomp_materials",
+                "current": "a leather strap, bound around the arm or a similar appendage",
+                "max": "",
+                "id": "-MkPkYB5jo5Jfw3NbHX_"
+            },
+            {
+                "name": "repeating_spell-4_-MkPkYB-5zqLRHp5SVAo_spellduration",
+                "current": "1 hour",
+                "max": "",
+                "id": "-MkPkYB6cs29Z1Y5p7iB"
+            },
+            {
+                "name": "repeating_spell-4_-MkPkYB-5zqLRHp5SVAo_spelldescription",
+                "current": "You touch a willing creature. For the duration, the target's movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce the target's speed nor cause the target to be paralyzed or restrained.\n\nThe target can also spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has it grappled. Finally, being underwater imposes no penalties on the target's movement or attacks.",
+                "max": "",
+                "id": "-MkPkYB6cs29Z1Y5p7iC"
+            },
+            {
+                "name": "repeating_spell-4_-MkPkYB-5zqLRHp5SVAo_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkYB7UqXidqEUjj5g"
+            },
+            {
+                "name": "repeating_spell-5_-MkPkYBAJTiANnNQxoZZ_spelllevel",
+                "current": "5",
+                "max": "",
+                "id": "-MkPkYBAJTiANnNQxoZ_"
+            },
+            {
+                "name": "repeating_spell-5_-MkPkYBAJTiANnNQxoZZ_spell_ability",
+                "current": "spell",
+                "max": "",
+                "id": "-MkPkYBBwuDcNXIF4pvZ"
+            },
+            {
+                "name": "repeating_spell-5_-MkPkYBAJTiANnNQxoZZ_spellname",
+                "current": "Mislead",
+                "max": "",
+                "id": "-MkPkYBCzDVFl1lSr3_5"
+            },
+            {
+                "name": "repeating_spell-5_-MkPkYBAJTiANnNQxoZZ_spellschool",
+                "current": "illusion",
+                "max": "",
+                "id": "-MkPkYBD5hSurBGGg3MZ"
+            },
+            {
+                "name": "repeating_spell-5_-MkPkYBAJTiANnNQxoZZ_spellcastingtime",
+                "current": "1 action",
+                "max": "",
+                "id": "-MkPkYBD5hSurBGGg3M_"
+            },
+            {
+                "name": "repeating_spell-5_-MkPkYBAJTiANnNQxoZZ_spellrange",
+                "current": "Self",
+                "max": "",
+                "id": "-MkPkYBEPaAZOfc8rwNz"
+            },
+            {
+                "name": "repeating_spell-5_-MkPkYBAJTiANnNQxoZZ_spellcomp_v",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkYBF6_IiP-LSXue2"
+            },
+            {
+                "name": "repeating_spell-5_-MkPkYBAJTiANnNQxoZZ_spellcomp_m",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkYBGxt8b0o-BnNq3"
+            },
+            {
+                "name": "repeating_spell-5_-MkPkYBAJTiANnNQxoZZ_spellconcentration",
+                "current": "{{concentration=1}}",
+                "max": "",
+                "id": "-MkPkYBH0du8dSG2M9Ip"
+            },
+            {
+                "name": "repeating_spell-5_-MkPkYBAJTiANnNQxoZZ_spellduration",
+                "current": "up to 1 hour",
+                "max": "",
+                "id": "-MkPkYBH0du8dSG2M9Iq"
+            },
+            {
+                "name": "repeating_spell-5_-MkPkYBAJTiANnNQxoZZ_spelldescription",
+                "current": "You become invisible at the same time that an illusory double of you appears where you are standing. The double lasts for the duration, but the invisibility ends if you attack or cast a spell.\n\nYou can use your action to move your illusory double up to twice your speed and make it gesture, speak, and behave in whatever way you choose.\n\nYou can see through its eyes and hear through its ears as if you were located where it is. On each of your turns as a bonus action, you can switch from using its senses to using your own, or back again. While you are using its senses, you are blinded and deafened in regard to your own surroundings.",
+                "max": "",
+                "id": "-MkPkYBImszMjuCKCLds"
+            },
+            {
+                "name": "repeating_spell-5_-MkPkYBAJTiANnNQxoZZ_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkYBJFDexr6a4PbbG"
+            },
+            {
+                "name": "repeating_spell-7_-MkPkYBPTnWL6xV3v78q_spelllevel",
+                "current": "7",
+                "max": "",
+                "id": "-MkPkYBPTnWL6xV3v78r"
+            },
+            {
+                "name": "repeating_spell-7_-MkPkYBPTnWL6xV3v78q_spell_ability",
+                "current": "spell",
+                "max": "",
+                "id": "-MkPkYBQtrETD4kpIWR9"
+            },
+            {
+                "name": "repeating_spell-7_-MkPkYBPTnWL6xV3v78q_spellname",
+                "current": "Teleport",
+                "max": "",
+                "id": "-MkPkYBRF1Tooq6NpKmg"
+            },
+            {
+                "name": "repeating_spell-7_-MkPkYBPTnWL6xV3v78q_spellschool",
+                "current": "conjuration",
+                "max": "",
+                "id": "-MkPkYBRF1Tooq6NpKmh"
+            },
+            {
+                "name": "repeating_spell-7_-MkPkYBPTnWL6xV3v78q_spellcastingtime",
+                "current": "1 action",
+                "max": "",
+                "id": "-MkPkYBSICnDOXKXrsO1"
+            },
+            {
+                "name": "repeating_spell-7_-MkPkYBPTnWL6xV3v78q_spellrange",
+                "current": "10 feet",
+                "max": "",
+                "id": "-MkPkYBTCZ5nWuCopYwp"
+            },
+            {
+                "name": "repeating_spell-7_-MkPkYBPTnWL6xV3v78q_spellcomp_s",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkYBTCZ5nWuCopYwq"
+            },
+            {
+                "name": "repeating_spell-7_-MkPkYBPTnWL6xV3v78q_spellcomp_m",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkYBU3dtW7tOvGeuj"
+            },
+            {
+                "name": "repeating_spell-7_-MkPkYBPTnWL6xV3v78q_spellduration",
+                "current": "Instantaneous",
+                "max": "",
+                "id": "-MkPkYBV9Ao-djM-S_ih"
+            },
+            {
+                "name": "repeating_spell-7_-MkPkYBPTnWL6xV3v78q_spelldescription",
+                "current": "This spell instantly transports you and up to eight willing creatures of your choice that you can see within range, or a single object that you can see within range, to a destination you select. If you target an object, it must be able to fit entirely inside a 10-foot cube, and it can't be held or carried by an unwilling creature.\n\nThe destination you choose must be known to you, and it must be on the same plane of existence as you. Your familiarity with the destination determines whether you arrive there successfully. The DM rolls [[d100]] and consults the table.\n\nTeleportationFamiliarity | Mishap | Similar Area | Off Target | On Target | \nPermanent circle | — | — | — | 01–100 | \nAssociated object | — | — | — | 01–100 | \nVery familiar | 01–05 | 06–13 | 14–24 | 25–100 | \nSeen casually | 01–33 | 34–43 | 44–53 | 54–100 | \nViewed once | 01–43 | 44–53 | 54–73 | 74–100 | \nDescription | 01–43 | 44–53 | 54–73 | 74–100 | \nFalse destination | 01–50 | 51–100 | — | — | \nFamiliarity. \"Permanent circle\" means a permanent teleportation circle whose sigil sequence you know. \"Associated object\" means that you possess an object taken from the desired destination within the last six months, such as a book from a wizard's library, bed linen from a royal suite, or a chunk of marble from a lich's secret tomb.\n\n\"Very familiar\" is a place you have been very often, a place you have carefully studied, or a place you can see when you cast the spell. \"Seen casually\" is someplace you have seen more than once but with which you aren't very familiar. \"Viewed once\" is a place you have seen once, possibly using magic. \"Description\" is a place whose location and appearance you know through someone else's description, perhaps from a map.\n\n\"False destination\" is a place that doesn't exist. Perhaps you tried to scry an enemy's sanctum but instead viewed an illusion, or you are attempting to teleport to a familiar location that no longer exists.\n\nOn Target. You and your group (or the target object) appear where you want to.\n\nOff Target. You and your group (or the target object) appear a random distance away from the destination in a random direction. Distance off target is [[1d10 × 1]][[d10]] percent of the distance that was to be traveled. For example, if you tried to travel 120 miles, landed off target, and rolled a 5 and 3 on the two [[d10]]s, then you would be off target by 15 percent, or 18 miles. The DM determines the direction off target randomly by rolling a [[d8]] and designating 1 as north, 2 as northeast, 3 as east, and so on around the points of the compass. If you were teleporting to a coastal city and wound up 18 miles out at sea, you could be in trouble.\n\nSimilar Area. You and your group (or the target object) wind up in a different area that's visually or thematically similar to the target area. If you are heading for your home laboratory, for example, you might wind up in another wizard's laboratory or in an alchemical supply shop that has many of the same tools and implements as your laboratory. Generally, you appear in the closest similar place, but since the spell has no range limit, you could conceivably wind up anywhere on the plane.\n\nMishap. The spell's unpredictable magic results in a difficult journey. Each teleporting creature (or the target object) takes [[3d10]] force damage, and the DM rerolls on the table to see where you wind up (multiple mishaps can occur, dealing damage each time).",
+                "max": "",
+                "id": "-MkPkYBWSFEVNLwWKeQz"
+            },
+            {
+                "name": "repeating_spell-7_-MkPkYBPTnWL6xV3v78q_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPkYBXlaGpI3TtOb1_"
+            },
+            {
+                "name": "showleveler",
+                "current": 0,
+                "max": "",
+                "id": "-MkPkiWIculny7Kunu0d"
+            },
+            {
+                "name": "invalidXP",
+                "current": 0,
+                "max": "",
+                "id": "-MkPkiWK4ehoYssueAJr"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY0cyDpnmNCnlOdt_description",
+                "current": "Innate Spellasting. The gunslinger spellcasting ability is Charisma (spell save DC 24, +14 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\n\n- At will: fog cloud, major image, swift quiver, wristpocket\n\n- 1/rest: hunter's mark, locate creature\n\n- 1/day: freedom of movement, mislead, teleport",
+                "max": "",
+                "id": "-MkPkiZW7GpTE-Z5QDdW"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY0mFSTrtoeydrcV_description",
+                "current": "Being within 5 feet of a hostile creature or attacking at long range doesn't impose disadvantage on gunslinger ranged attack rolls with a gun. In addition, he ignores half cover and three-quarters cover when making ranged attacks.",
+                "max": "",
+                "id": "-MkPkiZX9ufCzWlg7DYk"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY0qri9q94ZUhD9w_description",
+                "current": "When gunslinger make a Wisdom (Perception) or Wisdom (Survival) check, he can roll a d4 and add the number rolled to the ability check.",
+                "max": "",
+                "id": "-MkPkiZY5ksT-RJHLSGv"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY0u1FJO9vvzrl4c_description",
+                "current": "The gunslinger can cast the hunter's mark spell with this trait. And, he can also cast the locate object spell with it. Once gunslinger cast either spell with this trait, he can't cast that spell with it again until finish a long rest.",
+                "max": "",
+                "id": "-MkPkiZ_9FdZR9qu5fgE"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY0x0cedm1M01shn_description",
+                "current": "When gunslinger are reduced to 0 hit points but not killed outright, he drop to 1 hit point instead. gunslinger can't use this feature again until finish a long rest.",
+                "max": "",
+                "id": "-MkPkiZaGce7hYT2dZC6"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY11ZwfF5FDTLUxi_description",
+                "current": "When gunslinger score a critical hit with a ranged weapon attack, he can it maximizes the damage from this attack.",
+                "max": "",
+                "id": "-MkPkiZcZNldykIr8lzr"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY14O11pgF6M929n_description",
+                "current": "If the gunslinger is subjected to an effect that allows it to make a saving throw to only take half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.",
+                "max": "",
+                "id": "-MkPkiZe0ATPeNiT8NJu"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY18S8gLrnpz9Tvx_description",
+                "current": "The gunslinger's weapon attacks are magical.",
+                "max": "",
+                "id": "-MkPkiZgf7AHv7xlgACZ"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY1BpWnS2JnDABz6_description",
+                "current": "The gunslinger wears a white Mantle of Spell Resistance, Dagger of Blindsight and Adamantine armor (renegade's cloak)",
+                "max": "",
+                "id": "-MkPkiZhzBzDXkZ1Y9e4"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY1FDbMhvrfAEBQ7_description",
+                "current": "Any critical hit against the gunslinger becomes a normal hit. Because the adamantine armor.",
+                "max": "",
+                "id": "-MkPkiZipzFfSrLrC5Io"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY1J7q5EKdRj1lOJ_description",
+                "current": "If the gunslinger shoots a fallen target at 5 feet with the shotgun, this attack is considered critical if it hits.",
+                "max": "",
+                "id": "-MkPkiZk8_NFWSfIgWeM"
+            },
+            {
+                "name": "repeating_npctrait_-MkPkY1MrKrha9ak9ZwZ_description",
+                "current": "1. Power bullets; when hitting someone with this ammo, objects and creatures within 10 feet of the target take 4d6 force damage, including who was hit.\n\n2. Stun Bullets; the target of this attack has its mind bombarded with psychic energy, the target must make a wisdom saving throw DC 22 or it takes 4d6 psychic damage and will be stunned until the end of the gunslinger's next turn.\n\n3. Curved bullets; if this attack misses the target, the bullet is redirected to a target within 60 feet of the original target; if it hits, the damage of that attack is reduced by half.",
+                "max": "",
+                "id": "-MkPkiZlKEMgUbeNtc5I"
+            },
+            {
+                "name": "version",
+                "current": 4.21,
+                "max": "",
+                "id": "-MkPkiZsRq867-QuO4cK"
+            },
+            {
+                "name": "appliedUpdates",
+                "current": "upgrade_to_4_2_1,fix_npc_missing_attack_display_flag_attribute,fix_npc_version_number,fix_npcs_in_modules_saves_and_ability_mods,fix_spell_attacks,fix_npc_in_modules_triggering_popup,fix_npc_actions_to_support_translation,fix_npc_attacks,fix_npc_attacks_with_auto_damage_roll,fix_npc_actions_with_damage,fix_npc_charname_output,fix_spell_school_ouput,fix_advantage_query",
+                "max": "",
+                "id": "-MkPkiZzAYxxuQ2axxet"
+            },
+            {
+                "name": "repeating_attack_-MkPkYAQeZmferQwDZYl_spelldesc_link",
+                "current": "%{-MkPkXxkobLdxxUT1WFp|repeating_spell-1_-mkpkyaeulhp9ndgptcb_output}",
+                "max": "",
+                "id": "-MkPkia-l0FN5-nTtgbb"
+            },
+            {
+                "name": "repeating_attack_-MkPkYAQeZmferQwDZYl_atkdmgtype",
+                "current": "1d6  ",
+                "max": "",
+                "id": "-MkPkiaGMmR9nK_KeGDi"
+            },
+            {
+                "name": "repeating_attack_-MkPkYAQeZmferQwDZYl_rollbase_dmg",
+                "current": "@{wtype}&{template:dmg} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[1d6]]}} {{dmg1type=}} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} {{spelldesc_link=[Show Spell Description](~repeating_attack_spelldesc_link)}} @{charname_output}",
+                "max": "",
+                "id": "-MkPkiaIIzh9GV37tmda"
+            },
+            {
+                "name": "repeating_attack_-MkPkYAQeZmferQwDZYl_rollbase_crit",
+                "current": "@{wtype}&{template:dmg} {{crit=1}} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[1d6]]}} {{dmg1type=}} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} {{crit1=[[1d6]]}} {{crit2=[[0]]}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg}  {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagecrit=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} {{spelldesc_link=[Show Spell Description](~repeating_attack_spelldesc_link)}} @{charname_output}",
+                "max": "",
+                "id": "-MkPkiaKn304O-p8Vc7H"
+            },
+            {
+                "name": "repeating_attack_-MkPkYAQeZmferQwDZYl_atkbonus",
+                "current": "-",
+                "max": "",
+                "id": "-MkPkiaMr_Lwis4T4OS4"
+            },
+            {
+                "name": "repeating_attack_-MkPkYAQeZmferQwDZYl_rollbase",
+                "current": "@{wtype}&{template:atkdmg} {{mod=@{atkbonus}}} {{rname=@{atkname}}} {{r1=[[0d20cs>@{atkcritrange}]]}} {{r2=[[0d20cs>@{atkcritrange}]]}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[1d6]]}} {{dmg1type=}} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} {{crit1=[[1d6[CRIT]]]}} {{crit2=[[0[CRIT]]]}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg}  {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globalattack=@{global_attack_mod}}} {{globaldamage=[[0]]}} {{globaldamagecrit=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} ammo=@{ammo} {{spelldesc_link=[Show Spell Description](~repeating_attack_spelldesc_link)}} @{charname_output}",
+                "max": "",
+                "id": "-MkPkiaOnq7kkMwlRHTJ"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1bDiRfpJ6ZzbWb_attack_crit2",
+                "current": "",
+                "max": "",
+                "id": "-MkPkibChdU_TUgNt0ss"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY1vaz2B0LNuI-aq_attack_crit2",
+                "current": "",
+                "max": "",
+                "id": "-MkPkibHvhhFGaWBZ0uC"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY2izGHLugN7E5FD_attack_crit2",
+                "current": "",
+                "max": "",
+                "id": "-MkPkibORjymx4BDTUlt"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY32TerX1HF-WUSQ_attack_crit2",
+                "current": "",
+                "max": "",
+                "id": "-MkPkibT4_vc0HRtscOF"
+            },
+            {
+                "name": "repeating_npcaction_-MkPkY3Pzd090WuTTTNG_attack_crit2",
+                "current": "",
+                "max": "",
+                "id": "-MkPkibXyrSLDkdLhrQh"
+            },
+            {
+                "name": "charname_output",
+                "current": "{{charname=@{npc_name}}}",
+                "max": "",
+                "id": "-MkPkid0m4sXwlV0c7B0"
+            },
+            {
+                "name": "queryadvantage",
+                "current": "{{query=1}} ?{Advantage?|Normal Roll,&#123&#123normal=1&#125&#125 &#123&#123r2=[[0d20|Advantage,&#123&#123advantage=1&#125&#125 &#123&#123r2=[[@{d20}|Disadvantage,&#123&#123disadvantage=1&#125&#125 &#123&#123r2=[[@{d20}}",
+                "max": "",
+                "id": "-MkPkidRfar4swjNgQog"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkY9XOZ425Zvj2KV9_details-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPnqm21vK2Rt0_n26E"
+            },
+            {
+                "name": "repeating_spell-1_-MkPkYAEuLHP9nDGPtCb_details-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPnrFwcDRdfKJVfc78"
+            },
+            {
+                "name": "repeating_spell-2_-MkPkYA2w1ETH1r0lbIh_details-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPnrmCS8gUB4ruK7bd"
+            },
+            {
+                "name": "repeating_spell-3_-MkPkY9j2FKzb8vMr7Zo_details-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPnsamtgDtT_l2-qss"
+            },
+            {
+                "name": "repeating_spell-4_-MkPkYAl--mVvm6hAzka_details-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPnswn9y1jCaORxu87"
+            },
+            {
+                "name": "repeating_spell-4_-MkPkYB-5zqLRHp5SVAo_details-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPntSoLsc9ho30Mv1C"
+            },
+            {
+                "name": "repeating_spell-5_-MkPkY9tDHypSz1pfUOj_details-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPnto3wLBgDFCBFG1n"
+            },
+            {
+                "name": "ui_flags",
+                "current": "",
+                "max": "",
+                "id": "-MkPxefrUPsfc9TX6OUJ"
+            },
+            {
+                "name": "repeating_spell-5_-MkPkYBAJTiANnNQxoZZ_details-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPyn72aMgOwtnRe0km"
+            },
+            {
+                "name": "repeating_spell-7_-MkPkYBPTnWL6xV3v78q_details-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MkPynth7lK3-6ek420U"
+            },
+            {
+                "name": "strength_save_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{strength-save-u}}} {{mod=@{strength_save_bonus}}} {{r1=[[@{d20}+@{strength_save_bonus}@{pbd_safe}]]}} @{advantagetoggle}+@{strength_save_bonus}@{pbd_safe}]]}} {{global=@{global_save_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MkYpoRafkVwBnRsNag1"
+            },
+            {
+                "name": "dexterity_save_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{dexterity-save-u}}} {{mod=@{dexterity_save_bonus}}} {{r1=[[@{d20}+@{dexterity_save_bonus}@{pbd_safe}]]}} @{advantagetoggle}+@{dexterity_save_bonus}@{pbd_safe}]]}} {{global=@{global_save_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MkYpoRcqIwnRzeMycAj"
+            },
+            {
+                "name": "constitution_save_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{constitution-save-u}}} {{mod=@{constitution_save_bonus}}} {{r1=[[@{d20}+@{constitution_save_bonus}@{pbd_safe}]]}} @{advantagetoggle}+@{constitution_save_bonus}@{pbd_safe}]]}} {{global=@{global_save_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MkYpoRfxyrIZC2e39xU"
+            },
+            {
+                "name": "intelligence_save_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{intelligence-save-u}}} {{mod=@{intelligence_save_bonus}}} {{r1=[[@{d20}+@{intelligence_save_bonus}@{pbd_safe}]]}} @{advantagetoggle}+@{intelligence_save_bonus}@{pbd_safe}]]}} {{global=@{global_save_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MkYpoRhpJpOEsEZ9Q49"
+            },
+            {
+                "name": "wisdom_save_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{wisdom-save-u}}} {{mod=@{wisdom_save_bonus}}} {{r1=[[@{d20}+@{wisdom_save_bonus}@{pbd_safe}]]}} @{advantagetoggle}+@{wisdom_save_bonus}@{pbd_safe}]]}} {{global=@{global_save_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MkYpoRjEZpcCrDgI5j3"
+            },
+            {
+                "name": "charisma_save_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{charisma-save-u}}} {{mod=@{charisma_save_bonus}}} {{r1=[[@{d20}+@{charisma_save_bonus}@{pbd_safe}]]}} @{advantagetoggle}+@{charisma_save_bonus}@{pbd_safe}]]}} {{global=@{global_save_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MkYpoRlddXOHZFS65Ac"
+            },
+            {
+                "name": "honor_save_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{honor-save-u}}} {{mod=@{honor_save_bonus}}} {{r1=[[@{d20}+@{honor_save_bonus}@{pbd_safe}]]}} @{advantagetoggle}+@{honor_save_bonus}@{pbd_safe}]]}} {{global=@{global_save_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MkYpoRnr1Ng6Y2JKXgI"
+            },
+            {
+                "name": "sanity_save_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{sanity-save-u}}} {{mod=@{sanity_save_bonus}}} {{r1=[[@{d20}+@{sanity_save_bonus}@{pbd_safe}]]}} @{advantagetoggle}+@{sanity_save_bonus}@{pbd_safe}]]}} {{global=@{global_save_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MkYpoRpXT5N-ksLN2XR"
+            },
+            {
+                "name": "athletics_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{athletics-u}}} {{mod=@{athletics_bonus}}} {{r1=[[@{d20}+@{athletics_bonus}[Mods]@{pbd_safe}]]}} @{advantagetoggle}+@{athletics_bonus}[Mods]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MkYpoRs1qYCQb2cV-kk"
+            },
+            {
+                "name": "acrobatics_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{acrobatics-u}}} {{mod=@{acrobatics_bonus}}} {{r1=[[@{d20}+@{acrobatics_bonus}[Mods]@{pbd_safe}]]}} @{advantagetoggle}+@{acrobatics_bonus}[Mods]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MkYpoRv-mR9s0IUQRZw"
+            },
+            {
+                "name": "sleight_of_hand_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{sleight_of_hand-u}}} {{mod=@{sleight_of_hand_bonus}}} {{r1=[[@{d20}+@{sleight_of_hand_bonus}[Mods]@{pbd_safe}]]}} @{advantagetoggle}+@{sleight_of_hand_bonus}[Mods]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MkYpoRyJFGOTzc7YFvM"
+            },
+            {
+                "name": "stealth_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{stealth-u}}} {{mod=@{stealth_bonus}}} {{r1=[[@{d20}+@{stealth_bonus}[Mods]@{pbd_safe}]]}} @{advantagetoggle}+@{stealth_bonus}[Mods]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MkYpoS0jTxqHUl-PZAv"
+            },
+            {
+                "name": "arcana_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{arcana-u}}} {{mod=@{arcana_bonus}}} {{r1=[[@{d20}+@{arcana_bonus}[Mods]@{pbd_safe}]]}} @{advantagetoggle}+@{arcana_bonus}[Mods]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MkYpoS2mLHRsQSXOVNT"
+            },
+            {
+                "name": "history_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{history-u}}} {{mod=@{history_bonus}}} {{r1=[[@{d20}+@{history_bonus}[Mods]@{pbd_safe}]]}} @{advantagetoggle}+@{history_bonus}[Mods]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MkYpoS5StKqgtSSk_K0"
+            },
+            {
+                "name": "investigation_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{investigation-u}}} {{mod=@{investigation_bonus}}} {{r1=[[@{d20}+@{investigation_bonus}[Mods]@{pbd_safe}]]}} @{advantagetoggle}+@{investigation_bonus}[Mods]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MkYpoS7P_EdE6MQ7FaK"
+            },
+            {
+                "name": "nature_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{nature-u}}} {{mod=@{nature_bonus}}} {{r1=[[@{d20}+@{nature_bonus}[Mods]@{pbd_safe}]]}} @{advantagetoggle}+@{nature_bonus}[Mods]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MkYpoS9iHGNcHX781uR"
+            },
+            {
+                "name": "religion_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{religion-u}}} {{mod=@{religion_bonus}}} {{r1=[[@{d20}+@{religion_bonus}[Mods]@{pbd_safe}]]}} @{advantagetoggle}+@{religion_bonus}[Mods]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MkYpoSCNAaONTReZAnk"
+            },
+            {
+                "name": "animal_handling_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{animal_handling-u}}} {{mod=@{animal_handling_bonus}}} {{r1=[[@{d20}+@{animal_handling_bonus}[Mods]@{pbd_safe}]]}} @{advantagetoggle}+@{animal_handling_bonus}[Mods]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MkYpoSEzzJQLEeNAHaK"
+            },
+            {
+                "name": "insight_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{insight-u}}} {{mod=@{insight_bonus}}} {{r1=[[@{d20}+@{insight_bonus}[Mods]@{pbd_safe}]]}} @{advantagetoggle}+@{insight_bonus}[Mods]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MkYpoSGTPPKsoIVDzUr"
+            },
+            {
+                "name": "medicine_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{medicine-u}}} {{mod=@{medicine_bonus}}} {{r1=[[@{d20}+@{medicine_bonus}[Mods]@{pbd_safe}]]}} @{advantagetoggle}+@{medicine_bonus}[Mods]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MkYpoSI5PNnK4tri_kF"
+            },
+            {
+                "name": "perception_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{perception-u}}} {{mod=@{perception_bonus}}} {{r1=[[@{d20}+@{perception_bonus}[Mods]@{pbd_safe}]]}} @{advantagetoggle}+@{perception_bonus}[Mods]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MkYpoSLfdTiQnh_x_8p"
+            },
+            {
+                "name": "survival_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{survival-u}}} {{mod=@{survival_bonus}}} {{r1=[[@{d20}+@{survival_bonus}[Mods]@{pbd_safe}]]}} @{advantagetoggle}+@{survival_bonus}[Mods]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MkYpoSML3VbPEGZAZ-2"
+            },
+            {
+                "name": "deception_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{deception-u}}} {{mod=@{deception_bonus}}} {{r1=[[@{d20}+@{deception_bonus}[Mods]@{pbd_safe}]]}} @{advantagetoggle}+@{deception_bonus}[Mods]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MkYpoSPKSGsid5AXUl6"
+            },
+            {
+                "name": "intimidation_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{intimidation-u}}} {{mod=@{intimidation_bonus}}} {{r1=[[@{d20}+@{intimidation_bonus}[Mods]@{pbd_safe}]]}} @{advantagetoggle}+@{intimidation_bonus}[Mods]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MkYpoSROHCyDEniscAF"
+            },
+            {
+                "name": "performance_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{performance-u}}} {{mod=@{performance_bonus}}} {{r1=[[@{d20}+@{performance_bonus}[Mods]@{pbd_safe}]]}} @{advantagetoggle}+@{performance_bonus}[Mods]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MkYpoSUXkla5EZTDJif"
+            },
+            {
+                "name": "persuasion_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{persuasion-u}}} {{mod=@{persuasion_bonus}}} {{r1=[[@{d20}+@{persuasion_bonus}[Mods]@{pbd_safe}]]}} @{advantagetoggle}+@{persuasion_bonus}[Mods]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MkYpoSWdj2G-wtKHkAZ"
+            }
+        ],
+        "abilities": [
+            {
+                "name": "Skill-Check",
+                "description": "",
+                "istokenaction": false,
+                "action": "@{selected|wtype} &{template:simple}{{always=1}}?{Ability?|Acrobatics,{{rname=Acrobatics&#125;&#125;{{mod=@{npc_acrobatics}&#125;&#125; {{r1=[[1d20+@{npc_acrobatics}]]&#125;&#125;{{r2=[[1d20+@{npc_acrobatics}]]&#125;&#125;|Animal Handling,{{rname=Animal Handling&#125;&#125;{{mod=@{npc_animal_handling}&#125;&#125; {{r1=[[1d20+@{npc_animal_handling}]]&#125;&#125;{{r2=[[1d20+@{npc_animal_handling}]]&#125;&#125;|Arcana,{{rname=Arcana&#125;&#125;{{mod=@{npc_arcana}&#125;&#125; {{r1=[[1d20+@{npc_arcana}]]&#125;&#125;{{r2=[[1d20+@{npc_arcana}]]&#125;&#125;|Athletics,{{rname=Athletics&#125;&#125;{{mod=@{npc_athletics}&#125;&#125; {{r1=[[1d20+@{npc_athletics}]]&#125;&#125;{{r2=[[1d20+@{npc_athletics}]]&#125;&#125;|Deception,{{rname=Deception&#125;&#125;{{mod=@{npc_deception}&#125;&#125; {{r1=[[1d20+@{npc_deception}]]&#125;&#125;{{r2=[[1d20+@{npc_deception}]]&#125;&#125;|History,{{rname=History&#125;&#125;{{mod=@{npc_history}&#125;&#125; {{r1=[[1d20+@{npc_history}]]&#125;&#125;{{r2=[[1d20+@{npc_history}]]&#125;&#125;|Insight,{{rname=Insight&#125;&#125;{{mod=@{npc_insight}&#125;&#125; {{r1=[[1d20+@{npc_insight}]]&#125;&#125;{{r2=[[1d20+@{npc_insight}]]&#125;&#125;|Intimidation,{{rname=Intimidation&#125;&#125;{{mod=@{npc_intimidation}&#125;&#125; {{r1=[[1d20+@{npc_intimidation}]]&#125;&#125;{{r2=[[1d20+@{npc_intimidation}]]&#125;&#125;|Investigation,{{rname=Investigation&#125;&#125;{{mod=@{npc_investigation}&#125;&#125; {{r1=[[1d20+@{npc_investigation}]]&#125;&#125;{{r2=[[1d20+@{npc_investigation}]]&#125;&#125;|Medicine,{{rname=Medicine&#125;&#125;{{mod=@{npc_medicine}&#125;&#125; {{r1=[[1d20+@{npc_medicine}]]&#125;&#125;{{r2=[[1d20+@{npc_medicine}]]&#125;&#125;|Nature,{{rname=Nature&#125;&#125;{{mod=@{npc_nature}&#125;&#125; {{r1=[[1d20+@{npc_nature}]]&#125;&#125;{{r2=[[1d20+@{npc_nature}]]&#125;&#125;|Perception,{{rname=Perception&#125;&#125;{{mod=@{npc_perception}&#125;&#125; {{r1=[[1d20+@{npc_perception}]]&#125;&#125;{{r2=[[1d20+@{npc_perception}]]&#125;&#125;|Performance,{{rname=Performance&#125;&#125;{{mod=@{npc_performance}&#125;&#125; {{r1=[[1d20+@{npc_performance}]]&#125;&#125;{{r2=[[1d20+@{npc_performance}]]&#125;&#125;|Persuasion,{{rname=Persuasion&#125;&#125;{{mod=@{npc_persuasion}&#125;&#125; {{r1=[[1d20+@{npc_persuasion}]]&#125;&#125;{{r2=[[1d20+@{npc_persuasion}]]&#125;&#125;|Religion,{{rname=Religion&#125;&#125;{{mod=@{npc_religion}&#125;&#125; {{r1=[[1d20+@{npc_religion}]]&#125;&#125;{{r2=[[1d20+@{npc_religion}]]&#125;&#125;|Sleight of Hand,{{rname=Sleight of Hand&#125;&#125;{{mod=@{npc_sleight_of_hand}&#125;&#125; {{r1=[[1d20+@{npc_sleight_of_hand}]]&#125;&#125;{{r2=[[1d20+@{npc_sleight_of_hand}]]&#125;&#125;|Stealth,{{rname=Stealth&#125;&#125;{{mod=@{npc_stealth}&#125;&#125; {{r1=[[1d20+@{npc_stealth}]]&#125;&#125;{{r2=[[1d20+@{npc_stealth}]]&#125;&#125;|Survival,{{rname=Survival&#125;&#125;{{mod=@{npc_survival}&#125;&#125; {{r1=[[1d20+@{npc_survival}]]&#125;&#125;{{r2=[[1d20+@{npc_survival}]]&#125;&#125;}{{charname=@{character_name}}} ",
+                "order": -1
+            },
+            {
+                "name": "Perception",
+                "description": "",
+                "istokenaction": false,
+                "action": "%{Selected|npc_perception} @{selected|wtype} &{template:default} {{name=Senses}}  @{selected|wtype} @{Selected|npc_senses} ",
+                "order": -1
+            },
+            {
+                "name": "Saves",
+                "description": "",
+                "istokenaction": false,
+                "action": "@{selected|wtype} &{template:simple}{{always=1}}?{Saving Throw?|STR,{{rname=Strength Save&#125;&#125;{{mod=@{npc_str_save}&#125;&#125; {{r1=[[1d20+@{npc_str_save}]]&#125;&#125;{{r2=[[1d20+@{npc_str_save}]]&#125;&#125;|DEX,{{rname=Dexterity Save&#125;&#125;{{mod=@{npc_dex_save}&#125;&#125; {{r1=[[1d20+@{npc_dex_save}]]&#125;&#125;{{r2=[[1d20+@{npc_dex_save}]]&#125;&#125;|CON,{{rname=Constitution Save&#125;&#125;{{mod=@{npc_con_save}&#125;&#125; {{r1=[[1d20+@{npc_con_save}]]&#125;&#125;{{r2=[[1d20+@{npc_con_save}]]&#125;&#125;|INT,{{rname=Intelligence Save&#125;&#125;{{mod=@{npc_int_save}&#125;&#125; {{r1=[[1d20+@{npc_int_save}]]&#125;&#125;{{r2=[[1d20+@{npc_int_save}]]&#125;&#125;|WIS,{{rname=Wisdom Save&#125;&#125;{{mod=@{npc_wis_save}&#125;&#125; {{r1=[[1d20+@{npc_wis_save}]]&#125;&#125;{{r2=[[1d20+@{npc_wis_save}]]&#125;&#125;|CHA,{{rname=Charisma Save&#125;&#125;{{mod=@{npc_cha_save}&#125;&#125; {{r1=[[1d20+@{npc_cha_save}]]&#125;&#125;{{r2=[[1d20+@{npc_cha_save}]]&#125;&#125;}{{charname=@{character_name}}} ",
+                "order": -1
+            },
+            {
+                "name": "Init",
+                "description": "",
+                "istokenaction": false,
+                "action": "%{selected|npc_init}",
+                "order": -1
+            },
+            {
+                "name": "Ability-Check",
+                "description": "",
+                "istokenaction": false,
+                "action": "@{selected|wtype} &{template:simple}{{always=1}}?{Ability?|STR,{{rname=Strength&#125;&#125;{{mod=@{strength_mod}&#125;&#125; {{r1=[[1d20+@{strength_mod}]]&#125;&#125;{{r2=[[1d20+@{strength_mod}]]&#125;&#125;|DEX,{{rname=Dexterity&#125;&#125;{{mod=@{dexterity_mod}&#125;&#125; {{r1=[[1d20+@{dexterity_mod}]]&#125;&#125;{{r2=[[1d20+@{dexterity_mod}]]&#125;&#125;|CON,{{rname=Constitution&#125;&#125;{{mod=@{constitution_mod}&#125;&#125; {{r1=[[1d20+@{constitution_mod}]]&#125;&#125;{{r2=[[1d20+@{constitution_mod}]]&#125;&#125;|INT,{{rname=Intelligence&#125;&#125;{{mod=@{intelligence_mod}&#125;&#125; {{r1=[[1d20+@{intelligence_mod}]]&#125;&#125;{{r2=[[1d20+@{intelligence_mod}]]&#125;&#125;|WIS,{{rname=Wisdom&#125;&#125;{{mod=@{wisdom_mod}&#125;&#125; {{r1=[[1d20+@{wisdom_mod}]]&#125;&#125;{{r2=[[1d20+@{wisdom_mod}]]&#125;&#125;|CHA,{{rname=Charisma&#125;&#125;{{mod=@{charisma_mod}&#125;&#125; {{r1=[[1d20+@{charisma_mod}]]&#125;&#125;{{r2=[[1d20+@{charisma_mod}]]&#125;&#125;}{{charname=@{character_name}}} ",
+                "order": -1
+            },
+            {
+                "name": "DR/Immunities",
+                "description": "",
+                "istokenaction": false,
+                "action": "@{selected|wtype} &{template:default} {{name=DR/Immunities}} {{Damage Resistance= @{selected|npc_resistances}}} {{Damage Vulnerability= @{selected|npc_vulnerabilities}}} {{Damage Immunity= @{selected|npc_immunities}}} {{Condition Immunity= @{selected|npc_condition_immunities}}} ",
+                "order": -1
+            },
+            {
+                "name": "Stats",
+                "description": "",
+                "istokenaction": false,
+                "action": "@{selected|wtype} &{template:default} {{name=Stats}} {{Armor Class= @{selected|npc_AC}}} {{Hit Dice= @{selected|npc_hpformula}}} {{Speed= @{selected|npc_speed}}} {{Senses= @{selected|npc_senses}}} {{Languages= @{selected|npc_languages}}} {{Challenge= @{selected|npc_challenge}(@{selected|npc_xp}xp)}}",
+                "order": -1
+            },
+            {
+                "name": "Trait1: Gunslinger",
+                "description": "",
+                "istokenaction": false,
+                "action": "@{selected|wtype} &{template:npcaction} {{name=@{selected|npc_name}}} {{rname=@{selected|repeating_npctrait_$1_name}}} {{description=@{selected|repeating_npctrait_$1_desc} }}",
+                "order": -1
+            },
+            {
+                "name": "Trait2: Hunter's Intuition.",
+                "description": "",
+                "istokenaction": false,
+                "action": "@{selected|wtype} &{template:npcaction} {{name=@{selected|npc_name}}} {{rname=@{selected|repeating_npctrait_$2_name}}} {{description=@{selected|repeating_npctrait_$2_desc} }}",
+                "order": -1
+            },
+            {
+                "name": "Trait3: Finder's Magic.",
+                "description": "",
+                "istokenaction": false,
+                "action": "@{selected|wtype} &{template:npcaction} {{name=@{selected|npc_name}}} {{rname=@{selected|repeating_npctrait_$3_name}}} {{description=@{selected|repeating_npctrait_$3_desc} }}",
+                "order": -1
+            },
+            {
+                "name": "Trait4: Relentless Endurance.",
+                "description": "",
+                "istokenaction": false,
+                "action": "@{selected|wtype} &{template:npcaction} {{name=@{selected|npc_name}}} {{rname=@{selected|repeating_npctrait_$4_name}}} {{description=@{selected|repeating_npctrait_$4_desc} }}",
+                "order": -1
+            },
+            {
+                "name": "Trait5: Dead Eye.",
+                "description": "",
+                "istokenaction": false,
+                "action": "@{selected|wtype} &{template:npcaction} {{name=@{selected|npc_name}}} {{rname=@{selected|repeating_npctrait_$5_name}}} {{description=@{selected|repeating_npctrait_$5_desc} }}",
+                "order": -1
+            },
+            {
+                "name": "Trait6: Avoidance",
+                "description": "",
+                "istokenaction": false,
+                "action": "@{selected|wtype} &{template:npcaction} {{name=@{selected|npc_name}}} {{rname=@{selected|repeating_npctrait_$6_name}}} {{description=@{selected|repeating_npctrait_$6_desc} }}",
+                "order": -1
+            },
+            {
+                "name": "Trait7: Magic Weapons",
+                "description": "",
+                "istokenaction": false,
+                "action": "@{selected|wtype} &{template:npcaction} {{name=@{selected|npc_name}}} {{rname=@{selected|repeating_npctrait_$7_name}}} {{description=@{selected|repeating_npctrait_$7_desc} }}",
+                "order": -1
+            },
+            {
+                "name": "Trait8: Special Equipment.",
+                "description": "",
+                "istokenaction": false,
+                "action": "@{selected|wtype} &{template:npcaction} {{name=@{selected|npc_name}}} {{rname=@{selected|repeating_npctrait_$8_name}}} {{description=@{selected|repeating_npctrait_$8_desc} }}",
+                "order": -1
+            },
+            {
+                "name": "Trait9: Adamantine Plating.",
+                "description": "",
+                "istokenaction": false,
+                "action": "@{selected|wtype} &{template:npcaction} {{name=@{selected|npc_name}}} {{rname=@{selected|repeating_npctrait_$9_name}}} {{description=@{selected|repeating_npctrait_$9_desc} }}",
+                "order": -1
+            },
+            {
+                "name": "Trait10: Not in the face",
+                "description": "",
+                "istokenaction": false,
+                "action": "@{selected|wtype} &{template:npcaction} {{name=@{selected|npc_name}}} {{rname=@{selected|repeating_npctrait_$10_name}}} {{description=@{selected|repeating_npctrait_$10_desc} }}",
+                "order": -1
+            },
+            {
+                "name": "Trait11: Infused Magazine.",
+                "description": "",
+                "istokenaction": false,
+                "action": "@{selected|wtype} &{template:npcaction} {{name=@{selected|npc_name}}} {{rname=@{selected|repeating_npctrait_$11_name}}} {{description=@{selected|repeating_npctrait_$11_desc} }}",
+                "order": -1
+            },
+            {
+                "name": "0: Multiattack.",
+                "description": "",
+                "istokenaction": false,
+                "action": "%{selected|repeating_npcaction_$0_npc_action}",
+                "order": -1
+            },
+            {
+                "name": "1: Automatic Pistol",
+                "description": "",
+                "istokenaction": false,
+                "action": "%{selected|repeating_npcaction_$1_npc_action}",
+                "order": -1
+            },
+            {
+                "name": "2: Hunting Rifle",
+                "description": "",
+                "istokenaction": false,
+                "action": "%{selected|repeating_npcaction_$2_npc_action}",
+                "order": -1
+            },
+            {
+                "name": "3: Dagger of Blindsight",
+                "description": "",
+                "istokenaction": false,
+                "action": "%{selected|repeating_npcaction_$3_npc_action}",
+                "order": -1
+            },
+            {
+                "name": "4: End Of Line",
+                "description": "",
+                "istokenaction": true,
+                "action": "%{selected|repeating_npcaction_$4_npc_action}",
+                "order": -1
+            },
+            {
+                "name": "5: Shotgun",
+                "description": "",
+                "istokenaction": false,
+                "action": "%{selected|repeating_npcaction_$5_npc_action}",
+                "order": -1
+            },
+            {
+                "name": "6: Rifle Butt",
+                "description": "",
+                "istokenaction": false,
+                "action": "%{selected|repeating_npcaction_$6_npc_action}",
+                "order": -1
+            },
+            {
+                "name": "7: It's High Noon (Recharge 6)",
+                "description": "",
+                "istokenaction": true,
+                "action": "%{selected|repeating_npcaction_$7_npc_action}",
+                "order": -1
+            },
+            {
+                "name": "8: Burst Fire",
+                "description": "",
+                "istokenaction": false,
+                "action": "%{selected|repeating_npcaction_$8_npc_action}",
+                "order": -1
+            },
+            {
+                "name": "Bonus0: Bomb (Recharge 5–6)",
+                "description": "",
+                "istokenaction": false,
+                "action": "%{selected|repeating_npcbonusaction_$0_npc_action}",
+                "order": -1
+            },
+            {
+                "name": "Bonus1: The Gunslinger Inventory.",
+                "description": "",
+                "istokenaction": false,
+                "action": "%{selected|repeating_npcbonusaction_$1_npc_action}",
+                "order": -1
+            },
+            {
+                "name": "Bonus2: Eagle's Eye",
+                "description": "",
+                "istokenaction": false,
+                "action": "%{selected|repeating_npcbonusaction_$2_npc_action}",
+                "order": -1
+            },
+            {
+                "name": "Bonus3: Fast Hands",
+                "description": "",
+                "istokenaction": false,
+                "action": "%{selected|repeating_npcbonusaction_$3_npc_action}",
+                "order": -1
+            },
+            {
+                "name": "Bonus4: Nimble Escape.",
+                "description": "",
+                "istokenaction": false,
+                "action": "%{selected|repeating_npcbonusaction_$4_npc_action}",
+                "order": -1
+            },
+            {
+                "name": "Reaction: Mobile",
+                "description": "",
+                "istokenaction": false,
+                "action": "@{selected|wtype} &{template:npcaction} {{name=@{selected|npc_name}}} {{rname=@{selected|repeating_npcreaction_$0_name}}} {{description=@{selected|repeating_npcreaction_$0_desc} }} ",
+                "order": -1
+            },
+            {
+                "name": "Reaction: Skirmisher",
+                "description": "",
+                "istokenaction": false,
+                "action": "@{selected|wtype} &{template:npcaction} {{name=@{selected|npc_name}}} {{rname=@{selected|repeating_npcreaction_$1_name}}} {{description=@{selected|repeating_npcreaction_$1_desc} }} ",
+                "order": -1
+            },
+            {
+                "name": "Legendary Actions",
+                "description": "",
+                "istokenaction": true,
+                "action": "@{selected|wtype} @{selected|wtype}&{template:npcaction} {{name=@{selected|npc_name}}} {{rname=Legendary Actions}} {{description=The @{selected|npc_name} can take @{selected|npc_legendary_actions} legendary actions, choosing from the options below. Only one legendary option can be used at a time and only at the end of another creature's turn. The @{selected|npc_name} regains spent legendary actions at the start of its turn.\n\r[Teleport](~selected|repeating_npcaction-l_$0_npc_action)\n\r[Reload](~selected|repeating_npcaction-l_$1_npc_action)\n\r[Tick Tack](~selected|repeating_npcaction-l_$2_npc_action)\n\r[Spell ( 2 actions)](~selected|repeating_npcaction-l_$3_npc_action)\n\r[It's High Noon (If the skill is loaded) (3 actions)](~selected|repeating_npcaction-l_$4_npc_action)\n\r}} ",
+                "order": -1
+            },
+            {
+                "name": "Spells",
+                "description": "",
+                "istokenaction": true,
+                "action": "/w gm @{selected|wtype}&{template:npcaction} {{name=@{selected|npc_name}}} {{rname=Spellcasting}} {{description=Innate Spellasting. The gunslinger spellcasting ability is Charisma (spell save DC 24, +14 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\n- At will:\n[Fog Cloud](~selected|repeating_spell-1_-MkPkY9XOZ425Zvj2KV9_spell), [Major Image](~selected|repeating_spell-3_-MkPkY9j2FKzb8vMr7Zo_spell), [Swift Quiver](~selected|repeating_spell-5_-MkPkY9tDHypSz1pfUOj_spell), [Wristpocket](~selected|repeating_spell-2_-MkPkYA2w1ETH1r0lbIh_spell)\n\n- 1/rest:\n[Hunter's Mark](~selected|repeating_spell-1_-MkPkYAEuLHP9nDGPtCb_spell), [Locate Creature](~selected|repeating_spell-4_-MkPkYAl--mVvm6hAzka_spell)\n\n- 1/day:\n[Freedom of Movement](~selected|repeating_spell-4_-MkPkYB-5zqLRHp5SVAo_spell), [Mislead](~selected|repeating_spell-5_-MkPkYBAJTiANnNQxoZZ_spell), [Teleport](~selected|repeating_spell-7_-MkPkYBPTnWL6xV3v78q_spell)}}",
+                "order": -1
+            }
+        ]
+    }
+}
