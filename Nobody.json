@@ -1,0 +1,390 @@
+{
+	"siteVersion": "1.141.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "Lolncio",
+				"abbreviation": "LLGM",
+				"full": "LolôncioGM",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1636141299,
+		"dateLastModified": 1636141299
+	},
+	"monster": [
+		{
+			"name": "Nobody",
+			"source": "Lolncio",
+			"page": 201,
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 24,
+					"from": [
+						"renegade's cloak"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d8 + 100",
+				"average": 190
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 12,
+			"dex": 20,
+			"con": 20,
+			"int": 18,
+			"wis": 18,
+			"cha": 22,
+			"save": {
+				"dex": "+13",
+				"str": "+9",
+				"con": "+13",
+				"cha": "+14"
+			},
+			"skill": {
+				"acrobatics": "+21",
+				"deception": "+22",
+				"investigation": "+12",
+				"perception": "+20",
+				"persuasion": "+14",
+				"sleight of hand": "+21",
+				"stealth": "+21",
+				"history": "+12",
+				"survival": "+12",
+				"athletics": "+9"
+			},
+			"senses": [
+				"darkvision 120 ft.",
+				"blindsight 30 ft."
+			],
+			"passive": 30,
+			"trait": [
+				{
+					"name": "Gunslinger",
+					"entries": [
+						"Being within 5 feet of a hostile creature or attacking at long range doesn't impose disadvantage on gunslinger ranged attack rolls with a gun. In addition, he ignores half cover and three-quarters cover when making ranged attacks."
+					]
+				},
+				{
+					"name": "Hunter's Intuition.",
+					"entries": [
+						"When gunslinger make a Wisdom (Perception) or Wisdom (Survival) check, he can roll a {@dice d4} and add the number rolled to the ability check."
+					]
+				},
+				{
+					"name": "Finder's Magic.",
+					"entries": [
+						"The gunslinger can cast the {@spell hunter's mark} spell with this trait. And, he can also cast the locate object spell with it. Once gunslinger cast either spell with this trait, he can't cast that spell with it again until finish a long rest."
+					]
+				},
+				{
+					"name": "Relentless Endurance.",
+					"entries": [
+						"When gunslinger are reduced to 0 hit points but not killed outright, he drop to 1 hit point instead. gunslinger can't use this feature again until finish a long rest."
+					]
+				},
+				{
+					"name": "Dead Eye.",
+					"entries": [
+						"When gunslinger score a critical hit with a ranged weapon attack, he can it maximizes the damage from this attack."
+					]
+				},
+				{
+					"name": "Avoidance",
+					"entries": [
+						"If the gunslinger is subjected to an effect that allows it to make a saving throw to only take half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The gunslinger's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Special Equipment.",
+					"entries": [
+						"The gunslinger wears a white {@item Mantle of Spell Resistance}, {@item Dagger of Blindsight} and {@item Adamantine armor} (renegade's cloak)"
+					]
+				},
+				{
+					"name": "Adamantine Plating.",
+					"entries": [
+						"Any critical hit against the gunslinger becomes a normal hit. Because the adamantine armor."
+					]
+				},
+				{
+					"name": "Not in the face",
+					"entries": [
+						"If the gunslinger shoots a fallen target at 5 feet with the shotgun, this attack is considered critical if it hits."
+					]
+				},
+				{
+					"name": "Infused Magazine.",
+					"entries": [
+						"1. Power bullets; when hitting someone with this ammo, objects and creatures within 10 feet of the target take {@damage 4d6} force damage, including who was hit.",
+						"2. Stun Bullets; the target of this attack has its mind bombarded with psychic energy, the target must make a wisdom saving throw {@dc 22} or it takes {@damage 4d6} psychic damage and will be {@condition stunned} until the end of the gunslinger's next turn.",
+						"3. Curved bullets; if this attack misses the target, the bullet is redirected to a target within 60 feet of the original target; if it hits, the damage of that attack is reduced by half."
+					]
+				},
+				{
+					"name": "Gunslinger's Reflexes",
+					"entries": [
+						"The Gunslinger have become adept at laying ambushes and quickly escaping danger. he can take two turns during of any combat. The Gunslinger take your first turn at your normal initiative and your second turn at your initiative minus 10."
+					]
+				}
+			],
+			"senseTags": [
+				"SD",
+				"B"
+			],
+			"damageTags": [
+				"P",
+				"B"
+			],
+			"tokenUrl": "https://i.imgur.com/mpcrLLF.png",
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": []
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/720360860974841968/889316983080886372/5d1a0696c1560fdbc16f789855ff81e8.png"
+						}
+					}
+				]
+			},
+			"environment": [
+				"urban"
+			],
+			"action": [
+				{
+					"name": "Multiattack.",
+					"entries": [
+						"O gunslinger pode realizar dois ataques com armas a distancia, três ataques com armas corpo a corpo leves e com propriedade acuidade.",
+						"Ações : End Of Line, Shotgun, Rifle Butt."
+					]
+				},
+				{
+					"name": "Automatic Pistol",
+					"entries": [
+						"{@atk rw} {@hit 13} to hit, range 50/150 ft., one target. {@h}19 ({@damage 4d6 + 5}) piercing damage.",
+						"***Dead Eye.*** ({@damage 53}) piercing damage."
+					]
+				},
+				{
+					"name": "Hunting Rifle",
+					"entries": [
+						"{@atk rw} {@hit 13} to hit, range 80/240 ft., one target. {@h}21 ({@damage 3d10 + 5}) piercing damage.",
+						"***Dead Eye.*** ({@damage 65}) piercing damage."
+					]
+				},
+				{
+					"name": "Dagger of Blindsight",
+					"entries": [
+						"{@atk mw,rw} {@hit 13} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage in melee, or 5 ({@damage 1d4 + 3}) piercing damage at range.",
+						"This rare magic item requires attunement. A creature attuned to it gains blindsight out to a range of 30 feet. The dagger has a saw-toothed edge and a black pearl nested in its pommel."
+					]
+				},
+				{
+					"name": "End Of Line",
+					"entries": [
+						"{@atk rw} {@hit 13} to hit, range 240/240 ft., one target. {@h}38 ({@damage 6d10 + 5}) piercing damage.",
+						"***Dead Eye.*** ({@damage 125}) piercing damage."
+					]
+				},
+				{
+					"name": "Shotgun",
+					"entries": [
+						"{@atk rw} {@hit 13} to hit, range 15/60 ft., one target. {@h}34 ({@damage 3d12 + 15}) piercing damage.",
+						"If the target is a creature, it must succeed on a {@dc 22} Strength saving throw or be knocked {@condition prone}.",
+						"***Dead Eye.*** ({@damage 87}) piercing damage."
+					]
+				},
+				{
+					"name": "Rifle Butt",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage.",
+						"Whenever gunslinger hits a creature with this attacks, he can impose one of the following effects on that target.",
+						"It must succeed on a {@dc 22} Dexterity saving throw or be knocked {@condition prone}.",
+						"It must make a {@dc 22} Strength saving throw. If it fails, gunslinger can push it up to 15 feet away from he.",
+						"It can't take reactions until the end of gunslinger next turn."
+					]
+				},
+				{
+					"name": "It's High Noon {@recharge}",
+					"entries": [
+						"The gunslinger gives up all his moves to lock the crosshairs on a target. The gunslinger's next attack is considered a critical hit."
+					]
+				},
+				{
+					"name": "Burst Fire",
+					"entries": [
+						"The gunslinger can spray a 30-foot cone area with the automatic gun. Each creature in the area must make a Dexterity saving throw {@dc 22} or takes [[{@dice 12d6 + 5}]] piercing"
+					]
+				}
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"THW",
+				"AOE"
+			],
+			"bonus": [
+				{
+					"name": "Bomb {@recharge 5}",
+					"entries": [
+						"Clay lights this bomb and drops it at a point up to 60 feet away. Each creature within 5 feet of that spot must make a {@dc 22} Dexterity saving throw or take 21 [[{@dice 8d6}]] fire damage."
+					]
+				},
+				{
+					"name": "The Gunslinger Inventory.",
+					"entries": [
+						"As a bonus action. The Gunslinger can send any object he carrying to a demiplane. He can also retrieve an object previously sent there."
+					]
+				},
+				{
+					"name": "Eagle's Eye",
+					"entries": [
+						"As a bonus action, the gunslinger can add {@dice 2d8} to its next attack or damage roll with a End Of Line. or Shotgun."
+					]
+				},
+				{
+					"name": "Fast Hands",
+					"entries": [
+						"The gunslinger can reload his weapon and drop bombs with his bonus action."
+					]
+				},
+				{
+					"name": "Nimble Escape.",
+					"entries": [
+						"The gunslinger allison can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns."
+					]
+				}
+			],
+			"conditionInflict": [
+				"prone",
+				"stunned"
+			],
+			"shortName": true,
+			"reaction": [
+				{
+					"name": "Mobile",
+					"entries": [
+						"When the gunslinger is hit by a magical or physical attack, he can use the reaction and reduce the damage by 40. When using this reaction, he can roll up to 20 feet, this move does not provoke attacks of opportunity. After moving, in the same reaction, he can make an attack."
+					]
+				},
+				{
+					"name": "Skirmisher",
+					"entries": [
+						"The gunslinger can move up to half his speed as a reaction when an enemy approaches. This move does not provoke attacks of opportunity."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Weapons"
+			],
+			"resist": [
+				{
+					"resist": [],
+					"preNote": "All damages"
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellasting.",
+					"headerEntries": [
+						"The gunslinger spellcasting ability is Charisma (spell save {@dc 24}, +14 to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell fog cloud}",
+						"{@spell major image}",
+						"{@spell swift quiver}",
+						"{@spell wristpocket|EGW}"
+					],
+					"daily": {
+						"1": [
+							"{@spell freedom of movement}",
+							"{@spell mislead}",
+							"{@spell teleport}"
+						]
+					},
+					"rest": {
+						"1": [
+							"{@spell hunter's mark}",
+							"{@spell locate creature}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"legendary": [
+				{
+					"name": "Teleport",
+					"entries": [
+						"The Gunslinger magically teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see."
+					]
+				},
+				{
+					"name": "Reload",
+					"entries": [
+						"The gunslinger reload your weapons."
+					]
+				},
+				{
+					"name": "Tick Tack",
+					"entries": [
+						"The Gunslinger make a ranged weapon attack."
+					]
+				},
+				{
+					"name": "Spell ( 2 actions)",
+					"entries": [
+						"The gunslinger cast a spell"
+					]
+				},
+				{
+					"name": "It's High Noon (If the skill is loaded) (3 actions)",
+					"entries": [
+						"The gunslinger gives up all his moves to lock the crosshairs on a target. The gunslinger's next attack is considered a critical hit."
+					]
+				}
+			],
+			"cr": "28",
+			"languages": [
+				"All languages"
+			]
+		}
+	]
+}
