@@ -1,5 +1,5 @@
 {
-	"siteVersion": "1.142.0",
+	"siteVersion": "1.144.0",
 	"_meta": {
 		"sources": [
 			{
@@ -11,8 +11,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1638819722,
-		"dateLastModified": 1638819722
+		"dateAdded": 1638986560,
+		"dateLastModified": 1638986560
 	},
 	"monster": [
 		{
@@ -149,43 +149,6 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true,
-			"_versions": [
-				{
-					"name": "Drow Elite Warrior (Magic Equipment)",
-					"source": "MM",
-					"_mod": {
-						"trait": {
-							"mode": "appendArr",
-							"items": {
-								"name": "Special Equipment",
-								"entries": [
-									"The drow wears {@item drow +2 studded leather armor|mm|+2 studded leather armor} and carries a {@item drow +2 shortsword|mm|+2 shortsword}. These items lose their enhancement bonuses permanently if they are exposed to sunlight for 1 hour or longer."
-								]
-							}
-						},
-						"action": {
-							"mode": "replaceArr",
-							"replace": "Shortsword",
-							"items": {
-								"name": "+2 Shortsword",
-								"entries": [
-									"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d6 + 6}) piercing damage plus 10 ({@damage 3d6}) poison damage."
-								]
-							}
-						}
-					},
-					"ac": [
-						{
-							"ac": 20,
-							"from": [
-								"{@item drow +2 studded leather armor|mm|+2 studded leather armor}",
-								"{@item shield|phb}"
-							]
-						}
-					],
-					"variant": null
-				}
-			],
 			"fluff": {
 				"images": [
 					{
@@ -261,7 +224,8 @@
 			"environment": [
 				"urban"
 			],
-			"isNpc": true
+			"isNpc": true,
+			"tokenUrl": "https://cdn.discordapp.com/attachments/557321504220643349/917503402932596766/yuuuuuuu.png"
 		}
 	]
 }
