@@ -1,0 +1,303 @@
+{
+	"siteVersion": "1.144.0",
+	"_meta": {
+		"sources": [
+			{
+				"json": "Lolncio",
+				"abbreviation": "LLGM",
+				"full": "LolôncioGM",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1638968084,
+		"dateLastModified": 1638968084
+	},
+	"monster": [
+		{
+			"name": "Skorost",
+			"source": "Lolncio",
+			"page": 183,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dragonborn"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"condition": "(Draconic Scale Male)"
+				}
+			],
+			"hp": {
+				"formula": "30d8 + 120",
+				"average": 255
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 20,
+			"dex": 22,
+			"con": 18,
+			"int": 18,
+			"wis": 15,
+			"cha": 18,
+			"save": {
+				"dex": "+12",
+				"con": "+10",
+				"cha": "+10"
+			},
+			"skill": {
+				"acrobatics": "+12",
+				"athletics": "+11",
+				"perception": "+8",
+				"stealth": "+12"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 18,
+			"cr": "18",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The dragonborn is a 11th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 18}, {@hit 10} to hit with spell attacks). It has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell mage hand}",
+								"{@spell message}",
+								"{@spell poison spray}",
+								"{@spell ray of frost}",
+								"{@spell shocking grasp}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell armor of Agathys}",
+								"{@spell mage armor}",
+								"{@spell magic missile}",
+								"{@spell shield}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell gust of wind}",
+								"{@spell invisibility}",
+								"{@spell misty step}",
+								"{@spell shatter}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell haste}",
+								"{@spell protection from energy}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell dimension door}",
+								"{@spell ice storm}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell cone of cold}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell chain lightning}",
+								"{@spell Tenser's transformation|XGE}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "War Magic",
+					"entries": [
+						"When Skorost uses its action to cast a spell, it can make one weapon attack as a bonus action."
+					]
+				},
+				{
+					"name": "Frost Alacrity",
+					"entries": [
+						"While dual wielding the dragonborn can make two extra attacks as part of his attack action."
+					]
+				},
+				{
+					"name": "Armor Of Aurill",
+					"entries": [
+						"Whenever a creature hits the dragonborn with an attack it takes 10 cold damage."
+					]
+				},
+				{
+					"name": "Cold Aura",
+					"entries": [
+						"The ground in a 10-foot radius around the dragonborn is icy and is difficult terrain for creatures other than the giant. The radius moves with the dragonborn and lasts until he dismisses it (no action required) or become {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Icy Veins.",
+					"entries": [
+						"As a bonus action the dragonborn cools down his blood hardening his muscles. The dragonborn gains resistance to fire, bludgeoning, slashing and piercing damage but can't benefit from advantage on attack rolls. This effect lasts until the dragonborn dismisses it with a bonus action."
+					]
+				},
+				{
+					"name": "Icy Charge",
+					"entries": [
+						"If the skorost moves at least 15 feet straight toward a target and then hits it with its scimitar on the same turn, the target takes an extra 21 ({@damage 6d6}) slashing damage. If the target is a creature, it must succeed on a {@dc 18} Constitution saving throw or will be frezze {@condition restrained}."
+					]
+				},
+				{
+					"name": "Change Shape",
+					"entries": [
+						"The dragonborn magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).",
+						"In a new form, the dragonborn retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragonborn makes three scimitar attacks."
+					]
+				},
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) slashing damage plus 18 ({@damage 4d8}) cold damage. In addition, the target has disadvantage on the next saving throw it makes against a spell Skorost casts before the end of the dragonborn's next turn."
+					]
+				},
+				{
+					"name": "Icy Burst",
+					"entries": [
+						"The dragonborn cleave all enemies within 20 feet. Each enemy makes a {@dc 18} Dexterity saving throw suffering 45 ({@damage 10d8}) cold damage, and half as much on a successful save."
+					]
+				}
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/drow-favored-consort.mp3"
+			},
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"S",
+				"C"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"conditionInflictSpell": [
+				"invisible"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MTF/Drow Favored Consort.png",
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "quote",
+										"entries": [
+											"Many creatures enjoy torture, but the dark elves have made it into an exquisite art."
+										],
+										"by": "Mordenkainen"
+									},
+									{
+										"type": "entries",
+										"name": "Drow Favored Consort",
+										"entries": [
+											"Nearly all priestesses of {@deity Lolth|drow|mtf}, including the powerful matron mothers, take attractive drow as their consorts. Often these individuals serve no purpose beyond pleasure, breeding, or both, but sometimes consorts can gain the ear of their priestess and be relied on to provide useful advice. No position of consort is assured for long; priestesses are infamous for being fickle with their favor, which are they are especially glad to lavish on a consort who combines beauty with magical might."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/564x/d4/1b/94/d41b94efe8db74c8f70dbc73d1203247.jpg"
+						}
+					}
+				]
+			},
+			"shortName": true,
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"immune": [
+				"cold"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"restrained"
+			],
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"fire",
+						"piercing",
+						"slashing"
+					],
+					"preNote": "see below:"
+				}
+			],
+			"environment": [
+				"arctic",
+				"mountain",
+				"urban"
+			],
+			"conditionInflict": [
+				"restrained"
+			]
+		}
+	]
+}
