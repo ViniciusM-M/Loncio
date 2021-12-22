@@ -1,0 +1,225 @@
+{
+	"siteVersion": "1.145.1",
+	"_meta": {
+		"sources": [
+			{
+				"json": "Lolncio",
+				"abbreviation": "LLGM",
+				"full": "LolôncioGM",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1640178393,
+		"dateLastModified": 1640178393
+	},
+	"monster": [
+		{
+			"name": "Yuthar",
+			"isNamedCreature": true,
+			"source": "Lolncio",
+			"page": 42,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dwarf"
+				]
+			},
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item breastplate|PHB}",
+						"{@item shield|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 135,
+				"formula": "18d8 + 54"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 16,
+			"int": 13,
+			"wis": 20,
+			"cha": 14,
+			"save": {
+				"con": "+8",
+				"wis": "+10",
+				"cha": "+7"
+			},
+			"skill": {
+				"insight": "+10",
+				"medicine": "+15",
+				"persuasion": "+7",
+				"religion": "+11"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"resist": [
+				"necrotic",
+				"poison"
+			],
+			"languages": [
+				"Celestial",
+				"Common,",
+				"Dwarvish"
+			],
+			"cr": "13",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Yuthar is a 18th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 18}, {@hit 10} to hit with spell attacks). Naes has the following cleric spells prepared:"
+					],
+					"footerEntries": [
+						"* Naes casts these spells on himself before combat"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell light}",
+								"{@spell sacred flame}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell guiding bolt}",
+								"{@spell sanctuary}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell lesser restoration}",
+								"{@spell spiritual weapon}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell fireball}",
+								"{@spell spirit guardians}"
+							],
+							"slots": 2
+						},
+						"4": {
+							"spells": [
+								"{@spell death ward}*",
+								"{@spell wall of fire}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell antilife shell}",
+								"{@spell flame strike}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell blade barrier}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell divine word}"
+							],
+							"slots": 1
+						},
+						"8": {
+							"spells": [
+								"{@spell holy aura}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell mass heal}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Mace",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Radiant Beauty of Sune",
+					"entries": [
+						"Yuthar dispels any magical darkness within 30 feet of him. Additionally, each hostile creature within 30 feet of Yuthar must make a Constitution saving throw at {@dc 18}. A creature takes radiant damage equal to 30 on a failed saving throw, half damage on a successful one. A creature that has total cover from Yuthar is not affected."
+					]
+				},
+				{
+					"name": "Corona of Beauty",
+					"entries": [
+						"Yuthar activates an aura of sunlight that lasts for 1 minute or until he dismisses it using an action. He emits bright light in a 60-foot radius and dim light 30 feet beyond that. His enemies in the bright light have disadvantage on saving throws against any spell that deals fire or radiant damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"CE",
+				"C",
+				"D"
+			],
+			"damageTags": [
+				"B"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"deafened",
+				"stunned"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://media.discordapp.net/attachments/557321504220643349/923199565421772870/token_4.png",
+			"fluff": {
+				"entries": [
+					"O Prefeito é conhecido como yuthar um anão que a muito tempo foi um grande guerreiro e clérigo nos campos de batalha, porem aparentemente perdeu sua fé nas divindades e decidiu ser ele mesmo a esperança as pessoas, mesmo tendo perdido a sua fé aparentemente ele consegue usar magias sagradas, que sem pensar duas vezes ele usa para ajudar os assolados"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://s3.amazonaws.com/files.d20.io/images/71899946/KIcDf82FMImzXNisAVBJzQ/max.jpg"
+						}
+					}
+				]
+			}
+		}
+	]
+}
