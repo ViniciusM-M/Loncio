@@ -1,0 +1,194 @@
+{
+	"siteVersion": "1.154.0",
+	"_meta": {
+		"sources": [
+			{
+				"json": "UlucaiDM",
+				"abbreviation": "ULDM",
+				"full": "Ulucai DM",
+				"url": "",
+				"authors": [
+					"Ulucai"
+				],
+				"convertedBy": [
+					"Ulucai"
+				]
+			}
+		],
+		"dateAdded": 1651057791,
+		"dateLastModified": 1651057791
+	},
+	"monster": [
+		{
+			"name": "Grieving Blade",
+			"source": "UlucaiDM",
+			"page": 187,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"Kenku"
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"Shroud of Shadows"
+					]
+				}
+			],
+			"hp": {
+				"formula": "22d8 + 88",
+				"average": 187
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 10,
+			"dex": 21,
+			"con": 18,
+			"int": 12,
+			"wis": 14,
+			"cha": 16,
+			"save": {
+				"dex": "+10",
+				"con": "+9",
+				"wis": "+7"
+			},
+			"skill": {
+				"perception": "+7",
+				"stealth": "+10",
+				"acrobatics": "+10",
+				"arcana": "+6"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"conditionImmune": [
+				"charmed"
+			],
+			"languages": [
+				"Common",
+				"Dwarvish",
+				"Elvish",
+				"Infernal",
+				"Undercommon"
+			],
+			"cr": "13",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The grieving blade's innate spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell dancing lights}",
+						"{@spell invisibility}",
+						"{@spell sword burst|TCE} "
+					],
+					"daily": {
+						"1e": [
+							"{@spell antilife shell}",
+							"{@spell dimension door}",
+							"{@spell faerie fire}",
+							"{@spell levitate} (self only)",
+							"{@spell shadow of moil|XGE}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Shadow Step",
+					"entries": [
+						"While in dim light or darkness, the grieving blade can teleport as a bonus action up to 60 feet to an unoccupied space it can see that is also in dim light or darkness. It then has advantage on the first melee attack it makes before the end of the turn."
+					]
+				},
+				{
+					"name": "Avoidance",
+					"entries": [
+						"If the grieving blade is subjected to an effect that allows it to make a saving throw to only take half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The grieving blade makes two attacks with its shadow blade or daggers. If either attack hits and the target is within 10 feet of a 5-foot cube of darkness created by the shadow blade, the grieving blade can dismiss that darkness and cause the target to take ({@damage 6d6}) necrotic damage. The grieving blade can dismiss darkness in this way no more than once per turn."
+					]
+				},
+				{
+					"name": "Shadow Blade",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage plus 10 ({@damage 3d6}) necrotic damage and 10 ({@damage 3d6}) poison damage. The grieving blade can then fill an unoccupied 5-foot cube within 5 feet of the target with magical darkness, which remains for 1 minute."
+					]
+				},
+				{
+					"name": "Shadow Dagger",
+					"entries": [
+						"{@atk rw} {@hit 10} to hit, range 20/60 ft., one target. {@h} 7 ({@damage 1d4 + 5}) piercing damage plus 10 ({@damage 3d6}) necrotic damage and 10 ({@damage 3d6}) poison damage. The grieving blade can then fill an unoccupied 5-foot cube within 5 feet of the target with magical darkness, which remains for 1 minute."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Uncanny Dodge",
+					"entries": [
+						"Whenever the grieving blade is hit by an attack he can use its reaction to halve the damage."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/W7tA1Yp.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/zFWlCwF.png",
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"E",
+				"I",
+				"U"
+			],
+			"damageTags": [
+				"I",
+				"N",
+				"P"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RW",
+				"THW"
+			]
+		}
+	]
+}
