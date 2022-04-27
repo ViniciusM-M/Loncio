@@ -1,0 +1,213 @@
+{
+	"siteVersion": "1.154.0",
+	"_meta": {
+		"sources": [
+			{
+				"json": "UlucaiDM",
+				"abbreviation": "ULDM",
+				"full": "Ulucai DM",
+				"url": "",
+				"authors": [
+					"Ulucai"
+				],
+				"convertedBy": [
+					"Ulucai"
+				]
+			}
+		],
+		"dateAdded": 1651058199,
+		"dateLastModified": 1651058199
+	},
+	"monster": [
+		{
+			"name": "Mind Drinker",
+			"shortName": "Mind Drinker",
+			"isNamedCreature": true,
+			"source": "UlucaiDM",
+			"page": 256,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"Kenku"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"special": "19"
+				}
+			],
+			"hp": {
+				"formula": "23d8 + 115",
+				"average": 218
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 40,
+				"canHover": false
+			},
+			"str": 13,
+			"dex": 18,
+			"con": 20,
+			"int": 22,
+			"wis": 14,
+			"cha": 16,
+			"save": {
+				"wis": "+7",
+				"cha": "+8",
+				"int": "+11"
+			},
+			"skill": {
+				"nature": "+11",
+				"acrobatics": "+9",
+				"persuasion": "+8",
+				"deception": "+8",
+				"stealth": "+9",
+				"perception": "+7"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"immune": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"languages": [
+				"Common plus any one language"
+			],
+			"cr": "15",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The mind drinker is a 20th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 19}, {@hit 11} to hit with spell attacks). The has the following spells prepared:"
+					],
+					"will": [
+						"{@spell alter self}",
+						"{@spell eldritch blast}",
+						"{@spell invisibility}"
+					],
+					"daily": {
+						"2e": [
+							"{@spell dimension door}",
+							"{@spell flesh to stone}",
+							"{@spell negative energy flood|XGE}",
+							"{@spell scatter|XGE}",
+							"{@spell sickening radiance|XGE}",
+							"{@spell synaptic static|XGE}",
+							"{@spell thunder step|XGE}",
+							"{@spell wall of light|XGE}"
+						],
+						"1e": [
+							"{@spell plane shift}",
+							"{@spell power word stun}",
+							"{@spell teleport}"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Bolstering Will",
+					"entries": [
+						"The mind drinker's magically emanates restoring energy within 30 feet of itself. Any ally of the mind drinker that starts its turn there regains 11 ({@dice 2d10}) hit points."
+					]
+				},
+				{
+					"name": "Eldritch Battery (Up to 18 Charges)",
+					"entries": [
+						"The mind drinker has advantage on saving throws against spells and other magical effects.",
+						"Additionally whenever it succeeds on a saving throw against a spell it gains charges equal to the level of the spell."
+					]
+				},
+				{
+					"name": "Mind's Eye",
+					"entries": [
+						"The mind drinker can see {@condition invisible} creatures and objects, it can also see into the Ethereal Plane."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The mind drinker can cast a spell of 1st level or higher and a cantrip.",
+						"He can switch either of the spells for a Thoughtsteal."
+					]
+				},
+				{
+					"name": "Eldritch Bolt",
+					"entries": [
+						"{@atk rs} {@hit 11} to hit, range 300/300 ft., one target. {@h}9 ({@damage 1d10 + 5}) force damage. The target can be pushed 10 feet and has its speed reduced by 10 feet."
+					]
+				},
+				{
+					"name": "Thoughtsteal",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}18 ({@damage 5d6}) psichic damage. The target loses a spell slot of {@damage 1d10-2} level (minimum of 1) and the mind drinker's eldritch battery gain charges equal to the spell slots lost."
+					]
+				},
+				{
+					"name": "Eldritch Discharge",
+					"entries": [
+						"The mind drinker releases all the energy stored in its Eldritch Battery against a creature. The target must make a {@dc 19} Intelligence saving throw. If it fails it takes ({@damage 2d10}) force damage plus ({@damage 1d10}) extra force damage per Eldritch Charge. If the target succeeds it takes only half the damage and recover spell slots equal to the number of charges released."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Misty Escape (Recharges after a Short or Long Rest).",
+					"entries": [
+						"In response to taking damage, Felinto turns {@condition invisible} and teleports up to 60 feet to an unoccupied space it can see. It remains {@condition invisible} until the start of its next turn or until it attacks, makes a damage roll, or casts a spell."
+					]
+				},
+				{
+					"name": "Eldritch Rebuke",
+					"entries": [
+						"When the mind drinker is hit by an attack it can use its Eldritch Discharge."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/827940866533621851/867133992389836830/4e8cdab1c47a99801436296197f95b3f1b013814.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/827940866533621851/867140012825903144/token_14.png",
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"O"
+			],
+			"miscTags": [
+				"MW"
+			]
+		}
+	]
+}
