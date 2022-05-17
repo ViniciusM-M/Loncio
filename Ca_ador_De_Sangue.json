@@ -1,0 +1,291 @@
+{
+	"siteVersion": "1.154.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "Lolncio",
+				"abbreviation": "LLGM",
+				"full": "LolôncioGM",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1652788072,
+		"dateLastModified": 1652788072
+	},
+	"monster": [
+		{
+			"name": "Caçador De Sangue",
+			"source": "Lolncio",
+			"page": 345,
+			"basicRules": true,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"L",
+				"NX",
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 25,
+					"from": [
+						"Hunter´s Grab"
+					]
+				}
+			],
+			"hp": {
+				"formula": "39d8 + 273",
+				"average": 448
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 18,
+			"dex": 28,
+			"con": 24,
+			"int": 22,
+			"wis": 18,
+			"cha": 19,
+			"passive": 30,
+			"cr": "25",
+			"environment": [
+				"arctic",
+				"coastal",
+				"desert",
+				"forest",
+				"grassland",
+				"hill",
+				"urban"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/commoner.mp3"
+			},
+			"damageTags": [
+				"O",
+				"P",
+				"S"
+			],
+			"hasFluff": true,
+			"tokenUrl": "https://5e.tools/img/MM/Commoner.png",
+			"shortName": "Hunter",
+			"senses": [
+				"darkvision 120 ft (Magic Darkness).",
+				"blindsight 30 ft."
+			],
+			"senseTags": [
+				"SD",
+				"B"
+			],
+			"languages": [
+				"All exotic",
+				"Common"
+			],
+			"languageTags": [
+				"C"
+			],
+			"save": {
+				"str": "+12",
+				"con": "+15",
+				"cha": "+12",
+				"int": "+14",
+				"wis": "+12",
+				"dex": "+17"
+			},
+			"skill": {
+				"acrobatics": "+25",
+				"athletics": "+12",
+				"perception": "+20",
+				"survival": "+12"
+			},
+			"resist": [
+				{
+					"resist": [
+						"cold",
+						"fire",
+						"lightning"
+					]
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					]
+				}
+			],
+			"immune": [
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non magic attack"
+				}
+			],
+			"conditionImmune": [
+				{
+					"conditionImmune": [
+						"charmed",
+						"exhaustion",
+						"frightened"
+					]
+				}
+			],
+			"trait": [
+				{
+					"name": "Freedom of Movement",
+					"entries": [
+						"The hunter ignores {@quickref difficult terrain||3}, and magical effects can't reduce its speed or cause it to be {@condition restrained}. It can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}."
+					]
+				},
+				{
+					"name": "Blood Frenzy",
+					"entries": [
+						"The hunter has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+					]
+				},
+				{
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, the hunter can move up to its speed toward a hostile creature that it can see."
+					]
+				},
+				{
+					"name": "Devil's Sight",
+					"entries": [
+						"Magical darkness doesn't impede the hunter's darkvision."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The hunter's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"The hunter can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the hunter fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The hunter makes three scythe attacks, he can replace one if gun blast or a leaping scythe. He can also exchange two scythe attacks for one scythe charge attack."
+					]
+				},
+				{
+					"name": "Scythe",
+					"entries": [
+						"{@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@h}27 ({@damage 4d8 + 9}) slashing damage, plus 9 ({@damage 2d8}) force damage."
+					]
+				},
+				{
+					"name": "Leaping Scythe Attack",
+					"entries": [
+						"{@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@h}63 ({@damage 12d8 + 9}) slashing damage, plus 9 ({@damage 2d8}) force damage."
+					]
+				},
+				{
+					"name": "Charge Scythe Attack",
+					"entries": [
+						"The hunter makes a charge attack with his scythe, all creatures in a 60-foot cone must make a {@dc 20} Dexterity saving throw or take 70 ({@damage 20d6}) force damage. If it succeeds, it takes half damage. This attack destroys objects. Fuck you echo knight."
+					]
+				},
+				{
+					"name": "Gun Blast",
+					"entries": [
+						"{@atk rw} {@hit 17} to hit, range 5/20 ft., one target. {@h}31 ({@damage 5d8 + 9}) piercing damage, plus 9 ({@damage 2d8}) force damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"traitTags": [
+				"Aggressive",
+				"Devil's Sight",
+				"Legendary Resistances",
+				"Magic Weapons"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE",
+				"RW"
+			],
+			"spellcasting": [
+				{
+					"name": "Constant Effects",
+					"headerEntries": [
+						"The hunter is always under the effect of one of the following spells, requiring no concentration. At the start of its turn the hunter can change which spell affects him or reactivate it if it was dispelled (no action required).",
+						"Constant Spells: "
+					],
+					"constant": [
+						"{@spell armor of Agathys} 6°th",
+						"{@spell investiture of flame|XGE}",
+						"{@spell investiture of ice|XGE}",
+						"{@spell investiture of stone|XGE}",
+						"{@spell investiture of wind|XGE}",
+						"{@spell kinetic jaunt|SCC}",
+						"{@spell Tasha's otherworldly guise|TCE} (Upper or Lower)"
+					],
+					"type": "spellcasting"
+				}
+			],
+			"damageTagsSpell": [
+				"B",
+				"C",
+				"F",
+				"O"
+			],
+			"legendaryActions": 3,
+			"isNamedCreature": true,
+			"legendary": [
+				{
+					"name": "Move",
+					"entries": [
+						"The hunter moves up to its speed without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Strike (Coast 2 Actions)",
+					"entries": [
+						"The hunter jump 50 feet and makes one Leaping Scythe Attack."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/564x/c9/e4/76/c9e476931cdd4d23bedcd34e46bc003a.jpg"
+						}
+					}
+				]
+			}
+		}
+	]
+}
