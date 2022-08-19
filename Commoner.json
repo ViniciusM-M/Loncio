@@ -1,108 +1,124 @@
 {
-	"siteVersion": "1.167.0",
-	"_meta": {
-		"sources": [
-			{
-				"json": "TheSeasOfVodari",
-				"abbreviation": "TSOV",
-				"full": "The Seas Of Vodari",
-				"url": "",
-				"authors": [],
-				"convertedBy": []
-			}
-		],
-		"dateAdded": 1660946871,
-		"dateLastModified": 1660946871
+	"name": "Keelboat",
+	"source": "GoS",
+	"page": 188,
+	"vehicleType": "SHIP",
+	"size": "G",
+	"dimensions": [
+		"60 ft.",
+		"20 ft."
+	],
+	"terrain": [
+		"sea"
+	],
+	"capCrew": 3,
+	"capPassenger": 4,
+	"capCargo": 0.5,
+	"pace": 3,
+	"str": 16,
+	"dex": 7,
+	"con": 13,
+	"int": 0,
+	"wis": 0,
+	"cha": 0,
+	"immune": [
+		"poison",
+		"psychic"
+	],
+	"conditionImmune": [
+		"blinded",
+		"charmed",
+		"deafened",
+		"exhaustion",
+		"frightened",
+		"incapacitated",
+		"paralyzed",
+		"petrified",
+		"poisoned",
+		"prone",
+		"stunned",
+		"unconscious"
+	],
+	"hull": {
+		"ac": 15,
+		"hp": 100,
+		"dt": 10
 	},
-	"monster": [
+	"control": [
 		{
-			"name": "Commoner",
-			"source": "TheSeasOfVodari",
-			"page": 345,
-			"basicRules": true,
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"any race"
-				]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				10
-			],
-			"hp": {
-				"average": 4,
-				"formula": "1d8"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 10,
-			"dex": 10,
-			"con": 10,
-			"int": 10,
-			"wis": 10,
-			"cha": 10,
-			"passive": 10,
-			"languages": [
-				"any one language (usually Common)"
-			],
-			"cr": "0",
-			"action": [
+			"name": "Helm",
+			"ac": 12,
+			"hp": 50,
+			"entries": [
+				"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the keelboat can't turn."
+			]
+		}
+	],
+	"movement": [
+		{
+			"name": "Oars",
+			"ac": 12,
+			"hp": 100,
+			"hpNote": "-5 ft. speed per 25 damage taken",
+			"speed": [
 				{
-					"name": "Club",
+					"mode": "water",
 					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage."
+						"20 ft."
 					]
 				}
-			],
-			"environment": [
-				"arctic",
-				"coastal",
-				"desert",
-				"forest",
-				"grassland",
-				"hill",
-				"urban"
-			],
-			"soundClip": {
-				"type": "external",
-				"url": "https://5e.tools/audio/bestiary/commoner.mp3"
-			},
-			"languageTags": [
-				"C",
-				"X"
-			],
-			"damageTags": [
-				"B"
-			],
-			"miscTags": [
-				"MW"
-			],
-			"hasFluff": true,
-			"tokenUrl": "https://5e.tools/img/MM/Commoner.png",
-			"fluff": {
-				"name": "Commoner",
-				"source": "MM",
-				"entries": [
-					{
-						"type": "entries",
-						"entries": [
-							{
-								"type": "entries",
-								"entries": [
-									"Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits."
-								]
-							}
-						]
-					}
-				]
-			}
+			]
+		},
+		{
+			"name": "Sails",
+			"ac": 12,
+			"hp": 100,
+			"hpNote": "-5 ft. speed per 20 damage taken ",
+			"speed": [
+				{
+					"mode": "water",
+					"entries": [
+						"25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+					]
+				}
+			]
 		}
-	]
+	],
+	"weapon": [
+		{
+			"name": "Ballista",
+			"ac": 15,
+			"hp": 50,
+			"entries": [
+				"{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage.",
+				"Keelboats typically include a ballista only when they are equipped for combat."
+			]
+		}
+	],
+	"actionThresholds": {
+		"0": 0,
+		"1": 1,
+		"2": 2
+	},
+	"action": [
+		"On its turn, the keelboat can take 2 actions, choosing from the options below. It can take only 1 action if it has only one crew. It can't take these actions if it has no crew.",
+		{
+			"type": "list",
+			"style": "list-hang-notitle",
+			"items": [
+				{
+					"type": "item",
+					"name": "Fire Ballista",
+					"entry": "The keelboat can fire its {@object ballista} (DMG, ch. 8)."
+				},
+				{
+					"type": "item",
+					"name": "Move",
+					"entry": "The keelboat can use its helm to move with its oars or sails."
+				}
+			]
+		}
+	],
+	"hasFluff": true,
+	"hasFluffImages": true
 }
