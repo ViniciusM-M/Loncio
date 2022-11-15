@@ -1,0 +1,300 @@
+{
+	"siteVersion": "1.169.5",
+	"_meta": {
+		"sources": [
+			{
+				"json": "HWMDM",
+				"abbreviation": "HWMDM",
+				"full": "Half-White Moustache DM",
+				"url": "https://bad-dragon.com/",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1668537961,
+		"dateLastModified": 1668537961
+	},
+	"monster": [
+		{
+			"name": "Ozahur Un'Rama",
+			"source": "HWMDM",
+			"page": 77,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"devil"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 31,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "27d20 + 189",
+				"average": 472
+			},
+			"speed": {
+				"walk": 50,
+				"fly": 90,
+				"canHover": false
+			},
+			"str": 26,
+			"dex": 22,
+			"con": 24,
+			"int": 16,
+			"wis": 18,
+			"cha": 24,
+			"save": {
+				"dex": "+12",
+				"con": "+13",
+				"wis": "+10",
+				"str": "+14"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 20,
+			"immune": [
+				"cold",
+				"fire",
+				"poison"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal",
+				"Common",
+				"Infernal",
+				"telepathy 120 ft."
+			],
+			"cr": "20",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The pit fiend's spellcasting ability is Charisma (spell save {@dc 21}). The pit fiend can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell detect magic}",
+						"{@spell fireball}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell hold monster}",
+							"{@spell wall of fire}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Fear Aura",
+					"entries": [
+						"Any creature hostile to the pit fiend that starts its turn within 20 feet of the pit fiend must make a {@dc 21} Wisdom saving throw, unless the pit fiend is {@condition incapacitated}. On a failed save, the creature is {@condition frightened} until the start of its next turn. If a creature's saving throw is successful, the creature is immune to the pit fiend's Fear Aura for the next 24 hours."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Ozahur has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Ozahur's weapon attacks are magical and adamantine for the purpose of bypassing resistance and immunity to nonmagical attacks. When he hits with any weapon, the weapon deals an extra 18 ({@dice 4d8}) radiant and 18 ({@damage 4d8}) fire damage (included in the weapon attacks below)."
+					]
+				},
+				{
+					"name": "Crown of Abathor",
+					"entries": [
+						"Whenever Ozahur is subjected to fire damage, he takes none of that damage and regain a number of hit points equal to half the damage dealt of that type."
+					]
+				},
+				{
+					"name": "Legendary Resistance (1/Day)",
+					"entries": [
+						"If Ozahur fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Unarmored Defense",
+					"entries": [
+						"Ozahur's armor class is equal to 10 plus his dexterity modifier plus his constitution modifier plus his charisma modifier."
+					]
+				},
+				{
+					"name": "Blood Frenzy",
+					"entries": [
+						"Ozahur has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+					]
+				},
+				{
+					"name": "Siege Monster",
+					"entries": [
+						"Ozahur deals double damage to objects and structures."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the ozahur un'rama is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the ozahur un'rama instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Truth Seer",
+					"entries": [
+						"Ozahur has advantage on all Wisdom (Insight) checks."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Ozahur makes four attacks."
+					]
+				},
+				{
+					"name": "Right Hand of Doom",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}42 ({@damage 4d16 + 8}) bludgeoning damage, plus 18 ({@damage 4d8}) fire damage, plus 18 ({@damage 4d8}) radiant damage and it must make a {@dc 22} Strength saving throw or be knocked {@condition prone}.  Any magical or nonmagical barrier that is hit by the Right Hand of doom is destroyed."
+					]
+				},
+				{
+					"name": "Good Samaritan",
+					"entries": [
+						"{@atk rw} {@hit 12} to hit, range 900/1800 ft., one target. {@h}40 ({@damage 8d6 + 12}) piercing damage, or 24 ({@damage 4d8 + 6}) fire damage if used with both hands, plus 18 ({@damage 4d8}) radiant damage."
+					]
+				},
+				{
+					"name": "Sword of Heavens",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d8 + 8}) slashing damage, or 18 ({@damage 4d8}) fire damage if used with both hands, plus 27 ({@damage 6d8}) radiant damage. Additionally an evil creature that takes this radiant damage must succeed on a {@dc 19} Constitution saving throw or be {@condition blinded} until the end of its next turn."
+					]
+				},
+				{
+					"name": "Earthquake Punch",
+					"entries": [
+						"Each creature on the ground within 60 feet of Ozahur must succeed on a {@dc 22} Strength saving throw. If a target is within 30 feet of Ozahur, it has disadvantage on its saving throw. On a failed save, a target takes 52 ({@damage 8d10 + 8}) bludgeoning damage and is pushed up to 20 feet and knocked {@condition prone}, or half as much damage and isn't knocked {@condition prone} on a successful one."
+					]
+				},
+				{
+					"name": "BFG {@recharge 5}",
+					"entries": [
+						"{@atk rw} {@hit 12} to hit, range 300/600 ft., one target. {@h}113 ({@damage 10d20 + 8}) force damage, or 18 ({@damage 4d8}) fire damage plus, plus 18 ({@damage 4d8}) radiant damage. If this damage reduces the target to 0 hit points, it is disintegrated."
+					]
+				}
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/pit-fiend.mp3"
+			},
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Magic Weapons",
+				"Siege Monster"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"I",
+				"TP"
+			],
+			"damageTags": [
+				"B",
+				"F",
+				"O",
+				"P",
+				"R",
+				"S"
+			],
+			"damageTagsSpell": [
+				"F"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"AOE"
+			],
+			"conditionInflict": [
+				"blinded",
+				"frightened",
+				"incapacitated",
+				"prone"
+			],
+			"conditionInflictSpell": [
+				"paralyzed"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://media.discordapp.net/attachments/643705817605996574/1042143450927210560/Epic_Ozahur_Token_2.png",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/83ae4f02-f226-431e-a2d6-ee85879bd409/ddolhj9-22d63ed8-84ec-4916-a304-54e7811d4e48.jpg/v1/fill/w_1280,h_1302,q_75,strp/dnd_comic_books_hellboy_by_frostllamzon_ddolhj9-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTMwMiIsInBhdGgiOiJcL2ZcLzgzYWU0ZjAyLWYyMjYtNDMxZS1hMmQ2LWVlODU4NzliZDQwOVwvZGRvbGhqOS0yMmQ2M2VkOC04NGVjLTQ5MTYtYTMwNC01NGU3ODExZDRlNDguanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.Y7mY24bYCP3l9ddR4OoT4ysZbR3MB-He7WwNT0cjNsg"
+						}
+					}
+				]
+			},
+			"resist": [
+				"bludgeoning",
+				"necrotic",
+				"piercing",
+				"radiant",
+				"slashing"
+			],
+			"skill": {
+				"athletics": "+20",
+				"acrobatics": "+18",
+				"investigation": "+15",
+				"perception": "+10",
+				"arcana": "+9",
+				"intimidation": "+19",
+				"insight": "+16",
+				"history": "+9",
+				"survival": "+16",
+				"stealth": "+12",
+				"religion": "+15"
+			},
+			"bonus": [
+				{
+					"name": "Holy Light",
+					"entries": [
+						"Ozahur causes the Sword of heavens to shed bright light in a 15-foot radius and dim light for an additional 15 feet, or reduce its glow to its normal intensity. Fiends find the sword's light disconcerting and painful, even if they can't see it, and have disadvantage on attack rolls made within the weapon's radius of bright light."
+					]
+				}
+			]
+		}
+	]
+}
