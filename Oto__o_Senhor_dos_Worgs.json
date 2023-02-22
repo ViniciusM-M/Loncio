@@ -1,0 +1,250 @@
+{
+	"siteVersion": "1.176.1",
+	"_meta": {
+		"sources": [
+			{
+				"json": "Krakak",
+				"abbreviation": "GAK",
+				"full": "Krakak",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1676569038,
+		"dateLastModified": 1676569038
+	},
+	"monster": [
+		{
+			"name": "Oto, o Senhor dos Worgs",
+			"isNamedCreature": true,
+			"source": "Krakak",
+			"page": 80,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblin"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"{@item plate armor|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 105,
+				"formula": "14d8 + 42"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 15
+			},
+			"str": 21,
+			"dex": 16,
+			"con": 16,
+			"int": 11,
+			"wis": 10,
+			"cha": 10,
+			"skill": {
+				"stealth": "+7",
+				"survival": "+8",
+				"athletics": "+13",
+				"perception": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Common",
+				"Goblin",
+				"Worg"
+			],
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Rage",
+					"entries": [
+						"Oto can enter a rage as a bonus action. His rage lasts for 1 minute. During his rage he has advantage on Strength checks and Strength saving throws. He gains a +4 bonus to damage while he is in a rage. He has resistance to bludgeoning, piercing, and slashing damage while in a rage. Oto cannot cast spells while in a rage."
+					]
+				},
+				{
+					"name": "Cleaver",
+					"entries": [
+						"When Oto scores a critical hit with his sword, he can choose another target within range. Instead of rolling extra dice for the attack's damage against the first target, he can roll that damage to hit the second target."
+					]
+				},
+				{
+					"name": "Mounted Combatant",
+					"entries": [
+						"Oto have advantage on melee attack rolls against any unmounted creature that is smaller than your mount.",
+						"Oto can force a targeted attack on his mount to hit him. (uses reaction)",
+						"If Oto's mount is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw and only half damage if fail."
+					]
+				},
+				{
+					"name": "Martial Expert",
+					"entries": [
+						"Any weapon the goblin wield is considered magic, he also gains the following benefit based on which kind of weapon he wield:",
+						"- Oto uses Strength to make ranged weapon attacks, doesn't have disadvantage on long range attacks and ignores half and three-quarters cover.",
+						"- While dual wielding the goblin can make a extra attacks as part of his attack action.",
+						"- While wielding a heavy weapon the goblin can reroll any 1 and 2 on his damage rolls with that weapon. Additionally when Oto hits a creature with a weapon attack he can use his bonus action to cleave all enemies within 10 feet. Each enemy makes a {@dc 15} Dexterity saving throw suffering the same damage of the initial attack, and half as much on a successful save."
+					]
+				},
+				{
+					"name": "Shield Master",
+					"entries": [
+						"Oto can use a bonus action to remove or equip his shield."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Oto makes three attacks."
+					]
+				},
+				{
+					"name": "Bone Breaker {@recharge 5}",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}23 ({@damage 4d8 + 5}) bludgeoning damage. If it is a critical attack the targets is {@condition incapacitated} until the end of your next turn."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 5}) slashing damage, or 9 ({@damage 1d10 + 5}) slashing damage if used with both hands. "
+					]
+				},
+				{
+					"name": "Longsword - Rage",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d8 + 9}) slashing damage, or 13 ({@damage 1d10 + 9}) slashing damage if used with both hands."
+					]
+				},
+				{
+					"name": "Shield Bash",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 5}) bludgeoning damage. If the target is Large or smaller, it must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Shield Bash - Rage",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d8 + 9}) bludgeoning damage. If the target is Large or smaller, it must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Twin Rippers",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 5}) slashing damage, plus 7 ({@damage 2d6}) lightning damage.",
+						"This attack is made with advantage against creatures wearing metal armor. A creature hit by this attack loses its reaction."
+					]
+				},
+				{
+					"name": "Awl",
+					"entries": [
+						"{@atk rw} {@hit 9} to hit, range 150/600 ft., one target. {@h}13 ({@damage 2d8 + 5}) piercing damage.",
+						"A creature hit by this attack has its movement halved until the end of its next turn. If it is a critical attack the targets movement is reduced to 0."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"C",
+				"GO",
+				"OTH"
+			],
+			"damageTags": [
+				"B",
+				"L",
+				"P",
+				"S"
+			],
+			"damageTagsSpell": [
+				"O"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"frightened"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://media.discordapp.net/attachments/557321504220643349/1074743360465686778/ms5oXoe.png",
+			"fluff": {
+				"entries": [
+					"Oto é um goblin magro e cabelos pretos e compridos. Ele é conhecido por ser o líder dos Worgs Mortos-Vivos de Carniça e é respeitado e temido por sua habilidade em controlar essas criaturas mortas-vivas.",
+					"Oto sempre foi fascinado pelos Worgs, desde que era jovem. Ele passou muito tempo estudando-os e descobrindo seus hábitos e comportamentos. Ele aprendeu a comunicar-se com eles de forma rudimentar e a controlá-los com gestos e sinais. Quando Krakak Ossos-Podres chegou a Carniça e começou a levantar os Worgs mortos, Oto foi um dos primeiros a se voluntariar para treiná-los. Ele se revelou muito talentoso e rapidamente se tornou o líder dos Worgs Mortos-Vivos.",
+					"Oto é responsável por treinar e controlar os Worgs Mortos-Vivos usados como guardas da cidade e para patrulhar o perímetro de Carniça. Ele também os usa em batalhas, onde suas habilidades de comando e estratégia são valiosas. Ele é conhecido por ser implacável com os Worgs Mortos-Vivos que falham em suas tarefas, mas também é leal aos que se mostram fiéis e competentes.",
+					"Oto é um goblin sem educação formal, mas sua habilidade para controlar os Worgs Mortos-Vivos é a prova de que ele é capaz de aprender e se adaptar de forma eficaz. Ele é um líder forte e temido, mas também é respeitado pela sua habilidade e competência."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://www.worldanvil.com/uploads/images/284934523e6f99fa8501eb39e8d48e4f.jpg"
+						}
+					}
+				]
+			},
+			"shortName": "Oto",
+			"save": {
+				"str": "+9",
+				"con": "+7",
+				"wis": "+4"
+			},
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"preNote": "in rage;"
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"bonus": [
+				{
+					"name": "Strategic Repositioning",
+					"entries": [
+						"Oto can take the Disengage, Hide or Dash action as a bonus action on each of its turns"
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"Otto adds 3 to its AC against one melee attack that would hit it. To do so, the hobgoblin must see the attacker and be wielding a melee weapon."
+					]
+				}
+			]
+		}
+	]
+}
