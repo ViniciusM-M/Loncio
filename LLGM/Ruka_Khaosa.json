@@ -1,0 +1,214 @@
+{
+	"siteVersion": "1.142.0",
+	"_meta": {
+		"sources": [
+			{
+				"json": "UlucaiDM",
+				"abbreviation": "ULDM",
+				"full": "Ulucai DM",
+				"url": "",
+				"authors": [
+					"Ulucai"
+				],
+				"convertedBy": [
+					"Ulucai"
+				]
+			}
+		],
+		"dateAdded": 1638160128,
+		"dateLastModified": 1638160128
+	},
+	"monster": [
+		{
+			"name": "Ruka Khaosa",
+			"shortName": "Monk",
+			"source": "UlucaiDM",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dragonborn"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 25,
+					"from": [
+						"unarmored defense"
+					]
+				}
+			],
+			"hp": {
+				"formula": "25d8 + 125",
+				"average": 237
+			},
+			"speed": {
+				"walk": 60,
+				"climb": 60,
+				"swim": 60,
+				"fly": 120,
+				"canHover": false
+			},
+			"str": 20,
+			"dex": 26,
+			"con": 20,
+			"int": 18,
+			"wis": 24,
+			"cha": 20,
+			"save": {
+				"str": "+11",
+				"dex": "+14",
+				"con": "+11",
+				"wis": "+13",
+				"int": "+10",
+				"cha": "+11"
+			},
+			"skill": {
+				"acrobatics": "+14",
+				"history": "+10",
+				"religion": "+10",
+				"stealth": "+14",
+				"perception": "+13"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 23,
+			"immune": [
+				"cold",
+				"poison"
+			],
+			"conditionImmune": [
+				{
+					"conditionImmune": [
+						"charmed",
+						"frightened",
+						"poisoned"
+					],
+					"note": "(and Diseases)"
+				}
+			],
+			"languages": [
+				"All languages"
+			],
+			"cr": "18",
+			"trait": [
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the sun monk is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the sun monk instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Step of the Wind",
+					"entries": [
+						"The monk can take the Disengage or Dash actions as a bonus action."
+					]
+				},
+				{
+					"name": "Flurry of Blows",
+					"entries": [
+						"The monk can use his bonus action to makes two unarmed strikes."
+					]
+				},
+				{
+					"name": "Cold Absorption",
+					"entries": [
+						"Whenever the monk is subjected to cold damage, it takes no damage and instead regains a number of hit points equal to the cold damage dealt."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Monk makes three unarmed strikes and uses his quivering palm (if available)."
+					]
+				},
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}19 ({@damage 2d10 + 8}) bludgeoning damage. If the target is a creature, the monk can cause one of the following effects:",
+						"The creature must succeed on a {@dc 22} Strength saving throw or drop one item it is holding (monk's choice).",
+						"The creature must succeed on a {@dc 22} Strength saving throw or be pushed 15 feet away from the monk.",
+						"The creature must succeed on a {@dc 22} Dexterity saving throw or be knocked {@condition prone}.",
+						"The creature must succeed on a {@dc 22} Constitution saving throw or be {@condition stunned} until the start of the monk's next turn."
+					]
+				},
+				{
+					"name": "Soul Catching",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}19 ({@damage 2d10 + 8}) bludgeoning damage, plus 11 ({@damage 2d10}) force damage. Alternatively, instead of regaining hit points in this way, Ruka can choose to gain advantage on one attack roll, ability check, or saving throw he make before the end of his next turn"
+					]
+				},
+				{
+					"name": "Dragon Strike {@recharge 6}",
+					"entries": [
+						"When the monk hits a creature with an unarmed strike it can force the target to make a {@dc 20} Constitution saving throw. On a failed save, the target is reduced to 0 hit points. On a successful save, the target takes 55 ({@damage 10d10}) necrotic damage."
+					]
+				},
+				{
+					"name": "Wholeness of Body (Recharges after a Long Rest).",
+					"entries": [
+						"The monk regains 60 hit points."
+					]
+				},
+				{
+					"name": "Cold Breath {@recharge 5}",
+					"entries": [
+						"Ruka exhales an icy blast in a 20-foot cone. Each creature in that area must make a {@dc 19} Constitution saving throw, taking 42 ({@damage 12d6}) cold damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Deflect Missile",
+					"entries": [
+						"In response to being hit by a ranged weapon attack, the monk deflects the missile. The damage it takes from the attack is reduced by {@dice 1d10 + 25}. If the damage is reduced to 0, the monk catches the missile if it's small enough to hold in one hand and the monk has a hand free."
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/9WSyfAL.png",
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"O",
+				"N",
+				"C"
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"conditionInflict": [
+				"prone",
+				"stunned"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/564x/8d/55/22/8d5522ddb065d335b884265e24fa8491.jpg"
+						}
+					}
+				]
+			},
+			"resist": [],
+			"traitTags": [
+				"Damage Absorption"
+			]
+		}
+	]
+}

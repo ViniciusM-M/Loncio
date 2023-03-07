@@ -1,0 +1,124 @@
+{
+	"name": "Keelboat",
+	"source": "GoS",
+	"page": 188,
+	"vehicleType": "SHIP",
+	"size": "G",
+	"dimensions": [
+		"60 ft.",
+		"20 ft."
+	],
+	"terrain": [
+		"sea"
+	],
+	"capCrew": 3,
+	"capPassenger": 4,
+	"capCargo": 0.5,
+	"pace": 3,
+	"str": 16,
+	"dex": 7,
+	"con": 13,
+	"int": 0,
+	"wis": 0,
+	"cha": 0,
+	"immune": [
+		"poison",
+		"psychic"
+	],
+	"conditionImmune": [
+		"blinded",
+		"charmed",
+		"deafened",
+		"exhaustion",
+		"frightened",
+		"incapacitated",
+		"paralyzed",
+		"petrified",
+		"poisoned",
+		"prone",
+		"stunned",
+		"unconscious"
+	],
+	"hull": {
+		"ac": 15,
+		"hp": 100,
+		"dt": 10
+	},
+	"control": [
+		{
+			"name": "Helm",
+			"ac": 12,
+			"hp": 50,
+			"entries": [
+				"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the keelboat can't turn."
+			]
+		}
+	],
+	"movement": [
+		{
+			"name": "Oars",
+			"ac": 12,
+			"hp": 100,
+			"hpNote": "-5 ft. speed per 25 damage taken",
+			"speed": [
+				{
+					"mode": "water",
+					"entries": [
+						"20 ft."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sails",
+			"ac": 12,
+			"hp": 100,
+			"hpNote": "-5 ft. speed per 20 damage taken ",
+			"speed": [
+				{
+					"mode": "water",
+					"entries": [
+						"25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+					]
+				}
+			]
+		}
+	],
+	"weapon": [
+		{
+			"name": "Ballista",
+			"ac": 15,
+			"hp": 50,
+			"entries": [
+				"{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage.",
+				"Keelboats typically include a ballista only when they are equipped for combat."
+			]
+		}
+	],
+	"actionThresholds": {
+		"0": 0,
+		"1": 1,
+		"2": 2
+	},
+	"action": [
+		"On its turn, the keelboat can take 2 actions, choosing from the options below. It can take only 1 action if it has only one crew. It can't take these actions if it has no crew.",
+		{
+			"type": "list",
+			"style": "list-hang-notitle",
+			"items": [
+				{
+					"type": "item",
+					"name": "Fire Ballista",
+					"entry": "The keelboat can fire its {@object ballista} (DMG, ch. 8)."
+				},
+				{
+					"type": "item",
+					"name": "Move",
+					"entry": "The keelboat can use its helm to move with its oars or sails."
+				}
+			]
+		}
+	],
+	"hasFluff": true,
+	"hasFluffImages": true
+}

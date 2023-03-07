@@ -1,0 +1,206 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UlucaiDM",
+				"abbreviation": "ULDM",
+				"full": "Ulucai's Degenerate Mind",
+				"url": "",
+				"authors": [
+					"Ulucai"
+				],
+				"convertedBy": [
+					"Ulucai"
+				]
+			}
+		],
+		"dateAdded": 1616721133,
+		"dateLastModified": 1616721133
+	},
+	"monster": [
+		{
+			"name": "Autolycus, King of Thieves",
+			"shortName": "Autolycus",
+			"source": "UlucaiDM",
+			"page": "157",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 23,
+					"from": [
+						"{@item +3 studded leather armor}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "30d8 + 120",
+				"average": 255
+			},
+			"speed": {
+				"walk": 50,
+				"climb": 50
+			},
+			"str": 15,
+			"dex": 27,
+			"con": 18,
+			"int": 18,
+			"wis": 20,
+			"cha": 18,
+			"save": {
+				"dex": "+16",
+				"con": "+12",
+				"int": "+12",
+				"wis": "+13",
+				"cha": "+12"
+			},
+			"skill": {
+				"acrobatics": "+24",
+				"arcana": "+20",
+				"athletics": "+18",
+				"deception": "+20",
+				"history": "+12",
+				"insight": "+21",
+				"investigation": "+20",
+				"nature": "+12",
+				"stealth": "+34",
+				"survival": "+13",
+				"religion": "+12",
+				"persuasion": "+20",
+				"performance": "+20",
+				"perception": "+21",
+				"sleight of hand": "+24"
+			},
+			"senses": [
+				"truesight 120 ft.",
+				"blindsight 30 ft."
+			],
+			"passive": 31,
+			"resist": [
+				{
+					"resist": [],
+					"preNote": "All damage"
+				}
+			],
+			"immune": [
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non-magical weapons"
+				}
+			],
+			"languages": [
+				"All languages"
+			],
+			"cr": "26",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Autolycus spellcasting ability is Intelligence (spell save {@dc 27}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell alter self}",
+						"{@spell arcane lock}",
+						"{@spell disguise self}",
+						"{@spell find the path}",
+						"{@spell find traps}",
+						"{@spell knock}",
+						"{@spell mage hand}"
+					],
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Limited Divination Immunity",
+					"entries": [
+						"The Autolycus can't be affected, detected by divination magic unless it wishes to be. Including natural truesight."
+					]
+				},
+				{
+					"name": "Silent walker",
+					"entries": [
+						"Autolycus is always under the effect of a {@spell Pass without Trace} spell."
+					]
+				},
+				{
+					"name": "King's Hoard",
+					"entries": [
+						"As a bonus action. Autolycus can send any object he carrying to a demiplane. He can also retrieve an object previously sent there."
+					]
+				},
+				{
+					"name": "Reliable",
+					"entries": [
+						"Autolycus has advantage on all ability checks."
+					]
+				},
+				{
+					"name": "Honour Among Thieves",
+					"entries": [
+						"If a creature tries to steal or take a item belonging to Autolycus, it must first succeed on a {@dc 27} Wisdom saving throw. If it fails it feels demotivated to do so and give up."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Identity Theft",
+					"entries": [
+						"Autolycus tries to steal a large or smaller creature's appearance. A creature within 5 feet must succeed a {@dc 27} charisma saving throw or Autolycus becomes the splitting image of the target, with the same voice, smell, weight, etc. Until he dismisses this  effect (no action required)."
+					]
+				},
+				{
+					"name": "Speed Snatch",
+					"entries": [
+						"Autolycus tries to steal a creature's speed. A creature within 5 feet must succeed a {@dc 27} charisma saving throw or have one of its special speed stolen (climbing, swimming, borrowing) for 1 minute or until Autolycus snatches another creature's speed.",
+						"The creature's speed becomes 0 and Autolycus adds the stolen speed to his own."
+					]
+				},
+				{
+					"name": "Steal Senses",
+					"entries": [
+						"Autolycus tries to steal a creature's senses. A creature within 5 feet must succeed a {@dc 27} charisma saving throw or have one of its senses stolen.",
+						"The target loses one of its senses permanently. It can be restored by a {@spell greater restoration} spell.",
+						"Autolycus gains the creature's senses for 24 hours."
+					]
+				},
+				{
+					"name": "Lifesteal",
+					"entries": [
+						"Autolycus tries to steal a creature's temporary hit points. A creature within 5 feet must succeed a {@dc 27} charisma saving throw or lose all of its temporary hit points.",
+						"Autolycus gains temporary hit points equal to the lost by the target."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Spell Theft",
+					"entries": [
+						"Immediately after a creature casts a spell that targets or include Autolycus or any other creature it can see, he can use his reaction to force the caster to make a {@dc 27} saving throw with its spellcasting ability modifier. If it fails the spell is negated, the slot is spent and the creature loses the knowledge of the spell for 8 hours, becoming unable to cast it.",
+						"Autolycus can cast this spell once without spending a spell slot."
+					]
+				}
+			],
+			"senseTags": [
+				"B",
+				"U"
+			],
+			"spellcastingTags": [
+				"I"
+			]
+		}
+	]
+}

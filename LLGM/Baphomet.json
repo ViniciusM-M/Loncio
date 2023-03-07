@@ -1,0 +1,289 @@
+{
+	"siteVersion": "1.167.5",
+	"_meta": {
+		"sources": [
+			{
+				"json": "Lolncio",
+				"abbreviation": "LLGM",
+				"full": "LolôncioGM",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1662384033,
+		"dateLastModified": 1662384033
+	},
+	"monster": [
+		{
+			"name": "Baphomet",
+			"source": "Lolncio",
+			"page": 169,
+			"size": [
+				"H"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"Demon Lord"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				21
+			],
+			"hp": {
+				"formula": "40d12 + 360",
+				"average": 840
+			},
+			"speed": {
+				"walk": 60,
+				"fly": 60
+			},
+			"str": 31,
+			"dex": 22,
+			"con": 28,
+			"int": 26,
+			"wis": 26,
+			"cha": 26,
+			"passive": 29,
+			"tokenUrl": "https://i.imgur.com/H4hO4KT.png",
+			"cr": "28",
+			"senses": [
+				"truesight 240 ft."
+			],
+			"senseTags": [
+				"U"
+			],
+			"languages": [
+				"All",
+				"telepathy 500 ft."
+			],
+			"languageTags": [
+				"TP"
+			],
+			"save": {
+				"str": "+18",
+				"dex": "+14",
+				"con": "+17",
+				"int": "+16",
+				"wis": "+16",
+				"cha": "+16"
+			},
+			"skill": {
+				"arcana": "+24",
+				"athletics": "+26",
+				"deception": "+16",
+				"history": "+24",
+				"perception": "+19"
+			},
+			"resist": [
+				"thunder",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					]
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"trait": [
+				{
+					"name": "Charge",
+					"entries": [
+						"If Baphomet moves at least 10 feet straight toward a target and then hits with a gore attack on the same turn, the target takes an extra 55 ({@damage 10d10}) piercing damage. If the target must succeed on a {@dc 27} Strength saving throw or be pushed 15 feet away if it is gargantuan, 30 feet away if it is huge, 60 feet away if it is larger or 120 feet away if it is medium or smaller, and knocked {@condition prone}.",
+						"If a pushed target strikes a solid surface the target takes 3 ({@dice 1d6})",
+						"bludgeoning damage for every 10 feet it was pushed. If the target is pushed at another creature, that creature must succeed on a {@dc 26} Dexterity saving throw or take the same damage and be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Danger Sense",
+					"entries": [
+						"Baphomet’s has advantage on Dexterity checks and saving throws against threats it can see."
+					]
+				},
+				{
+					"name": "Heartcleaver",
+					"entries": [
+						"The Heartcleaver is +4 glaive artifact (included in the attack). ",
+						"While a creature is attuned to it and raging it cause triple weapon damage (included in the attack)."
+					]
+				},
+				{
+					"name": "Labyrinthine Recall",
+					"entries": [
+						"The baphomet can perfectly recall any path it has traveled."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The baphomet's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Rage",
+					"entries": [
+						"Baphomet’s has advantage on Strength checks and saving throws and gains a +10 bonus to damage (included in the attack)."
+					]
+				},
+				{
+					"name": "Reckless",
+					"entries": [
+						"At the start of its turn, the baphomet can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn."
+					]
+				}
+			],
+			"conditionInflict": [
+				"frightened",
+				"prone"
+			],
+			"traitTags": [
+				"Charge",
+				"Magic Weapons",
+				"Reckless"
+			],
+			"damageTags": [
+				"B",
+				"P",
+				"S",
+				"T"
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Baphomet’s spell casting ability is Charisma (spell save {@dc 24}, +16 to hit with attack spells). Baphomet can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell dominate beast}",
+						"{@spell hunter's mark}"
+					],
+					"daily": {
+						"1": [
+							"{@spell meteor swarm}",
+							"{@spell reverse gravity}"
+						],
+						"3": [
+							"{@spell maze}",
+							"{@spell Tasha's otherworldly guise|TCE} (Upper or Lower)"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"damageTagsSpell": [
+				"B",
+				"F"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Baphomet makes two attacks: any combination of fist and heartcleaver attacks."
+					]
+				},
+				{
+					"name": "First",
+					"entries": [
+						"{@atk mw} {@hit 18} to hit, reach 10 ft., one target. {@h}29 ({@damage 3d12 + 10}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Gore",
+					"entries": [
+						"{@atk mw} {@hit 18} to hit, reach 10 ft., one target. {@h}65 ({@damage 10d10 + 10}) piercing damage."
+					]
+				},
+				{
+					"name": "Heartcleaver",
+					"entries": [
+						"{@atk mw} {@hit 22} to hit, reach 15 ft., one target. {@h}75 ({@damage 10d12 + 10}) slashing damage."
+					]
+				},
+				{
+					"name": "Howl (5-6)",
+					"entries": [
+						"Baphomet roars and all creatures within 240 feet of him must make a {@dc 26} Constitution saving throw taking 65 ({@damage 10d12}) thunder damage on failed save, and half as much damage on a successful one. In addition, each creature within 240 feet that can hear the roar must succeed on a {@dc 25} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the frightening effects of Baphomet’s howl for the next 24 hours."
+					]
+				},
+				{
+					"name": "Unholy Water (6)",
+					"entries": [
+						"Baphomet spits forth unholy water in a 90 foot cone. All creatures within the cone must make a {@dc 26} Dexterity saving throw taking (100) necrotic damage on failed save, and half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Summoning (1/day)",
+					"entries": [
+						"Baphomet magically summons (100% chance of success) {@dice 1d10 + 6} minotaurs, or, {@dice 1d4} goristros."
+					]
+				},
+				{
+					"name": "Whirlwind Frenzy (6)",
+					"entries": [
+						"Baphomet makes a heartcleaver attack on all targets within 15 feet of him."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"legendaryHeader": [
+				"Baphomet can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. If Baphomet has unspent legendary actions at the end of the round, it may spend and immediately use its remaining legendary actions. Baphomet regains spent legendary actions at the start of its turn."
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"Baphomet makes a fist attack, or cast a spell."
+					]
+				},
+				{
+					"name": "Heartcleaver (2/round)",
+					"entries": [
+						"Baphomet makes a heart cleaver attack."
+					]
+				},
+				{
+					"name": "Frenzy (3 actions)",
+					"entries": [
+						"Whirlwind frenzy recharges and Baphomet uses it immediately"
+					]
+				},
+				{
+					"name": "Unholy (3 actions, 1/day)",
+					"entries": [
+						"Unholy water recharges and Baphomet uses it immediately."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://5e.tools/img/bestiary/MTF/Baphomet.jpg"
+						}
+					}
+				]
+			}
+		}
+	]
+}

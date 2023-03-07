@@ -1,0 +1,265 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Lolncio",
+				"abbreviation": "LLGM",
+				"full": "LolôncioGM",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1604773453,
+		"dateLastModified": 1604773453
+	},
+	"monster": [
+		{
+			"name": "Doragon Forest Keeper",
+			"source": "Lolncio",
+			"page": 210,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"wood elf"
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"Doragon Wood Plate"
+					]
+				}
+			],
+			"hp": {
+				"formula": "24d8 + 96",
+				"average": 204
+			},
+			"speed": {
+				"walk": 45,
+				"climb": 20
+			},
+			"str": 10,
+			"dex": 22,
+			"con": 18,
+			"int": 12,
+			"wis": 26,
+			"cha": 18,
+			"save": {
+				"wis": "+14",
+				"cha": "+10",
+				"dex": "+12",
+				"con": "+10"
+			},
+			"skill": {
+				"medicine": "+14",
+				"nature": "+7",
+				"perception": "+20",
+				"acrobatics": "+12",
+				"survival": "+20"
+			},
+			"passive": 30,
+			"languages": [
+				"Druidic,Common",
+				"Elvish"
+			],
+			"cr": "18",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The Doragon Forest Keeper is an 20th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 22}, {@hit 14} to hit with spell attacks). It has the following druid spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell druidcraft}",
+								"{@spell mending}",
+								"{@spell poison spray}",
+								"{@spell primal savagery|XGE}",
+								"{@spell produce flame}",
+								"{@spell thorn whip}"
+							]
+						}
+					},
+					"will": [
+						"{@spell entangle}",
+						"{@spell longstrider}",
+						"{@spell warding wind|XGE}"
+					],
+					"daily": {
+						"1": [
+							"{@spell heal}",
+							"{@spell plane shift}",
+							"{@spell storm of vengeance}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"environment": [
+				"forest",
+				"mountain",
+				"swamp"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/archdruid.mp3?v=1.115.0"
+			},
+			"languageTags": [
+				"C",
+				"DU",
+				"E"
+			],
+			"damageTags": [
+				"S",
+				"F",
+				"A",
+				"P"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"charmed",
+				"paralyzed",
+				"prone",
+				"restrained"
+			],
+			"tokenUrl": "https://media.discordapp.net/attachments/727134232157225001/774417662435786783/DB1YsoU.png",
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Archdruids watch over the natural wonders of their domains. They seldom interact with civilized folk unless there is a great threat to the natural order. An archdruid typically has one or more pupils who are druids (see the Monster Manual for statistics), and the archdruid's lair is usually guarded by loyal beasts and fey creatures."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/564x/3b/2e/49/3b2e490b830eb1406dd92cc7076f1479.jpg"
+						}
+					}
+				]
+			},
+			"shortName": true,
+			"senses": [
+				"blindsight 60 ft."
+			],
+			"senseTags": [
+				"B"
+			],
+			"conditionImmune": [
+				"charmed"
+			],
+			"spellcastingTags": [
+				"CD"
+			],
+			"immune": [
+				"necrotic"
+			],
+			"resist": [
+				"cold"
+			],
+			"trait": [
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The doragon forest keeper can use its action to polymorph into a Small or Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The doragon forest keeper has advantage on saving throws against being {@condition charmed}, and magic can't put the doragon forest keeper to sleep."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The doragon forest keeper has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The doragon forest keeper's weapon attacks are magical."
+					]
+				}
+			],
+			"traitTags": [
+				"Fey Ancestry",
+				"Magic Resistance",
+				"Magic Weapons",
+				"Shapechanger"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Doragon Forest Keeper faz dois ataque com sua Men YoYu Ken e conjura um truque."
+					]
+				},
+				{
+					"name": "Kiru Shindo",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}16 ({@damage 3d6 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Doragon Flame Blade",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}10 ({@damage 3d6}) fire damage."
+					]
+				},
+				{
+					"name": "Primal Savagery",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}22 ({@damage 4d10}) acid damage."
+					]
+				},
+				{
+					"name": "Thorn Whip",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 30 ft., one target. {@h}14 ({@damage 4d6}) piercing damage."
+					]
+				},
+				{
+					"name": "Forgetfulness (Recharge 6).",
+					"entries": [
+						"The Doragon Forest Keeper targets one creature it can see within 60 feet of it. That creature must make a {@dc 18} Intelligence saving throw and on a failure the target is {@condition stunned} for 1 minute. A {@condition stunned} creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target remains {@condition stunned} for the full minute, it forgets everything it sensed, experienced, and learned during the last 5 hours."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"conditionInflict": [
+				"stunned"
+			]
+		}
+	]
+}

@@ -1,0 +1,228 @@
+{
+	"siteVersion": "1.176.1",
+	"_meta": {
+		"sources": [
+			{
+				"json": "FoTR",
+				"abbreviation": "FoTR",
+				"full": "Firearms of The Realms",
+				"color": "7ba130",
+				"authors": [
+					"Yonael"
+				],
+				"convertedBy": [
+					"cadowtin"
+				],
+				"url": "https://www.gmbinder.com/share/-LaQ-9bfLBNNBm-hoMee",
+				"version": "0.1"
+			}
+		],
+		"dateAdded": 1676580548,
+		"dateLastModified": 1676580548
+	},
+	"monster": [
+		{
+			"name": "Wolfwere",
+			"source": "FoTR",
+			"page": 155,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"beast",
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"condition": "while in humanoid form"
+				},
+				{
+					"ac": 13,
+					"condition": "while in wolf/hybrid form"
+				}
+			],
+			"hp": {
+				"average": 55,
+				"formula": "10d8 + 10"
+			},
+			"speed": {
+				"walk": {
+					"number": 30,
+					"condition": "(40 ft. in dire wolf form)"
+				}
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 12,
+			"int": 10,
+			"wis": 8,
+			"cha": 15,
+			"skill": {
+				"perception": "+4"
+			},
+			"passive": 13,
+			"immune": [
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons that aren't iron",
+					"cond": true
+				}
+			],
+			"languages": [
+				"Common (can't speak in wolf form)"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The wolfwere can use its action to polymorph into a wolf-humanoid hybrid or into a human or elf, or back into its true form, which is a dire wolf. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				},
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"The wolfwere has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The wolfwere has advantage on an attack roll against a creature if at least one of the wolfwere's allies is within 5 ft. of the creature and the ally isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack (Hybrid form only)",
+					"entries": [
+						"The wolfwere makes two attacks: one with its bite and one with its claws."
+					]
+				},
+				{
+					"name": "Longsword (Humanoid form only)",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 4}) slashing damage or 10 ({@damage 1d10 + 5}) slashing damage if used with two hands."
+					]
+				},
+				{
+					"name": "Bite (Wolf or Hybrid form only)",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage. If the target is a creature, it must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Claws (Hybrid form only)",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Lethargic Song (Humanoid form only)",
+					"entries": [
+						"The wolfwere plays a magical melody on an instrument. Every humanoid within 200 ft. of the wolfwere that can hear the melody must succeed on a {@dc 13} Wisdom saving throw or be {@spell slow||slowed} for 10 minutes. A creature can repeat the saving throw at the end of each of its turns. If a creature's saving throw is successful, the effect ends on it. A target that successfully saves is immune to this wolfwere's melody for the next 24 hours."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses",
+				"Pack Tactics",
+				"Shapechanger"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"CS"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MaBJoV/Wolfwere.png",
+			"fluff": {
+				"name": "Wolfwere",
+				"source": "MaBJoV",
+				"entries": [
+					{
+						"type": "quote",
+						"entries": [
+							"I remember being told that wolfweres were nature's perfect predator. Boo disagreed with this though. There is nothing more fearsome than a pissed off space hamster!"
+						],
+						"by": "MINSC"
+					},
+					{
+						"type": "quote",
+						"entries": [
+							"Shhhh... close your eyes.",
+							"Dream of starlight, dream of sights unseen, and I shall join you soon."
+						],
+						"by": "Wolfwere"
+					},
+					"Wolfweres are shapeshifters that have the natural form of a large wolf but can transform at will into both humanoid and bipedal hybrid shapes. These hateful creatures are much more intelligent than a normal wolf and use this preternatural cunning to hunt their favorite prey: humans. Although some believe them to be the offspring of werewolves and normal wolves—and this may very well be their origin—wolfweres are their own species and their form of lycanthropy is not a transmissible curse or disease. Like werewolves, wolfweres are repelled by wolfsbane but are vulnerable to iron rather than silver weapons.",
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Strange Packs",
+										"entries": [
+											"Although some wolfweres are solitary, others choose to stay in familial bands. However, they most often run in packs of normal wolves or worgs. Wolfweres are able to influence and command these beasts, making them much more vicious and bolder. Rarely, a wolfwere may choose to blend in with human society. Wolfweres never associate with werewolves, as the two share a mutual hatred and will attack each other unprovoked."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Myriad Forms",
+										"entries": [
+											"A wolfwere's natural form is similar in size and appearance to that of a dire wolf. In combat, they usually shift into a hybrid form, which is able to both bite and use weapons with its human-like hands. To trick stronger prey, a wolfwere dons a charismatic human shape. Unlike werewolves, wolfweres have no single humanoid form to revert to. Instead, a wolfwere can transform into any humanoid shape it desires, though they almost universally choose ones with great physical beauty. Wolfweres have the ability to sense what their particular prey would find attractive and assume a seductive disguise. Wolfweres have less control over their appearance when they involuntarily transform under a new moon, though they usually assume a shape they have taken on recently."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "A Sedating Melody",
+										"entries": [
+											"While in their humanoid forms, wolfweres have the ability to sing a song that induces a lethargy in their prey that is similar to a {@spell slow} spell. Many wolfweres play stringed instruments and pose as bards to avoid arousing suspicion while they work their charms."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MaBJoV/Wolfwere.webp"
+						}
+					}
+				]
+			}
+		}
+	]
+}

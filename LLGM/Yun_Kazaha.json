@@ -1,0 +1,231 @@
+{
+	"siteVersion": "1.144.0",
+	"_meta": {
+		"sources": [
+			{
+				"json": "Lolncio",
+				"abbreviation": "LLGM",
+				"full": "LolôncioGM",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1638986560,
+		"dateLastModified": 1638986560
+	},
+	"monster": [
+		{
+			"name": "Yun Kazaha",
+			"source": "Lolncio",
+			"page": 128,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"half elf"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"condition": "(natural armor)"
+				}
+			],
+			"hp": {
+				"average": 71,
+				"formula": "11d8 + 22"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 12,
+			"dex": 18,
+			"con": 14,
+			"int": 14,
+			"wis": 16,
+			"cha": 19,
+			"save": {
+				"dex": "+7",
+				"con": "+5",
+				"wis": "+6"
+			},
+			"skill": {
+				"perception": "+6",
+				"stealth": "+10",
+				"sleight of hand": "+7",
+				"persuasion": "+7",
+				"investigation": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 16,
+			"languages": [
+				"Elvish",
+				"Undercommon",
+				"Infernal",
+				"Sylvan",
+				"Common"
+			],
+			"cr": "5",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Yun makes two katana attacks, or one chidori "
+					]
+				},
+				{
+					"name": "Katana",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Chidori",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage, plus 4 ({@damage 1d8}) thunder damage."
+					]
+				},
+				{
+					"name": "Wind Strike",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage.  If the target is a creature, the monk can cause one of the following effects:",
+						"The creature must succeed on a {@dc 14} Strength saving throw or drop one item it is holding (monk's choice).",
+						"The creature must succeed on a {@dc 14} Strength saving throw or be pushed 15 feet away from the yun",
+						"The creature must succeed on a {@dc 14} Dexterity saving throw or be knocked {@condition prone}.",
+						"The creature must succeed on a {@dc 14} Constitution saving throw or be {@condition stunned} until the start of the monk's next turn."
+					]
+				},
+				{
+					"name": "Enerugī - エネルギー",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d6 + 4}) force damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"Yun adds 3 to its AC against one melee attack that would hit it. To do so, she must see the attacker and be wielding a melee weapon."
+					]
+				},
+				{
+					"name": "Gift of the wind.",
+					"entries": [
+						"When Yun take damage from a creature that is within 10 feet of her, she can use your reaction to emanate telekinetic energy. The creature that dealt damage to her must make a Strength saving throw {@dc 14} ",
+						"On a failed save, the creature takes [[{@dice 2d8}]] force damage and is pushed up to 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed. Yun can use this reaction a number of times equal to her proficiency bonus, and Yun regain all expended uses when you finish a long rest."
+					]
+				}
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/drow-elite-warrior.mp3"
+			},
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"E",
+				"U",
+				"I",
+				"S",
+				"C"
+			],
+			"damageTags": [
+				"S",
+				"T",
+				"B",
+				"O"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/564x/29/8d/84/298d84148fdb62ae233ac0569508308f.jpg"
+						}
+					}
+				]
+			},
+			"shortName": "Yun",
+			"level": 5,
+			"resist": [
+				"necrotic",
+				"radiant"
+			],
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The yun has advantage on saving throws against being {@condition charmed}, and magic can't put the yun to sleep."
+					]
+				},
+				{
+					"name": "Moon Blood",
+					"entries": [
+						"Yun knows {@spell booming blade} spell. "
+					]
+				},
+				{
+					"name": "Unleash The Astral Self",
+					"entries": [
+						"With one action, Yun releases her astral self, when in this form, she gains the following benefits:",
+						"* You can use your Wisdom modifier in place of your Strength modifier when making Strength checks and Strength saving throws.",
+						"* You can use the spectral arms to make unarmed strikes.",
+						"When you make an unarmed strike with the arms on your turn, your reach for it is 5 feet greater than normal.",
+						"* The unarmed strikes you make with the arms can use your Wisdom modifier in place of your Strength or Dexterity modifier for the attack and damage rolls, and their damage type is force."
+					]
+				},
+				{
+					"name": "Moon Blades",
+					"entries": [
+						"A melee weapon deals one extra die of its damage when the yun hits with it."
+					]
+				}
+			],
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"bonus": [
+				{
+					"name": "Flurry of Blows",
+					"entries": [
+						"Yun can make two unarmed attacks with his bonus action."
+					]
+				},
+				{
+					"name": "Step of the Wind",
+					"entries": [
+						"Yun can take the Disengage or Dash actions as a bonus action."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"prone",
+				"stunned"
+			],
+			"environment": [
+				"urban"
+			],
+			"isNpc": true,
+			"tokenUrl": "https://cdn.discordapp.com/attachments/557321504220643349/917503402932596766/yuuuuuuu.png"
+		}
+	]
+}

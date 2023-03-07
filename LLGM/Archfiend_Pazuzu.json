@@ -1,0 +1,309 @@
+{
+	"siteVersion": "1.154.0",
+	"_meta": {
+		"sources": [
+			{
+				"json": "LolncioGM",
+				"abbreviation": "LLGM",
+				"full": "LolôncioGM",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1651017640,
+		"dateLastModified": 1651017640
+	},
+	"monster": [
+		{
+			"name": "Archfiend Pazuzu",
+			"source": "LolncioGM",
+			"page": 345,
+			"basicRules": true,
+			"size": [
+				"V"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"Demon"
+				]
+			},
+			"alignment": [
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 31,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "45d10 + 405",
+				"average": 855
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 240,
+				"canHover": false
+			},
+			"str": 28,
+			"dex": 32,
+			"con": 28,
+			"int": 30,
+			"wis": 30,
+			"cha": 30,
+			"passive": 32,
+			"languages": [
+				"All,",
+				"telepathy 500 ft."
+			],
+			"cr": "30",
+			"environment": [
+				"arctic",
+				"coastal",
+				"desert",
+				"forest",
+				"grassland",
+				"hill",
+				"urban"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/commoner.mp3"
+			},
+			"damageTags": [
+				"S",
+				"A",
+				"I",
+				"Y",
+				"P"
+			],
+			"hasFluff": true,
+			"tokenUrl": "https://media.discordapp.net/attachments/557321504220643349/965571334761484318/pazuzas.png",
+			"shortName": true,
+			"senses": [
+				"truesight 240 ft."
+			],
+			"senseTags": [
+				"U"
+			],
+			"languageTags": [
+				"TP"
+			],
+			"save": {
+				"con": "+21",
+				"wis": "+22",
+				"cha": "+22",
+				"int": "+22",
+				"str": "+12",
+				"dex": "+23"
+			},
+			"skill": {
+				"arcana": "+28",
+				"acrobatics": "+29",
+				"athletics": "+18",
+				"perception": "+22",
+				"persuasion": "+19",
+				"sleight of hand": "+23",
+				"stealth": "+23"
+			},
+			"resist": [
+				{
+					"resist": [],
+					"preNote": "cold, fire, lightning, poison; bludgeoning, piercing, and slashing from a +3 or lesser magical weapons"
+				}
+			],
+			"immune": [
+				{
+					"immune": [],
+					"preNote": "lightning, poison; refer to Demon Princes entry."
+				}
+			],
+			"conditionImmune": [
+				{
+					"conditionImmune": [],
+					"preNote": "charmed, exhaustion, frightened, petrified, poisoned"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack.",
+					"entries": [
+						"Pazuzu makes to two sword of chaos or four claw attacks."
+					]
+				},
+				{
+					"name": "Sword of Chaos.",
+					"entries": [
+						"{@atk mw} {@hit 22} to hit, reach 10 ft., one target. {@h}59 ({@damage 12d6 + 17}) damage, plus 45 ({@damage 10d8}) damage from one of the following types (@damage {@dice d6}): fire, cold, lightning, thunder, acid, or poison. damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 23} to hit, reach 10 ft., one target. {@h}38 ({@damage 5d6+17}) slashing damage and the creature must make a {@dc 22} Constitution save or be inflicted with filth fever as in the spell ({@spell contagion})"
+					]
+				},
+				{
+					"name": "Breathweapon.",
+					"entries": [
+						"Pazuzu exhales poisonous vapor in a 180-foot cone. Each creature in the cone must make a {@dc 27} Dexterity saving throw, taking 105 ({@damage 10d20}) acid damage and 105 ({@damage 10d20}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Soul Corruption.",
+					"entries": [
+						"{@atk rw} {@hit 20} to hit, range 480/480 ft., one target. {@h}76 ({@damage 10d12 + 11}) psychic damage and the creature must make a {@dc 26} Wisdom save or be {@condition stunned}."
+					]
+				},
+				{
+					"name": "Summon Demon (1/short-rest).",
+					"entries": [
+						"Pazuzu magically summons (100% chance of success) ({@damage 2d10+6}) vrocks."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE",
+				"RW"
+			],
+			"reaction": [
+				{
+					"name": "Vengeful Talons.",
+					"entries": [
+						"When Pazuzu is hit by a ranged attach it can make a flyby attack, see Legendary Actions."
+					]
+				}
+			],
+			"legendaryHeader": [
+				"Pazuzu can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature’s turn. If Pazuzu has unspent legendary actions at the end of the round, it may spend and immediately use its remaining legendary actions. Pazuzu regains spent legendary",
+				"actions at the start of its turn."
+			],
+			"legendary": [
+				{
+					"name": "Attack.",
+					"entries": [
+						"Pazuzu makes a sword of chaos, a soul corruption, or two claw attacks."
+					]
+				},
+				{
+					"name": "Coercion.",
+					"entries": [
+						"A creature Pazuzu can see must make a {@dc 27} Charisma saving throw. On a failed save, the creature must use its reaction, to make a weapon attack or cast a cantrip against a target of Pazuzu’s choice. If the attack fails to hit the intended target the coerced creature takes 31 ({@damage 8d12}) psychic damage."
+					]
+				},
+				{
+					"name": "Flyby Attack.",
+					"entries": [
+						"Pazuzu can fly its speed and make two claw attack. Pazuzu’s movement doesn’t provoke opportunity attacks."
+					]
+				},
+				{
+					"name": "Regenerate.",
+					"entries": [
+						"Pazuzu regenerates 30 hit points."
+					]
+				},
+				{
+					"name": "Innate Spellcasting (1/round).",
+					"entries": [
+						"Pazuzu casts a spell."
+					]
+				},
+				{
+					"name": "Plague of Abyssal Locusts (Cost 2 actions).",
+					"entries": [
+						"Pazuzu conjures a swarm of demonic biting insects that fill up to a 40-foot-radius sphere centered on Pazuzu. The sphere spreads around corners, is considered difficult terrain, and provides half cover to creatures within the sphere, except from Pazuzu. The sphere remains until the end of Pazuzu’s next turn unless it spends 1 legendary action to maintain the sphere. Creatures of Pazuzu’s choice that start their turn in the sphere must make a {@dc 27} Constitution saving throw, taking 55 ({@damage 10d10}) piercing damage on a failed save or half as much damage on a successful one."
+					]
+				}
+			],
+			"trait": [
+				{
+					"name": "Aura of Servile Avians.",
+					"entries": [
+						"All evil-aligned creatures with a natural fly speed that can see Pazuzu or are within 240 feet of it feel a bond of attraction to Pazuzu. Such creatures must make a {@dc 27} Wisdom",
+						"saving throw or be {@condition charmed} by Pazuzu while the creature can see Pazuzu or is within 240 feet of it."
+					]
+				},
+				{
+					"name": "Banishment.",
+					"entries": [
+						"When Pazuzu drops to 0 hit points its body explodes into a swarm of black ravens that fly off in random directions and disappear after 10 rounds. Pazuzu’s body is destroyed, but its",
+						"essence travels back to its domain of Torremor and it is unable to physical form for a time."
+					]
+				},
+				{
+					"name": "Legendary Resistance (4/Day).",
+					"entries": [
+						"If a demon prince fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Limited Magic Immunity.",
+					"entries": [
+						"Unless Pazuzu wishes to be affected, it is immune to spells of 6th level or lower and has advantage on savings throws of all spells and magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons.",
+					"entries": [
+						"A demon prince’s weapon attacks are treated as +4 magical weapons."
+					]
+				},
+				{
+					"name": "Shapechanger.",
+					"entries": [
+						"Pazuzu can use its action to polymorph into a form that resembles a large or medium humanoid or back to its true form. Aside from its size, its statistics are the same in each form. Any equipment it is wearing or carrying is not transformed."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting.",
+					"headerEntries": [
+						"Refer to Demon Princes entry. In addition, Pazuzu’s spell casting ability is Charisma (spell save {@dc 27}, +22 to hit with attack spells. Pazuzu can innately cast the following spells,",
+						"requiring no material components:"
+					],
+					"will": [
+						"{@spell charm person}",
+						"{@spell fire bolt} (17th level)"
+					],
+					"daily": {
+						"1": [
+							"{@spell wish}"
+						],
+						"3": [
+							"{@spell dominate person}",
+							"{@spell insect plague}",
+							"{@spell plane shift} (only itself and willing creatures)"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"fluff": {
+				"entries": [
+					"Abyss Lord."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/originals/fe/6d/42/fe6d42dada513c0f3f8f0f324b50ba3f.jpg"
+						}
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,400 @@
+{
+	"siteVersion": "1.165.1",
+	"_meta": {
+		"sources": [
+			{
+				"json": "Lolncio",
+				"abbreviation": "LLGM",
+				"full": "LolôncioGM",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1659576537,
+		"dateLastModified": 1659576537
+	},
+	"monster": [
+		{
+			"name": "Nobody",
+			"source": "Lolncio",
+			"page": 201,
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 24,
+					"from": [
+						"renegade's cloak"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d8 + 180",
+				"average": 270
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 18,
+			"dex": 30,
+			"con": 28,
+			"int": 24,
+			"wis": 21,
+			"cha": 22,
+			"skill": {
+				"acrobatics": "+26",
+				"investigation": "+15",
+				"perception": "+21",
+				"persuasion": "+14",
+				"sleight of hand": "+26",
+				"stealth": "+26",
+				"history": "+15",
+				"survival": "+13",
+				"athletics": "+12",
+				"deception": "+22"
+			},
+			"senses": [
+				"darkvision 120 ft.",
+				"blindsight 30 ft."
+			],
+			"passive": 31,
+			"trait": [
+				{
+					"name": "Gunslinger",
+					"entries": [
+						"Being within 5 feet of a hostile creature or attacking at long range doesn't impose disadvantage on gunslinger ranged attack rolls with a gun. In addition, he ignores half cover and three-quarters cover when making ranged attacks."
+					]
+				},
+				{
+					"name": "Hunter's Intuition.",
+					"entries": [
+						"When gunslinger make a Wisdom (Perception) or Wisdom (Survival) check, he can roll a {@dice d4} and add the number rolled to the ability check."
+					]
+				},
+				{
+					"name": "Finder's Magic.",
+					"entries": [
+						"The gunslinger can cast the {@spell hunter's mark} spell with this trait. And, he can also cast the locate object spell with it. Once gunslinger cast either spell with this trait, he can't cast that spell with it again until finish a long rest."
+					]
+				},
+				{
+					"name": "Relentless Endurance.",
+					"entries": [
+						"When gunslinger are reduced to 0 hit points but not killed outright, he drop to 1 hit point instead. gunslinger can't use this feature again until finish a long rest."
+					]
+				},
+				{
+					"name": "Dead Eye.",
+					"entries": [
+						"When gunslinger score a critical hit with a ranged weapon attack, he can it maximizes the damage from this attack."
+					]
+				},
+				{
+					"name": "Avoidance",
+					"entries": [
+						"If the gunslinger is subjected to an effect that allows it to make a saving throw to only take half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The gunslinger's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Special Equipment.",
+					"entries": [
+						"The gunslinger wears a white {@item Mantle of Spell Resistance}, {@item Dagger of Blindsight}, 2x {@item Potion of Supreme Healing} and {@item Adamantine armor} (renegade's cloak)"
+					]
+				},
+				{
+					"name": "Adamantine Plating.",
+					"entries": [
+						"Any critical hit against the gunslinger becomes a normal hit. Because the adamantine armor."
+					]
+				},
+				{
+					"name": "Not in the face",
+					"entries": [
+						"If the gunslinger shoots a fallen target at 5 feet with the shotgun, this attack is considered critical if it hits."
+					]
+				},
+				{
+					"name": "Infused Magazine.",
+					"entries": [
+						"1.\tBanishment. A creature that takes damage from this bullet must succeed on a {@dc 24} Charisma saving throw or be banished as though affected by the banishment spell.",
+						"2. Fulguration. On a hit, this bullet deals an extra {@damage 2d8} lightning damage to its target. All other creatures and objects within 10 feet of the target must each succeed on a {@dc 24} Constitution saving throw or take {@damage 1d8} thunder damage.",
+						"3. Stunning. On a hit, this bullet deals an extra {@damage 1d10} force damage, and the target is {@condition stunned} until the end of gunslinger next turn.",
+						"4. Tracking. A creature that takes damage from this bullet is marked with a glowing rune where the bullet hit. The mark lasts 24 hours. While the creature is marked, you always know the direction to it."
+					]
+				},
+				{
+					"name": "Gunslinger's Reflexes",
+					"entries": [
+						"The Gunslinger have become adept at laying ambushes and quickly escaping danger. he can take two turns during of any combat. The Gunslinger take your first turn at your normal initiative and your second turn at your initiative minus 10."
+					]
+				}
+			],
+			"senseTags": [
+				"SD",
+				"B"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"tokenUrl": "https://i.imgur.com/mpcrLLF.png",
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": []
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/564x/9f/9b/32/9f9b322789c2893fdaca009ba22006f7.jpg"
+						}
+					}
+				]
+			},
+			"environment": [
+				"urban"
+			],
+			"action": [
+				{
+					"name": "Multiattack.",
+					"entries": [
+						"O gunslinger pode realizar dois ataques com armas a distancia, três ataques com armas corpo a corpo leves e com propriedade acuidade.",
+						"Ações : End Of Line, Shotgun, Rifle Butt."
+					]
+				},
+				{
+					"name": "Automatic Pistol",
+					"entries": [
+						"{@atk rw} {@hit 18} to hit, range 50/150 ft., one target. {@h}24 ({@damage 4d6 + 10}) piercing damage.",
+						"***Dead Eye.*** ({@damage 58}) piercing damage."
+					]
+				},
+				{
+					"name": "Hunting Rifle",
+					"entries": [
+						"{@atk rw} {@hit 18} to hit, range 80/240 ft., one target. {@h}26 ({@damage 3d10 + 10}) piercing damage.",
+						"***Dead Eye.*** ({@damage 70}) piercing damage."
+					]
+				},
+				{
+					"name": "Dagger of Blindsight",
+					"entries": [
+						"{@atk mw,rw} {@hit 18} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 10}) piercing damage in melee, or 5 ({@damage 1d4 + 10}) piercing damage at range.",
+						"This rare magic item requires attunement. A creature attuned to it gains blindsight out to a range of 30 feet. The dagger has a saw-toothed edge and a black pearl nested in its pommel."
+					]
+				},
+				{
+					"name": "End Of Line",
+					"entries": [
+						"{@atk rw} {@hit 18} to hit, range 240/240 ft., one target. {@h}43 ({@damage 6d10 + 10}) piercing damage.",
+						"***Dead Eye.*** ({@damage 130}) piercing damage."
+					]
+				},
+				{
+					"name": "Shotgun",
+					"entries": [
+						"{@atk rw} {@hit 18} to hit, range 15/60 ft., one target. {@h}39 ({@damage 3d12 + 20}) piercing damage.",
+						"If the target is a creature, it must succeed on a {@dc 22} Strength saving throw or be knocked {@condition prone}.",
+						"***Dead Eye.*** ({@damage 92}) piercing damage."
+					]
+				},
+				{
+					"name": "Rifle Butt",
+					"entries": [
+						"{@atk mw} {@hit 18} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d6 + 10}) bludgeoning damage.",
+						"Whenever gunslinger hits a creature with this attacks, he can impose one of the following effects on that target.",
+						"It must succeed on a {@dc 22} Dexterity saving throw or be knocked {@condition prone}.",
+						"It must make a {@dc 22} Strength saving throw. If it fails, gunslinger can push it up to 15 feet away from he.",
+						"It can't take reactions until the end of gunslinger next turn."
+					]
+				},
+				{
+					"name": "It's High Noon {@recharge}",
+					"entries": [
+						"The gunslinger gives up all his moves to lock the crosshairs on a target. The gunslinger's next attack is considered a critical hit."
+					]
+				},
+				{
+					"name": "Burst Fire",
+					"entries": [
+						"The gunslinger can spray a 30-foot cone area with the automatic gun. Each creature in the area must make a Dexterity saving throw {@dc 22} or takes [[{@dice 12d6 + 10}]] piercing"
+					]
+				}
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"THW",
+				"AOE"
+			],
+			"bonus": [
+				{
+					"name": "Bomb {@recharge 5}",
+					"entries": [
+						"Clay lights this bomb and drops it at a point up to 60 feet away. Each creature within 5 feet of that spot must make a {@dc 22} Dexterity saving throw or take 21 [[{@dice 8d6}]] fire damage."
+					]
+				},
+				{
+					"name": "The Gunslinger Inventory.",
+					"entries": [
+						"As a bonus action. The Gunslinger can send any object he carrying to a demiplane. He can also retrieve an object previously sent there."
+					]
+				},
+				{
+					"name": "Eagle's Eye",
+					"entries": [
+						"As a bonus action, the gunslinger can add {@dice 2d8} to its next attack or damage roll with a End Of Line. or Shotgun."
+					]
+				},
+				{
+					"name": "Fast Hands",
+					"entries": [
+						"The gunslinger can reload his weapon, drop bombs and use magic itens with his bonus action."
+					]
+				},
+				{
+					"name": "Nimble Escape.",
+					"entries": [
+						"The gunslinger allison can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns."
+					]
+				},
+				{
+					"name": "Potion of Supreme Healing",
+					"entries": [
+						"{@dice 10d4+20} Healing"
+					]
+				}
+			],
+			"conditionInflict": [
+				"prone",
+				"stunned"
+			],
+			"shortName": true,
+			"reaction": [
+				{
+					"name": "Mobile",
+					"entries": [
+						"When the gunslinger is hit by a magical or physical attack, he can use the reaction and reduce the damage by 40. When using this reaction, he can roll up to 20 feet, this move does not provoke attacks of opportunity. After moving, in the same reaction, he can make an attack."
+					]
+				},
+				{
+					"name": "Skirmisher",
+					"entries": [
+						"The gunslinger can move up to half his speed as a reaction when an enemy approaches. This move does not provoke attacks of opportunity."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Weapons"
+			],
+			"resist": [
+				{
+					"resist": [],
+					"preNote": "All damages"
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellasting.",
+					"headerEntries": [
+						"The gunslinger spellcasting ability is Charisma (spell save {@dc 24}, +14 to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+					],
+					"daily": {
+						"1": [
+							"{@spell freedom of movement}",
+							"{@spell hallucinatory terrain}",
+							"{@spell mislead}",
+							"{@spell teleport}"
+						]
+					},
+					"rest": {
+						"1": [
+							"{@spell hunter's mark}",
+							"{@spell locate creature}"
+						]
+					},
+					"will": [
+						"{@spell alarm}",
+						"{@spell arcane eye}",
+						"{@spell arcane lock} (no components)",
+						"{@spell swift quiver}"
+					],
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"legendary": [
+				{
+					"name": "Teleport",
+					"entries": [
+						"The Gunslinger magically teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see."
+					]
+				},
+				{
+					"name": "Reload",
+					"entries": [
+						"The gunslinger reload your weapons."
+					]
+				},
+				{
+					"name": "Tick Tack",
+					"entries": [
+						"The Gunslinger make a ranged weapon attack."
+					]
+				},
+				{
+					"name": "Spell ( 2 actions)",
+					"entries": [
+						"The gunslinger cast a spell"
+					]
+				},
+				{
+					"name": "It's High Noon (If the skill is loaded) (3 actions)",
+					"entries": [
+						"The gunslinger gives up all his moves to lock the crosshairs on a target. The gunslinger's next attack is considered a critical hit."
+					]
+				}
+			],
+			"cr": "28",
+			"languages": [
+				"All languages"
+			],
+			"save": {
+				"dex": "+18",
+				"con": "+17",
+				"int": "+15",
+				"cha": "+14",
+				"wis": "+13",
+				"str": "+12"
+			}
+		}
+	]
+}

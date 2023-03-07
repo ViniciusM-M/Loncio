@@ -1,0 +1,289 @@
+{
+	"siteVersion": "1.177.1",
+	"_meta": {
+		"sources": [
+			{
+				"json": "Krakak",
+				"abbreviation": "GAK",
+				"full": "Krakak",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1678127530,
+		"dateLastModified": 1678127530
+	},
+	"monster": [
+		{
+			"name": "Star Spawn Larva Mage",
+			"source": "Krakak",
+			"page": 235,
+			"size": [
+				"M"
+			],
+			"type": "aberration",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 168,
+				"formula": "16d8 + 96"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 17,
+			"dex": 12,
+			"con": 23,
+			"int": 18,
+			"wis": 12,
+			"cha": 16,
+			"save": {
+				"dex": "+6",
+				"wis": "+6",
+				"cha": "+8"
+			},
+			"skill": {
+				"perception": "+6",
+				"acrobatics": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 16,
+			"resist": [
+				"cold",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"immune": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"restrained"
+			],
+			"languages": [
+				"Deep Speech"
+			],
+			"cr": "16",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The larva mage's innate spellcasting ability is Charisma (spell save {@dc 16}, {@hit 8} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+					],
+					"footerEntries": [
+						"*3 beams, +3 bonus to each damage roll"
+					],
+					"will": [
+						"{@spell eldritch blast}*",
+						"{@spell minor illusion}"
+					],
+					"daily": {
+						"1": [
+							"{@spell call lightning}"
+						],
+						"3": [
+							"{@spell chaos bolt|XGE}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Return to Worms",
+					"entries": [
+						"When the larva mage is reduced to 0 hit points, it breaks apart into a {@creature swarm of insects} in the same space. Unless the swarm is destroyed, the larva mage reforms from it 24 hours later."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage, and the target must succeed on a {@dc 15} Constitution saving throw or be {@condition poisoned} until the end of its next turn."
+					]
+				},
+				{
+					"name": "Plague of Worms {@recharge}",
+					"entries": [
+						"Each creature other than a star spawn within 10 feet of the larva mage must make a {@dc 14} Dexterity saving throw. On a failure the target takes 13 ({@damage 3d8}) necrotic damage and is {@condition blinded} and {@condition restrained} by masses of swarming worms. The affected creature takes 13 ({@damage 3d8}) necrotic damage at the start of each of the larva mage's turns. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Eldrich Blast",
+					"entries": [
+						"{@atk rw} {@hit 8} to hit, range 120/120 ft., one target. {@h}9 ({@damage 1d10 + 3}) force damage. The mage can choose to pull the target creature up to 15 feet closer."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Feed on Weakness",
+					"entries": [
+						"When a creature within 20 feet of the larva mage fails a saving throw, the larva mage gains 10 temporary hit points."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Cantrip (Costs 2 Actions)",
+					"entries": [
+						"The larva mage casts one cantrip."
+					]
+				},
+				{
+					"name": "Slam (Costs 2 Actions)",
+					"entries": [
+						"The larva mage makes one slam attack."
+					]
+				},
+				{
+					"name": "Feed (Costs 3 Actions)",
+					"entries": [
+						"Each creature {@condition restrained} by the larva mage's Plague of Worms takes 13 ({@damage 3d8}) necrotic damage, and the larva mage gains 6 temporary hit points."
+					]
+				}
+			],
+			"environment": [
+				"mountain"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/star-spawn-larva-mage.mp3"
+			},
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"DS"
+			],
+			"damageTags": [
+				"B",
+				"N",
+				"O"
+			],
+			"damageTagsSpell": [
+				"A",
+				"C",
+				"F",
+				"I",
+				"L",
+				"O",
+				"T",
+				"Y"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"conditionInflict": [
+				"blinded",
+				"poisoned",
+				"restrained"
+			],
+			"conditionInflictSpell": [
+				"charmed"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MTF/Star Spawn Larva Mage.png",
+			"fluff": {
+				"name": "Star Spawn Larva Mage",
+				"source": "MTF",
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MTF/Star Spawn Larva Mage.jpg"
+						}
+					}
+				],
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"A larva mage is a nightmarish combination of a mortal body and otherworldly substance. When a powerful cultist of a wormlike entity such as Kyuss or Kezef—usually a warlock or other spellcaster—contacts the comet-borne emissary of an Elder Evil, the emissary can merge with a mortal consciousness to create a larva mage. None of the original cultist's personality survives the transformation, so what emerges is wholly alien."
+						]
+					},
+					{
+						"type": "section",
+						"name": "Star Spawn",
+						"entries": [
+							{
+								"type": "quote",
+								"entries": [
+									"Stars don't spawn these creatures. Such beautiful lights shouldn't be blamed for such balefulness."
+								],
+								"by": "Mordenkainen"
+							},
+							"The Material Plane represents only one small part of the multiverse. Beyond the best-known planes of existence lie realms that are lethal to mortal life. Some are so hostile that even a moment's contact with such a place is enough to plunge a mortal mind into madness. Yet beings do exist that are native to these realms: beings that are eternally hungering, searching, warring, sometimes dreaming. These Elder Evils are far older than most of the mortal races and always horrific to humanoid minds.",
+							"However much they might desire to enter and dominate the Material Plane, the Elder Evils are unable or unwilling to leave their realms. Some are imprisoned in their dimensions by external forces, some are inextricably bound to their home realities, and others simply can't find any way out.",
+							{
+								"name": "Heralds of Doom",
+								"type": "entries",
+								"entries": [
+									"The creatures known as star spawn are the heralds, servants, foot soldiers, and lieutenants of the Elder Evils, capable of taking on forms that can journey to the Material Plane. They arrive most often in the wake of a comet—or perhaps such a phenomenon merely signals that star spawn are in the vicinity and available for communication. When the signs are right, warlocks and cultists hasten to gather together, read aloud their blasphemous texts, and conduct the mind-searing rituals that guide the blazing star spawn into the world."
+								]
+							},
+							{
+								"type": "quote",
+								"entries": [
+									"The cultists who blaspheme reality by calling out to Elder Evils often speak of a Far Realm from which these entities hail. In truth, there is no one place or space from which they come. There is the multiverse of things that are, and there is the multiverse of things that shouldn't be."
+								],
+								"by": "Mordenkainen"
+							},
+							{
+								"name": "Elder Evil Blessings",
+								"type": "entries",
+								"entries": [
+									"Disciples of certain Elder Evils can bestow supernatural gifts on those who serve that cult, including star spawn. The following powers are unique to specific cults; typically a creature has only one.",
+									{
+										"type": "list",
+										"columns": 3,
+										"items": [
+											"{@cult Cult of Atropus, the World Born Dead|MTF}",
+											"{@cult Cult of Borem, of the Lake of Boiling Mud|MTF}",
+											"{@cult Cult of Haask, the Voice of Hargut|MTF}",
+											"{@cult Cult of Tharizdun, the Chained God|MTF}",
+											"{@cult Cult of Tyranthraxus, the Flamed One|MTF}"
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		}
+	]
+}
