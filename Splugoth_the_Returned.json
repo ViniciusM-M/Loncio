@@ -1,0 +1,253 @@
+{
+	"siteVersion": "1.177.1",
+	"_meta": {
+		"sources": [
+			{
+				"json": "FoTR",
+				"abbreviation": "FoTR",
+				"full": "Firearms of The Realms",
+				"color": "7ba130",
+				"authors": [
+					"Yonael"
+				],
+				"convertedBy": [
+					"cadowtin"
+				],
+				"url": "https://www.gmbinder.com/share/-LaQ-9bfLBNNBm-hoMee",
+				"version": "0.1"
+			}
+		],
+		"dateAdded": 1677880667,
+		"dateLastModified": 1677880667
+	},
+	"monster": [
+		{
+			"name": "Splugoth the Returned",
+			"source": "FoTR",
+			"page": 213,
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "undead",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "17d6 + 51",
+				"average": 110
+			},
+			"speed": {
+				"walk": 45
+			},
+			"str": 8,
+			"dex": 20,
+			"con": 16,
+			"int": 16,
+			"wis": 11,
+			"cha": 10,
+			"save": {
+				"int": "+5",
+				"dex": "+7"
+			},
+			"skill": {
+				"stealth": "+9",
+				"perception": "+2",
+				"sleight of hand": "+9",
+				"acrobatics": "+9"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"Common",
+				"Draconic",
+				"Elvish",
+				"Goblin"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Defensive Advantage",
+					"entries": [
+						"As long as two or more of Splugoth's allies are within 5 feet of him and are not {@condition incapacitated}, attack rolls against him are made with disadvantage."
+					]
+				},
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"Splugoth can take the Disengage, Hide or Dash action as a bonus action on each of his turns."
+					]
+				},
+				{
+					"name": "Touch of Madness",
+					"entries": [
+						"Splugoth has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the splugoth is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the splugoth the returned instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Splugoth makes two attacks with his dagger."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d4 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Word From Beyond (2/Day)",
+					"entries": [
+						"Splugoth remembers and repeats aloud a few words from a place he entered while walking back from the next world to this one. Each creature of his choice within 30 feet of him that can hear him must succeed on a {@dc 13} Wisdom saving throw or be {@condition stunned} until the end of its next turn."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"E",
+				"GO"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/AI/Splugoth the Returned.png",
+			"fluff": {
+				"name": "Splugoth the Returned",
+				"source": "AI",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											{
+												"type": "quote",
+												"entries": [
+													"I'm going to give you a piece of advice. Don't trust Acquisitions Incorporated. And never, ever, ever trust Omin Dran. Wait, that's two pieces of advice. You owe me."
+												]
+											},
+											"Sometimes a goblin can't catch a break. First, you fall in with a cult that works for the release of a death god. Then you get taken prisoner by a group of sociopathic adventurers who end up letting you die after you save their sorry lives. One minute, you're a dead goblin named Splug. And then you're alive again, and it seems like a really good idea to play up the drama of resurrection with a cool new name-and a master plan for cold, cold revenge against those who betrayed you.",
+											"Every once in a while, the (accidentally) capricious and (totally unintentionally) self-centered nature of an Acquisitions Incorporated franchise might incur some collateral damage among followers, hirelings, and staff. When that happens, the collateral damage sometimes inspires some collateral damage of its own. No one is entirely sure how many times Splugoth the Returned has actually returned from the dead. But as the point goblin for the group known as the Six (see \"Factions and Rivals\" in chapter 3), he's made vengeance against Acq Inc and Omin Dran his life's work. And then the work of his next life. And the one after that."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/AI/Splugoth the Returned.jpg"
+						}
+					}
+				]
+			},
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The Returned casts one of the following spells, using intelligence as the spellcasting ability (spell save {@dc 13}):"
+					],
+					"daily": {
+						"1": [
+							"{@spell blur}",
+							"{@spell color spray}",
+							"{@spell flame knife|FoTR}"
+						],
+						"3": [
+							"{@spell cure wounds}",
+							"{@spell grease}",
+							"{@spell longstrider}"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"damageTagsSpell": [
+				"C",
+				"P"
+			],
+			"bonus": [
+				{
+					"name": "Detonate Dagger (1/ round)",
+					"entries": [
+						"The Returned points at a dagger it has thrown and explodes it, in a 10-foot-radius, all creatures must make a {@dc 13} Dexterity saving throw or take {@damage 3d6} slashing damage, or half as much damage on a success."
+					]
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				{
+					"conditionImmune": []
+				},
+				{
+					"conditionImmune": [
+						"charmed",
+						"poisoned"
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Redirect Attack",
+					"entries": [
+						"When a creature the splugoth can see targets it with an attack, the goblin chooses another goblin within 5 feet of it. The two goblins swap places, and the chosen goblin becomes the target instead."
+					]
+				}
+			]
+		}
+	]
+}
