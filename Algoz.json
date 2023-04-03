@@ -1,0 +1,268 @@
+{
+	"siteVersion": "1.178.0",
+	"_meta": {
+		"sources": [
+			{
+				"json": "Lolncio",
+				"abbreviation": "LLGM",
+				"full": "LolôncioGM",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1680525914,
+		"dateLastModified": 1680525914
+	},
+	"monster": [
+		{
+			"name": "Algoz",
+			"source": "Lolncio",
+			"page": 345,
+			"basicRules": true,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item adamantine plate armor}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "49d10 + 6",
+				"average": 275
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 20
+			},
+			"str": 18,
+			"dex": 26,
+			"con": 22,
+			"int": 19,
+			"wis": 22,
+			"cha": 18,
+			"passive": 26,
+			"cr": "13",
+			"environment": [
+				"arctic",
+				"coastal",
+				"desert",
+				"forest",
+				"grassland",
+				"hill",
+				"urban"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/commoner.mp3"
+			},
+			"damageTags": [
+				"O",
+				"P"
+			],
+			"hasFluff": true,
+			"tokenUrl": "https://5e.tools/img/MM/Commoner.png",
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/564x/3f/1f/f2/3f1ff295f7766caa4a8d19c3e48089b9.jpg"
+						}
+					}
+				]
+			},
+			"senses": [
+				"darkvision 60 ft.",
+				"blindsight 10 ft."
+			],
+			"senseTags": [
+				"D",
+				"B"
+			],
+			"languages": [
+				"Common",
+				"Thieves' cant",
+				"Infernal"
+			],
+			"languageTags": [
+				"C",
+				"TC",
+				"I"
+			],
+			"save": {
+				"dex": "+13",
+				"int": "+9",
+				"cha": "+9"
+			},
+			"skill": {
+				"acrobatics": "+18",
+				"athletics": "+9",
+				"investigation": "+14",
+				"stealth": "+18",
+				"survival": "+11",
+				"perception": "+16"
+			},
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Algoz is a 15th-level spellcaster. Him spellcasting ability is Intelligence (spell save {@dc 18}, +10 to hit with spell attacks). He can cast the following spells:"
+					],
+					"daily": {
+						"1": [
+							"{@spell conjure volley}"
+						],
+						"3": [
+							"{@spell ashardalon's stride|FTD}",
+							"{@spell dimension door}",
+							"{@spell zephyr strike|XGE}"
+						]
+					},
+					"will": [
+						"{@spell color spray}",
+						"{@spell invisibility}",
+						"{@spell mirror image}",
+						"{@spell Nystul's magic aura}",
+						"{@spell sleep}"
+					],
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"damageTagsSpell": [
+				"F",
+				"O"
+			],
+			"trait": [
+				{
+					"name": "Ambusher",
+					"entries": [
+						"The algoz has advantage on attack rolls against any creature it has {@quickref Surprise|PHB|3|0|surprised}."
+					]
+				},
+				{
+					"name": "Assassinate",
+					"entries": [
+						"During its first turn, the algoz has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the algoz scores against a {@quickref Surprise|PHB|3|0|surprised} creature is a critical hit."
+					]
+				},
+				{
+					"name": "Freedom of Movement",
+					"entries": [
+						"The algoz ignores {@quickref difficult terrain||3}, and magical effects can't reduce its speed or cause it to be {@condition restrained}. It can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the algoz is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the algoz instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The algoz's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Shadow Stealth",
+					"entries": [
+						"While in dim light or darkness, the algoz can take the {@action Hide} action as a bonus action."
+					]
+				},
+				{
+					"name": "Deep Wound",
+					"entries": [
+						"When hitting a creature other than an undead or construct, Algoz deals a mortal wound. The target must make a {@dc 15} Constitution saving throw or lose {@dice 1d10} hit points at the start of its turn. Each time the Algoz attacks the target with the wound, the damage increases by {@dice 1d10}. Any creature can take an action to stop the wound with a successful {@dc 15} Wisdom (Medicine) check. The wound also closes if the target receives magical healing."
+					]
+				}
+			],
+			"traitTags": [
+				"Ambusher",
+				"Magic Weapons"
+			],
+			"bonus": [
+				{
+					"name": "Engage",
+					"entries": [
+						"Algoz teleports to a point he can see within 30 feet, a school of illusion rune is left in place."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack.",
+					"entries": [
+						"Algoz casts an illusion spell and makes two attacks with his daggers or one attack with his bracelet."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit +13} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}13 ({@damage 2d4 + 8}) piercing damage."
+					]
+				},
+				{
+					"name": "Bracer of Flying Daggers",
+					"entries": [
+						"{@atk rw} {@hit 13} to hit, range 20/60 ft., one target. {@h}23 ({@damage 6d4 + 8}) piercing damage, plus 15 ({@damage 6d4}) force damage."
+					]
+				}
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"THW"
+			],
+			"reaction": [
+				{
+					"name": "Blade Blast.",
+					"entries": [
+						"Immediately after casting Conjure Volley, the Algoz can use its reaction to blast all daggers in the spell's area, all creatures must make a {@dc 18} Dexterity saving throw, on a failed save the target takes ({@damage 8d8}) piercing damage, or half as much damage on a success."
+					]
+				},
+				{
+					"name": "Mirror Image",
+					"entries": [
+						"After using two engages, Algoz can use its reaction to cast {@spell mirror image} without components. After casting all runes disappear."
+					]
+				}
+			]
+		}
+	]
+}
