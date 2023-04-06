@@ -1,0 +1,323 @@
+{
+	"siteVersion": "1.178.0",
+	"_meta": {
+		"sources": [
+			{
+				"json": "Lolncio",
+				"abbreviation": "LLGM",
+				"full": "LolôncioGM",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1680751391,
+		"dateLastModified": 1680751391
+	},
+	"monster": [
+		{
+			"name": "Fallen Knight",
+			"source": "Lolncio",
+			"page": 47,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 180,
+				"formula": "19d8 + 95"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 20,
+			"dex": 11,
+			"con": 20,
+			"int": 12,
+			"wis": 16,
+			"cha": 18,
+			"save": {
+				"dex": "+6",
+				"wis": "+9",
+				"cha": "+10",
+				"con": "+11"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 19,
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal",
+				"Common"
+			],
+			"cr": "17",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The fallen knight is a 19th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 18}, {@hit 10} to hit with spell attacks). It has the following paladin spells prepared:"
+					],
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell armor of Agathys}",
+								"{@spell command}",
+								"{@spell compelled duel}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell hold person}",
+								"{@spell magic weapon}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell dispel magic}",
+								"{@spell elemental weapon}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell staggering smite}",
+								"{@spell vitriolic sphere|XGE}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell circle of power}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The fallen knight has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The Fallen Knight regains 10 hit points at the start of its turn if it has at least 1 hit point."
+					]
+				},
+				{
+					"name": "Charge",
+					"entries": [
+						"If the Fallen Knight moves at least 15 feet straight toward a target and then hits it with its tusks on the same turn, the target takes an extra 7 ({@dice 2d6}) slashing damage. If the target is a creature, it must succeed on a {@dc 19} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The Fallen Knight's weapon attacks are magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The fallen knight makes three longsword attacks."
+					]
+				},
+				{
+					"name": "Desecrate Blade.",
+					"entries": [
+						"As an action, the fallen knight imbues his sword with unholy energy, for one minute, all of his melee attacks deal an extra {@damage 4d8} necrotic damage."
+					]
+				},
+				{
+					"name": "Staggering Smite - Longsword.",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d10 + 5}) slashing damage, plus 14 ({@damage 4d6}) psychic damage. The target must make a Wisdom saving throw {@dc 18}. On a failed save, it has disadvantage on attack rolls and ability checks, and can't take reactions, until the end of its next turn"
+					]
+				},
+				{
+					"name": "Longsword.",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. 10 ({@damage 1d10 + 5}) slashing damage if used with two hands, plus 18 ({@damage 4d8}) necrotic damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The fallen knight adds 6 to its AC against one melee attack that would hit it. To do so, the fallen knight must see the attacker and be wielding a melee weapon."
+					]
+				},
+				{
+					"name": "Break Guard",
+					"entries": [
+						"When you misses with an attack against the fallen knight, he can use his reaction to make an attack against whoever tried to hit him. The target must be in range of your melee weapon."
+					]
+				}
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/death-knight.mp3"
+			},
+			"traitTags": [
+				"Charge",
+				"Magic Resistance",
+				"Magic Weapons",
+				"Regeneration"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"AB",
+				"C"
+			],
+			"damageTags": [
+				"N",
+				"S",
+				"Y"
+			],
+			"damageTagsSpell": [
+				"A",
+				"C",
+				"F",
+				"L",
+				"T",
+				"Y"
+			],
+			"spellcastingTags": [
+				"CP"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"incapacitated",
+				"paralyzed",
+				"prone"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MM/Death Knight.png",
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"When a paladin that falls from grace dies without seeking atonement, dark powers can transform the once-mortal knight into a hateful undead creature. A death knight is a skeletal warrior clad in fearsome plate armor. Beneath its helmet, one can see the knight's skull with malevolent pinpoints of light burning in its eye sockets.",
+									{
+										"name": "Eldritch Power",
+										"type": "entries",
+										"entries": [
+											"The death knight retains the ability to cast divine spells. However, no death knight can use its magic to heal. A death knight also attracts and commands lesser undead, although death knights that serve powerful fiends might have fiendish followers instead. Death knights often use warhorse skeletons and nightmares as mounts."
+										]
+									},
+									{
+										"name": "Immortal Until Redeemed",
+										"type": "entries",
+										"entries": [
+											"A death knight can arise anew even after it has been destroyed. Only when it atones for a life of wickedness or finds redemption can it finally escape its undead purgatory and truly perish."
+										]
+									},
+									{
+										"name": "Undead Nature",
+										"type": "entries",
+										"entries": [
+											"A death knight doesn't require air, food, drink, or sleep."
+										]
+									},
+									{
+										"type": "inset",
+										"name": "Lord Soth",
+										"entries": [
+											"Lord Soth began his fall from grace with an act of heroism, saving an elf named Isolde from an ogre. Soth and Isolde fell in love, but Soth was already married. He had a servant dispose of his wife and was charged with murder, but fled with Isolde. When his castle fell under siege, he prayed for guidance and was told that he must atone for his misdeeds by completing a quest, but growing fears about Isolde's fidelity caused him to abandon his quest. Because his mission was not accomplished, a great cataclysm swept the land. When Isolde gave birth to a son, Soth refused to believe that the child was his and slew them both. All were incinerated in a fire that swept through the castle, yet Soth would find no rest in death, becoming a death knight."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://external-preview.redd.it/87bYW3t_3QQBfNt9_OHGP3PQ2updN2CbTZebD60dQGU.jpg?auto=webp&s=719d08156971c04ddb5bedb36a392e10590138a2"
+						}
+					}
+				]
+			},
+			"shortName": true,
+			"skill": {
+				"athletics": "+17",
+				"perception": "+9",
+				"survival": "+15"
+			},
+			"resist": [
+				"fire"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"legendary": [
+				{
+					"name": "Move",
+					"entries": [
+						"The fallen knight moves up to him speed."
+					]
+				},
+				{
+					"name": "Strike",
+					"entries": [
+						"The fallen knight makes an attack."
+					]
+				},
+				{
+					"name": "Spell (Costs 2 Actions)",
+					"entries": [
+						"The fallen knight cast one spell."
+					]
+				}
+			]
+		}
+	]
+}
