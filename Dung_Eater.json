@@ -1,0 +1,200 @@
+{
+	"siteVersion": "1.181.1",
+	"_meta": {
+		"sources": [
+			{
+				"json": "Lolncio",
+				"abbreviation": "LLGM",
+				"full": "LolôncioGM",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1684119304,
+		"dateLastModified": 1684119304
+	},
+	"monster": [
+		{
+			"name": "Dung Eater",
+			"source": "Lolncio",
+			"page": 212,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "22d8 + 44",
+				"average": 265
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 15,
+			"con": 20,
+			"int": 10,
+			"wis": 14,
+			"cha": 12,
+			"save": {
+				"int": "+4",
+				"con": "+9",
+				"str": "+9"
+			},
+			"skill": {
+				"intimidation": "+5",
+				"perception": "+6",
+				"athletics": "+9"
+			},
+			"passive": 16,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Second Wind (Recharges after a Short or Long Rest)",
+					"entries": [
+						"As a bonus action, the Dung Eater can regain 20 hit points."
+					]
+				},
+				{
+					"name": "The Dung Eater Curse",
+					"entries": [
+						"When hitting a creature other than an undead or construct, Dung Eater deals a mortal wound. The target must make a {@dc 15} Constitution saving throw or lose {@dice 1d10} hit points at the start of its turn. Each time the Dung Eater attacks the target with the wound, the damage increases by {@dice 1d10}. Any creature can take an action to stop the wound with a successful {@dc 15} Wisdom (Medicine) check. The wound also closes if the target receives magical healing."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dung eater fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Dung Eater makes three attacks with its greatsword or its shortbow."
+					]
+				},
+				{
+					"name": "Sword Of Milos",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage, plus 7 ({@damage 2d6}) necrotic or radiant damage (See below)  "
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage, plus 7 ({@damage 2d6}) piercing damage if the champion has more than half of its total hit points remaining."
+					]
+				},
+				{
+					"name": "Shriek of Milos (1/day)",
+					"entries": [
+						"The Dung Eater lets out a horrible, cursed scream that removes resistances from all creatures within 20 feet (except itself) the effect lasts for 24 hours or until the target receives remove curse.",
+						"In addition, the Sword of Milos takes {@damage 2d6} radiant or necrotic damage, the Dung Eater can choose the damage before the attack roll is made. If choosing radiant, the target, if hit, must make a {@dc 17} Constitution saving throw or be {@condition blinded} until the end of Dung's next turn, if choosing necrotic, the target must make a {@dc 17} Constitution saving throw or gain the Dung Eater's curse, cannot receive magical or non-magical healing, and suffers disadvantage on Strength, Constitution, and Dexterity saving throws."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"urban"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/champion.mp3"
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"N",
+				"P",
+				"R",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"RNG"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://i.imgur.com/gOicoLq.png",
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Champions are mighty warriors who honed their fighting skills in wars or gladiatorial pits. To soldiers and other people who fight for a living, champions are as influential as nobles, and their presence is courted as a sign of status among rulers."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://media.discordapp.net/attachments/557321504220643349/1107496779672473650/latest.png?width=683&height=683"
+						}
+					}
+				]
+			},
+			"reaction": [
+				{
+					"name": "Pearldrake Talisman",
+					"entries": [
+						"The Dung Eater cast {@spell Absorb Elements}"
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting (See Reations)",
+					"will": [
+						"{@spell absorb elements|XGE}"
+					],
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"traitTags": [
+				"Legendary Resistances"
+			]
+		}
+	]
+}
