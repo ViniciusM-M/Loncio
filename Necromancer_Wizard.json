@@ -1,0 +1,195 @@
+{
+	"siteVersion": "1.181.3",
+	"_meta": {
+		"sources": [
+			{
+				"json": "Lolncio",
+				"abbreviation": "LLGM",
+				"full": "LolôncioGM",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1686256284,
+		"dateLastModified": 1686256284
+	},
+	"monster": [
+		{
+			"name": "Necromancer Wizard",
+			"source": "Lolncio",
+			"page": 264,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid"
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 110,
+				"formula": "20d8 + 20"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 14,
+			"con": 12,
+			"int": 17,
+			"wis": 12,
+			"cha": 11,
+			"save": {
+				"int": "+7",
+				"wis": "+5"
+			},
+			"skill": {
+				"arcana": "+7",
+				"history": "+7"
+			},
+			"passive": 11,
+			"resist": [
+				"necrotic"
+			],
+			"languages": [
+				"any four languages"
+			],
+			"cr": "9",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The necromancer casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 15}):"
+					],
+					"will": [
+						"{@spell dancing lights}",
+						"{@spell mage hand}",
+						"{@spell prestidigitation}"
+					],
+					"daily": {
+						"2e": [
+							"{@spell bestow curse}",
+							"{@spell dimension door}",
+							"{@spell mage armor}",
+							"{@spell web}"
+						],
+						"1e": [
+							"{@spell circle of death}"
+						]
+					},
+					"ability": "int",
+					"displayAs": "action",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The necromancer makes three Arcane Burst attacks."
+					]
+				},
+				{
+					"name": "Arcane Burst",
+					"entries": [
+						"{@atk ms,rs} {@hit 7} to hit, reach 5 ft. or range 120 ft., one target. {@h}25 ({@damage 4d10 + 3}) necrotic damage."
+					]
+				},
+				{
+					"name": "Necrotic Energy",
+					"entries": [
+						"The necromancer transfers {@dice 2d8 + 4} necrotic energy in a 60-foot radius, healing all undead within a 20-foot radius."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Summon Undead (1/Day)",
+					"entries": [
+						"The necromancer magically summons five {@creature skeleton||skeletons} or {@creature zombie||zombies}. The summoned creatures appear in unoccupied spaces within 60 feet of the necromancer, whom they obey. They take their turns immediately after the necromancer. Each lasts for 1 hour, until it or the necromancer dies, or until the necromancer dismisses it as a bonus action."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Grim Harvest (1/Turn)",
+					"entries": [
+						"When the necromancer kills a creature with necrotic damage, the necromancer regains 9 ({@damage 2d8}) hit points. "
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"urban"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/necromancer.mp3"
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"N"
+			],
+			"damageTagsSpell": [
+				"F",
+				"N",
+				"O"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"conditionInflictSpell": [
+				"restrained"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MPMM/Necromancer Wizard.png",
+			"fluff": {
+				"name": "Necromancer Wizard",
+				"source": "MPMM",
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MPMM/Necromancer Wizard.webp"
+						}
+					}
+				],
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Necromancers study the interaction of life, death, and undeath. Some necromancers dig up or purchase corpses to create Undead servitors. A few instead use their powers for good, hunting Undead."
+						]
+					},
+					{
+						"type": "section",
+						"name": "Wizards",
+						"entries": [
+							"Wizards pursue magical power through the study of arcane texts. Some travel the world searching for esoteric tomes while others train lesser wizards or collaborate with colleagues to create new spells."
+						]
+					}
+				]
+			},
+			"miscTags": [
+				"AOE"
+			]
+		}
+	]
+}
