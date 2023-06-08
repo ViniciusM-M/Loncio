@@ -1,0 +1,241 @@
+{
+	"siteVersion": "1.181.3",
+	"_meta": {
+		"sources": [
+			{
+				"json": "Lolncio",
+				"abbreviation": "LLGM",
+				"full": "LolôncioGM",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1686257922,
+		"dateLastModified": 1686257922
+	},
+	"monster": [
+		{
+			"name": "Sane",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"half-elf"
+				]
+			},
+			"source": "Lolncio",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"condition": "(16 with {@spell mage armor})"
+				}
+			],
+			"hp": {
+				"formula": "15d8 + 30",
+				"average": 97
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 14,
+			"int": 13,
+			"wis": 12,
+			"cha": 20,
+			"passive": 11,
+			"cr": "11",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/564x/df/d6/71/dfd671273d693226635248395845b6d9.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/3Daie4U.png",
+			"shortName": "Sane",
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Elvish"
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Sane has advantage on saving throws against being {@condition charmed}, and magic can't put her to sleep."
+					]
+				},
+				{
+					"name": "Void Eye",
+					"entries": [
+						"Sane's eye has been corrupted by the void. Through it, she can see {@condition invisible} creatures and cannot be surprised."
+					]
+				},
+				{
+					"name": "Void Blood",
+					"entries": [
+						"If Sane deals force damage to a target, she heals hit points equal to the damage dealt."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Sane can make two attacks with her force dagger."
+					]
+				},
+				{
+					"name": "Force Dagger",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) force damage."
+					]
+				},
+				{
+					"name": "Swallow Soul",
+					"entries": [
+						"Sane stares directly at an incapitated or {@condition restrained} creature within 30 feet with her void eye, sapping their life energy. The creature must make a {@dc 17} Wisdom saving throw. On a failed save, the creature takes 49 ({@damage 14d6}) force damage and suffers two levels of {@condition exhaustion}. On a successful save, the creature takes half damage and does not gain {@condition exhaustion}."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"O"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"isNpc": false,
+			"save": {
+				"wis": "+5",
+				"cha": "+9",
+				"dex": "+7"
+			},
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"legendaryActions": 3,
+			"legendaryHeader": [
+				"Sane can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Sane regains spent legendary actions at the start of its turn."
+			],
+			"legendary": [
+				{
+					"name": "Giltterdust",
+					"entries": [
+						"Sane dips into the ethereal realm for a moment. The position of all creatures in a 30 foot radius are revealed to her."
+					]
+				},
+				{
+					"name": "Eye Of The Void",
+					"entries": [
+						"Sane looks directly at one creature with her Void Eye, freezing them in place. The creature must make a {@dc 17} Wisdom saving throw or be {@condition stunned} until the end of its next turn."
+					]
+				},
+				{
+					"name": "Force Leech (Costs 2 Actions)",
+					"entries": [
+						"Sane targets a wounded creature and saps their lifeforce. The target creature must make a {@dc 17} Wisdom saving throw. On a failed save, the creature takes (21) {@damage 6d6} force damage. On a successful save, the target creature takes half damage."
+					]
+				}
+			],
+			"skill": {
+				"insight": "+9",
+				"stealth": "+14"
+			},
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Sane is a 12th-level spelicaster. Its spellcasting ability is Charisma (spell save {@dc 17}, +9 to hit with spell attacks). Sane has the following warlock spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell control flames|XGE}",
+								"{@spell eldritch blast|PHB}",
+								"{@spell friends|PHB}",
+								"{@spell message|PHB}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell charm person|PHB}",
+								"{@spell fog cloud|PHB}",
+								"{@spell mage armor|PHB}",
+								"{@spell sleep|PHB}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell detect thoughts|PHB}",
+								"{@spell invisibility|PHB}",
+								"{@spell misty step|PHB}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell fly|PHB}",
+								"{@spell hypnotic pattern|PHB}",
+								"{@spell major image|PHB}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell confusion|PHB}",
+								"{@spell greater invisibility|PHB}"
+							],
+							"slots": 2
+						},
+						"5": {
+							"spells": [
+								"{@spell eyebite|PHB}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CL"
+			],
+			"conditionInflict": [
+				"exhaustion",
+				"stunned"
+			],
+			"damageTagsSpell": [
+				"O"
+			],
+			"resist": [
+				"fire",
+				"poison"
+			]
+		}
+	]
+}
