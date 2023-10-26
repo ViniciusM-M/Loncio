@@ -1,0 +1,379 @@
+{
+	"siteVersion": "1.189.0",
+	"_meta": {
+		"sources": [
+			{
+				"json": "Lolncio",
+				"abbreviation": "LLGM",
+				"full": "LolôncioGM",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1697745303,
+		"dateLastModified": 1697745303
+	},
+	"monster": [
+		{
+			"name": "Maelis - Death Knight",
+			"source": "Lolncio",
+			"page": 47,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 24,
+					"from": [
+						"{@item Unholy plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "39d10 + 273",
+				"average": 487
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 26,
+			"dex": 18,
+			"con": 24,
+			"int": 18,
+			"wis": 19,
+			"cha": 26,
+			"save": {
+				"wis": "+9",
+				"cha": "+10",
+				"con": "+13",
+				"str": "+15"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 21,
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"frightened",
+				"incapacitated",
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal",
+				"Common"
+			],
+			"cr": "24",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The death knight is a 19th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 23}, {@hit 15} to hit with spell attacks). It has the following paladin spells prepared:"
+					],
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell command}",
+								"{@spell searing smite}",
+								"{@spell thunderous smite}",
+								"{@spell wrathful smite}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell branding smite}",
+								"{@spell hold person}",
+								"{@spell magic weapon}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell blinding smite}",
+								"{@spell dispel magic}",
+								"{@spell elemental weapon}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell banishment}",
+								"{@spell staggering smite}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell banishing smite}",
+								"{@spell destructive wave} (necrotic)"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Marshal Undead",
+					"entries": [
+						"Unless the death knight is {@condition incapacitated}, it and undead creatures of its choice within 60 feet of it have advantage on saving throws against features that turn undead."
+					]
+				},
+				{
+					"name": "Grappler",
+					"entries": [
+						"The death knight has advantage on attack rolls against any creature {@condition grappled} by it."
+					]
+				},
+				{
+					"name": "Great Champion's Might",
+					"entries": [
+						"A knight's attacks and effects ignore the resistances and immunities of creatures CR 15 and below. A knight's attacks and effects targeting creatures of CR 16-20 ignore resistances and treat immunities as resistance. Against creatures of this CR (15-20), the knight has advantage on Athletics checks."
+					]
+				},
+				{
+					"name": "Limited Magic Immunity",
+					"entries": [
+						"The death knight can't be affected or detected by spells of 3th level or lower unless it wishes to be. It has advantage on saving throws against all other spells and magical effects."
+					]
+				},
+				{
+					"name": "Bone Crusher",
+					"entries": [
+						"The target of break ribs receives the following condition: Whenever you attempt an action in combat, you must make a {@dc 19} Constitution saving throw. On a failed save, you lose your action and can't use reactions until the start of your next turn. The injury heals if you receive magical healing or if you spend ten days doing nothing but resting."
+					]
+				},
+				{
+					"name": "Enchanted armor",
+					"entries": [
+						"The knight is equipped with enchanted armor that gives him the ability to manipulate schools of magic.",
+						"- Glyph of Abjuration: As an action, the knight can choose one spell from the 1st to 8th cycle of the school of abjuration to receive its effect that lasts until the end of his next turn.",
+						"- Glyph of Necromancy: As an action, the knight can choose one spell from the 1st to 8th cycle of the school of necromancy to receive its effect that lasts until the end of his next turn.",
+						"- Glyph of Transmutation: As an action, the knight can choose one spell from the 1st to 8th cycle of the school of transmutation to receive its effect that lasts until the end of his next turn."
+					]
+				},
+				{
+					"name": "Minion Master",
+					"entries": [
+						"- Loyalty. The minion can't be compelled to act in a way contrary to its master's instructions.",
+						"- Life-Draining. When the Knight minion is destroyed, its master regains hit points equal to four times the minion's challenge rating, as long as the master is within 120 feet of it.",
+						"- Selfless Guardian. When an attack hits its master and the undead minion is within 5 feet of its master, the minion can use its reaction to make the attack hit itself instead.",
+						"- Telepathic. The undead minion and its master can communicate telepathically with each other, as long as they are on the same plane of existence."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The death knight makes three attacks with his long sword or three with his fists, and can alternate between attacks."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d8 + 8}) slashing damage, or 10 ({@damage 2d10 + 5}) slashing damage if used with two hands, plus 18 ({@damage 4d8}) necrotic damage."
+					]
+				},
+				{
+					"name": "First",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}19 ({@damage 2d10 + 8}) bludgeoning damage, plus 18 ({@damage 4d8}) necrotic damage. ",
+						"Additionally, upon hitting, the knight can choose to grapple the target or choose to push the target up to 30 feet, and for every 10 feet thrown, the target takes {@damage 1d6} falling damage."
+					]
+				},
+				{
+					"name": "Break Ribs {@recharge 5}",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}30 ({@damage 4d10 + 8}) bludgeoning damage, plus 36 ({@damage 8d8}) necrotic damage. When hit, the target must make a {@dc 22} constitution saving throw or receive the Internal Injury condition. Additionally, upon hitting, the knight can choose to grapple the target or choose to push the target up to 30 feet, and for every 10 feet thrown, the target takes {@damage 1d6} falling damage."
+					]
+				},
+				{
+					"name": "Hellfire Orb (1/Day)",
+					"entries": [
+						"The death knight hurls a magical ball of fire that explodes at a point it can see within 120 feet of it. Each creature in a 20-foot-radius sphere centered on that point must make a {@dc 18} Dexterity saving throw. The sphere spreads around corners. A creature takes 35 ({@damage 10d6}) fire damage and 35 ({@damage 10d6}) necrotic damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The death knight adds 6 to its AC against one melee attack that would hit it. To do so, the death knight must see the attacker and be wielding a melee weapon."
+					]
+				},
+				{
+					"name": "Riposte",
+					"entries": [
+						"When a creature misses Knight with a melee attack, Knight can make a longsword attack against that creature. He can use break ribs in place of the longsword attack"
+					]
+				},
+				{
+					"name": "Cataclysm 1/day",
+					"entries": [
+						"When falling from any height the knight can use his reaction to become immune to fall damage and upon reaching the ground the knight creates a 60 foot shock wave. All creatures, structures, and objects in the area must make a {@dc 20} strength saving throw or take {@dice 1d6} for every 10 feet they fall."
+					]
+				}
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/death-knight.mp3"
+			},
+			"attachedItems": [
+				"longsword|phb"
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"AB",
+				"C"
+			],
+			"spellcastingTags": [
+				"CP"
+			],
+			"miscTags": [
+				"MW",
+				"MLW",
+				"AOE"
+			],
+			"conditionInflictSpell": [
+				"incapacitated",
+				"paralyzed",
+				"prone"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MM/Death Knight.png",
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"When a paladin that falls from grace dies without seeking atonement, dark powers can transform the once-mortal knight into a hateful undead creature. A death knight is a skeletal warrior clad in fearsome plate armor. Beneath its helmet, one can see the knight's skull with malevolent pinpoints of light burning in its eye sockets.",
+									{
+										"name": "Eldritch Power",
+										"type": "entries",
+										"entries": [
+											"The death knight retains the ability to cast divine spells. However, no death knight can use its magic to heal. A death knight also attracts and commands lesser undead, although death knights that serve powerful fiends might have fiendish followers instead. Death knights often use warhorse skeletons and nightmares as mounts."
+										]
+									},
+									{
+										"name": "Immortal Until Redeemed",
+										"type": "entries",
+										"entries": [
+											"A death knight can arise anew even after it has been destroyed. Only when it atones for a life of wickedness or finds redemption can it finally escape its undead purgatory and truly perish."
+										]
+									},
+									{
+										"name": "Undead Nature",
+										"type": "entries",
+										"entries": [
+											"A death knight doesn't require air, food, drink, or sleep."
+										]
+									},
+									{
+										"type": "inset",
+										"name": "Lord Soth",
+										"entries": [
+											"Lord Soth began his fall from grace with an act of heroism, saving an elf named Isolde from an ogre. Soth and Isolde fell in love, but Soth was already married. He had a servant dispose of his wife and was charged with murder, but fled with Isolde. When his castle fell under siege, he prayed for guidance and was told that he must atone for his misdeeds by completing a quest, but growing fears about Isolde's fidelity caused him to abandon his quest. Because his mission was not accomplished, a great cataclysm swept the land. When Isolde gave birth to a son, Soth refused to believe that the child was his and slew them both. All were incinerated in a fire that swept through the castle, yet Soth would find no rest in death, becoming a death knight."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdna.artstation.com/p/assets/images/images/002/987/276/large/yuriy-chemezov-yuriy-chemezov-themark1.jpg?1468165368"
+						}
+					}
+				]
+			},
+			"skill": {
+				"athletics": "+14",
+				"perception": "+11"
+			},
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The death knight make one sword or first attack."
+					]
+				},
+				{
+					"name": "One step forward (Costs 2 Actions)",
+					"entries": [
+						"The death knight meke one action. "
+					]
+				},
+				{
+					"name": "Teleport to steed  (Costs 3 Actions)",
+					"entries": [
+						"The death knight teleports to the saddle of his mount, when he does so both receive 50 temporary health points. The knight must see his mount to perform this action."
+					]
+				}
+			],
+			"damageTags": [
+				"B",
+				"F",
+				"N",
+				"S"
+			],
+			"damageTagsSpell": [
+				"A",
+				"C",
+				"F",
+				"L",
+				"N",
+				"O",
+				"R",
+				"T",
+				"Y"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"dexterity",
+				"strength"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"constitution",
+				"strength",
+				"wisdom"
+			]
+		}
+	]
+}
