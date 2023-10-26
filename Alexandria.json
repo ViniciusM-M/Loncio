@@ -1,0 +1,345 @@
+{
+	"siteVersion": "1.189.1",
+	"_meta": {
+		"sources": [
+			{
+				"json": "LLGM",
+				"abbreviation": "LLGM",
+				"full": "LLGM",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1698332637,
+		"dateLastModified": 1698332637
+	},
+	"monster": [
+		{
+			"name": "Alexandria",
+			"shortName": true,
+			"isNamedCreature": true,
+			"source": "LLGM",
+			"page": 300,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"warforged"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "41d10 + 164",
+				"average": 389
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 20,
+			"dex": 19,
+			"con": 18,
+			"int": 19,
+			"wis": 17,
+			"cha": 20,
+			"save": {
+				"con": "+10",
+				"int": "+10",
+				"dex": "+10",
+				"cha": "+11"
+			},
+			"skill": {
+				"arcana": "+10",
+				"athletics": "+11",
+				"history": "+10",
+				"perception": "+9",
+				"acrobatics": "+15"
+			},
+			"passive": 19,
+			"resist": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened"
+			],
+			"languages": [
+				"Common",
+				"Draconic",
+				"Dwarvish",
+				"Elvish"
+			],
+			"cr": "18",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Alexandria is a 20th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 18}, {@hit 10} to hit with spell attacks). He has the following artificer spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt} (see \"Actions\" below)",
+								"{@spell mage hand}",
+								"{@spell mending}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell sanctuary}",
+								"{@spell thunderwave}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell blur}",
+								"{@spell heat metal}",
+								"{@spell kinetic jaunt|SCC}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell dispel magic}",
+								"{@spell fly}",
+								"{@spell haste}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell freedom of movement}",
+								"{@spell Mordenkainen's faithful hound}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell steel wind strike|XGE}",
+								"{@spell teleportation circle}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell eyebite}",
+								"{@spell Tasha's otherworldly guise|TCE}"
+							],
+							"slots": 2
+						},
+						"7": {
+							"spells": [
+								"{@spell crown of stars|XGE}",
+								"{@spell plane shift}",
+								"{@spell teleport}"
+							],
+							"slots": 2
+						},
+						"8": {
+							"spells": [
+								"{@spell mind blank}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell foresight}",
+								"{@spell gate}",
+								"{@spell invulnerability|XGE}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Adamantine Plating",
+					"entries": [
+						"Any critical hit against Alexandria becomes a normal hit."
+					]
+				},
+				{
+					"name": "Poison Armor",
+					"entries": [
+						"A creature that grapples Alexandria or is {@condition grappled} by her takes 13 ({@damage 3d8}) poison damage. A creature takes 13 ({@damage 3d8}) poison damage if it starts its turn grappling or being {@condition grappled} by Alexandria."
+					]
+				},
+				{
+					"name": "Charge",
+					"entries": [
+						"Alexandria moves at least 10 feet straight toward a target and then hits it with his adamantine armblade on the same turn, the target takes an extra 11 ({@damage 2d10}) slashing damage. If the target is a creature, it must succeed on a {@dc 19} Strength saving throw or be pushed up to 10 feet away and knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Warforged Resilience",
+					"entries": [
+						"Alexandria has advantage on saving throws against being {@condition poisoned}, is immune to disease, and magic can't put her to sleep."
+					]
+				},
+				{
+					"name": "Scarlet Smite",
+					"entries": [
+						"When hitting the target with an attack, Alexandria can spend a 1st spell slot to deal {@damage 2d8} force damage. For each slot above the first, it deals an extra {@dice 1d8}. Alexandria heals for the equivalent of the damage caused by d8s"
+					]
+				},
+				{
+					"name": "1. Defensive Flourish.",
+					"entries": [
+						"Alexandria use her Bardic Inspiration to cause the weapon to deal extra damage to the target she hit. The damage equals the number she roll on the Bardic Inspiration die. Alexandria also add the number rolled to your AC until the start of her next turn."
+					]
+				},
+				{
+					"name": "2. Mobile Flourish.",
+					"entries": [
+						"Alexandria use her Bardic Inspiration to cause the weapon to deal extra damage to the target she hit. Alexandria can also push the target up to 5 feet away from she, plus a number of feet equal to the number she roll on that die (round up). Alexandria can then immediately use her reaction to move up to your walking speed to an unoccupied space within 5 feet of the target."
+					]
+				},
+				{
+					"name": "3. Slashing Flourish.",
+					"entries": [
+						"Alexandria use her Bardic Inspiration to cause the weapon to deal extra damage to the target she hit and to any other creature of her choice that she can see within 5 feet of her. The damage equals the number she roll on the Bardic Inspiration die."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Alexandria makes three attacks: three with her adamantine trap, she can replace one attack to cast a spell."
+					]
+				},
+				{
+					"name": "Adamantine Armblade",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}24 ({@damage 3d10 + 8}) slashing damage plus 7 ({@damage 2d6}) force damage."
+					]
+				},
+				{
+					"name": "Execute {@recharge 5}",
+					"entries": [
+						"Alexandria makes a charge attack, when hit, she automatically grabs the target. The hit is considered a critical hit, the target of this attack takes an extra {@damage 6d8} damage. If the target survives the attack, it must make a {@dc 19} Constitution saving throw or take 3 points of {@condition exhaustion}."
+					]
+				},
+				{
+					"name": "Execute",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}68 ({@damage 10d10 + 8}) piercing damage, plus 27 ({@damage 6d8}) piercing damage. Alexandria makes a charge attack, when hit, she automatically grabs the target. The hit is considered a critical hit, the target of this attack takes an extra {@damage 6d8} damage. If the target survives the attack, it must make a {@dc 19} Constitution saving throw or take 3 points of {@condition exhaustion}."
+					]
+				},
+				{
+					"name": "Fire Bolt (Cantrip)",
+					"entries": [
+						"{@atk rs} {@hit 10} to hit, range 120 ft., one target. {@h}27 ({@damage 4d10+5}) fire damage."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"Alexandria makes one weapon attack."
+					]
+				},
+				{
+					"name": "Cantrip",
+					"entries": [
+						"Alexandria casts one of his cantrips."
+					]
+				},
+				{
+					"name": "Cast a Spell (Costs 2 Actions)",
+					"entries": [
+						"Alexandria casts a spell of 2nd level or lower from her spell list that takes 1 action to cast."
+					]
+				},
+				{
+					"name": "Execute (Cost 3 Actions)",
+					"entries": [
+						"Alexandria makes an execute if recharged."
+					]
+				}
+			],
+			"traitTags": [
+				"Charge"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"D",
+				"E"
+			],
+			"spellcastingTags": [
+				"CA"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://cdn.discordapp.com/attachments/557321504220643349/963812188076773437/toquein_hype.png",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/564x/ee/62/3c/ee623c2c9b43c37adac4aa7dec650f53.jpg"
+						}
+					}
+				]
+			},
+			"immune": [
+				"necrotic"
+			],
+			"damageTags": [
+				"F",
+				"I",
+				"O",
+				"P",
+				"S"
+			],
+			"damageTagsSpell": [
+				"F",
+				"O",
+				"P",
+				"R",
+				"T"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"strength"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"constitution",
+				"wisdom"
+			]
+		}
+	]
+}
