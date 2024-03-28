@@ -1,5 +1,5 @@
 {
-	"siteVersion": "1.189.0",
+	"siteVersion": "1.203.0",
 	"_meta": {
 		"sources": [
 			{
@@ -11,8 +11,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1697745303,
-		"dateLastModified": 1697745303
+		"dateAdded": 1711631266,
+		"dateLastModified": 1711631266
 	},
 	"monster": [
 		{
@@ -54,8 +54,8 @@
 			"wis": 19,
 			"cha": 26,
 			"save": {
-				"wis": "+9",
-				"cha": "+10",
+				"wis": "+11",
+				"cha": "+15",
 				"con": "+13",
 				"str": "+15"
 			},
@@ -145,7 +145,7 @@
 				{
 					"name": "Great Champion's Might",
 					"entries": [
-						"A knight's attacks and effects ignore the resistances and immunities of creatures CR 15 and below. A knight's attacks and effects targeting creatures of CR 16-20 ignore resistances and treat immunities as resistance. Against creatures of this CR (15-20), the knight has advantage on Athletics checks."
+						"A knight's attacks and effects ignore the resistances and immunities of creatures CR 15 and below. A knight's attacks and effects targeting creatures of CR 16-20 ignore resistances and treat immunities as resistance. Against creatures of this CR (0 - 20), the knight has advantage on Athletics checks."
 					]
 				},
 				{
@@ -164,9 +164,9 @@
 					"name": "Enchanted armor",
 					"entries": [
 						"The knight is equipped with enchanted armor that gives him the ability to manipulate schools of magic.",
-						"- Glyph of Abjuration: As an action, the knight can choose one spell from the 1st to 8th cycle of the school of abjuration to receive its effect that lasts until the end of his next turn.",
-						"- Glyph of Necromancy: As an action, the knight can choose one spell from the 1st to 8th cycle of the school of necromancy to receive its effect that lasts until the end of his next turn.",
-						"- Glyph of Transmutation: As an action, the knight can choose one spell from the 1st to 8th cycle of the school of transmutation to receive its effect that lasts until the end of his next turn."
+						"- Glyph of Abjuration: As an action, the knight remains under the Invulnerability effect until the end of his next turn. (2 rounds with the effect) No {@status concentration} is required and Dispel Magic CD 19 inactivates the effect, but does not destroy the glyph.",
+						"- Glyph of Necromancy: As an action, the knight chooses a 1st to 8th cycle necromancy spell to receive the effect. The effect lasts until the end of your next turn. (2 rounds with the effect) No {@status concentration} is required and Dispel magic CD 10+x° cycle inactivates the effect, but does not destroy the glyph.",
+						"- Glyph of Transmutation: As an action, the knight chooses a 1st to 8th cycle transmutation spell to receive the effect. The effect lasts until the end of your next turn. (2 rounds with the effect) No {@status concentration} is required and Dispel magic CD 10+x° cycle inactivates the effect, but does not destroy the glyph."
 					]
 				},
 				{
@@ -189,7 +189,7 @@
 				{
 					"name": "Longsword",
 					"entries": [
-						"{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d8 + 8}) slashing damage, or 10 ({@damage 2d10 + 5}) slashing damage if used with two hands, plus 18 ({@damage 4d8}) necrotic damage."
+						"{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d8 + 8}) slashing damage, or 10 ({@damage 2d10 + 8}) slashing damage if used with two hands, plus 18 ({@damage 4d8}) necrotic damage."
 					]
 				},
 				{
