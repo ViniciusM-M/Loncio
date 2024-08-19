@@ -1,0 +1,280 @@
+{
+	"siteVersion": "1.209.3",
+	"_meta": {
+		"sources": [
+			{
+				"json": "LLGM",
+				"abbreviation": "LLGM",
+				"full": "LLGM",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1724066880,
+		"dateLastModified": 1724066880
+	},
+	"monster": [
+		{
+			"name": "Avatar de Marte",
+			"source": "LLGM",
+			"page": 130,
+			"size": [
+				"H"
+			],
+			"type": {
+				"type": "celestial",
+				"tags": [
+					"titan"
+				]
+			},
+			"alignment": [
+				{
+					"alignment": [
+						"N",
+						"E"
+					],
+					"chance": 75
+				},
+				{
+					"alignment": [
+						"N",
+						"E"
+					],
+					"chance": 25
+				}
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 313,
+				"formula": "19d12 + 190"
+			},
+			"speed": {
+				"walk": 50,
+				"fly": 50,
+				"swim": 50
+			},
+			"str": 30,
+			"dex": 21,
+			"con": 30,
+			"int": 21,
+			"wis": 22,
+			"cha": 27,
+			"save": {
+				"str": "+17",
+				"int": "+12",
+				"wis": "+13",
+				"cha": "+15"
+			},
+			"skill": {
+				"insight": "+13",
+				"persuasion": "+15"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 16,
+			"immune": [
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"languages": [
+				"all"
+			],
+			"cr": "23",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The empyrean's innate spellcasting ability is Charisma (spell save {@dc 23}, {@hit 15} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell greater restoration}",
+						"{@spell pass without trace}",
+						"{@spell water breathing}",
+						"{@spell water walk}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell commune}",
+							"{@spell dispel evil and good}",
+							"{@spell earthquake}",
+							"{@spell fire storm}",
+							"{@spell plane shift} (self only)"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the empyrean fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The empyrean has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The empyrean's weapon attacks are magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Maul",
+					"entries": [
+						"{@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@h}31 ({@damage 6d6 + 10}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 15} Constitution saving throw or be {@condition stunned} until the end of the empyrean's next turn."
+					]
+				},
+				{
+					"name": "Bolt",
+					"entries": [
+						"{@atk rs} {@hit 15} to hit, range 600 ft., one target. {@h}24 ({@dice 7d6}) damage of one of the following types (empyrean's choice): acid, cold, fire, force, lightning, radiant, or thunder."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The empyrean makes one attack."
+					]
+				},
+				{
+					"name": "Bolster",
+					"entries": [
+						"The empyrean bolsters all nonhostile creatures within 120 feet of it until the end of its next turn. Bolstered creatures can't be {@condition charmed} or {@condition frightened}, and they gain advantage on ability checks and saving throws until the end of the empyrean's next turn."
+					]
+				},
+				{
+					"name": "Trembling Strike (Costs 2 Actions)",
+					"entries": [
+						"The empyrean strikes the ground with its maul, triggering an earth tremor. All other creatures on the ground within 60 feet of the empyrean must succeed on a {@dc 25} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/empyrean.mp3"
+			},
+			"attachedItems": [
+				"maul|phb"
+			],
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"U"
+			],
+			"languageTags": [
+				"XX"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"MLW"
+			],
+			"conditionInflict": [
+				"prone",
+				"stunned"
+			],
+			"conditionInflictSpell": [
+				"prone"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"token": {
+				"name": "Empyrean",
+				"source": "MM"
+			},
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Empyreans are the celestial children of the gods of the Upper Planes. They are universally beautiful, statuesque, and self-assured.",
+									{
+										"name": "Manifest Emotion",
+										"type": "entries",
+										"entries": [
+											"An empyrean can experience deity-like fits of serenity or rage. It can affect the environment around it by its mood. When an empyrean is unhappy, the clouds might cry tears of salt water, the wildflowers in surrounding meadows might wilt, dead fish might wash ashore in lakes or rivers, or a nearby forest might lose the leaves from its trees. When an empyrean is jubilant, sunlight follows it everywhere, small animals frolic in its footsteps, and birds fill the sky with their pleasing songs."
+										]
+									},
+									{
+										"name": "Evil Empyreans",
+										"type": "entries",
+										"entries": [
+											"A few empyreans have turned to evil after venturing to the Lower Planes and becoming corrupted, or as the result of being cursed by evil gods. An evil empyrean can't survive long on the Upper Planes and usually retreats to the Material Plane, where it can rule over a kingdom of mortals as an indomitable tyrant."
+										]
+									},
+									{
+										"name": "Immortal Titans",
+										"type": "entries",
+										"entries": [
+											"Empyreans don't age but can be slain. Because few empyreans can imagine their own demise, they fight fearlessly when drawn into battle, refusing to believe that the end is upon them even when standing at death's door. When an empyrean dies, its spirit returns to its home plane. There, one of the fallen empyrean's parents resurrects the empyrean unless he or she has a good reason not to."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://segredosdomundo.r7.com/wp-content/uploads/2021/03/deus-marte-quem-foi-historia-e-importancia-na-mitologia-1.jpg.webp"
+						}
+					}
+				]
+			},
+			"damageTags": [
+				"B"
+			],
+			"damageTagsSpell": [
+				"B",
+				"F"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"strength"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"constitution",
+				"dexterity"
+			]
+		}
+	]
+}

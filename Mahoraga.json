@@ -1,0 +1,344 @@
+{
+	"siteVersion": "1.209.3",
+	"_meta": {
+		"sources": [
+			{
+				"json": "LLGM",
+				"abbreviation": "LLGM",
+				"full": "LLGM",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1724066873,
+		"dateLastModified": 1724066873
+	},
+	"monster": [
+		{
+			"name": "Mahoraga",
+			"source": "LLGM",
+			"page": 213,
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "celestial",
+				"tags": [
+					"inevitable"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 432,
+				"formula": "32d10 + 256"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": {
+					"number": 30,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 28,
+			"dex": 19,
+			"con": 26,
+			"int": 19,
+			"wis": 26,
+			"cha": 18,
+			"save": {
+				"int": "+12",
+				"wis": "+16",
+				"cha": "+12"
+			},
+			"skill": {
+				"insight": "+16",
+				"intimidation": "+12",
+				"perception": "+16",
+				"athletics": "+25"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 26,
+			"resist": [
+				"thunder",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"paralyzed",
+				"poisoned",
+				"unconscious"
+			],
+			"languages": [
+				"all but rarely speaks"
+			],
+			"cr": "25",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The marut's innate spellcasting ability is Intelligence (spell save {@dc 20}). The marut can innately cast the following spell, requiring no material components."
+					],
+					"will": [
+						"{@spell plane shift} (self only)"
+					],
+					"ability": "int"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Mahoraga makes two melee weapon attack. "
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 17} to hit, reach 5 ft., one target. {@h}27 ({@damage 4d8 + 9}) bludgeoning damage, and if the target is a creature, it must succeed on a {@dc 20} Strength saving throw or become grapple by Mahoraga."
+					]
+				},
+				{
+					"name": "Sword of Extermination",
+					"entries": [
+						"{@atk mw} {@hit 17} to hit, reach 5 ft., one target. {@h}23 ({@damage 4d6 + 9}) slashing damage, and if the target is a creature, it must succeed on a {@dc 20} Constitution saving throw or take an additional 27 ({@damage 6d8}) radiant damage. This radiant damage ignores resistances and immunities."
+					]
+				},
+				{
+					"name": "Sacred Fire",
+					"entries": [
+						"{@atk rw} {@hit 12} to hit, range 120/120 ft., one target. {@h}22 ({@damage 3d8 + 9}) radiant damage."
+					]
+				}
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/marut.mp3"
+			},
+			"traitTags": [
+				"Immutable Form",
+				"Legendary Resistances",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"XX"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"AOE"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"token": {
+				"name": "Marut",
+				"source": "MTF"
+			},
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Marut",
+										"entries": [
+											"The nigh-unstoppable inevitables serve a singular purpose: they enforce contracts forged in the Hall of Concordance in the city of Sigil. Primus, the leader of the modrons, created maruts and other inevitables to bring order to dealings between planar folk. Many creatures, including yugoloths, will enter into a contract with inevitables if asked."
+										]
+									},
+									{
+										"name": "Cosmic Enforcers",
+										"type": "entries",
+										"entries": [
+											"The Hall of Concordance is an embassy of pure law in Sigil, the City of Doors. In the hall, two parties who agree to mutual terms—and who pay the requisite gold to the Kolyarut, a mechanical engine of absolute jurisprudence—can have their contract chiseled onto a sheet of gold that is placed in the chest of a marut. From that moment until the contract is fulfilled, the marut is bound to enforce its terms and to punish any party who breaks them. A marut resorts to lethal force only when a contract calls for it, when the contract is fully broken, or when the marut is attacked."
+										]
+									},
+									{
+										"name": "Word Is Law",
+										"type": "entries",
+										"entries": [
+											"Inevitables care nothing for the spirit of an agreement, only the letter. A marut enforces what is written, not what was meant by or supposed to be understood from the writing. The Kolyarut rejects contracts that contain vague, contradictory, or unenforceable terms. Beyond that, it doesn't care whether both parties understand what they're agreeing to. A small army of solicitors waits outside the Hall of Concordance, eager to sell their expertise in the crafting or vetting of contracts."
+										]
+									},
+									{
+										"name": "Constructed Nature",
+										"type": "entries",
+										"entries": [
+											"A marut doesn't require air, food, drink, or sleep."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://qph.cf2.quoracdn.net/main-qimg-fec4a42f01eff5e75015f9e2cd0707e7"
+						}
+					}
+				]
+			},
+			"trait": [
+				{
+					"name": "Dharmachakra Adaptability",
+					"entries": [
+						"Mahoraga`s unique trait is the ability to adapt to any and all phenomena. While Mahoraga is in combat, it gains the following beneficial effects in sequence at the start of each of its turns. At turn 8, Mahoraga becomes borderline invicible"
+					]
+				},
+				{
+					"name": "1. Indominable Perseverance.",
+					"entries": [
+						"Mahoraga is immune to being {@condition stunned} and cannot be",
+						"banished or have its form altered."
+					]
+				},
+				{
+					"name": "2. Magic Resistance",
+					"entries": [
+						"The mahoraga has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "3. Divine Extermination",
+					"entries": [
+						"Mahoraga`s sword of extermination, also deals its additional radiant damage to non-evil creatures as well but does not reduce their maximum hit points. It also makes three melee attacks instead of two with multiattack."
+					]
+				},
+				{
+					"name": "4. Improved Regeneration",
+					"entries": [
+						"Mahoraga now instead regains 50 hit points at the start of each of its turn."
+					]
+				},
+				{
+					"name": "5. Shadow Resiliance",
+					"entries": [
+						"Mahoraga gains resistance to bludgeoning, piercing and slashing damage."
+					]
+				},
+				{
+					"name": "6. Unstopable",
+					"entries": [
+						"When Mahoraga rolls for an attack or saving throw, he treats a {@dice d20} roll of 9 or lower as a 10."
+					]
+				},
+				{
+					"name": "7. Limited Magic Immunity",
+					"entries": [
+						"Mahoraga can`t be affected or detected by spells of 5th level or lower unless it wishes to be and also takes half damage from spells and magical effects."
+					]
+				},
+				{
+					"name": "8. Fully Adapted",
+					"entries": [
+						"Mahoraga is now immune to bluedgoing, piercing and slashing damage. It is also immune to cold, fire, lightning and thunder damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Violent Pound",
+					"entries": [
+						"If Mahoraga is grappling a creature, it repeatetly slams the creature into the ground, dealing {@h}24 ({@damage 4d8+6}) bludgeoning damage. The creature is no longer {@condition grappled} by Mahoraga, if Violent pound was used against it."
+					]
+				},
+				{
+					"name": "Teleport",
+					"entries": [
+						"Mahoraga magically teleports up to 120 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Uncanny Dodge",
+					"entries": [
+						"When an attacker Mahoraga can see hits Mahoraga with an attack, Mahoraga halves the attack`s damage against it. "
+					]
+				},
+				{
+					"name": "Spell Mimicry ({@recharge 5})",
+					"entries": [
+						"Immediately after a creature Mahoraga can see casts a spell of 5th level or lower, that creature must succed on a {@dc 20} Charisma saving throw, or Mahoraga immediately casts the same spell at the same level ({@hit 12} to hit with spell attacks, spell save {@dc 20}), requiring no material components and choosing the spell`s targets."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"Mahoraga makes one Slam attack or one Sacred Fire attack."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"Mahoraga can move up to half of its movement speed without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Searing Burst (Costs 2 Actions)",
+					"entries": [
+						"Mahoraga emits magical, divine energy. Each creature of its choice in 10-foot radius must make a {@dc 20} Dexterity saving throw, 28 ({@damage 8d6}) radiant damage on a failed save, or half as much damage on a successful one"
+					]
+				}
+			],
+			"damageTags": [
+				"B",
+				"R",
+				"S"
+			],
+			"savingThrowForced": [
+				"charisma",
+				"constitution",
+				"dexterity",
+				"strength"
+			],
+			"savingThrowForcedSpell": [
+				"charisma"
+			]
+		}
+	]
+}
