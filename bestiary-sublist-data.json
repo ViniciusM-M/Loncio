@@ -1,161 +1,108 @@
 [
 	{
-		"name": "Drow Priestess of Lolth",
-		"source": "MM",
-		"page": 129,
-		"otherSources": [
-			{
-				"source": "TftYP"
-			},
-			{
-				"source": "WDMM"
-			},
-			{
-				"source": "GoS"
-			}
-		],
+		"name": "Typhon, Father of Monsters",
 		"size": [
-			"M"
+			"G"
 		],
 		"type": {
-			"type": "humanoid",
+			"type": "fiend",
 			"tags": [
-				"elf"
+				"demon"
 			]
 		},
+		"source": "CCodex",
 		"alignment": [
-			"N",
+			"C",
 			"E"
 		],
 		"ac": [
 			{
-				"ac": 16,
+				"ac": 21,
 				"from": [
-					"{@item scale mail|phb}"
+					"natural armor"
 				]
 			}
 		],
 		"hp": {
-			"average": 71,
-			"formula": "13d8 + 13"
+			"average": 314,
+			"formula": "17d20 + 136"
 		},
 		"speed": {
-			"walk": 30
+			"walk": 50,
+			"burrow": 50,
+			"fly": 90
 		},
-		"str": 10,
+		"str": 30,
 		"dex": 14,
-		"con": 12,
-		"int": 13,
-		"wis": 17,
-		"cha": 18,
+		"con": 26,
+		"int": 17,
+		"wis": 22,
+		"cha": 19,
 		"save": {
-			"con": "+4",
-			"wis": "+6",
-			"cha": "+7"
+			"dex": "+9",
+			"con": "+15",
+			"wis": "+13",
+			"cha": "+11"
 		},
 		"skill": {
-			"insight": "+6",
-			"perception": "+6",
-			"religion": "+4",
-			"stealth": "+5"
+			"arcana": "+10",
+			"deception": "+11",
+			"intimidation": "+11",
+			"perception": "+13"
 		},
-		"senses": [
-			"darkvision 120 ft."
+		"resist": [
+			"cold",
+			"fire",
+			"lightning"
 		],
-		"passive": 16,
-		"languages": [
-			"Elvish",
-			"Undercommon"
-		],
-		"cr": "8",
-		"spellcasting": [
+		"immune": [
+			"poison",
 			{
-				"name": "Innate Spellcasting",
-				"type": "spellcasting",
-				"headerEntries": [
-					"The drow's spellcasting ability is Charisma (spell save {@dc 15}). She can innately cast the following spells, requiring no material components:"
+				"immune": [
+					"bludgeoning",
+					"piercing",
+					"slashing"
 				],
-				"will": [
-					"{@spell dancing lights}"
-				],
-				"daily": {
-					"1e": [
-						"{@spell darkness}",
-						"{@spell faerie fire}",
-						"{@spell levitate} (self only)"
-					]
-				},
-				"ability": "cha"
-			},
-			{
-				"name": "Spellcasting",
-				"type": "spellcasting",
-				"headerEntries": [
-					"The drow is a 10th-level spellcaster. Her spellcasting ability is Wisdom (save {@dc 14}, {@hit 6} to hit with spell attacks). The drow has the following cleric spells prepared:"
-				],
-				"spells": {
-					"0": {
-						"spells": [
-							"{@spell guidance}",
-							"{@spell poison spray}",
-							"{@spell resistance}",
-							"{@spell spare the dying}",
-							"{@spell thaumaturgy}"
-						]
-					},
-					"1": {
-						"slots": 4,
-						"spells": [
-							"{@spell animal friendship}",
-							"{@spell cure wounds}",
-							"{@spell detect poison and disease}",
-							"{@spell ray of sickness}"
-						]
-					},
-					"2": {
-						"slots": 3,
-						"spells": [
-							"{@spell lesser restoration}",
-							"{@spell protection from poison}",
-							"{@spell web}"
-						]
-					},
-					"3": {
-						"slots": 3,
-						"spells": [
-							"{@spell conjure animals} (2 {@creature giant spider|mm|giant spiders})",
-							"{@spell dispel magic}"
-						]
-					},
-					"4": {
-						"slots": 3,
-						"spells": [
-							"{@spell divination}",
-							"{@spell freedom of movement}"
-						]
-					},
-					"5": {
-						"slots": 2,
-						"spells": [
-							"{@spell insect plague}",
-							"{@spell mass cure wounds}"
-						]
-					}
-				},
-				"ability": "wis"
+				"note": "from nonmagical weapons",
+				"cond": true
 			}
 		],
+		"conditionImmune": [
+			"charmed",
+			"exhaustion",
+			"frightened",
+			"poisoned"
+		],
+		"passive": 23,
+		"languages": [
+			"All",
+			"telepathy 120 ft."
+		],
+		"cr": "22",
+		"senses": [
+			"truesight 120 ft."
+		],
+		"legendaryGroup": {
+			"name": "Typhon, Father of Monsters",
+			"source": "CCodex"
+		},
 		"trait": [
 			{
-				"name": "Fey Ancestry",
+				"name": "Legendary Resistance (3/Day)",
 				"entries": [
-					"The drow has advantage on saving throws against being {@condition charmed}, and magic can't put the drow to sleep."
+					"If Typhon fails a saving throw, he can choose to succeed instead."
 				]
 			},
 			{
-				"name": "Sunlight Sensitivity",
+				"name": "Magic Resistance",
 				"entries": [
-					"While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+					"Typhon has advantage on saving throws against spells and other magical effects."
+				]
+			},
+			{
+				"name": "Magic Weapons",
+				"entries": [
+					"Typhon's weapon attacks are magical."
 				]
 			}
 		],
@@ -163,614 +110,380 @@
 			{
 				"name": "Multiattack",
 				"entries": [
-					"The drow makes two scourge attacks."
+					"Typhon makes three attacks: two with his snake bites and one with his or Enthralling Touch."
 				]
 			},
 			{
-				"name": "Scourge",
+				"name": "Snake Bites",
 				"entries": [
-					"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage plus 17 ({@damage 5d6}) poison damage."
+					"{@atk mw} {@hit 17} to hit, reach 15 ft., one target. {@h}23 ({@damage 3d8 + 10}) piercing damage and the target must succeed on a {@dc 23} Constitution saving throw or be {@condition poisoned} for 1 minute. While {@condition poisoned} in this way, the creature takes 11 ({@damage 2d10}) poison damage at the start of its turn. A {@condition poisoned} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 				]
 			},
 			{
-				"name": "Summon Demon (1/Day)",
+				"name": "Tail",
 				"entries": [
-					"The drow attempts to magically summon a {@creature yochlol} with a {@chance 30|30 percent|30% summoning chance} chance of success. If the attempt fails, the drow takes 5 ({@damage 1d10}) psychic damage. Otherwise, the summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action."
+					"{@atk mw} {@hit 17} to hit, reach 20 ft., one creature. {@h}26 ({@damage 3d10 + 10}) bludgeoning damage and the target is {@condition grappled} (escape {@dc 20}) if it is a Large or smaller creature. Until this grapple ends, the creature is {@condition restrained}. Typhon has two tails, each of which can grapple only one target."
 				]
-			}
-		],
-		"variant": [
+			},
 			{
-				"type": "variant",
-				"name": "Drow Magic Armor and Weapons",
+				"name": "Enthralling Touch",
 				"entries": [
-					{
-						"type": "entries",
-						"entries": [
-							"Drow often wear magic armor and carry magic weapons that lose their enhancement bonuses permanently if they are exposed to sunlight for 1 hour or longer.",
-							"A {@creature drow priestess of lolth} wearing {@item +3 scale mail} has AC 19."
-						]
-					}
+					"{@atk ms} {@hit 11} to hit, reach 15 ft., one creature. {@h}The target is magically cursed. Until the curse ends, the target has disadvantage on Wisdom saving throws and all ability checks. The curse lasts until removed by the {@spell remove curse} spell or other magic."
 				]
 			}
 		],
-		"environment": [
-			"underdark"
-		],
-		"soundClip": {
-			"type": "internal",
-			"path": "bestiary/drow-priestess-of-lolth.mp3"
-		},
-		"traitTags": [
-			"Fey Ancestry",
-			"Sunlight Sensitivity"
-		],
-		"senseTags": [
-			"SD"
-		],
-		"actionTags": [
-			"Multiattack"
-		],
-		"languageTags": [
-			"E",
-			"U"
-		],
-		"damageTags": [
-			"I",
-			"P",
-			"Y"
-		],
-		"damageTagsSpell": [
-			"F",
-			"I",
-			"P"
-		],
-		"spellcastingTags": [
-			"CC",
-			"I"
-		],
-		"miscTags": [
-			"MW"
-		],
-		"conditionInflictSpell": [
-			"charmed",
-			"poisoned",
-			"restrained"
-		],
-		"savingThrowForcedSpell": [
-			"constitution",
-			"dexterity",
-			"wisdom"
-		],
-		"hasToken": true,
-		"hasFluff": true,
-		"hasFluffImages": true,
-		"_versions": [
+		"legendary": [
 			{
-				"name": "Drow Priestess of Lolth (Magic Equipment)",
-				"source": "MM",
-				"_mod": {
-					"trait": {
-						"mode": "appendArr",
-						"items": {
-							"name": "Special Equipment",
-							"entries": [
-								"The drow wears {@item drow +3 scale mail|mm|+3 scale mail}. This armor loses its enhancement bonuses permanently if it is exposed to sunlight for 1 hour or longer."
-							]
-						}
-					}
-				},
-				"ac": [
-					{
-						"ac": 19,
-						"from": [
-							"{@item drow +3 scale mail|mm|+3 scale mail}"
-						]
-					}
-				],
-				"variant": null
-			}
-		],
-		"__prop": "monster",
-		"_pTypes": {
-			"types": [
-				"humanoid"
-			],
-			"tags": [
-				"elf"
-			],
-			"asText": "Humanoid (Elf)",
-			"asTextShort": "Humanoid (Elf)",
-			"typeSidekick": null,
-			"tagsSidekick": [],
-			"asTextSidekick": null
-		},
-		"_pCr": "8",
-		"_fCr": [
-			"8"
-		],
-		"_fSpeedType": [
-			"walk"
-		],
-		"_fSpeed": 30,
-		"_fAc": [
-			16
-		],
-		"_fHp": 71,
-		"_fAlign": [
-			"N",
-			"E",
-			"NX"
-		],
-		"_fEnvironment": [
-			"underdark"
-		],
-		"_fVuln": [],
-		"_fRes": [],
-		"_fImm": [],
-		"_fCondImm": [],
-		"_fSave": [
-			"con",
-			"wis",
-			"cha"
-		],
-		"_fSkill": [
-			"insight",
-			"perception",
-			"religion",
-			"stealth"
-		],
-		"_fSources": [
-			"MM",
-			{
-				"item": "TftYP",
-				"isIgnoreRed": true,
-				"rendered": null,
-				"searchText": null,
-				"isOtherSource": true
+				"name": "Snake Bites",
+				"entries": [
+					"Typhon makes one snake bites attack."
+				]
 			},
 			{
-				"item": "WDMM",
-				"isIgnoreRed": true,
-				"rendered": null,
-				"searchText": null,
-				"isOtherSource": true
+				"name": "Enthrall",
+				"entries": [
+					"Typhon makes one enthralling touch attack."
+				]
 			},
 			{
-				"item": "GoS",
-				"isIgnoreRed": true,
-				"rendered": null,
-				"searchText": null,
-				"isOtherSource": true
-			}
-		],
-		"_fPassive": 16,
-		"_fStr": 10,
-		"_fDex": 14,
-		"_fCon": 12,
-		"_fInt": 13,
-		"_fWis": 17,
-		"_fCha": 18,
-		"_fMisc": [
-			"MW",
-			"AC from Item(s)",
-			"Spellcaster",
-			"Spellcaster, Charisma",
-			"Spellcaster, Wisdom",
-			"Has Variants",
-			"Has Token",
-			"Has Info",
-			"Has Images"
-		],
-		"_fSpellSlotLevels": [
-			1,
-			2,
-			3,
-			4,
-			5
-		],
-		"_fSpellsKnown": [
-			"dancing lights|phb",
-			"darkness|phb",
-			"faerie fire|phb",
-			"levitate|phb",
-			"guidance|phb",
-			"poison spray|phb",
-			"resistance|phb",
-			"spare the dying|phb",
-			"thaumaturgy|phb",
-			"animal friendship|phb",
-			"cure wounds|phb",
-			"detect poison and disease|phb",
-			"ray of sickness|phb",
-			"lesser restoration|phb",
-			"protection from poison|phb",
-			"web|phb",
-			"conjure animals|phb",
-			"dispel magic|phb",
-			"divination|phb",
-			"freedom of movement|phb",
-			"insect plague|phb",
-			"mass cure wounds|phb"
-		],
-		"_fLanguageTags": [
-			"E",
-			"U"
-		],
-		"_fEquipment": [
-			"scale mail|phb"
-		]
-	},
-	{
-		"name": "Drow Rogue",
-		"size": [
-			"M"
-		],
-		"type": {
-			"type": "humanoid",
-			"tags": [
-				"drow"
-			]
-		},
-		"source": "COMDrow",
-		"alignment": [
-			"N",
-			"E"
-		],
-		"ac": [
-			{
-				"ac": 15,
-				"from": [
-					"studded leather"
+				"name": "Wing Attack (Costs 2 Actions)",
+				"entries": [
+					"Typhon beats his wings. Each creature within 15 feet of Typhon must succeed on a {@dc 25} Dexterity saving throw or take 17 ({@damage 2d6 + 10}) bludgeoning damage and be knocked {@condition prone}. Typhon can then fly up to half his flying speed."
 				]
 			}
 		],
-		"hp": {
-			"formula": "7d8 + 7",
-			"average": 38
-		},
-		"speed": {
-			"walk": 30
-		},
-		"str": 11,
-		"dex": 17,
-		"con": 12,
-		"int": 11,
-		"wis": 14,
-		"cha": 15,
-		"passive": 16,
-		"cr": "3",
-		"shortName": "Drow Rogue",
 		"fluff": {
-			"entries": [
-				"{@link Drow Rogue (The Man Claw Expansion Drow Pack)|https://www.reddit.com/r/UnearthedArcana/comments/4qy9a9/drow_expansion_pack_dd_monsters_of_different/}",
-				"Whether it is between rival drow, or against 'lesser' races, there is always use for drow who are cunning, discrete, and deadly. Drow rogues employs their skills as spies, saboteurs, hit men, or lone wolves. Underestimating them often proves deadly."
-			],
 			"images": [
 				{
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://i.imgur.com/DicLJWJ.png"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/CCodex/typhonfatherofmonsters.jpg"
 					}
+				}
+			],
+			"entries": [
+				"{@i The creature towers out of a nightmare. It is humanoid from the waist up and serpentine from the waist down with its lower body splitting into two tails. Great scaled, leathery wings sprout from its shoulders, and its arms fork into nests of hissing snakes just below the elbow. Its eyes are baleful flames, casting ugly shadows into its wild hair and beard.}",
+				"Typhon is the Father of Monsters and Master of the Lamias. This towering demon lord lives in bitter exile, chained to his level of the Abyss by defeat in an ancient conflict against the powers of good. He broods in the depths of his cavern, hoarding stolen wealth and spawning ever more hideous creatures to unleash upon the multiverse.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Desperate for Escape",
+									"entries": [
+										"While most demon lords can't easily leave their demesnes within the Abyss for various reasons, Typhon's very essence is bound beneath his mountain by the powers of heaven. No known portal, spell, ritual, or even divine intervention yet attempted can release him. His influence can slip through the cracks in the planes in the form of his demons and spawn, but the Father of Monsters himself can find no such release. He is obsessed with finding the key to his prison and will spare no amount of effort nor show a shred of mercy in pursuit of the solution."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Eyes, Ears, and Claws",
+									"entries": [
+										"Of all the creatures that crawl into existence under Typhon's corrupted touch, his favorites are the lamia. Conventional demonology holds the lamia were created by a different demon lord originally, but Typhon delights in subverting that supposed truth. Lamia created or blessed by Typhon vary from the expected norm of a lower leonine body and sport a variety of bestial lower bodies. Snake tails are the most common, but the lower bodies of boars, crocodiles, sharks, and even spiders have been reported.",
+										"Many lamia abroad in the planes are servants of Typhon, actively seeking out information and power that might free their master from his prison. Besides the lamia, Typhon employs other spies that can often slip into places demons and monstrosities can't. Many planar explorers meet their end after being spared Typhon's fangs and pressed into his service to search out and steal some celestial artifact or demonic power that might lead to his release."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Typhon's Lair",
+					"entries": [
+						"Typhon rules Tarkoros, a layer of the Abyss covered in dense forests and rocky hills that radiate out from a singular mountain. Within the mount is a honeycomb of tunnels and immense caverns that Typhon fills with beautiful treasure and hideous horrors. Monsters of all kinds spring up in the shadow of Typhon's wings. The creatures lurk in the halls of Tarkoros and spill out to seek portals to the Material Plane."
+					]
 				}
 			]
 		},
-		"tokenUrl": "https://i.imgur.com/DicLJWJ.png",
-		"senses": [
-			"darkvision 120 ft."
-		],
-		"senseTags": [
-			"SD"
-		],
-		"languages": [
-			"Elvish",
-			"Undercommon"
-		],
-		"languageTags": [
-			"E",
-			"U"
-		],
-		"save": {
-			"dex": "+5",
-			"wis": "+4"
-		},
-		"trait": [
-			{
-				"name": "Fey Ancestry",
-				"entries": [
-					"The drow rogue has advantage on saving throws against being {@condition charmed}, and magic can't put the drow rogue to sleep."
-				]
-			},
-			{
-				"name": "Sunlight Sensitivity",
-				"entries": [
-					"While in sunlight, the drow rogue has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
-				]
-			},
-			{
-				"name": "Nimble Escape",
-				"entries": [
-					"The drow rogue can take the Disengage or Hide action as a bonus action on each of its turns."
-				]
-			},
-			{
-				"name": "SneakAttack (1/turn)",
-				"entries": [
-					"The drow rogue deals an extra 7({@dice 2d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the drow rogue that isn't {@condition incapacitated} and the drow rogue doesn't have disadvantage on the attack roll."
-				]
-			}
-		],
-		"traitTags": [
-			"Fey Ancestry",
-			"Sunlight Sensitivity"
-		],
-		"action": [
-			{
-				"name": "Multiattack",
-				"entries": [
-					"The drow makes two ranged or two melee attacks."
-				]
-			},
-			{
-				"name": "Repeating light Crossbow",
-				"entries": [
-					"{@atk rw} {@hit 5} to hit, range 80/320 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage, plus 7 ({@damage 2d6}) poison damage."
-				]
-			},
-			{
-				"name": "Dagger",
-				"entries": [
-					"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) slashing damage, plus 7 ({@damage 2d6}) poison damage."
-				]
-			},
-			{
-				"name": "Dagger (Thrown)",
-				"entries": [
-					"{@atk mw} {@hit 5} to hit, reach 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage, plus 7 ({@damage 2d6}) poison damage."
-				]
-			}
-		],
+		"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/CCodex/typhonfatherofmonsters_token.png",
 		"actionTags": [
 			"Multiattack"
+		],
+		"miscTags": [
+			"MW",
+			"RCH",
+			"AOE"
 		],
 		"damageTags": [
 			"P",
 			"I",
-			"S"
+			"B"
 		],
-		"miscTags": [
-			"RW",
-			"RNG",
-			"MW",
-			"MLW"
+		"languageTags": [
+			"TP"
 		],
-		"skill": {
-			"stealth": "+9",
-			"acrobatics": "+5",
-			"deception": "+4",
-			"sleight of hand": "+5"
-		},
-		"isNpc": false,
+		"senseTags": [
+			"U"
+		],
+		"traitTags": [
+			"Legendary Resistances",
+			"Magic Resistance",
+			"Magic Weapons"
+		],
 		"spellcasting": [
 			{
 				"name": "Innate Spellcasting",
 				"headerEntries": [
-					"The drow's spellcasting ability is Charisma (spell save {@dc 11}). It can innately cast the following spells, requiring no material components:"
+					"The typhon, father of monsters's innate spellcasting ability is Charisma (spell save {@dc 19}, {@hit 11} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
 				],
 				"will": [
-					"{@spell dancing lights|PHB}"
+					"{@spell detect magic}",
+					"{@spell major image}"
 				],
 				"daily": {
+					"3e": [
+						"{@spell dispel magic}",
+						"{@spell dominate person}",
+						"{@spell suggestion}"
+					],
 					"1e": [
-						"{@spell darkness|PHB}",
-						"{@spell faerie fire|PHB}"
+						"{@spell dominate monster}",
+						"{@spell geas}",
+						"{@spell true polymorph}"
 					]
 				},
 				"ability": "cha",
 				"type": "spellcasting"
 			}
 		],
-		"spellcastingTags": [
-			"I"
-		],
 		"conditionInflict": [
-			"incapacitated"
+			"poisoned",
+			"grappled",
+			"restrained",
+			"prone"
 		],
+		"conditionInflictLegendary": [
+			"frightened",
+			"restrained"
+		],
+		"conditionInflictSpell": [
+			"charmed"
+		],
+		"page": 81,
 		"environment": [
-			"underdark"
+			"planar"
 		],
-		"attachedItems": [
-			"dagger|phb"
+		"damageTagsSpell": [
+			"Y"
 		],
-		"savingThrowForcedSpell": [
+		"savingThrowForced": [
+			"constitution",
 			"dexterity"
 		],
-		"uniqueId": "47a3cf68-6c43-4cff-9aeb-8553d66109ca",
+		"savingThrowForcedSpell": [
+			"wisdom"
+		],
 		"__prop": "monster",
+		"_pTypes": {
+			"types": [
+				"fiend"
+			],
+			"tags": [
+				"demon"
+			],
+			"asText": "Fiend (Demon)",
+			"asTextShort": "Fiend (Demon)",
+			"typeSidekick": null,
+			"tagsSidekick": [],
+			"asTextSidekick": null
+		},
+		"_pCr": "22",
+		"_fCr": [
+			"22"
+		],
 		"_fSpeedType": [
-			"walk"
+			"walk",
+			"burrow",
+			"fly"
 		],
-		"_fSpeed": 30,
+		"_fSpeed": 90,
 		"_fAc": [
-			15
+			21
 		],
-		"_fHp": 38,
+		"_fHp": 314,
 		"_fAlign": [
-			"N",
-			"E",
-			"NX"
+			"C",
+			"E"
 		],
 		"_fEnvironment": [
-			"underdark"
+			"planar"
 		],
 		"_fVuln": [],
-		"_fRes": [],
-		"_fImm": [],
-		"_fCondImm": [],
+		"_fRes": [
+			"cold",
+			"fire",
+			"lightning"
+		],
+		"_fImm": [
+			"poison",
+			"bludgeoning (Conditional)",
+			"piercing (Conditional)",
+			"slashing (Conditional)"
+		],
+		"_fCondImm": [
+			"charmed",
+			"exhaustion",
+			"frightened",
+			"poisoned"
+		],
 		"_fSave": [
 			"dex",
-			"wis"
+			"con",
+			"wis",
+			"cha"
 		],
 		"_fSkill": [
-			"stealth",
-			"acrobatics",
+			"arcana",
 			"deception",
-			"sleight of hand"
+			"intimidation",
+			"perception"
 		],
-		"_fSources": "COMDrow",
-		"_fPassive": 16,
-		"_fStr": 11,
-		"_fDex": 17,
-		"_fCon": 12,
-		"_fInt": 11,
-		"_fWis": 14,
-		"_fCha": 15,
+		"_fSources": "CCodex",
+		"_fPassive": 23,
+		"_fStr": 30,
+		"_fDex": 14,
+		"_fCon": 26,
+		"_fInt": 17,
+		"_fWis": 22,
+		"_fCha": 19,
 		"_fMisc": [
-			"RW",
-			"RNG",
+			"Has Info",
+			"Has Images",
 			"MW",
-			"MLW",
+			"RCH",
+			"AOE",
+			"AC from Natural Armor",
+			"Legendary",
 			"Spellcaster",
 			"Spellcaster, Charisma",
+			"Lair Actions",
+			"Regional Effects",
 			"Has Token",
 			"Has Info",
 			"Has Images"
 		],
 		"_fSpellsKnown": [
-			"dancing lights|phb",
-			"darkness|phb",
-			"faerie fire|phb"
+			"detect magic|phb",
+			"major image|phb",
+			"dispel magic|phb",
+			"dominate person|phb",
+			"suggestion|phb",
+			"dominate monster|phb",
+			"geas|phb",
+			"true polymorph|phb"
 		],
 		"_fLanguageTags": [
-			"E",
-			"U"
+			"TP"
 		],
-		"_fEquipment": [
-			"dagger|phb"
-		],
-		"_pTypes": {
-			"types": [
-				"humanoid"
-			],
-			"tags": [
-				"drow"
-			],
-			"asText": "Humanoid (Drow)",
-			"asTextShort": "Humanoid (Drow)",
-			"typeSidekick": null,
-			"tagsSidekick": [],
-			"asTextSidekick": null
-		},
-		"_pCr": "3",
-		"_fCr": [
-			"3"
-		]
+		"_fEquipment": []
 	},
 	{
-		"name": "Drow Elite Warrior",
-		"source": "MM",
-		"page": 128,
-		"otherSources": [
-			{
-				"source": "SKT"
-			},
-			{
-				"source": "TftYP"
-			},
-			{
-				"source": "WDH"
-			},
-			{
-				"source": "WDMM"
-			},
-			{
-				"source": "DC"
-			},
-			{
-				"source": "DIP"
-			},
-			{
-				"source": "SLW"
-			},
-			{
-				"source": "IDRotF"
-			},
-			{
-				"source": "CRCotN"
-			},
-			{
-				"source": "PaBTSO"
-			}
+		"name": "Molydeus",
+		"source": "MTF",
+		"page": 134,
+		"reprintedAs": [
+			"Molydeus|MPMM"
 		],
 		"size": [
-			"M"
+			"H"
 		],
 		"type": {
-			"type": "humanoid",
+			"type": "fiend",
 			"tags": [
-				"elf"
+				"demon"
 			]
 		},
 		"alignment": [
-			"N",
+			"C",
 			"E"
 		],
 		"ac": [
 			{
-				"ac": 18,
+				"ac": 19,
 				"from": [
-					"{@item studded leather armor|phb|studded leather}",
-					"{@item shield|phb}"
+					"natural armor"
 				]
 			}
 		],
 		"hp": {
-			"average": 71,
-			"formula": "11d8 + 22"
+			"average": 216,
+			"formula": "16d12 + 112"
 		},
 		"speed": {
-			"walk": 30
+			"walk": 40
 		},
-		"str": 13,
-		"dex": 18,
-		"con": 14,
-		"int": 11,
-		"wis": 13,
-		"cha": 12,
+		"str": 28,
+		"dex": 22,
+		"con": 25,
+		"int": 21,
+		"wis": 24,
+		"cha": 24,
 		"save": {
-			"dex": "+7",
-			"con": "+5",
-			"wis": "+4"
+			"str": "+16",
+			"con": "+14",
+			"wis": "+14",
+			"cha": "+14"
 		},
 		"skill": {
-			"perception": "+4",
-			"stealth": "+10"
+			"perception": "+21"
 		},
 		"senses": [
-			"darkvision 120 ft."
+			"truesight 120 ft."
 		],
-		"passive": 14,
+		"passive": 31,
+		"resist": [
+			"cold",
+			"fire",
+			"lightning",
+			{
+				"resist": [
+					"bludgeoning",
+					"piercing",
+					"slashing"
+				],
+				"note": "from nonmagical attacks",
+				"cond": true
+			}
+		],
+		"immune": [
+			"poison"
+		],
+		"conditionImmune": [
+			"blinded",
+			"charmed",
+			"deafened",
+			"frightened",
+			"poisoned",
+			"stunned"
+		],
 		"languages": [
-			"Elvish",
-			"Undercommon"
+			"Abyssal",
+			"telepathy 120 ft."
 		],
-		"cr": "5",
+		"cr": "21",
 		"spellcasting": [
 			{
 				"name": "Innate Spellcasting",
 				"type": "spellcasting",
 				"headerEntries": [
-					"The drow's spellcasting ability is Charisma (spell save {@dc 12}). It can innately cast the following spells, requiring no material components:"
+					"The molydeus's innate spellcasting ability is Charisma (spell save {@dc 22}). It can innately cast the following spells, requiring no material components:"
 				],
 				"will": [
-					"{@spell dancing lights}"
+					"{@spell dispel magic}",
+					"{@spell polymorph}",
+					"{@spell telekinesis}",
+					"{@spell teleport}"
 				],
 				"daily": {
-					"1e": [
-						"{@spell darkness}",
-						"{@spell faerie fire}",
-						"{@spell levitate} (self only)"
+					"1": [
+						"{@spell imprisonment}"
+					],
+					"3": [
+						"{@spell lightning bolt}"
 					]
 				},
 				"ability": "cha"
@@ -778,15 +491,21 @@
 		],
 		"trait": [
 			{
-				"name": "Fey Ancestry",
+				"name": "Legendary Resistance (3/Day)",
 				"entries": [
-					"The drow has advantage on saving throws against being {@condition charmed}, and magic can't put the drow to sleep."
+					"If the molydeus fails a saving throw, it can choose to succeed instead."
 				]
 			},
 			{
-				"name": "Sunlight Sensitivity",
+				"name": "Magic Resistance",
 				"entries": [
-					"While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+					"The molydeus has advantage on saving throws against spells and other magical effects."
+				]
+			},
+			{
+				"name": "Magic Weapons",
+				"entries": [
+					"The molydeus's weapon attacks are magical."
 				]
 			}
 		],
@@ -794,175 +513,419 @@
 			{
 				"name": "Multiattack",
 				"entries": [
-					"The drow makes two shortsword attacks."
+					"The molydeus makes three attacks: one with its weapon, one with its wolf bite, and one with its snakebite."
 				]
 			},
 			{
-				"name": "Shortsword",
+				"name": "Demonic Weapon",
 				"entries": [
-					"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) poison damage."
+					"{@atk mw} {@hit 16} to hit, reach 15 ft., one target. {@h}20 ({@damage 2d10 + 9}) slashing damage. If the target has at least one head and the molydeus rolled a 20 on the attack roll, the target is decapitated and dies if it can't survive without that head. A target is immune to this effect if it takes none of the damage, has legendary actions, or is Huge or larger. Such a creature takes an extra {@dice 6d8} slashing damage from the hit."
 				]
 			},
 			{
-				"name": "Hand Crossbow",
+				"name": "Wolf Bite",
 				"entries": [
-					"{@atk rw} {@hit 7} to hit, range 30/120 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage, and the target must succeed on a {@dc 13} Constitution saving throw or be {@condition poisoned} for 1 hour. If the saving throw fails by 5 or more, the target is also {@condition unconscious} while {@condition poisoned} in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake."
+					"{@atk mw} {@hit 16} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d6 + 9}) piercing damage."
+				]
+			},
+			{
+				"name": "Snakebite",
+				"entries": [
+					"{@atk mw} {@hit 16} to hit, reach 15 ft., one creature. {@h}12 ({@damage 1d6 + 9}) piercing damage, and the target must succeed on a {@dc 22} Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target transforms into a {@creature manes} if this reduces its hit point maximum to 0. This transformation can be ended only by a {@spell wish} spell."
 				]
 			}
 		],
-		"reaction": [
+		"legendary": [
 			{
-				"name": "Parry",
+				"name": "Attack",
 				"entries": [
-					"The drow adds 3 to its AC against one melee attack that would hit it. To do so, the drow must see the attacker and be wielding a melee weapon."
+					"The molydeus makes one attack, either with its demonic weapon or with its snakebite."
+				]
+			},
+			{
+				"name": "Move",
+				"entries": [
+					"The molydeus moves without provoking opportunity attacks."
+				]
+			},
+			{
+				"name": "Cast a Spell",
+				"entries": [
+					"The molydeus casts one spell from its Innate Spellcasting trait."
 				]
 			}
 		],
 		"variant": [
 			{
 				"type": "variant",
-				"name": "Drow Magic Armor and Weapons",
+				"name": "Demon Summoning",
 				"entries": [
+					"You can give a molydeus the ability to summon other demons.",
 					{
+						"name": "Summon Demon (1/Day)",
 						"type": "entries",
 						"entries": [
-							"Drow often wear magic armor and carry magic weapons that lose their enhancement bonuses permanently if they are exposed to sunlight for 1 hour or longer.",
-							"A {@creature drow elite warrior} wearing {@item +2 Studded Leather Armor||+2 studded leather} and carrying a {@item +2 shortsword} has AC 20 and a +2 bonus on attack and damage rolls with shortsword attacks."
+							"As an action, the molydeus has a {@chance 50} chance of summoning its choice of {@dice 1d6} babaus, {@dice 1d4} {@creature chasme||chasmes}, or one {@creature marilith}. A summoned demon appears in an unoccupied space within 60 feet of the molydeus, acts as an ally of the molydeus, and can't summon other demons. It remains for 1 minute, until it or the molydeus dies, or until the molydeus dismisses it as an action."
 						]
 					}
-				]
+				],
+				"_version": {
+					"name": "Molydeus (Summoner)",
+					"addHeadersAs": "action"
+				}
 			}
-		],
-		"environment": [
-			"underdark"
 		],
 		"soundClip": {
 			"type": "internal",
-			"path": "bestiary/drow-elite-warrior.mp3"
+			"path": "bestiary/molydeus.mp3"
 		},
-		"attachedItems": [
-			"hand crossbow|phb",
-			"shortsword|phb"
-		],
 		"traitTags": [
-			"Fey Ancestry",
-			"Sunlight Sensitivity"
+			"Legendary Resistances",
+			"Magic Resistance",
+			"Magic Weapons"
 		],
 		"senseTags": [
-			"SD"
-		],
-		"actionTags": [
-			"Multiattack",
-			"Parry"
-		],
-		"languageTags": [
-			"E",
 			"U"
 		],
+		"actionTags": [
+			"Multiattack"
+		],
+		"languageTags": [
+			"AB",
+			"TP"
+		],
 		"damageTags": [
-			"I",
-			"P"
+			"P",
+			"S"
+		],
+		"damageTagsSpell": [
+			"L"
 		],
 		"spellcastingTags": [
 			"I"
 		],
 		"miscTags": [
-			"MLW",
+			"HPR",
 			"MW",
-			"RNG",
-			"RW"
-		],
-		"conditionInflict": [
-			"poisoned",
-			"unconscious"
+			"RCH"
 		],
 		"savingThrowForced": [
 			"constitution"
 		],
 		"savingThrowForcedSpell": [
-			"constitution",
-			"dexterity"
+			"dexterity",
+			"wisdom"
 		],
 		"hasToken": true,
 		"hasFluff": true,
-		"hasFluffImages": true,
-		"_versions": [
-			{
-				"name": "Drow Elite Warrior (Magic Equipment)",
-				"source": "MM",
-				"_mod": {
-					"trait": {
-						"mode": "appendArr",
-						"items": {
-							"name": "Special Equipment",
-							"entries": [
-								"The drow wears {@item drow +2 studded leather armor|mm|+2 studded leather armor} and carries a {@item drow +2 shortsword|mm|+2 shortsword}. These items lose their enhancement bonuses permanently if they are exposed to sunlight for 1 hour or longer."
-							]
-						}
-					},
-					"action": {
-						"mode": "replaceArr",
-						"replace": "Shortsword",
-						"items": {
-							"name": "+2 Shortsword",
-							"entries": [
-								"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d6 + 6}) piercing damage plus 10 ({@damage 3d6}) poison damage."
-							]
-						}
-					}
-				},
-				"ac": [
-					{
-						"ac": 20,
-						"from": [
-							"{@item drow +2 studded leather armor|mm|+2 studded leather armor}",
-							"{@item shield|phb}"
-						]
-					}
-				],
-				"variant": null
-			}
-		],
 		"__prop": "monster",
 		"_pTypes": {
 			"types": [
-				"humanoid"
+				"fiend"
 			],
 			"tags": [
-				"elf"
+				"demon"
 			],
-			"asText": "Humanoid (Elf)",
-			"asTextShort": "Humanoid (Elf)",
+			"asText": "Fiend (Demon)",
+			"asTextShort": "Fiend (Demon)",
 			"typeSidekick": null,
 			"tagsSidekick": [],
 			"asTextSidekick": null
 		},
-		"_pCr": "5",
+		"_pCr": "21",
 		"_fCr": [
-			"5"
+			"21"
 		],
 		"_fSpeedType": [
 			"walk"
 		],
-		"_fSpeed": 30,
+		"_fSpeed": 40,
 		"_fAc": [
-			18
+			19
 		],
-		"_fHp": 71,
+		"_fHp": 216,
 		"_fAlign": [
-			"N",
-			"E",
-			"NX"
+			"C",
+			"E"
 		],
 		"_fEnvironment": [
-			"underdark"
+			"none"
 		],
 		"_fVuln": [],
-		"_fRes": [],
-		"_fImm": [],
-		"_fCondImm": [],
+		"_fRes": [
+			"cold",
+			"fire",
+			"lightning",
+			"bludgeoning (Conditional)",
+			"piercing (Conditional)",
+			"slashing (Conditional)"
+		],
+		"_fImm": [
+			"poison"
+		],
+		"_fCondImm": [
+			"blinded",
+			"charmed",
+			"deafened",
+			"frightened",
+			"poisoned",
+			"stunned"
+		],
 		"_fSave": [
-			"dex",
+			"str",
+			"con",
+			"wis",
+			"cha"
+		],
+		"_fSkill": [
+			"perception"
+		],
+		"_fSources": "MTF",
+		"_fPassive": 31,
+		"_fStr": 28,
+		"_fDex": 22,
+		"_fCon": 25,
+		"_fInt": 21,
+		"_fWis": 24,
+		"_fCha": 24,
+		"_fMisc": [
+			"Legacy",
+			"Has Info",
+			"Reprinted",
+			"HPR",
+			"MW",
+			"RCH",
+			"AC from Natural Armor",
+			"Legendary",
+			"Spellcaster",
+			"Spellcaster, Charisma",
+			"Has Variants",
+			"Has Token",
+			"Has Info"
+		],
+		"_fSpellsKnown": [
+			"dispel magic|phb",
+			"polymorph|phb",
+			"telekinesis|phb",
+			"teleport|phb",
+			"imprisonment|phb",
+			"lightning bolt|phb"
+		],
+		"_fLanguageTags": [
+			"AB",
+			"TP"
+		],
+		"_fEquipment": []
+	},
+	{
+		"name": "Bebilith",
+		"source": "MaBJoV",
+		"page": 133,
+		"size": [
+			"H"
+		],
+		"type": {
+			"type": "fiend",
+			"tags": [
+				"demon"
+			]
+		},
+		"alignment": [
+			"C",
+			"E"
+		],
+		"ac": [
+			{
+				"ac": 17,
+				"from": [
+					"natural armor"
+				]
+			}
+		],
+		"hp": {
+			"average": 189,
+			"formula": "18d12 + 72"
+		},
+		"speed": {
+			"walk": 40,
+			"climb": 40
+		},
+		"str": 16,
+		"dex": 22,
+		"con": 18,
+		"int": 11,
+		"wis": 13,
+		"cha": 8,
+		"save": {
+			"con": "+8",
+			"wis": "+5"
+		},
+		"skill": {
+			"perception": "+5",
+			"stealth": "+10"
+		},
+		"senses": [
+			"blindsight 30 ft.",
+			"darkvision 60 ft."
+		],
+		"passive": 15,
+		"resist": [
+			"cold",
+			"lightning",
+			{
+				"resist": [
+					"bludgeoning",
+					"piercing",
+					"slashing"
+				],
+				"note": "from nonmagical attacks",
+				"cond": true
+			}
+		],
+		"immune": [
+			"fire",
+			"poison"
+		],
+		"conditionImmune": [
+			"poisoned"
+		],
+		"languages": [
+			"understands Abyssal but only speaks telepathically to its own kind",
+			"telepathy 120 ft."
+		],
+		"cr": "12",
+		"trait": [
+			{
+				"name": "Dark Sight",
+				"entries": [
+					"Magical darkness doesn't impede the bebilith's darkvision."
+				]
+			},
+			{
+				"name": "Spider Climb",
+				"entries": [
+					"The bebilith can climb difficult surfaces, including upside down, without needing to make an ability check and ignores any movement restrictions caused by webbing."
+				]
+			}
+		],
+		"action": [
+			{
+				"name": "Multiattack",
+				"entries": [
+					"The bebilith uses Poisoned Web (if available) and then makes one Bite attack and two Foreleg attacks."
+				]
+			},
+			{
+				"name": "Bite",
+				"entries": [
+					"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d12 + 3}) piercing damage plus 21 ({@damage 6d6}) poison damage. Any creature that drops to zero hit points because of this attack ignites, suffering 7 ({@damage 2d6}) fire damage at the start of each of its turns until the creature's hit points are above zero."
+				]
+			},
+			{
+				"name": "Foreleg",
+				"entries": [
+					"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}21 ({@damage 4d8 + 3}) slashing damage."
+				]
+			},
+			{
+				"name": "Poisoned Web {@recharge 5}",
+				"entries": [
+					"{@atk rw} {@hit 10} to hit, range 30/60 ft., one creature. {@h}51 ({@damage 10d8 + 6}) poison damage, and the target has the {@condition restrained} condition until free of the web. While {@condition restrained}, the target takes 9 ({@damage 2d8}) poison damage at the start of each of its turns. The target may use an action to make a {@dc 17} Strength check and if successful they are freed from the webbing. The webbing can also be attacked and destroyed (AC 12; 10 hit points; immunity to bludgeoning, fire, poison, and psychic damage). If an attack or spell doing fire damage is used on the webbing, the webbing ignites (but is otherwise unharmed). Any creature {@condition restrained} by the webbing suffers an additional 7 ({@damage 2d6}) fire damage at the start of each of its turn."
+				]
+			},
+			{
+				"name": "Stalker's Darkness (3/Day)",
+				"entries": [
+					"The bebilith casts {@spell darkness}."
+				]
+			}
+		],
+		"bonus": [
+			{
+				"name": "Relentless Hunter",
+				"entries": [
+					"The bebilith may use a bonus action to mark prey that it has damaged. Only one creature can be marked at a time. The bebilith always knows the exact location of the marked prey on the current plane of existence, can't be surprised by it, and has advantage on all attack rolls against it."
+				]
+			}
+		],
+		"traitTags": [
+			"Spider Climb"
+		],
+		"senseTags": [
+			"B",
+			"D"
+		],
+		"actionTags": [
+			"Multiattack"
+		],
+		"languageTags": [
+			"AB",
+			"TP"
+		],
+		"damageTags": [
+			"F",
+			"I",
+			"P",
+			"S"
+		],
+		"miscTags": [
+			"MW",
+			"RCH",
+			"RW"
+		],
+		"hasToken": true,
+		"hasFluff": true,
+		"hasFluffImages": true,
+		"__prop": "monster",
+		"_pTypes": {
+			"types": [
+				"fiend"
+			],
+			"tags": [
+				"demon"
+			],
+			"asText": "Fiend (Demon)",
+			"asTextShort": "Fiend (Demon)",
+			"typeSidekick": null,
+			"tagsSidekick": [],
+			"asTextSidekick": null
+		},
+		"_pCr": "12",
+		"_fCr": [
+			"12"
+		],
+		"_fSpeedType": [
+			"walk",
+			"climb"
+		],
+		"_fSpeed": 40,
+		"_fAc": [
+			17
+		],
+		"_fHp": 189,
+		"_fAlign": [
+			"C",
+			"E"
+		],
+		"_fEnvironment": [
+			"none"
+		],
+		"_fVuln": [],
+		"_fRes": [
+			"cold",
+			"lightning",
+			"bludgeoning (Conditional)",
+			"piercing (Conditional)",
+			"slashing (Conditional)"
+		],
+		"_fImm": [
+			"fire",
+			"poison"
+		],
+		"_fCondImm": [
+			"poisoned"
+		],
+		"_fSave": [
 			"con",
 			"wis"
 		],
@@ -970,29 +933,251 @@
 			"perception",
 			"stealth"
 		],
+		"_fSources": "MaBJoV",
+		"_fPassive": 15,
+		"_fStr": 16,
+		"_fDex": 22,
+		"_fCon": 18,
+		"_fInt": 11,
+		"_fWis": 13,
+		"_fCha": 8,
+		"_fMisc": [
+			"Has Info",
+			"Has Images",
+			"MW",
+			"RCH",
+			"RW",
+			"AC from Natural Armor",
+			"Bonus Actions",
+			"Has Token",
+			"Has Info",
+			"Has Images",
+			"Has Recharge"
+		],
+		"_fLanguageTags": [
+			"AB",
+			"TP"
+		],
+		"_fEquipment": []
+	},
+	{
+		"name": "Chasme",
+		"source": "MM",
+		"page": 57,
+		"otherSources": [
+			{
+				"source": "WDMM"
+			},
+			{
+				"source": "BGDIA"
+			},
+			{
+				"source": "CRCotN"
+			},
+			{
+				"source": "KftGV"
+			},
+			{
+				"source": "QftIS"
+			},
+			{
+				"source": "CoA"
+			}
+		],
+		"size": [
+			"L"
+		],
+		"type": {
+			"type": "fiend",
+			"tags": [
+				"demon"
+			]
+		},
+		"alignment": [
+			"C",
+			"E"
+		],
+		"ac": [
+			{
+				"ac": 15,
+				"from": [
+					"natural armor"
+				]
+			}
+		],
+		"hp": {
+			"average": 84,
+			"formula": "13d10 + 13"
+		},
+		"speed": {
+			"walk": 20,
+			"fly": 60
+		},
+		"str": 15,
+		"dex": 15,
+		"con": 12,
+		"int": 11,
+		"wis": 14,
+		"cha": 10,
+		"save": {
+			"dex": "+5",
+			"wis": "+5"
+		},
+		"skill": {
+			"perception": "+5"
+		},
+		"senses": [
+			"blindsight 10 ft.",
+			"darkvision 120 ft."
+		],
+		"passive": 15,
+		"resist": [
+			"cold",
+			"fire",
+			"lightning"
+		],
+		"immune": [
+			"poison"
+		],
+		"conditionImmune": [
+			"poisoned"
+		],
+		"languages": [
+			"Abyssal",
+			"telepathy 120 ft."
+		],
+		"cr": "6",
+		"trait": [
+			{
+				"name": "Drone",
+				"entries": [
+					"The chasme produces a horrid droning sound to which demons are immune. Any other creature that starts its turn with in 30 feet of the chasme must succeed on a {@dc 12} Constitution saving throw or fall {@condition unconscious} for 10 minutes. A creature that can't hear the drone automatically succeeds on the save. The effect on the creature ends if it takes damage or if another creature takes an action to splash it with holy water. If a creature's saving throw is successful or the effect ends for it, it is immune to the drone for the next 24 hours."
+				]
+			},
+			{
+				"name": "Magic Resistance",
+				"entries": [
+					"The chasme has advantage on saving throws against spells and other magical effects."
+				]
+			},
+			{
+				"name": "Spider Climb",
+				"entries": [
+					"The chasme can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+				]
+			}
+		],
+		"action": [
+			{
+				"name": "Proboscis",
+				"entries": [
+					"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}16 ({@damage 4d6 + 2}) piercing damage plus 24 ({@damage 7d6}) necrotic damage, and the target's hit point maximum is reduced by an amount equal to the necrotic damage taken. If this effect reduces a creature's hit point maximum to 0, the creature dies. This reduction to a creature's hit point maximum lasts until the creature finishes a long rest or until it is affected by a spell like  {@spell greater restoration}."
+				]
+			}
+		],
+		"variant": [
+			{
+				"type": "variant",
+				"name": "Summon Demon (1/Day)",
+				"entries": [
+					"The demon chooses what to summon and attempts a magical summoning.",
+					"A chasme has a {@chance 30|30 percent|30% summoning chance} chance of summoning one chasme.",
+					"A summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action."
+				],
+				"_version": {
+					"name": "Chasme (Summoner)",
+					"addAs": "action"
+				}
+			}
+		],
+		"soundClip": {
+			"type": "internal",
+			"path": "bestiary/chasme.mp3"
+		},
+		"traitTags": [
+			"Magic Resistance",
+			"Spider Climb"
+		],
+		"senseTags": [
+			"B",
+			"SD"
+		],
+		"languageTags": [
+			"AB",
+			"TP"
+		],
+		"damageTags": [
+			"N",
+			"P"
+		],
+		"miscTags": [
+			"HPR",
+			"MW"
+		],
+		"conditionInflict": [
+			"unconscious"
+		],
+		"savingThrowForced": [
+			"constitution"
+		],
+		"hasToken": true,
+		"hasFluff": true,
+		"hasFluffImages": true,
+		"__prop": "monster",
+		"_pTypes": {
+			"types": [
+				"fiend"
+			],
+			"tags": [
+				"demon"
+			],
+			"asText": "Fiend (Demon)",
+			"asTextShort": "Fiend (Demon)",
+			"typeSidekick": null,
+			"tagsSidekick": [],
+			"asTextSidekick": null
+		},
+		"_pCr": "6",
+		"_fCr": [
+			"6"
+		],
+		"_fSpeedType": [
+			"walk",
+			"fly"
+		],
+		"_fSpeed": 60,
+		"_fAc": [
+			15
+		],
+		"_fHp": 84,
+		"_fAlign": [
+			"C",
+			"E"
+		],
+		"_fEnvironment": [
+			"none"
+		],
+		"_fVuln": [],
+		"_fRes": [
+			"cold",
+			"fire",
+			"lightning"
+		],
+		"_fImm": [
+			"poison"
+		],
+		"_fCondImm": [
+			"poisoned"
+		],
+		"_fSave": [
+			"dex",
+			"wis"
+		],
+		"_fSkill": [
+			"perception"
+		],
 		"_fSources": [
 			"MM",
-			{
-				"item": "SKT",
-				"isIgnoreRed": true,
-				"rendered": null,
-				"searchText": null,
-				"isOtherSource": true
-			},
-			{
-				"item": "TftYP",
-				"isIgnoreRed": true,
-				"rendered": null,
-				"searchText": null,
-				"isOtherSource": true
-			},
-			{
-				"item": "WDH",
-				"isIgnoreRed": true,
-				"rendered": null,
-				"searchText": null,
-				"isOtherSource": true
-			},
 			{
 				"item": "WDMM",
 				"isIgnoreRed": true,
@@ -1001,28 +1186,7 @@
 				"isOtherSource": true
 			},
 			{
-				"item": "DC",
-				"isIgnoreRed": true,
-				"rendered": null,
-				"searchText": null,
-				"isOtherSource": true
-			},
-			{
-				"item": "DIP",
-				"isIgnoreRed": true,
-				"rendered": null,
-				"searchText": null,
-				"isOtherSource": true
-			},
-			{
-				"item": "SLW",
-				"isIgnoreRed": true,
-				"rendered": null,
-				"searchText": null,
-				"isOtherSource": true
-			},
-			{
-				"item": "IDRotF",
+				"item": "BGDIA",
 				"isIgnoreRed": true,
 				"rendered": null,
 				"searchText": null,
@@ -1036,49 +1200,49 @@
 				"isOtherSource": true
 			},
 			{
-				"item": "PaBTSO",
+				"item": "KftGV",
+				"isIgnoreRed": true,
+				"rendered": null,
+				"searchText": null,
+				"isOtherSource": true
+			},
+			{
+				"item": "QftIS",
+				"isIgnoreRed": true,
+				"rendered": null,
+				"searchText": null,
+				"isOtherSource": true
+			},
+			{
+				"item": "CoA",
 				"isIgnoreRed": true,
 				"rendered": null,
 				"searchText": null,
 				"isOtherSource": true
 			}
 		],
-		"_fPassive": 14,
-		"_fStr": 13,
-		"_fDex": 18,
-		"_fCon": 14,
+		"_fPassive": 15,
+		"_fStr": 15,
+		"_fDex": 15,
+		"_fCon": 12,
 		"_fInt": 11,
-		"_fWis": 13,
-		"_fCha": 12,
+		"_fWis": 14,
+		"_fCha": 10,
 		"_fMisc": [
-			"MLW",
+			"Has Info",
+			"Has Images",
+			"HPR",
 			"MW",
-			"RNG",
-			"RW",
-			"AC from Item(s)",
-			"Spellcaster",
-			"Spellcaster, Charisma",
-			"Reactions",
+			"AC from Natural Armor",
 			"Has Variants",
 			"Has Token",
 			"Has Info",
 			"Has Images"
 		],
-		"_fSpellsKnown": [
-			"dancing lights|phb",
-			"darkness|phb",
-			"faerie fire|phb",
-			"levitate|phb"
-		],
 		"_fLanguageTags": [
-			"E",
-			"U"
+			"AB",
+			"TP"
 		],
-		"_fEquipment": [
-			"hand crossbow|phb",
-			"shortsword|phb",
-			"studded leather armor|phb",
-			"shield|phb"
-		]
+		"_fEquipment": []
 	}
 ]
