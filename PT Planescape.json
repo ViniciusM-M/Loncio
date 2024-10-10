@@ -1,0 +1,1304 @@
+[
+	{
+		"name": "Skeleton Minotaur Warlord",
+		"source": "UltimateBestiaryTheDreadedAccursed",
+		"page": 127,
+		"size": [
+			"L"
+		],
+		"type": "undead",
+		"alignment": [
+			"L",
+			"E"
+		],
+		"ac": [
+			{
+				"ac": 15,
+				"from": [
+					"rusted half-plate"
+				]
+			}
+		],
+		"hp": {
+			"formula": "22d10 + 88",
+			"average": 209
+		},
+		"speed": {
+			"walk": 40
+		},
+		"str": 21,
+		"dex": 10,
+		"con": 19,
+		"int": 6,
+		"wis": 8,
+		"cha": 4,
+		"senses": [
+			"darkvision 60 ft."
+		],
+		"passive": 9,
+		"resist": [
+			{
+				"resist": [
+					"piercing",
+					"slashing"
+				],
+				"note": "damage from nonmagical attacks"
+			}
+		],
+		"immune": [
+			"necrotic",
+			"poison"
+		],
+		"vulnerable": [
+			"radiant"
+		],
+		"conditionImmune": [
+			"exhaustion",
+			"poisoned"
+		],
+		"languages": [
+			"understands Abyssal",
+			"but can't speak"
+		],
+		"cr": "10",
+		"trait": [
+			{
+				"name": "Skeletal Appearance",
+				"entries": [
+					"While the skeletal minotaur is lying still, it is indistinguishable from a mundane skeletal corpse. It can still be detected by a detect evil and good spell, or similar magic."
+				]
+			},
+			{
+				"name": "Charge",
+				"entries": [
+					"If the skeletal minotaur moves at least 10 feet straight toward a target, and then hits it with a gore attack on the same turn, the target takes an extra 9 ({@damage 2d8}) piercing damage. If the target is a creature, it must succeed on a {@dc 15} Strength saving throw, or be pushed up to 10 feet away and knocked {@condition prone}."
+				]
+			}
+		],
+		"action": [
+			{
+				"name": "Multiattack",
+				"entries": [
+					"The skeletal minotaur makes one greataxe attack and one gore attack. It can make a hoof attack in place of its greataxe attack."
+				]
+			},
+			{
+				"name": "Greataxe",
+				"entries": [
+					"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}18 ({@damage 2d12 + 5}) slashing damage."
+				]
+			},
+			{
+				"name": "Gore",
+				"entries": [
+					"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage."
+				]
+			},
+			{
+				"name": "Hoof",
+				"entries": [
+					"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d10 + 5}) bludgeoning damage, or {@h}16 ({@damage 2d10 + 5}) bludgeoning damage, if the target is {@condition prone}."
+				]
+			}
+		],
+		"legendary": [
+			{
+				"name": "Kick",
+				"entries": [
+					"The skeletal minotaur makes a hoof attack."
+				]
+			},
+			{
+				"name": "Charge (Costs 2 Actions)",
+				"entries": [
+					"The skeletal minotaur moves up to its speed in a straight line toward a creature, and makes a gore attack against that creature."
+				]
+			}
+		],
+		"environment": [
+			"urban"
+		],
+		"fluff": {
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://i.imgur.com/zrrboa6.png"
+					}
+				}
+			]
+		},
+		"tokenUrl": "https://i.imgur.com/zrrboa6.png",
+		"soundClip": {
+			"type": "external",
+			"url": "https://media-waterdeep.cursecdn.com/file-attachments/0/449/skeleton.mp3"
+		},
+		"traitTags": [
+			"Charge"
+		],
+		"senseTags": [
+			"D"
+		],
+		"actionTags": [
+			"Multiattack"
+		],
+		"languageTags": [
+			"AB",
+			"CS"
+		],
+		"damageTags": [
+			"S",
+			"P",
+			"B"
+		],
+		"miscTags": [
+			"MW",
+			"MLW"
+		],
+		"conditionInflict": [
+			"prone"
+		],
+		"attachedItems": [
+			"greataxe|phb"
+		],
+		"savingThrowForced": [
+			"strength"
+		],
+		"__prop": "monster",
+		"_pTypes": {
+			"types": [
+				"undead"
+			],
+			"tags": [],
+			"asText": "Undead",
+			"asTextShort": "Undead",
+			"typeSidekick": null,
+			"tagsSidekick": [],
+			"asTextSidekick": null
+		},
+		"_pCr": "10",
+		"_fCr": [
+			"10"
+		],
+		"_fSpeedType": [
+			"walk"
+		],
+		"_fSpeed": 40,
+		"_fAc": [
+			15
+		],
+		"_fHp": 209,
+		"_fAlign": [
+			"L",
+			"E"
+		],
+		"_fEnvironment": [
+			"urban"
+		],
+		"_fVuln": [
+			"radiant"
+		],
+		"_fRes": [
+			"piercing",
+			"slashing"
+		],
+		"_fImm": [
+			"necrotic",
+			"poison"
+		],
+		"_fCondImm": [
+			"exhaustion",
+			"poisoned"
+		],
+		"_fSave": [],
+		"_fSkill": [],
+		"_fSources": "UltimateBestiaryTheDreadedAccursed",
+		"_fPassive": 9,
+		"_fStr": 21,
+		"_fDex": 10,
+		"_fCon": 19,
+		"_fInt": 6,
+		"_fWis": 8,
+		"_fCha": 4,
+		"_fMisc": [
+			"Has Images",
+			"MW",
+			"MLW",
+			"Legendary",
+			"Has Token",
+			"Has Images"
+		],
+		"_fLanguageTags": [
+			"AB",
+			"CS"
+		],
+		"_fEquipment": [
+			"greataxe|phb"
+		]
+	},
+	{
+		"name": "Elite Arcane Archer",
+		"source": "mme2-v2",
+		"page": 265,
+		"size": [
+			"M"
+		],
+		"type": "humanoid",
+		"alignment": [
+			"A"
+		],
+		"ac": [
+			{
+				"ac": 18,
+				"from": [
+					"{@item +1 studded leather armor||+1 studded leather}"
+				]
+			}
+		],
+		"hp": {
+			"average": 153,
+			"formula": "18d8 + 72"
+		},
+		"speed": {
+			"walk": 30
+		},
+		"str": 12,
+		"dex": 20,
+		"con": 18,
+		"int": 14,
+		"wis": 12,
+		"cha": 10,
+		"save": {
+			"str": "+5",
+			"dex": "+9"
+		},
+		"skill": {
+			"perception": "+5",
+			"stealth": "+9"
+		},
+		"passive": 15,
+		"languages": [
+			"any two languages (usually Common)"
+		],
+		"cr": "10",
+		"trait": [
+			{
+				"name": "Magic Ranged Weapons",
+				"entries": [
+					"The arcane archer's ranged weapon attacks are magical."
+				]
+			}
+		],
+		"action": [
+			{
+				"name": "Multiattack",
+				"entries": [
+					"The arcane archer makes four ranged weapon attacks or three melee weapon attacks."
+				]
+			},
+			{
+				"name": "+1 Rapier",
+				"entries": [
+					"{@atk mw} {@hit +10} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d8 + 7}) piercing damage."
+				]
+			},
+			{
+				"name": "+1 Longbow",
+				"entries": [
+					"{@atk rw} {@hit +10} to hit, range 150/600 ft., one target. {@h}10 ({@damage 1d8 + 6}) piercing damage plus 7 ({@damage 2d6}) force damage."
+				]
+			}
+		],
+		"bonus": [
+			{
+				"name": "Arcane Shot (4/Day)",
+				"entries": [
+					"When the arcane archer hits a target with a ranged weapon attack, it can choose one from the following three effects:",
+					{
+						"type": "list",
+						"style": "list-decimal",
+						"items": [
+							{
+								"type": "itemSub",
+								"name": "Bursting Arrow.",
+								"entry": "The target and all other creatures within 10 feet of it take an extra 14 ({@damage 4d6}) force damage each."
+							},
+							{
+								"type": "itemSub",
+								"name": "Piercing Arrow.",
+								"entry": "The arcane archer doesn't make an attack roll for the attack. Instead, the arrow shoots forward in a line, which is 1 foot wide and 30 feet long, before disappearing. The arrow passes harmlessly through objects, ignoring cover. Each creature in that line must make a {@dc 14} Dexterity saving throw. On a failed save, a creature takes damage as if it were hit by the arrow, plus an extra 7 ({@damage 2d6}) piercing damage. On a successful save, a target takes half as much damage."
+							},
+							{
+								"type": "itemSub",
+								"name": "Shadow Arrow.",
+								"entry": "If the target is a creature, it takes an extra 7 ({@damage 2d6}) psychic damage and the creature must succeed on a {@dc 14} Wisdom saving throw or be unable to see anything farther than 5 feet away until the start of the arcane archer's next turn."
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "Curving Shot",
+				"entries": [
+					"When the arcane archer makes a ranged attack roll and misses, it can reroll the attack roll against a different target within 60 feet of the original target."
+				]
+			}
+		],
+		"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/mme2_v2/creatures/tokens/Arcane_Archer.webp",
+		"altArt": [
+			{
+				"name": "Roll20-style border",
+				"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/mme2_v2/creatures/token2/Elite Arcane Archer.webp",
+				"source": "mme2-v2"
+			}
+		],
+		"attachedItems": [
+			"+1 longbow|dmg",
+			"+1 rapier|dmg"
+		],
+		"traitTags": [
+			"Magic Weapons"
+		],
+		"actionTags": [
+			"Multiattack"
+		],
+		"languageTags": [
+			"X"
+		],
+		"damageTags": [
+			"O",
+			"P"
+		],
+		"miscTags": [
+			"MLW",
+			"MW",
+			"RNG",
+			"RW"
+		],
+		"savingThrowForced": [
+			"dexterity",
+			"wisdom"
+		],
+		"hasFluff": true,
+		"hasFluffImages": true,
+		"fluff": {
+			"_monsterFluff": {
+				"name": "Elite Arcane Archer",
+				"source": "mme2-v2"
+			}
+		},
+		"__prop": "monster",
+		"_pTypes": {
+			"types": [
+				"humanoid"
+			],
+			"tags": [],
+			"asText": "Humanoid",
+			"asTextShort": "Humanoid",
+			"typeSidekick": null,
+			"tagsSidekick": [],
+			"asTextSidekick": null
+		},
+		"_pCr": "10",
+		"_fCr": [
+			"10"
+		],
+		"_fSpeedType": [
+			"walk"
+		],
+		"_fSpeed": 30,
+		"_fAc": [
+			18
+		],
+		"_fHp": 153,
+		"_fAlign": [
+			"A"
+		],
+		"_fEnvironment": [
+			"none"
+		],
+		"_fVuln": [],
+		"_fRes": [],
+		"_fImm": [],
+		"_fCondImm": [],
+		"_fSave": [
+			"str",
+			"dex"
+		],
+		"_fSkill": [
+			"perception",
+			"stealth"
+		],
+		"_fSources": "mme2-v2",
+		"_fPassive": 15,
+		"_fStr": 12,
+		"_fDex": 20,
+		"_fCon": 18,
+		"_fInt": 14,
+		"_fWis": 12,
+		"_fCha": 10,
+		"_fMisc": [
+			"Has Info",
+			"Has Images",
+			"MLW",
+			"MW",
+			"RNG",
+			"RW",
+			"AC from Item(s)",
+			"Bonus Actions",
+			"Has Alternate Token",
+			"Has Token",
+			"Has Info",
+			"Has Images"
+		],
+		"_fLanguageTags": [
+			"X"
+		],
+		"_fEquipment": [
+			"+1 longbow|dmg",
+			"+1 rapier|dmg",
+			"+1 studded leather armor|dmg"
+		]
+	},
+	{
+		"name": "Elite Mageslayer",
+		"source": "MonsterManualExpanded2",
+		"page": 0,
+		"size": [
+			"M"
+		],
+		"type": {
+			"type": "humanoid",
+			"tags": [
+				"any"
+			]
+		},
+		"alignment": [
+			"A"
+		],
+		"ac": [
+			{
+				"ac": 17,
+				"from": [
+					"{@item +2 studded leather armor}"
+				]
+			}
+		],
+		"hp": {
+			"average": 130,
+			"formula": "20d8 + 40"
+		},
+		"speed": {
+			"walk": 30
+		},
+		"str": 16,
+		"dex": 16,
+		"con": 14,
+		"int": 12,
+		"wis": 14,
+		"cha": 18,
+		"save": {
+			"wis": "+6",
+			"cha": "+8"
+		},
+		"skill": {
+			"arcana": "+5",
+			"perception": "+6"
+		},
+		"passive": 16,
+		"languages": [
+			"any two languages (usually Common)"
+		],
+		"cr": "10",
+		"spellcasting": [
+			{
+				"name": "Spellcasting",
+				"headerEntries": [
+					"The mageslayer is a 9th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 16}, {@hit 8} to hit with spell attacks). It has the following sorcerer spells prepared:"
+				],
+				"spells": {
+					"0": {
+						"spells": [
+							"{@spell fire bolt}",
+							"{@spell mage hand}",
+							"{@spell true strike}"
+						]
+					},
+					"1": {
+						"slots": 4,
+						"spells": [
+							"{@spell absorb elements|XGE}",
+							"{@spell detect magic}"
+						]
+					},
+					"2": {
+						"slots": 3,
+						"spells": [
+							"{@spell Melf's acid arrow}",
+							"{@spell mind spike|XGE}"
+						]
+					},
+					"3": {
+						"slots": 3,
+						"spells": [
+							"{@spell counterspell}",
+							"{@spell dispel magic}",
+							"{@spell fireball}",
+							"{@spell protection from energy}"
+						]
+					},
+					"4": {
+						"slots": 3,
+						"spells": [
+							"{@spell dimension door}"
+						]
+					},
+					"5": {
+						"slots": 1,
+						"spells": [
+							"{@spell cone of cold}"
+						]
+					}
+				},
+				"ability": "cha",
+				"type": "spellcasting"
+			}
+		],
+		"trait": [
+			{
+				"name": "Sorcery Points",
+				"entries": [
+					"The mageslayer has 6 sorcery points. It can spend 1 or more sorcery points to gain one of the following benefits:",
+					"Heightened Spell: When the mageslayer casts a spell that forces a creature to make a saving throw to resist the spell's effects, it can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw against the spell.",
+					"Quickened Spell: When the mageslayer casts a spell that has a casting time of 1 action, the mageslayer can spend 2 sorcery points to change the casting time to 1 bonus action for this casting.",
+					"Subtle Spell: When the mageslayer casts a spell, it can spend 1 sorcery point to cast it without any somatic or verbal components."
+				]
+			}
+		],
+		"action": [
+			{
+				"name": "Multiattack",
+				"entries": [
+					"The mageslayer makes three melee weapon attacks or three ranged weapon attacks."
+				]
+			},
+			{
+				"name": "+1 Longword",
+				"entries": [
+					"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, or 9 ({@damage 1d10 + 4}) slashing damage if used with two hands, and the creature has disadvantage on the saving throw it makes to maintain its concentration."
+				]
+			},
+			{
+				"name": "+1 Longbow",
+				"entries": [
+					"{@atk rw} {@hit 8} to hit, range 150/600 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage and the creature has disadvantage on the saving throw it makes to maintain its concentration."
+				]
+			}
+		],
+		"reaction": [
+			{
+				"name": "Mage Strike",
+				"entries": [
+					"When a creature within 5 feet of the mageslayer casts a spell, the mageslayer can make a melee weapon attack against that creature."
+				]
+			}
+		],
+		"actionTags": [
+			"Multiattack"
+		],
+		"languageTags": [
+			"C",
+			"X"
+		],
+		"damageTags": [
+			"S",
+			"P"
+		],
+		"spellcastingTags": [
+			"CS"
+		],
+		"miscTags": [
+			"MW",
+			"RCH",
+			"RW",
+			"RNG"
+		],
+		"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MonsterManualExpanded2/token/elitemageslayer.png",
+		"fluff": {
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MonsterManualExpanded2/elitemageslayer.webp"
+					}
+				}
+			]
+		},
+		"damageTagsSpell": [
+			"A",
+			"C",
+			"F",
+			"O",
+			"Y"
+		],
+		"attachedItems": [
+			"+1 longbow|dmg"
+		],
+		"savingThrowForcedSpell": [
+			"constitution",
+			"dexterity",
+			"wisdom"
+		],
+		"__prop": "monster",
+		"_pTypes": {
+			"types": [
+				"humanoid"
+			],
+			"tags": [
+				"any"
+			],
+			"asText": "Humanoid (Any)",
+			"asTextShort": "Humanoid (Any)",
+			"typeSidekick": null,
+			"tagsSidekick": [],
+			"asTextSidekick": null
+		},
+		"_pCr": "10",
+		"_fCr": [
+			"10"
+		],
+		"_fSpeedType": [
+			"walk"
+		],
+		"_fSpeed": 30,
+		"_fAc": [
+			17
+		],
+		"_fHp": 130,
+		"_fAlign": [
+			"A"
+		],
+		"_fEnvironment": [
+			"none"
+		],
+		"_fVuln": [],
+		"_fRes": [],
+		"_fImm": [],
+		"_fCondImm": [],
+		"_fSave": [
+			"wis",
+			"cha"
+		],
+		"_fSkill": [
+			"arcana",
+			"perception"
+		],
+		"_fSources": "MonsterManualExpanded2",
+		"_fPassive": 16,
+		"_fStr": 16,
+		"_fDex": 16,
+		"_fCon": 14,
+		"_fInt": 12,
+		"_fWis": 14,
+		"_fCha": 18,
+		"_fMisc": [
+			"Has Images",
+			"MW",
+			"RCH",
+			"RW",
+			"RNG",
+			"AC from Item(s)",
+			"Spellcaster",
+			"Spellcaster, Charisma",
+			"Reactions",
+			"Has Token",
+			"Has Images"
+		],
+		"_fSpellSlotLevels": [
+			1,
+			2,
+			3,
+			4,
+			5
+		],
+		"_fSpellsKnown": [
+			"fire bolt|phb",
+			"mage hand|phb",
+			"true strike|phb",
+			"absorb elements|xge",
+			"detect magic|phb",
+			"melf's acid arrow|phb",
+			"mind spike|xge",
+			"counterspell|phb",
+			"dispel magic|phb",
+			"fireball|phb",
+			"protection from energy|phb",
+			"dimension door|phb",
+			"cone of cold|phb"
+		],
+		"_fLanguageTags": [
+			"C",
+			"X"
+		],
+		"_fEquipment": [
+			"+1 longbow|dmg",
+			"+2 studded leather armor|dmg"
+		]
+	},
+	{
+		"name": "Lamia Priestess of Graz'zt",
+		"source": "MonsterManualExpanded2",
+		"page": 0,
+		"size": [
+			"L"
+		],
+		"type": "monstrosity",
+		"alignment": [
+			"C",
+			"E"
+		],
+		"ac": [
+			{
+				"ac": 14,
+				"from": [
+					"natural armor"
+				]
+			}
+		],
+		"hp": {
+			"average": 127,
+			"formula": "15d10 + 45"
+		},
+		"speed": {
+			"walk": 30
+		},
+		"str": 16,
+		"dex": 14,
+		"con": 16,
+		"int": 14,
+		"wis": 16,
+		"cha": 16,
+		"skill": {
+			"deception": "+9",
+			"insight": "+6",
+			"religion": "+5",
+			"stealth": "+5"
+		},
+		"senses": [
+			"darkvision 120 ft."
+		],
+		"passive": 13,
+		"languages": [
+			"Abyssal",
+			"Common"
+		],
+		"cr": "6",
+		"spellcasting": [
+			{
+				"name": "Innate Spellcasting",
+				"headerEntries": [
+					"The lamia's innate spellcasting ability is Charisma (spell save {@dc 14}). The lamia can innately cast the following spells, without providing material components:"
+				],
+				"will": [
+					"{@spell disguise self} (any humanoid form)",
+					"{@spell major image}"
+				],
+				"daily": {
+					"1": [
+						"{@spell geas}"
+					],
+					"3e": [
+						"{@spell charm person}",
+						"{@spell mirror image}",
+						"{@spell scrying}",
+						"{@spell suggestion}"
+					]
+				},
+				"ability": "cha",
+				"type": "spellcasting"
+			},
+			{
+				"name": "Spellcasting",
+				"headerEntries": [
+					"The lamia is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It has the following cleric spells prepared:"
+				],
+				"spells": {
+					"0": {
+						"spells": [
+							"{@spell infestation|XGE}",
+							"{@spell poison spray}",
+							"{@spell toll the dead|XGE}"
+						]
+					},
+					"1": {
+						"slots": 4,
+						"spells": [
+							"{@spell bane}",
+							"{@spell command}",
+							"{@spell divine favor}",
+							"{@spell false life}"
+						]
+					},
+					"2": {
+						"slots": 3,
+						"spells": [
+							"{@spell blindness/deafness}",
+							"{@spell hold person}",
+							"{@spell ray of enfeeblement}",
+							"{@spell silence}"
+						]
+					},
+					"3": {
+						"slots": 2,
+						"spells": [
+							"{@spell fear}",
+							"{@spell spirit guardians}"
+						]
+					}
+				},
+				"ability": "wis",
+				"type": "spellcasting"
+			}
+		],
+		"trait": [
+			{
+				"name": "Shapechanger",
+				"entries": [
+					"The lamia can use its action to polymorph into a Small or Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+				]
+			},
+			{
+				"name": "Magic Resistance",
+				"entries": [
+					"The lamia has advantage on saving throws against spells and other magical effects."
+				]
+			}
+		],
+		"action": [
+			{
+				"name": "Multiattack",
+				"entries": [
+					"The lamia makes two attacks: one with its claws and one with its dagger or Intoxicating Touch."
+				]
+			},
+			{
+				"name": "Claws",
+				"entries": [
+					"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d10 + 3}) slashing damage."
+				]
+			},
+			{
+				"name": "Dagger",
+				"entries": [
+					"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage plus 7 ({@damage 2d6}) fire damage."
+				]
+			},
+			{
+				"name": "Intoxicating Touch",
+				"entries": [
+					"{@atk ms} {@hit 6} to hit, reach 5 ft., one target. {@h}The target is magically cursed for 1 hour. Until the curse ends, the target has disadvantage on Wisdom saving throws and all ability checks."
+				]
+			}
+		],
+		"reaction": [
+			{
+				"name": "Joy from Pain",
+				"entries": [
+					"When the lamia takes critical hit damage, it can make one melee weapon attack."
+				]
+			},
+			{
+				"name": "Master of Pleasures",
+				"entries": [
+					"When the lamia takes damage, it can magically grant 5 temporary hit points to itself and up to three allies within 30 feet of it."
+				]
+			}
+		],
+		"traitTags": [
+			"Magic Resistance",
+			"Shapechanger"
+		],
+		"senseTags": [
+			"SD"
+		],
+		"actionTags": [
+			"Multiattack"
+		],
+		"languageTags": [
+			"AB",
+			"C"
+		],
+		"damageTags": [
+			"S",
+			"P",
+			"F"
+		],
+		"spellcastingTags": [
+			"I",
+			"CC"
+		],
+		"miscTags": [
+			"MW",
+			"MLW"
+		],
+		"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MonsterManualExpanded2/token/lamiapriestessofgrazzt.png",
+		"fluff": {
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MonsterManualExpanded2/lamiapriestessofgrazzt.webp"
+					}
+				}
+			]
+		},
+		"damageTagsSpell": [
+			"I",
+			"N",
+			"R",
+			"Y"
+		],
+		"attachedItems": [
+			"dagger|phb"
+		],
+		"savingThrowForcedSpell": [
+			"charisma",
+			"constitution",
+			"wisdom"
+		],
+		"__prop": "monster",
+		"_pTypes": {
+			"types": [
+				"monstrosity"
+			],
+			"tags": [],
+			"asText": "Monstrosity",
+			"asTextShort": "Monstrosity",
+			"typeSidekick": null,
+			"tagsSidekick": [],
+			"asTextSidekick": null
+		},
+		"_pCr": "6",
+		"_fCr": [
+			"6"
+		],
+		"_fSpeedType": [
+			"walk"
+		],
+		"_fSpeed": 30,
+		"_fAc": [
+			14
+		],
+		"_fHp": 127,
+		"_fAlign": [
+			"C",
+			"E"
+		],
+		"_fEnvironment": [
+			"none"
+		],
+		"_fVuln": [],
+		"_fRes": [],
+		"_fImm": [],
+		"_fCondImm": [],
+		"_fSave": [],
+		"_fSkill": [
+			"deception",
+			"insight",
+			"religion",
+			"stealth"
+		],
+		"_fSources": "MonsterManualExpanded2",
+		"_fPassive": 13,
+		"_fStr": 16,
+		"_fDex": 14,
+		"_fCon": 16,
+		"_fInt": 14,
+		"_fWis": 16,
+		"_fCha": 16,
+		"_fMisc": [
+			"Has Images",
+			"MW",
+			"MLW",
+			"AC from Natural Armor",
+			"Spellcaster",
+			"Spellcaster, Charisma",
+			"Spellcaster, Wisdom",
+			"Reactions",
+			"Has Token",
+			"Has Images"
+		],
+		"_fSpellSlotLevels": [
+			1,
+			2,
+			3
+		],
+		"_fSpellsKnown": [
+			"disguise self|phb",
+			"major image|phb",
+			"geas|phb",
+			"charm person|phb",
+			"mirror image|phb",
+			"scrying|phb",
+			"suggestion|phb",
+			"infestation|xge",
+			"poison spray|phb",
+			"toll the dead|xge",
+			"bane|phb",
+			"command|phb",
+			"divine favor|phb",
+			"false life|phb",
+			"blindness/deafness|phb",
+			"hold person|phb",
+			"ray of enfeeblement|phb",
+			"silence|phb",
+			"fear|phb",
+			"spirit guardians|phb"
+		],
+		"_fLanguageTags": [
+			"AB",
+			"C"
+		],
+		"_fEquipment": [
+			"dagger|phb"
+		]
+	},
+	{
+		"name": "Mastermind",
+		"source": "mme2-v2",
+		"page": 279,
+		"size": [
+			"M"
+		],
+		"type": "humanoid",
+		"alignment": [
+			"NX",
+			"C",
+			"G",
+			"NY",
+			"E"
+		],
+		"ac": [
+			{
+				"ac": 18,
+				"from": [
+					"{@item +2 studded leather armor||+2 studded leather}"
+				]
+			}
+		],
+		"hp": {
+			"average": 130,
+			"formula": "20d8 + 40"
+		},
+		"speed": {
+			"walk": 30
+		},
+		"str": 10,
+		"dex": 18,
+		"con": 14,
+		"int": 16,
+		"wis": 16,
+		"cha": 16,
+		"save": {
+			"dex": "+8",
+			"int": "+7",
+			"wis": "+7"
+		},
+		"skill": {
+			"deception": "+11",
+			"insight": "+11",
+			"perception": "+11",
+			"stealth": "+12"
+		},
+		"passive": 21,
+		"languages": [
+			"any four languages (usually Common)"
+		],
+		"cr": "10",
+		"trait": [
+			{
+				"name": "Cunning Presence",
+				"entries": [
+					"An ally that starts is turn within 30 feet of this mastermind and can see and hear this mastermind can take the {@action Dash}, {@action Disengage}, or {@action Hide} action as a bonus action, provided the mastermind isn't {@condition incapacitated}."
+				]
+			},
+			{
+				"name": "Evasion",
+				"entries": [
+					"If the mastermind is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the mastermind instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+				]
+			},
+			{
+				"name": "Sneak Attack (1/Turn)",
+				"entries": [
+					"The mastermind deals an extra 24 ({@damage 7d6}) damage when the mastermind hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the mastermind that isn't {@condition incapacitated} and the mastermind doesn't have disadvantage on the attack roll."
+				]
+			}
+		],
+		"action": [
+			{
+				"name": "Multiattack",
+				"entries": [
+					"The mastermind makes two melee attacks or two ranged attacks."
+				]
+			},
+			{
+				"name": "Rapier",
+				"entries": [
+					"{@atk mw} {@hit +8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage plus 10 ({@damage 3d6}) poison damage."
+				]
+			},
+			{
+				"name": "Dagger",
+				"entries": [
+					"{@atk mw,rw} {@hit +8} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage."
+				]
+			}
+		],
+		"bonus": [
+			{
+				"name": "Cunning Action",
+				"entries": [
+					"The mastermind takes the {@action Dash}, {@action Disengage}, or {@action Hide} action."
+				]
+			},
+			{
+				"name": "Cunning Insight {@recharge 5}",
+				"entries": [
+					"The mastermind chooses a target it can see within 30 feet of it. The mastermind and up to 3 creatures of its choice have advantage on ability checks, attack rolls, and saving throws against the target. In addition, the target has disadvantage on ability checks and attack rolls made against the mastermind. These effects last until the start of the mastermind's next turn."
+				]
+			}
+		],
+		"reaction": [
+			{
+				"name": "Misdirection",
+				"entries": [
+					"When the mastermind is targeted by an attack while a creature within 5 feet of it is granting it cover against that attack, it can have the attack target that creature instead."
+				]
+			}
+		],
+		"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/mme2_v2/creatures/tokens/Elite_Mageslayer.webp",
+		"altArt": [
+			{
+				"name": "Roll20-style border",
+				"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/mme2_v2/creatures/token2/Mastermind.webp",
+				"source": "mme2-v2"
+			}
+		],
+		"attachedItems": [
+			"dagger|phb",
+			"rapier|phb"
+		],
+		"traitTags": [
+			"Sneak Attack"
+		],
+		"actionTags": [
+			"Multiattack"
+		],
+		"languageTags": [
+			"X"
+		],
+		"damageTags": [
+			"I",
+			"P"
+		],
+		"miscTags": [
+			"MLW",
+			"MW",
+			"RW",
+			"THW"
+		],
+		"hasFluff": true,
+		"hasFluffImages": true,
+		"fluff": {
+			"_monsterFluff": {
+				"name": "Mastermind",
+				"source": "mme2-v2"
+			}
+		},
+		"__prop": "monster",
+		"_pTypes": {
+			"types": [
+				"humanoid"
+			],
+			"tags": [],
+			"asText": "Humanoid",
+			"asTextShort": "Humanoid",
+			"typeSidekick": null,
+			"tagsSidekick": [],
+			"asTextSidekick": null
+		},
+		"_pCr": "10",
+		"_fCr": [
+			"10"
+		],
+		"_fSpeedType": [
+			"walk"
+		],
+		"_fSpeed": 30,
+		"_fAc": [
+			18
+		],
+		"_fHp": 130,
+		"_fAlign": [
+			"NX",
+			"C",
+			"G",
+			"NY",
+			"E"
+		],
+		"_fEnvironment": [
+			"none"
+		],
+		"_fVuln": [],
+		"_fRes": [],
+		"_fImm": [],
+		"_fCondImm": [],
+		"_fSave": [
+			"dex",
+			"int",
+			"wis"
+		],
+		"_fSkill": [
+			"deception",
+			"insight",
+			"perception",
+			"stealth"
+		],
+		"_fSources": "mme2-v2",
+		"_fPassive": 21,
+		"_fStr": 10,
+		"_fDex": 18,
+		"_fCon": 14,
+		"_fInt": 16,
+		"_fWis": 16,
+		"_fCha": 16,
+		"_fMisc": [
+			"Has Info",
+			"Has Images",
+			"MLW",
+			"MW",
+			"RW",
+			"THW",
+			"AC from Item(s)",
+			"Reactions",
+			"Bonus Actions",
+			"Has Alternate Token",
+			"Has Token",
+			"Has Info",
+			"Has Images",
+			"Has Recharge"
+		],
+		"_fLanguageTags": [
+			"X"
+		],
+		"_fEquipment": [
+			"dagger|phb",
+			"rapier|phb",
+			"+2 studded leather armor|dmg"
+		]
+	}
+]
