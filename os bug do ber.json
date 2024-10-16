@@ -1,0 +1,1469 @@
+[
+	{
+		"source": "MonsterManualExpanded3",
+		"page": 34,
+		"name": "Bugbear Dread Eye of Grankhul",
+		"environment": [
+			"forest",
+			"grassland",
+			"jungle/Tropical",
+			"underdark"
+		],
+		"size": [
+			"M"
+		],
+		"type": {
+			"type": "humanoid",
+			"tags": [
+				"goblinoid"
+			]
+		},
+		"alignmentPrefix": "typically ",
+		"alignment": [
+			"C",
+			"E"
+		],
+		"ac": [
+			{
+				"ac": 15,
+				"from": [
+					"{@item studded leather armor|phb|studded leather}"
+				]
+			}
+		],
+		"hp": {
+			"average": 78,
+			"formula": "12d8 + 24"
+		},
+		"speed": {
+			"walk": 30
+		},
+		"str": 12,
+		"dex": 16,
+		"con": 14,
+		"int": 12,
+		"wis": 15,
+		"cha": 14,
+		"save": {
+			"dex": "+6",
+			"wis": "+5"
+		},
+		"skill": {
+			"perception": "+5",
+			"religion": "+4",
+			"stealth": "+9"
+		},
+		"senses": [
+			"darkvision 120 ft."
+		],
+		"passive": 15,
+		"senseTags": [
+			"SD"
+		],
+		"languages": [
+			"Common",
+			"Goblin"
+		],
+		"languageTags": [
+			"C",
+			"GO"
+		],
+		"cr": "5",
+		"trait": [
+			{
+				"name": "Assassinate",
+				"entries": [
+					"During its first turn, the bugbear has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the bugbear scores against a surprised creature is a critical hit."
+				]
+			},
+			{
+				"name": "Brute",
+				"entries": [
+					"A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack)."
+				]
+			},
+			{
+				"name": "Legendary Resistance (1/Day)",
+				"entries": [
+					"If the bugbear fails a saving throw, it can choose to succeed instead."
+				]
+			},
+			{
+				"name": "Sneak Attack (1/Turn)",
+				"entries": [
+					"The bugbear deals an extra 10 ({@damage 3d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the bugbear that isn't {@condition incapacitated} and the bugbear doesn't have disadvantage on the attack roll."
+				]
+			},
+			{
+				"name": "Spell Penetration",
+				"entries": [
+					"When the bugbear casts a spell and is interrupted by an enemy's {@spell counterspell}, treat the spell's level as 3 levels higher."
+				]
+			}
+		],
+		"traitTags": [
+			"Brute",
+			"Legendary Resistances",
+			"Sneak Attack"
+		],
+		"action": [
+			{
+				"name": "Scimitar",
+				"entries": [
+					"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage."
+				]
+			},
+			{
+				"name": "Light Crossbow",
+				"entries": [
+					"{@atk rw} {@hit 6} to hit, range 80/320 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+				]
+			},
+			{
+				"name": "Darkness {@recharge 4}",
+				"entries": [
+					"The bugbear casts {@spell darkness}."
+				]
+			}
+		],
+		"bonus": [
+			{
+				"name": "Shadow Step",
+				"entries": [
+					"While in dim light or darkness, the bugbear teleports up to 60 feet to an unoccupied space it can see that is also in dim light or darkness. It then has advantage on the first melee attack it makes before the end of the turn."
+				]
+			},
+			{
+				"name": "Ever-Open Eyes (Recharges after a Short or Long Rest)",
+				"entries": [
+					"The bugbear gains {@sense blindsight} 60 ft. for 1 minute."
+				]
+			}
+		],
+		"reaction": [
+			{
+				"name": "Uncanny Dodge",
+				"entries": [
+					"The bugbear halves the damage that it takes from an attack that hits it. The bugbear must be able to see the attacker."
+				]
+			}
+		],
+		"spellcasting": [
+			{
+				"type": "spellcasting",
+				"name": "Innate Spellcasting",
+				"headerEntries": [
+					"The bugbear casts one of the following spells using Wisdom as the spellcasting ability (spell save {@dc 13}, {@hit 5} to hit with spell attacks):"
+				],
+				"ability": "wis",
+				"displayAs": "action",
+				"daily": {
+					"1e": [
+						"{@spell blindness/deafness}",
+						"{@spell cure wounds}",
+						"{@spell hold person}",
+						"{@spell ray of sickness}",
+						"{@spell silence}",
+						"{@spell spirit shroud|TCE}",
+						"{@spell vampiric touch}"
+					]
+				},
+				"will": [
+					"{@spell resistance}",
+					"{@spell thaumaturgy}",
+					"{@spell toll the dead|XGE} ({@damage 2d8} or {@damage 2d12})"
+				]
+			}
+		],
+		"spellcastingTags": [
+			"I"
+		],
+		"conditionInflictSpell": [
+			"blinded",
+			"deafened",
+			"paralyzed"
+		],
+		"shortName": "bugbear",
+		"legendary": [
+			{
+				"name": "Darkness",
+				"entries": [
+					"The bugbear casts {@spell darkness}, if available."
+				]
+			},
+			{
+				"name": "Move",
+				"entries": [
+					"The bugbear moves up to half its speed without provoking {@action opportunity attack|PHB|opportunity attacks}."
+				]
+			},
+			{
+				"name": "Glaring Eye of Grankhul",
+				"entries": [
+					"The bugbear turns its gaze toward one creature it can see within 30 feet of it. The target must succeed on a {@dc 13} Wisdom saving throw or become {@condition paralyzed} until the end of the bugbear's next turn."
+				]
+			},
+			{
+				"name": "Attack (Costs 2 Actions)",
+				"entries": [
+					"The bugbear makes a melee or ranged attack."
+				]
+			}
+		],
+		"damageTags": [
+			"P",
+			"S"
+		],
+		"conditionInflict": [
+			"paralyzed"
+		],
+		"miscTags": [
+			"MW",
+			"RNG",
+			"RW",
+			"MLW"
+		],
+		"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MonsterManualExpanded3/creature/token/Bugbear%20Dread%20Eye%20Of%20Grankhul%20%28Token%29.png",
+		"fluff": {
+			"_monsterFluff": {
+				"name": "Bugbear Dread Eye of Grankhul",
+				"source": "MonsterManualExpanded3"
+			}
+		},
+		"altArt": [
+			{
+				"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MonsterManualExpanded3/creature/token/Bugbear%20Dread%20Eye%20of%20Grankhul%20%28Token%202%29.png",
+				"source": "MonsterManualExpanded3",
+				"name": "Roll20-style border"
+			}
+		],
+		"damageTagsSpell": [
+			"C",
+			"I",
+			"N",
+			"R"
+		],
+		"attachedItems": [
+			"light crossbow|phb",
+			"scimitar|phb"
+		],
+		"hasFluff": true,
+		"hasFluffImages": true,
+		"savingThrowForced": [
+			"wisdom"
+		],
+		"savingThrowForcedSpell": [
+			"constitution",
+			"wisdom"
+		],
+		"uniqueId": "d013f3d7-11bd-4349-9011-d5a30c94be54",
+		"__prop": "monster",
+		"_pTypes": {
+			"types": [
+				"humanoid"
+			],
+			"tags": [
+				"goblinoid"
+			],
+			"asText": "Humanoid (Goblinoid)",
+			"asTextShort": "Humanoid (Goblinoid)",
+			"typeSidekick": null,
+			"tagsSidekick": [],
+			"asTextSidekick": null
+		},
+		"_pCr": "5",
+		"_fCr": [
+			"5"
+		],
+		"_fSpeedType": [
+			"walk"
+		],
+		"_fSpeed": 30,
+		"_fAc": [
+			15
+		],
+		"_fHp": 78,
+		"_fAlign": [
+			"C",
+			"E"
+		],
+		"_fEnvironment": [
+			"forest",
+			"grassland",
+			"jungle/Tropical",
+			"underdark"
+		],
+		"_fVuln": [],
+		"_fRes": [],
+		"_fImm": [],
+		"_fCondImm": [],
+		"_fSave": [
+			"dex",
+			"wis"
+		],
+		"_fSkill": [
+			"perception",
+			"religion",
+			"stealth"
+		],
+		"_fSources": "MonsterManualExpanded3",
+		"_fPassive": 15,
+		"_fStr": 12,
+		"_fDex": 16,
+		"_fCon": 14,
+		"_fInt": 12,
+		"_fWis": 15,
+		"_fCha": 14,
+		"_fMisc": [
+			"Has Info",
+			"Has Images",
+			"MW",
+			"RNG",
+			"RW",
+			"MLW",
+			"AC from Item(s)",
+			"Legendary",
+			"Spellcaster",
+			"Spellcaster, Wisdom",
+			"Reactions",
+			"Bonus Actions",
+			"Has Alternate Token",
+			"Has Token",
+			"Has Info",
+			"Has Images",
+			"Has Recharge"
+		],
+		"_fSpellsKnown": [
+			"blindness/deafness|phb",
+			"cure wounds|phb",
+			"hold person|phb",
+			"ray of sickness|phb",
+			"silence|phb",
+			"spirit shroud|tce",
+			"vampiric touch|phb",
+			"resistance|phb",
+			"thaumaturgy|phb",
+			"toll the dead|xge"
+		],
+		"_fLanguageTags": [
+			"C",
+			"GO"
+		],
+		"_fEquipment": [
+			"light crossbow|phb",
+			"scimitar|phb",
+			"studded leather armor|phb"
+		]
+	},
+	{
+		"source": "MonsterManualExpanded3",
+		"page": 32,
+		"name": "Bugbear Beastlord",
+		"environment": [
+			"forest",
+			"grassland",
+			"jungle/Tropical",
+			"underdark"
+		],
+		"size": [
+			"M"
+		],
+		"type": {
+			"type": "humanoid",
+			"tags": [
+				"goblinoid"
+			]
+		},
+		"alignmentPrefix": "typically ",
+		"alignment": [
+			"C",
+			"E"
+		],
+		"ac": [
+			{
+				"ac": 16,
+				"from": [
+					"{@item studded leather armor|phb|studded leather}",
+					"{@item shield|phb}"
+				]
+			}
+		],
+		"hp": {
+			"average": 78,
+			"formula": "12d8 + 24"
+		},
+		"speed": {
+			"walk": 30
+		},
+		"str": 16,
+		"dex": 14,
+		"con": 14,
+		"int": 8,
+		"wis": 16,
+		"cha": 9,
+		"save": {
+			"str": "+6",
+			"dex": "+5"
+		},
+		"skill": {
+			"animal handling": "+6",
+			"perception": "+6",
+			"stealth": "+8",
+			"survival": "+6"
+		},
+		"senses": [
+			"darkvision 60 ft."
+		],
+		"passive": 16,
+		"senseTags": [
+			"D"
+		],
+		"languages": [
+			"Common",
+			"Goblin"
+		],
+		"languageTags": [
+			"C",
+			"GO"
+		],
+		"cr": "6",
+		"trait": [
+			{
+				"name": "Brute",
+				"entries": [
+					"A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack)."
+				]
+			},
+			{
+				"name": "Legendary Resistance (1/Day)",
+				"entries": [
+					"If the bugbear fails a saving throw, it can choose to succeed instead."
+				]
+			},
+			{
+				"name": "Surprise Attack",
+				"entries": [
+					"If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 ({@damage 2d6}) damage from the attack."
+				]
+			}
+		],
+		"traitTags": [
+			"Brute",
+			"Legendary Resistances"
+		],
+		"action": [
+			{
+				"name": "Multiattack",
+				"entries": [
+					"The bugbear uses Maneuver Allies, if available. It then makes two melee attacks or two ranged attacks."
+				]
+			},
+			{
+				"name": "Battleaxe",
+				"entries": [
+					"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) slashing damage, or 14 ({@damage 2d10 + 3}) slashing damage if used with two hands."
+				]
+			},
+			{
+				"name": "Shield Slam",
+				"entries": [
+					"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d4 + 3}) bludgeoning damage and if the target is a creature it must make a {@dc 14} Strength saving throw or be knocked {@condition prone}."
+				]
+			},
+			{
+				"name": "Longbow",
+				"entries": [
+					"{@atk rw} {@hit 5} to hit, range 150/600 ft., one creature. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+				]
+			},
+			{
+				"name": "Maneuver Allies {@recharge 5}",
+				"entries": [
+					"Up to three beast allies within 60 feet of this bugbear that can hear it each use their reaction to move up to half their speed without provoking {@action opportunity attack|PHB|opportunity attacks}."
+				]
+			},
+			{
+				"name": "Summon Beast (Recharges after a Short or Long Rest)",
+				"entries": [
+					"The bugbear summons {@dice 2d4} {@creature giant rat|MM|giant rats}, {@dice 1d4 + 1} {@creature wolf|MM|wolves}, {@dice 1d2} {@creature worg|MM|worgs}, or 1 {@creature dire wolf}. The beasts appear in unoccupied spaces within 30 feet of the bugbear and acts as its allies. The beasts act right after the bugbear on the same initiative count and fight until they're destroyed. They remain for 1 hour, until they or the bugbear dies, or until the bugbear dismisses them as an action."
+				]
+			}
+		],
+		"reaction": [
+			{
+				"name": "Protective Beast",
+				"entries": [
+					"When the bugbear is hit by an attack, one allied beast within 5 feet of the bugbear must use its reaction to be hit by the attack instead."
+				]
+			}
+		],
+		"actionTags": [
+			"Multiattack"
+		],
+		"spellcasting": [
+			{
+				"type": "spellcasting",
+				"name": "Innate Spellcasting",
+				"headerEntries": [
+					"The bugbear casts one of the following spells, requiring no material components and using Wisdom as its spellcasting ability:"
+				],
+				"displayAs": "action",
+				"daily": {
+					"1e": [
+						"{@spell beast bond|XGE}",
+						"{@spell beast sense}",
+						"{@spell hunter's mark}"
+					]
+				},
+				"ability": "wis"
+			}
+		],
+		"spellcastingTags": [
+			"I"
+		],
+		"shortName": "bugbear",
+		"legendary": [
+			{
+				"name": "Move",
+				"entries": [
+					"The bugbear moves up to half its speed."
+				]
+			},
+			{
+				"name": "Shield Slam",
+				"entries": [
+					"The bugbear makes a shield slam attack."
+				]
+			},
+			{
+				"name": "Command Beast",
+				"entries": [
+					"The bugbear targets one allied beast it can see within 30 feet of it. If the target can see and hear the bugbear, the target can use its reaction to make one weapon attack or move up to its speed."
+				]
+			},
+			{
+				"name": "Attack (Costs 2 Actions)",
+				"entries": [
+					"The bugbear attacks with its battleaxe or longbow."
+				]
+			}
+		],
+		"damageTags": [
+			"B",
+			"P",
+			"S"
+		],
+		"conditionInflict": [
+			"prone"
+		],
+		"miscTags": [
+			"MW",
+			"RNG",
+			"RW",
+			"MLW"
+		],
+		"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MonsterManualExpanded3/creature/token/Bugbear%20Beastlord%20%28Token%29.png",
+		"fluff": {
+			"_monsterFluff": {
+				"name": "Bugbear Beastlord",
+				"source": "MonsterManualExpanded3"
+			}
+		},
+		"altArt": [
+			{
+				"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MonsterManualExpanded3/creature/token/Bugbear%20Beastlord%20%28Token%202%29.png",
+				"source": "MonsterManualExpanded3",
+				"name": "Roll20-style border"
+			}
+		],
+		"attachedItems": [
+			"battleaxe|phb",
+			"longbow|phb"
+		],
+		"hasFluff": true,
+		"hasFluffImages": true,
+		"savingThrowForced": [
+			"strength"
+		],
+		"uniqueId": "dd11ea8e-c3c7-4bd9-bb5c-c6359dd157ee",
+		"__prop": "monster",
+		"_pTypes": {
+			"types": [
+				"humanoid"
+			],
+			"tags": [
+				"goblinoid"
+			],
+			"asText": "Humanoid (Goblinoid)",
+			"asTextShort": "Humanoid (Goblinoid)",
+			"typeSidekick": null,
+			"tagsSidekick": [],
+			"asTextSidekick": null
+		},
+		"_pCr": "6",
+		"_fCr": [
+			"6"
+		],
+		"_fSpeedType": [
+			"walk"
+		],
+		"_fSpeed": 30,
+		"_fAc": [
+			16
+		],
+		"_fHp": 78,
+		"_fAlign": [
+			"C",
+			"E"
+		],
+		"_fEnvironment": [
+			"forest",
+			"grassland",
+			"jungle/Tropical",
+			"underdark"
+		],
+		"_fVuln": [],
+		"_fRes": [],
+		"_fImm": [],
+		"_fCondImm": [],
+		"_fSave": [
+			"str",
+			"dex"
+		],
+		"_fSkill": [
+			"animal handling",
+			"perception",
+			"stealth",
+			"survival"
+		],
+		"_fSources": "MonsterManualExpanded3",
+		"_fPassive": 16,
+		"_fStr": 16,
+		"_fDex": 14,
+		"_fCon": 14,
+		"_fInt": 8,
+		"_fWis": 16,
+		"_fCha": 9,
+		"_fMisc": [
+			"Has Info",
+			"Has Images",
+			"MW",
+			"RNG",
+			"RW",
+			"MLW",
+			"AC from Item(s)",
+			"Legendary",
+			"Spellcaster",
+			"Spellcaster, Wisdom",
+			"Reactions",
+			"Has Alternate Token",
+			"Has Token",
+			"Has Info",
+			"Has Images",
+			"Has Recharge"
+		],
+		"_fSpellsKnown": [
+			"beast bond|xge",
+			"beast sense|phb",
+			"hunter's mark|phb"
+		],
+		"_fLanguageTags": [
+			"C",
+			"GO"
+		],
+		"_fEquipment": [
+			"battleaxe|phb",
+			"longbow|phb",
+			"studded leather armor|phb",
+			"shield|phb"
+		]
+	},
+	{
+		"source": "MonsterManualExpanded3",
+		"page": 33,
+		"name": "Bugbear Dark Claw of Skiggaret",
+		"environment": [
+			"forest",
+			"grassland",
+			"jungle/Tropical",
+			"shadowfell",
+			"underdark"
+		],
+		"size": [
+			"M"
+		],
+		"type": {
+			"type": "humanoid",
+			"tags": [
+				"goblinoid"
+			]
+		},
+		"alignmentPrefix": "typically ",
+		"alignment": [
+			"C",
+			"E"
+		],
+		"ac": [
+			{
+				"ac": 14,
+				"from": [
+					"{@item studded leather armor|phb|studded leather}"
+				]
+			}
+		],
+		"hp": {
+			"average": 90,
+			"formula": "12d8 + 36"
+		},
+		"speed": {
+			"walk": 30
+		},
+		"str": 12,
+		"dex": 14,
+		"con": 16,
+		"int": 12,
+		"wis": 10,
+		"cha": 16,
+		"save": {
+			"con": "+6",
+			"cha": "+6"
+		},
+		"skill": {
+			"arcana": "+4",
+			"deception": "+6",
+			"religion": "+4"
+		},
+		"senses": [
+			"darkvision 120 ft."
+		],
+		"passive": 10,
+		"senseTags": [
+			"SD"
+		],
+		"languages": [
+			"Common",
+			"Goblin"
+		],
+		"languageTags": [
+			"C",
+			"GO"
+		],
+		"cr": "5",
+		"trait": [
+			{
+				"name": "Brute",
+				"entries": [
+					"A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack)."
+				]
+			},
+			{
+				"name": "Legendary Resistance (1/Day)",
+				"entries": [
+					"If the bugbear fails a saving throw, it can choose to succeed instead."
+				]
+			},
+			{
+				"name": "Spell Penetration",
+				"entries": [
+					"When the bugbear casts a spell and is interrupted by an enemy's {@spell counterspell}, treat the spell's level as 3 levels higher."
+				]
+			},
+			{
+				"name": "Surprise Attack",
+				"entries": [
+					"If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 ({@damage 2d6}) damage from the attack."
+				]
+			}
+		],
+		"traitTags": [
+			"Brute",
+			"Legendary Resistances"
+		],
+		"action": [
+			{
+				"name": "Sickle",
+				"entries": [
+					"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) slashing damage plus 3 ({@damage 1d6}) necrotic damage. If the target is a creature, it must succeed on a {@dc 14} Constitution saving throw or the target's speed is halved. In addition, the creature can't take reactions, and it can take either an action or a bonus action on its turn, not both. The effects last until the end of the bugbear's next turn."
+				]
+			}
+		],
+		"bonus": [
+			{
+				"name": "Cloak of Skiggaret (3/Day)",
+				"entries": [
+					"The bugbear can radiate an aura of terrifying darkness, appearing swathed in shadowy tendrils. A creature that starts its turn within 5 feet of the bugbear, or touches it or hits it with a melee attack while within 5 feet of the bugbear and the Cloak of Skiggaret is active takes 4 ({@damage 1d8}) necrotic damage and must succeed on a {@dc 14} Wisdom saving throw or become {@condition frightened} until the start of its next turn. The Cloak of Skiggaret remains for 1 minute, until the bugbear dies, or until the bugbear dismisses it as an action."
+				]
+			}
+		],
+		"spellcasting": [
+			{
+				"type": "spellcasting",
+				"name": "Innate Spellcasting",
+				"headerEntries": [
+					"The bugbear casts one of the following spells using Charisma as the spellcasting ability (spell save {@dc 14}, {@hit 6} to hit with spell attacks):"
+				],
+				"ability": "cha",
+				"displayAs": "action",
+				"daily": {
+					"2": [
+						"{@spell blight} (as 4th-level spell)",
+						"{@spell darkness} (as 4th-level spell)",
+						"{@spell fear} (as 4th-level spell)",
+						"{@spell hunger of Hadar} (as 4th-level spell)"
+					]
+				},
+				"will": [
+					"{@spell chill touch} ({@damage 2d8})",
+					"{@spell freedom of movement}",
+					"{@spell mage hand}",
+					"{@spell toll the dead|XGE} (2d8 or {@dice 2d12})",
+					"{@spell silent image}"
+				]
+			}
+		],
+		"spellcastingTags": [
+			"I"
+		],
+		"conditionInflictSpell": [
+			"frightened"
+		],
+		"shortName": "bugbear",
+		"legendary": [
+			{
+				"name": "Move",
+				"entries": [
+					"The bugbear moves up to half its speed."
+				]
+			},
+			{
+				"name": "Sickle",
+				"entries": [
+					"The bugbear attacks with its Sickle."
+				]
+			},
+			{
+				"name": "Claws of Skiggaret (Costs 2 Actions)",
+				"entries": [
+					"Ranged Spell {@action Attack}: {@hit 6} to hit, range 30 ft., one or two targets. Hit: 9 ({@damage 2d8}) necrotic damage. If the target is a creature, it deals only half damage with weapon attacks that use Strength for 1 minute. The target can make a {@dc 14} Constitution saving throw at the end of each of its turns, ending the effects on itself on a success."
+				]
+			}
+		],
+		"damageTags": [
+			"N",
+			"S"
+		],
+		"conditionInflict": [
+			"frightened"
+		],
+		"miscTags": [
+			"MW",
+			"MLW"
+		],
+		"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MonsterManualExpanded3/creature/token/Bugbear%20Dark%20Claw%20Of%20Skiggaret%20%28Token%29.png",
+		"fluff": {
+			"_monsterFluff": {
+				"name": "Bugbear Dark Claw of Skiggaret",
+				"source": "MonsterManualExpanded3"
+			}
+		},
+		"altArt": [
+			{
+				"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MonsterManualExpanded3/creature/token/Bugbear%20Dark%20Claw%20of%20Skiggaret%20%28Token%202%29.png",
+				"source": "MonsterManualExpanded3",
+				"name": "Roll20-style border"
+			}
+		],
+		"damageTagsSpell": [
+			"A",
+			"C",
+			"N"
+		],
+		"attachedItems": [
+			"sickle|phb"
+		],
+		"hasFluff": true,
+		"hasFluffImages": true,
+		"savingThrowForced": [
+			"constitution",
+			"wisdom"
+		],
+		"savingThrowForcedSpell": [
+			"constitution",
+			"dexterity",
+			"wisdom"
+		],
+		"uniqueId": "414c97f2-b388-4db0-9488-612cec8ec8a5",
+		"__prop": "monster",
+		"_pTypes": {
+			"types": [
+				"humanoid"
+			],
+			"tags": [
+				"goblinoid"
+			],
+			"asText": "Humanoid (Goblinoid)",
+			"asTextShort": "Humanoid (Goblinoid)",
+			"typeSidekick": null,
+			"tagsSidekick": [],
+			"asTextSidekick": null
+		},
+		"_pCr": "5",
+		"_fCr": [
+			"5"
+		],
+		"_fSpeedType": [
+			"walk"
+		],
+		"_fSpeed": 30,
+		"_fAc": [
+			14
+		],
+		"_fHp": 90,
+		"_fAlign": [
+			"C",
+			"E"
+		],
+		"_fEnvironment": [
+			"forest",
+			"grassland",
+			"jungle/Tropical",
+			"shadowfell",
+			"underdark"
+		],
+		"_fVuln": [],
+		"_fRes": [],
+		"_fImm": [],
+		"_fCondImm": [],
+		"_fSave": [
+			"con",
+			"cha"
+		],
+		"_fSkill": [
+			"arcana",
+			"deception",
+			"religion"
+		],
+		"_fSources": "MonsterManualExpanded3",
+		"_fPassive": 10,
+		"_fStr": 12,
+		"_fDex": 14,
+		"_fCon": 16,
+		"_fInt": 12,
+		"_fWis": 10,
+		"_fCha": 16,
+		"_fMisc": [
+			"Has Info",
+			"Has Images",
+			"MW",
+			"MLW",
+			"AC from Item(s)",
+			"Legendary",
+			"Spellcaster",
+			"Spellcaster, Charisma",
+			"Bonus Actions",
+			"Has Alternate Token",
+			"Has Token",
+			"Has Info",
+			"Has Images"
+		],
+		"_fSpellsKnown": [
+			"blight|phb",
+			"darkness|phb",
+			"fear|phb",
+			"hunger of hadar|phb",
+			"chill touch|phb",
+			"freedom of movement|phb",
+			"mage hand|phb",
+			"toll the dead|xge",
+			"silent image|phb"
+		],
+		"_fLanguageTags": [
+			"C",
+			"GO"
+		],
+		"_fEquipment": [
+			"sickle|phb",
+			"studded leather armor|phb"
+		]
+	},
+	{
+		"name": "Saber-Toothed Tiger",
+		"source": "MM",
+		"page": 336,
+		"srd": true,
+		"basicRules": true,
+		"otherSources": [
+			{
+				"source": "EGW"
+			},
+			{
+				"source": "MOT"
+			},
+			{
+				"source": "IDRotF"
+			},
+			{
+				"source": "CoS"
+			},
+			{
+				"source": "JttRC"
+			},
+			{
+				"source": "SatO"
+			},
+			{
+				"source": "ToFW"
+			},
+			{
+				"source": "QftIS"
+			}
+		],
+		"size": [
+			"L"
+		],
+		"type": "beast",
+		"alignment": [
+			"U"
+		],
+		"ac": [
+			12
+		],
+		"hp": {
+			"average": 52,
+			"formula": "7d10 + 14"
+		},
+		"speed": {
+			"walk": 40
+		},
+		"str": 18,
+		"dex": 14,
+		"con": 15,
+		"int": 3,
+		"wis": 12,
+		"cha": 8,
+		"skill": {
+			"perception": "+3",
+			"stealth": "+6"
+		},
+		"passive": 13,
+		"cr": "2",
+		"trait": [
+			{
+				"name": "Keen Smell",
+				"entries": [
+					"The tiger has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+				]
+			},
+			{
+				"name": "Pounce",
+				"entries": [
+					"If the tiger moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the tiger can make one bite attack against it as a bonus action."
+				]
+			}
+		],
+		"action": [
+			{
+				"name": "Bite",
+				"entries": [
+					"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d10 + 5}) piercing damage."
+				]
+			},
+			{
+				"name": "Claw",
+				"entries": [
+					"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage."
+				]
+			}
+		],
+		"environment": [
+			"arctic",
+			"mountain"
+		],
+		"soundClip": {
+			"type": "internal",
+			"path": "bestiary/saber-toothed-tiger.mp3"
+		},
+		"traitTags": [
+			"Keen Senses",
+			"Pounce"
+		],
+		"damageTags": [
+			"P",
+			"S"
+		],
+		"miscTags": [
+			"MW"
+		],
+		"conditionInflict": [
+			"prone"
+		],
+		"savingThrowForced": [
+			"strength"
+		],
+		"hasToken": true,
+		"__prop": "monster",
+		"_pTypes": {
+			"types": [
+				"beast"
+			],
+			"tags": [],
+			"asText": "Beast",
+			"asTextShort": "Beast",
+			"typeSidekick": null,
+			"tagsSidekick": [],
+			"asTextSidekick": null
+		},
+		"_pCr": "2",
+		"_fCr": [
+			"2"
+		],
+		"_fSpeedType": [
+			"walk"
+		],
+		"_fSpeed": 40,
+		"_fAc": [
+			12
+		],
+		"_fHp": 52,
+		"_fAlign": [
+			"U"
+		],
+		"_fEnvironment": [
+			"arctic",
+			"mountain"
+		],
+		"_fVuln": [],
+		"_fRes": [],
+		"_fImm": [],
+		"_fCondImm": [],
+		"_fSave": [],
+		"_fSkill": [
+			"perception",
+			"stealth"
+		],
+		"_fSources": [
+			"MM",
+			{
+				"item": "EGW",
+				"isIgnoreRed": true,
+				"rendered": null,
+				"searchText": null,
+				"isOtherSource": true
+			},
+			{
+				"item": "MOT",
+				"isIgnoreRed": true,
+				"rendered": null,
+				"searchText": null,
+				"isOtherSource": true
+			},
+			{
+				"item": "IDRotF",
+				"isIgnoreRed": true,
+				"rendered": null,
+				"searchText": null,
+				"isOtherSource": true
+			},
+			{
+				"item": "CoS",
+				"isIgnoreRed": true,
+				"rendered": null,
+				"searchText": null,
+				"isOtherSource": true
+			},
+			{
+				"item": "JttRC",
+				"isIgnoreRed": true,
+				"rendered": null,
+				"searchText": null,
+				"isOtherSource": true
+			},
+			{
+				"item": "SatO",
+				"isIgnoreRed": true,
+				"rendered": null,
+				"searchText": null,
+				"isOtherSource": true
+			},
+			{
+				"item": "ToFW",
+				"isIgnoreRed": true,
+				"rendered": null,
+				"searchText": null,
+				"isOtherSource": true
+			},
+			{
+				"item": "QftIS",
+				"isIgnoreRed": true,
+				"rendered": null,
+				"searchText": null,
+				"isOtherSource": true
+			}
+		],
+		"_fPassive": 13,
+		"_fStr": 18,
+		"_fDex": 14,
+		"_fCon": 15,
+		"_fInt": 3,
+		"_fWis": 12,
+		"_fCha": 8,
+		"_fMisc": [
+			"SRD 5.1",
+			"Basic Rules (2014)",
+			"MW",
+			"Has Token"
+		],
+		"_fLanguageTags": [
+			"None"
+		],
+		"_fEquipment": []
+	},
+	{
+		"name": "Dire Wolf",
+		"source": "MM",
+		"page": 321,
+		"srd": true,
+		"basicRules": true,
+		"otherSources": [
+			{
+				"source": "CoS"
+			},
+			{
+				"source": "SKT"
+			},
+			{
+				"source": "TftYP"
+			},
+			{
+				"source": "GoS"
+			},
+			{
+				"source": "IDRotF"
+			},
+			{
+				"source": "JttRC"
+			},
+			{
+				"source": "PaBTSO"
+			},
+			{
+				"source": "ToFW"
+			},
+			{
+				"source": "QftIS"
+			}
+		],
+		"reprintedAs": [
+			"Dire Wolf|XPHB"
+		],
+		"size": [
+			"L"
+		],
+		"type": "beast",
+		"alignment": [
+			"U"
+		],
+		"ac": [
+			{
+				"ac": 14,
+				"from": [
+					"natural armor"
+				]
+			}
+		],
+		"hp": {
+			"average": 37,
+			"formula": "5d10 + 10"
+		},
+		"speed": {
+			"walk": 50
+		},
+		"str": 17,
+		"dex": 15,
+		"con": 15,
+		"int": 3,
+		"wis": 12,
+		"cha": 7,
+		"skill": {
+			"perception": "+3",
+			"stealth": "+4"
+		},
+		"passive": 13,
+		"cr": "1",
+		"trait": [
+			{
+				"name": "Keen Hearing and Smell",
+				"entries": [
+					"The wolf has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+				]
+			},
+			{
+				"name": "Pack Tactics",
+				"entries": [
+					"The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+				]
+			}
+		],
+		"action": [
+			{
+				"name": "Bite",
+				"entries": [
+					"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+				]
+			}
+		],
+		"environment": [
+			"forest",
+			"hill"
+		],
+		"soundClip": {
+			"type": "internal",
+			"path": "bestiary/dire-wolf.mp3"
+		},
+		"traitTags": [
+			"Keen Senses",
+			"Pack Tactics"
+		],
+		"damageTags": [
+			"P"
+		],
+		"miscTags": [
+			"MW"
+		],
+		"conditionInflict": [
+			"prone"
+		],
+		"savingThrowForced": [
+			"strength"
+		],
+		"hasToken": true,
+		"hasFluffImages": true,
+		"__prop": "monster",
+		"_pTypes": {
+			"types": [
+				"beast"
+			],
+			"tags": [],
+			"asText": "Beast",
+			"asTextShort": "Beast",
+			"typeSidekick": null,
+			"tagsSidekick": [],
+			"asTextSidekick": null
+		},
+		"_pCr": "1",
+		"_fCr": [
+			"1"
+		],
+		"_fSpeedType": [
+			"walk"
+		],
+		"_fSpeed": 50,
+		"_fAc": [
+			14
+		],
+		"_fHp": 37,
+		"_fAlign": [
+			"U"
+		],
+		"_fEnvironment": [
+			"forest",
+			"hill"
+		],
+		"_fVuln": [],
+		"_fRes": [],
+		"_fImm": [],
+		"_fCondImm": [],
+		"_fSave": [],
+		"_fSkill": [
+			"perception",
+			"stealth"
+		],
+		"_fSources": [
+			"MM",
+			{
+				"item": "CoS",
+				"isIgnoreRed": true,
+				"rendered": null,
+				"searchText": null,
+				"isOtherSource": true
+			},
+			{
+				"item": "SKT",
+				"isIgnoreRed": true,
+				"rendered": null,
+				"searchText": null,
+				"isOtherSource": true
+			},
+			{
+				"item": "TftYP",
+				"isIgnoreRed": true,
+				"rendered": null,
+				"searchText": null,
+				"isOtherSource": true
+			},
+			{
+				"item": "GoS",
+				"isIgnoreRed": true,
+				"rendered": null,
+				"searchText": null,
+				"isOtherSource": true
+			},
+			{
+				"item": "IDRotF",
+				"isIgnoreRed": true,
+				"rendered": null,
+				"searchText": null,
+				"isOtherSource": true
+			},
+			{
+				"item": "JttRC",
+				"isIgnoreRed": true,
+				"rendered": null,
+				"searchText": null,
+				"isOtherSource": true
+			},
+			{
+				"item": "PaBTSO",
+				"isIgnoreRed": true,
+				"rendered": null,
+				"searchText": null,
+				"isOtherSource": true
+			},
+			{
+				"item": "ToFW",
+				"isIgnoreRed": true,
+				"rendered": null,
+				"searchText": null,
+				"isOtherSource": true
+			},
+			{
+				"item": "QftIS",
+				"isIgnoreRed": true,
+				"rendered": null,
+				"searchText": null,
+				"isOtherSource": true
+			}
+		],
+		"_fPassive": 13,
+		"_fStr": 17,
+		"_fDex": 15,
+		"_fCon": 15,
+		"_fInt": 3,
+		"_fWis": 12,
+		"_fCha": 7,
+		"_fMisc": [
+			"SRD 5.1",
+			"Basic Rules (2014)",
+			"Has Images",
+			"Reprinted",
+			"MW",
+			"AC from Natural Armor",
+			"Has Token",
+			"Has Images"
+		],
+		"_fLanguageTags": [
+			"None"
+		],
+		"_fEquipment": []
+	}
+]
