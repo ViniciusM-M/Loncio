@@ -1,0 +1,44 @@
+{
+    "name": "Dugrah",
+    "type": "Humanoid (Shapechanger)",
+    "alignment": "Chaotic Evil",
+    "armor_class": 15,
+    "hit_points": "95 (10d10+40)",
+    "speed": "30 ft",
+    "challenge_rating": 6,
+    "attributes": {
+        "strength": 18,
+        "dexterity": 11,
+        "constitution": 18,
+        "intelligence": 10,
+        "wisdom": 12,
+        "charisma": 8
+    },
+    "skills": {
+        "intimidation": "+4",
+        "survival": "+4",
+        "athletics": "+7"
+    },
+    "senses": "Darkvision 60 ft, Passive Perception 11",
+    "damage_resistances": "Slashing, Piercing, and Bludgeoning from non-magical attacks that aren't silvered",
+    "condition_immunities": [
+        "poisoned"
+    ],
+    "special_traits": {
+        "shapechanger": "Dugrah can transform into a boar or hybrid form.",
+        "devastating_charge": "Moving 15 ft in a straight line, Dugrah can knock down the target with a melee attack.",
+        "minion_command": "Dugrah can summon up to 2 boars or 1d4 goblins.",
+        "bloodthirsty_rage": "Dugrah enters a rage when dropping below half HP (recharge 5-6).",
+        "aura_of_fear": "Enemies within 10 ft of Dugrah must make a Wisdom save DC 13 or be frightened."
+    },
+    "actions": {
+        "multiattack": "Dugrah makes two attacks with his maul or tusks.",
+        "maul": "+7 to hit, reach 5 ft, one target. Damage: 1d10+4 bludgeoning.",
+        "tusks": "+7 to hit, reach 5 ft, one target. Damage: 2d6+4 piercing. Constitution save DC 12 for lycanthropy.",
+        "brutal_charge": "Dugrah charges 30 ft in a straight line, attacking all enemies in his path (recharge 5-6)."
+    },
+    "reactions": {
+        "savage_retaliation": "Dugrah can make a tusk attack when hit by a melee attack."
+    },
+    "combat_tactics": "Dugrah prefers brute force, knocking down enemies and summoning minions to overwhelm them."
+}
