@@ -1,0 +1,2891 @@
+[
+	{
+		"name": "Zone of Truth",
+		"source": "PHB",
+		"page": 289,
+		"srd": true,
+		"referenceSources": [
+			"JttRC",
+			"RoT",
+			"TftYP-AtG"
+		],
+		"level": 2,
+		"school": "E",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 60
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 10
+				}
+			}
+		],
+		"entries": [
+			"You create a magical zone that guards against deception in a 15-foot-radius sphere centered on a point of your choice within range. Until the spell ends, a creature that enters the spell's area for the first time on a turn or starts its turn there must make a Charisma saving throw. On a failed save, a creature can't speak a deliberate lie while in the radius. You know whether each creature succeeds or fails on its saving throw.",
+			"An affected creature is aware of the spell and can thus avoid answering questions to which it would normally respond with a lie. Such creatures can be evasive in its answers as long as it remains within the boundaries of the truth."
+		],
+		"savingThrow": [
+			"charisma"
+		],
+		"areaTags": [
+			"S"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Bard",
+					"source": "PHB"
+				},
+				{
+					"name": "Cleric",
+					"source": "PHB"
+				},
+				{
+					"name": "Paladin",
+					"source": "PHB"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Order Domain",
+						"shortName": "Order",
+						"source": "TCE"
+					}
+				},
+				{
+					"class": {
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Oath of Devotion",
+						"shortName": "Devotion",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Oath of the Crown",
+						"shortName": "Crown",
+						"source": "SCAG"
+					}
+				},
+				{
+					"class": {
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Monster Slayer",
+						"shortName": "Monster Slayer",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				}
+			]
+		},
+		"races": [
+			{
+				"name": "Human (Mark of Sentinel)",
+				"source": "ERLW",
+				"baseName": "Human",
+				"baseSource": "PHB"
+			}
+		],
+		"backgrounds": [
+			{
+				"name": "Orzhov Representative",
+				"source": "GGR"
+			}
+		],
+		"feats": [
+			{
+				"name": "Adept of the Black Robes",
+				"source": "DSotDQ"
+			}
+		]
+	},
+	{
+		"name": "Warding Bond",
+		"source": "PHB",
+		"page": 287,
+		"srd": true,
+		"basicRules": true,
+		"otherSources": [
+			{
+				"source": "RMR",
+				"page": 61
+			}
+		],
+		"level": 2,
+		"school": "A",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "touch"
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": {
+				"text": "a pair of platinum rings worth at least 50 gp each, which you and the target must wear for the duration",
+				"cost": 10000
+			}
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "hour",
+					"amount": 1
+				}
+			}
+		],
+		"entries": [
+			"This spell wards a willing creature you touch and creates a mystic connection between you and the target until the spell ends. While the target is within 60 feet of you, it gains a +1 bonus to AC and saving throws, and it has resistance to all damage. Also, each time it takes damage, you take the same amount of damage.",
+			"The spell ends if you drop to 0 hit points or if you and the target become separated by more than 60 feet. It also ends if the spell is cast again on either of the connected creatures. You can also dismiss the spell as an action."
+		],
+		"miscTags": [
+			"MAC"
+		],
+		"areaTags": [
+			"ST"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Cleric",
+					"source": "PHB"
+				}
+			],
+			"fromClassListVariant": [
+				{
+					"name": "Paladin",
+					"source": "PHB",
+					"definedInSource": "TCE"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					"subclass": {
+						"name": "Battle Smith",
+						"shortName": "Battle Smith",
+						"source": "TCE"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Solidarity Domain (PSA)",
+						"shortName": "Solidarity (PSA)",
+						"source": "PSA"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Peace Domain",
+						"shortName": "Peace",
+						"source": "TCE"
+					}
+				},
+				{
+					"class": {
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Oath of the Crown",
+						"shortName": "Crown",
+						"source": "SCAG"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				}
+			]
+		},
+		"races": [
+			{
+				"name": "Human (Mark of Sentinel)",
+				"source": "ERLW",
+				"baseName": "Human",
+				"baseSource": "PHB"
+			}
+		],
+		"backgrounds": [
+			{
+				"name": "Selesnya Initiate",
+				"source": "GGR"
+			}
+		],
+		"feats": [
+			{
+				"name": "Adept of the White Robes",
+				"source": "DSotDQ"
+			}
+		]
+	},
+	{
+		"name": "Spiritual Weapon",
+		"source": "PHB",
+		"page": 278,
+		"srd": true,
+		"basicRules": true,
+		"otherSources": [
+			{
+				"source": "RMR",
+				"page": 60
+			}
+		],
+		"referenceSources": [
+			"BGDIA",
+			"CoS",
+			"GoS",
+			"OoW",
+			"TftYP-TFoF",
+			"TTP",
+			"US",
+			"VEoR",
+			"WDMM"
+		],
+		"level": 2,
+		"school": "V",
+		"time": [
+			{
+				"number": 1,
+				"unit": "bonus"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 60
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 1
+				}
+			}
+		],
+		"entries": [
+			"You create a floating, spectral weapon within range that lasts for the duration or until you cast this spell again. When you cast the spell, you can make a melee spell attack against a creature within 5 feet of the weapon. On a hit, the target takes force damage equal to {@damage 1d8} + your spellcasting ability modifier.",
+			"As a bonus action on your turn, you can move the weapon up to 20 feet and repeat the attack against a creature within 5 feet of it.",
+			"The weapon can take whatever form you choose. Clerics of deities who are associated with a particular weapon (as St. Cuthbert is known for his mace and Thor for his hammer) make this spell's effect resemble that weapon."
+		],
+		"entriesHigherLevel": [
+			{
+				"type": "entries",
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@scaledamage 1d8|2,4,6,8|1d8} for every two slot levels above 2nd."
+				]
+			}
+		],
+		"damageInflict": [
+			"force"
+		],
+		"spellAttack": [
+			"M"
+		],
+		"miscTags": [
+			"UBA"
+		],
+		"areaTags": [
+			"ST"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Cleric",
+					"source": "PHB"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Life Domain",
+						"shortName": "Life",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "War Domain",
+						"shortName": "War",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Oath of Conquest",
+						"shortName": "Conquest",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				}
+			]
+		}
+	},
+	{
+		"name": "Silence",
+		"source": "PHB",
+		"page": 275,
+		"srd": true,
+		"basicRules": true,
+		"otherSources": [
+			{
+				"source": "RMR",
+				"page": 59
+			}
+		],
+		"referenceSources": [
+			"CM",
+			"CoS",
+			"IDRotF",
+			"KftGV",
+			"LMoP",
+			"NRH-TLT",
+			"OoW",
+			"PaBTSO",
+			"QftIS",
+			"RtG",
+			"ToA",
+			"VEoR",
+			"WBtW",
+			"WDMM"
+		],
+		"level": 2,
+		"school": "I",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 120
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 10
+				},
+				"concentration": true
+			}
+		],
+		"meta": {
+			"ritual": true
+		},
+		"entries": [
+			"For the duration, no sound can be created within or pass through a 20-foot-radius sphere centered on a point you choose within range. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are {@condition deafened} while entirely inside it. Casting a spell that includes a verbal component is impossible there."
+		],
+		"damageImmune": [
+			"thunder"
+		],
+		"conditionInflict": [
+			"deafened"
+		],
+		"miscTags": [
+			"OBJ"
+		],
+		"areaTags": [
+			"S"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Bard",
+					"source": "PHB"
+				},
+				{
+					"name": "Cleric",
+					"source": "PHB"
+				},
+				{
+					"name": "Ranger",
+					"source": "PHB"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Druid",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Circle of the Land",
+						"shortName": "Land",
+						"source": "PHB",
+						"subSubclass": "Desert"
+					}
+				},
+				{
+					"class": {
+						"name": "Monk",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Way of Shadow",
+						"shortName": "Shadow",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "The Undying",
+						"shortName": "Undying",
+						"source": "SCAG"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "The Fathomless",
+						"shortName": "Fathomless",
+						"source": "TCE"
+					}
+				}
+			]
+		},
+		"races": [
+			{
+				"name": "Gnome (Mark of Scribing)",
+				"source": "ERLW",
+				"baseName": "Gnome",
+				"baseSource": "PHB"
+			}
+		],
+		"feats": [
+			{
+				"name": "Adept of the Red Robes",
+				"source": "DSotDQ"
+			}
+		]
+	},
+	{
+		"name": "See Invisibility",
+		"source": "PHB",
+		"page": 274,
+		"srd": true,
+		"referenceSources": [
+			"CM",
+			"CRCotN",
+			"DSotDQ",
+			"IDRotF",
+			"KftGV",
+			"OotA",
+			"QftIS",
+			"RoT",
+			"TftYP-ToH",
+			"VEoR",
+			"WDH",
+			"WDMM"
+		],
+		"level": 2,
+		"school": "D",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "self"
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a pinch of talc and a small sprinkling of powdered silver"
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "hour",
+					"amount": 1
+				}
+			}
+		],
+		"entries": [
+			"For the duration, you see {@condition invisible} creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent."
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Bard",
+					"source": "PHB"
+				},
+				{
+					"name": "Sorcerer",
+					"source": "PHB"
+				},
+				{
+					"name": "Wizard",
+					"source": "PHB"
+				},
+				{
+					"name": "Artificer",
+					"source": "TCE"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Twilight Domain",
+						"shortName": "Twilight",
+						"source": "TCE"
+					}
+				},
+				{
+					"class": {
+						"name": "Fighter",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Eldritch Knight",
+						"shortName": "Eldritch Knight",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Oath of the Watchers",
+						"shortName": "Watchers",
+						"source": "TCE"
+					}
+				},
+				{
+					"class": {
+						"name": "Rogue",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Arcane Trickster",
+						"shortName": "Arcane Trickster",
+						"source": "PHB"
+					}
+				}
+			]
+		},
+		"races": [
+			{
+				"name": "Half-Elf (Variant; Mark of Detection)",
+				"source": "ERLW",
+				"baseName": "Half-Elf",
+				"baseSource": "PHB"
+			}
+		],
+		"feats": [
+			{
+				"name": "Adept of the White Robes",
+				"source": "DSotDQ"
+			}
+		]
+	},
+	{
+		"name": "Protection from Poison",
+		"source": "PHB",
+		"page": 270,
+		"srd": true,
+		"referenceSources": [
+			"CoS",
+			"GoS",
+			"JttRC",
+			"TftYP-AtG",
+			"TftYP-TSC",
+			"VEoR"
+		],
+		"level": 2,
+		"school": "A",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "touch"
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "hour",
+					"amount": 1
+				}
+			}
+		],
+		"entries": [
+			"You touch a creature. If it is {@condition poisoned}, you neutralize the poison. If more than one poison afflicts the target, you neutralize one poison that you know is present, or you neutralize one at random.",
+			"For the duration, the target has advantage on saving throws against being {@condition poisoned}, and it has resistance to poison damage."
+		],
+		"damageResist": [
+			"poison"
+		],
+		"miscTags": [
+			"ADV"
+		],
+		"areaTags": [
+			"ST"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Cleric",
+					"source": "PHB"
+				},
+				{
+					"name": "Druid",
+					"source": "PHB"
+				},
+				{
+					"name": "Paladin",
+					"source": "PHB"
+				},
+				{
+					"name": "Ranger",
+					"source": "PHB"
+				},
+				{
+					"name": "Artificer",
+					"source": "TCE"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Strength Domain (PSA)",
+						"shortName": "Strength (PSA)",
+						"source": "PSA"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				}
+			]
+		},
+		"backgrounds": [
+			{
+				"name": "Golgari Agent",
+				"source": "GGR"
+			}
+		],
+		"feats": [
+			{
+				"name": "Adept of the White Robes",
+				"source": "DSotDQ"
+			}
+		]
+	},
+	{
+		"name": "Prayer of Healing",
+		"source": "PHB",
+		"page": 267,
+		"srd": true,
+		"basicRules": true,
+		"otherSources": [
+			{
+				"source": "RMR",
+				"page": 57
+			}
+		],
+		"referenceSources": [
+			"OoW"
+		],
+		"level": 2,
+		"school": "V",
+		"time": [
+			{
+				"number": 10,
+				"unit": "minute"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+			}
+		},
+		"components": {
+			"v": true
+		},
+		"duration": [
+			{
+				"type": "instant"
+			}
+		],
+		"entries": [
+			"Up to six creatures of your choice that you can see within range each regain hit points equal to {@dice 2d8} + your spellcasting ability modifier. This spell has no effect on undead or constructs."
+		],
+		"entriesHigherLevel": [
+			{
+				"type": "entries",
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 3rd level or higher, the healing increases by {@scaledice 2d8|2-9|1d8} for each slot level above 2nd."
+				]
+			}
+		],
+		"affectsCreatureType": [
+			"aberration",
+			"beast",
+			"celestial",
+			"dragon",
+			"elemental",
+			"fey",
+			"fiend",
+			"giant",
+			"humanoid",
+			"monstrosity",
+			"ooze",
+			"plant"
+		],
+		"miscTags": [
+			"HL",
+			"SGT"
+		],
+		"areaTags": [
+			"MT"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Cleric",
+					"source": "PHB"
+				}
+			],
+			"fromClassListVariant": [
+				{
+					"name": "Paladin",
+					"source": "PHB",
+					"definedInSource": "TCE"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				}
+			]
+		},
+		"races": [
+			{
+				"name": "Halfling (Mark of Healing)",
+				"source": "ERLW",
+				"baseName": "Halfling",
+				"baseSource": "PHB"
+			}
+		]
+	},
+	{
+		"name": "Moonbeam",
+		"source": "PHB",
+		"page": 261,
+		"srd": true,
+		"referenceSources": [
+			"CoS",
+			"IDRotF",
+			"VEoR",
+			"WDMM"
+		],
+		"level": 2,
+		"school": "V",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 120
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "several seeds of any moonseed plant and a piece of opalescent feldspar"
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 1
+				},
+				"concentration": true
+			}
+		],
+		"entries": [
+			"A silvery beam of pale light shines down in a 5-foot-radius, 40-foot-high cylinder centered on a point within range. Until the spell ends, dim light fills the cylinder.",
+			"When a creature enters the spell's area for the first time on a turn or starts its turn there, it is engulfed in ghostly flames that cause searing pain, and it must make a Constitution saving throw. It takes {@damage 2d10} radiant damage on a failed save, or half as much damage on a successful one.",
+			"A shapechanger makes its saving throw with disadvantage. If it fails, it also instantly reverts to its original form and can't assume a different form until it leaves the spell's light.",
+			"On each of your turns after you cast this spell, you can use an action to move the beam up to 60 feet in any direction."
+		],
+		"entriesHigherLevel": [
+			{
+				"type": "entries",
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@scaledamage 2d10|2-9|1d10} for each slot level above 2nd."
+				]
+			}
+		],
+		"damageInflict": [
+			"radiant"
+		],
+		"savingThrow": [
+			"constitution"
+		],
+		"miscTags": [
+			"LGT"
+		],
+		"areaTags": [
+			"Y"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Druid",
+					"source": "PHB"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Twilight Domain",
+						"shortName": "Twilight",
+						"source": "TCE"
+					}
+				},
+				{
+					"class": {
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Oath of the Ancients",
+						"shortName": "Ancients",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Oath of the Watchers",
+						"shortName": "Watchers",
+						"source": "TCE"
+					}
+				}
+			]
+		}
+	},
+	{
+		"name": "Locate Object",
+		"source": "PHB",
+		"page": 256,
+		"srd": true,
+		"referenceSources": [
+			"CM",
+			"CoA",
+			"CoS",
+			"IMR",
+			"JttRC",
+			"KftGV",
+			"QftIS",
+			"SKT",
+			"XMtS"
+		],
+		"level": 2,
+		"school": "D",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "self"
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a forked twig"
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 10
+				},
+				"concentration": true
+			}
+		],
+		"entries": [
+			"Describe or name an object that is familiar to you. You sense the direction to the object's location, as long as that object is within 1,000 feet of you. If the object is in motion, you know the direction of its movement.",
+			"The spell can locate a specific object known to you, as long as you have seen it up close—within 30 feet—at least once. Alternatively, the spell can locate the nearest object of a particular kind, such as a certain kind of apparel, jewelry, furniture, tool, or weapon.",
+			"This spell can't locate an object if any thickness of lead, even a thin sheet, blocks a direct path between you and the object."
+		],
+		"miscTags": [
+			"OBJ"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Bard",
+					"source": "PHB"
+				},
+				{
+					"name": "Cleric",
+					"source": "PHB"
+				},
+				{
+					"name": "Druid",
+					"source": "PHB"
+				},
+				{
+					"name": "Paladin",
+					"source": "PHB"
+				},
+				{
+					"name": "Ranger",
+					"source": "PHB"
+				},
+				{
+					"name": "Wizard",
+					"source": "PHB"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Fighter",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Eldritch Knight",
+						"shortName": "Eldritch Knight",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Rogue",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Arcane Trickster",
+						"shortName": "Arcane Trickster",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				}
+			]
+		},
+		"races": [
+			{
+				"name": "Half-Orc (Variant; Mark of Finding)",
+				"source": "ERLW",
+				"baseName": "Half-Orc",
+				"baseSource": "PHB"
+			},
+			{
+				"name": "Human (Variant; Mark of Finding)",
+				"source": "ERLW",
+				"baseName": "Human",
+				"baseSource": "PHB"
+			}
+		],
+		"backgrounds": [
+			{
+				"name": "Lorehold Student",
+				"source": "SCC"
+			}
+		],
+		"feats": [
+			{
+				"name": "Adept of the White Robes",
+				"source": "DSotDQ"
+			}
+		]
+	},
+	{
+		"name": "Lesser Restoration",
+		"source": "PHB",
+		"page": 255,
+		"srd": true,
+		"basicRules": true,
+		"otherSources": [
+			{
+				"source": "RMR",
+				"page": 55
+			}
+		],
+		"referenceSources": [
+			"AitFR-AVT",
+			"CoS",
+			"CRCotN",
+			"DC",
+			"DoSI",
+			"DSotDQ",
+			"IDRotF",
+			"JttRC",
+			"KftGV",
+			"OotA",
+			"OoW",
+			"PotA",
+			"QftIS",
+			"RoT",
+			"SDW",
+			"SLW",
+			"TftYP-AtG",
+			"TftYP-DiT",
+			"TftYP-TFoF",
+			"ToA",
+			"US",
+			"WDMM"
+		],
+		"level": 2,
+		"school": "A",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "touch"
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [
+			{
+				"type": "instant"
+			}
+		],
+		"entries": [
+			"You touch a creature and can end either one disease or one condition afflicting it. The condition can be {@condition blinded}, {@condition deafened}, {@condition paralyzed}, or {@condition poisoned}."
+		],
+		"areaTags": [
+			"ST"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Bard",
+					"source": "PHB"
+				},
+				{
+					"name": "Cleric",
+					"source": "PHB"
+				},
+				{
+					"name": "Druid",
+					"source": "PHB"
+				},
+				{
+					"name": "Paladin",
+					"source": "PHB"
+				},
+				{
+					"name": "Ranger",
+					"source": "PHB"
+				},
+				{
+					"name": "Artificer",
+					"source": "TCE"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Life Domain",
+						"shortName": "Life",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Oath of Devotion",
+						"shortName": "Devotion",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Clockwork Soul",
+						"shortName": "Clockwork Soul",
+						"source": "TCE"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Lunar Sorcery",
+						"shortName": "Lunar",
+						"source": "DSotDQ"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "The Celestial",
+						"shortName": "Celestial",
+						"source": "XGE"
+					}
+				}
+			]
+		},
+		"races": [
+			{
+				"name": "Aasimar",
+				"source": "DMG"
+			},
+			{
+				"name": "Halfling (Mark of Healing)",
+				"source": "ERLW",
+				"baseName": "Halfling",
+				"baseSource": "PHB"
+			}
+		],
+		"backgrounds": [
+			{
+				"name": "Witherbloom Student",
+				"source": "SCC"
+			}
+		],
+		"feats": [
+			{
+				"name": "Adept of the White Robes",
+				"source": "DSotDQ"
+			}
+		],
+		"rewards": [
+			{
+				"name": "Charm of Restoration",
+				"source": "DMG"
+			}
+		]
+	},
+	{
+		"name": "Hold Person",
+		"source": "PHB",
+		"page": 251,
+		"srd": true,
+		"basicRules": true,
+		"otherSources": [
+			{
+				"source": "RMR",
+				"page": 54
+			}
+		],
+		"referenceSources": [
+			"CM",
+			"CoA",
+			"CoS",
+			"DIP",
+			"DoSI",
+			"GoS",
+			"KftGV",
+			"OotA",
+			"OoW",
+			"PaBTSO",
+			"RoT",
+			"TftYP-AtG",
+			"TftYP-TFoF",
+			"TftYP-THSoT",
+			"TftYP-WPM",
+			"ToA",
+			"WBtW",
+			"WDMM"
+		],
+		"level": 2,
+		"school": "E",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 60
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a small, straight piece of iron"
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 1
+				},
+				"concentration": true
+			}
+		],
+		"entries": [
+			"Choose a humanoid that you can see within range. The target must succeed on a Wisdom saving throw or be {@condition paralyzed} for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target."
+		],
+		"entriesHigherLevel": [
+			{
+				"type": "entries",
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 3rd level or higher, you can target one additional humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them."
+				]
+			}
+		],
+		"conditionInflict": [
+			"paralyzed"
+		],
+		"savingThrow": [
+			"wisdom"
+		],
+		"affectsCreatureType": [
+			"humanoid"
+		],
+		"miscTags": [
+			"SCT",
+			"SGT"
+		],
+		"areaTags": [
+			"ST"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Bard",
+					"source": "PHB"
+				},
+				{
+					"name": "Cleric",
+					"source": "PHB"
+				},
+				{
+					"name": "Druid",
+					"source": "PHB"
+				},
+				{
+					"name": "Sorcerer",
+					"source": "PHB"
+				},
+				{
+					"name": "Warlock",
+					"source": "PHB"
+				},
+				{
+					"name": "Wizard",
+					"source": "PHB"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Order Domain",
+						"shortName": "Order",
+						"source": "TCE"
+					}
+				},
+				{
+					"class": {
+						"name": "Druid",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Circle of the Land",
+						"shortName": "Land",
+						"source": "PHB",
+						"subSubclass": "Arctic"
+					}
+				},
+				{
+					"class": {
+						"name": "Fighter",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Eldritch Knight",
+						"shortName": "Eldritch Knight",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Oath of Vengeance",
+						"shortName": "Vengeance",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Oath of Conquest",
+						"shortName": "Conquest",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Oath of Redemption",
+						"shortName": "Redemption",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Rogue",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Arcane Trickster",
+						"shortName": "Arcane Trickster",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				}
+			]
+		},
+		"optionalfeatures": [
+			{
+				"name": "Clench of the North Wind",
+				"source": "PHB",
+				"featureType": [
+					"ED"
+				]
+			}
+		],
+		"backgrounds": [
+			{
+				"name": "Azorius Functionary",
+				"source": "GGR"
+			}
+		],
+		"feats": [
+			{
+				"name": "Adept of the Black Robes",
+				"source": "DSotDQ"
+			}
+		],
+		"rewards": [
+			{
+				"name": "Azorius Charm",
+				"source": "GGR"
+			}
+		]
+	},
+	{
+		"name": "Gentle Repose",
+		"source": "PHB",
+		"page": 245,
+		"srd": true,
+		"referenceSources": [
+			"CoS",
+			"DSotDQ",
+			"WBtW",
+			"WDH"
+		],
+		"level": 2,
+		"school": "N",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "touch"
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a pinch of salt and one copper piece placed on each of the corpse's eyes, which must remain there for the duration"
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "day",
+					"amount": 10
+				}
+			}
+		],
+		"meta": {
+			"ritual": true
+		},
+		"entries": [
+			"You touch a corpse or other remains. For the duration, the target is protected from decay and can't become undead.",
+			"The spell also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this spell don't count against the time limit of spells such as {@spell raise dead}."
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Cleric",
+					"source": "PHB"
+				},
+				{
+					"name": "Wizard",
+					"source": "PHB"
+				}
+			],
+			"fromClassListVariant": [
+				{
+					"name": "Paladin",
+					"source": "PHB",
+					"definedInSource": "TCE"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Grave Domain",
+						"shortName": "Grave",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Druid",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Circle of Spores",
+						"shortName": "Spores",
+						"source": "TCE"
+					}
+				},
+				{
+					"class": {
+						"name": "Fighter",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Eldritch Knight",
+						"shortName": "Eldritch Knight",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Rogue",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Arcane Trickster",
+						"shortName": "Arcane Trickster",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				}
+			]
+		},
+		"feats": [
+			{
+				"name": "Adept of the Black Robes",
+				"source": "DSotDQ"
+			}
+		],
+		"rewards": [
+			{
+				"name": "Athreos's Devotee",
+				"source": "MOT"
+			}
+		]
+	},
+	{
+		"name": "Find Traps",
+		"source": "PHB",
+		"page": 241,
+		"srd": true,
+		"referenceSources": [
+			"QftIS",
+			"TftYP-ToH",
+			"ToA"
+		],
+		"level": 2,
+		"school": "D",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 120
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [
+			{
+				"type": "instant"
+			}
+		],
+		"entries": [
+			"You sense the presence of any trap within range that is within line of sight. A trap, for the purpose of this spell, includes anything that would inflict a sudden or unexpected effect you consider harmful or undesirable, which was specifically intended as such by its creator. Thus, the spell would sense an area affected by the {@spell alarm} spell, a {@spell glyph of warding}, or a mechanical pit trap, but it would not reveal a natural weakness in the floor, an unstable ceiling, or a hidden sinkhole.",
+			"This spell merely reveals that a trap is present. You don't learn the location of each trap, but you do learn the general nature of the danger posed by a trap you sense."
+		],
+		"miscTags": [
+			"SGT"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Cleric",
+					"source": "PHB"
+				},
+				{
+					"name": "Druid",
+					"source": "PHB"
+				},
+				{
+					"name": "Ranger",
+					"source": "PHB"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				}
+			]
+		},
+		"races": [
+			{
+				"name": "Half-Elf (Variant; Mark of Detection)",
+				"source": "ERLW",
+				"baseName": "Half-Elf",
+				"baseSource": "PHB"
+			}
+		],
+		"feats": [
+			{
+				"name": "Adept of the White Robes",
+				"source": "DSotDQ"
+			}
+		]
+	},
+	{
+		"name": "Enhance Ability",
+		"source": "PHB",
+		"page": 237,
+		"srd": true,
+		"referenceSources": [
+			"CM",
+			"VEoR"
+		],
+		"level": 2,
+		"school": "T",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "touch"
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "fur or a feather from a beast"
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "hour",
+					"amount": 1
+				},
+				"concentration": true
+			}
+		],
+		"entries": [
+			"You touch a creature and bestow upon it a magical enhancement. Choose one of the following effects; the target gains that effect until the spell ends.",
+			{
+				"type": "entries",
+				"name": "Bear's Endurance",
+				"entries": [
+					"The target has advantage on Constitution checks. It also gains {@dice 2d6} temporary hit points, which are lost when the spell ends."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Bull's Strength",
+				"entries": [
+					"The target has advantage on Strength checks, and his or her carrying capacity doubles."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Cat's Grace",
+				"entries": [
+					"The target has advantage on Dexterity checks. It also doesn't take damage from falling 20 feet or less if it isn't {@condition incapacitated}."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Eagle's Splendor",
+				"entries": [
+					"The target has advantage on Charisma checks."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Fox's Cunning",
+				"entries": [
+					"The target has advantage on Intelligence checks."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Owl's Wisdom",
+				"entries": [
+					"The target has advantage on Wisdom checks."
+				]
+			}
+		],
+		"entriesHigherLevel": [
+			{
+				"type": "entries",
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+				]
+			}
+		],
+		"miscTags": [
+			"ADV",
+			"SCT",
+			"THP"
+		],
+		"areaTags": [
+			"ST"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Bard",
+					"source": "PHB"
+				},
+				{
+					"name": "Cleric",
+					"source": "PHB"
+				},
+				{
+					"name": "Druid",
+					"source": "PHB"
+				},
+				{
+					"name": "Sorcerer",
+					"source": "PHB"
+				},
+				{
+					"name": "Artificer",
+					"source": "TCE"
+				}
+			],
+			"fromClassListVariant": [
+				{
+					"name": "Ranger",
+					"source": "PHB",
+					"definedInSource": "TCE"
+				},
+				{
+					"name": "Wizard",
+					"source": "PHB",
+					"definedInSource": "TCE"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Strength Domain (PSA)",
+						"shortName": "Strength (PSA)",
+						"source": "PSA"
+					}
+				},
+				{
+					"class": {
+						"name": "Fighter",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Eldritch Knight",
+						"shortName": "Eldritch Knight",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Oath of Glory",
+						"shortName": "Glory",
+						"source": "TCE"
+					}
+				},
+				{
+					"class": {
+						"name": "Rogue",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Arcane Trickster",
+						"shortName": "Arcane Trickster",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				}
+			]
+		},
+		"backgrounds": [
+			{
+				"name": "Simic Scientist",
+				"source": "GGR"
+			}
+		],
+		"feats": [
+			{
+				"name": "Adept of the Red Robes",
+				"source": "DSotDQ"
+			}
+		],
+		"rewards": [
+			{
+				"name": "Charm of the Star",
+				"source": "BMT"
+			},
+			{
+				"name": "Simic Charm",
+				"source": "GGR"
+			}
+		]
+	},
+	{
+		"name": "Continual Flame",
+		"source": "PHB",
+		"page": 227,
+		"srd": true,
+		"referenceSources": [
+			"BGDIA",
+			"CM",
+			"CoS",
+			"CRCotN",
+			"DSotDQ",
+			"FS",
+			"GoS",
+			"IDRotF",
+			"JttRC",
+			"KftGV",
+			"KKW",
+			"LoX",
+			"LRDT",
+			"OotA",
+			"PaBTSO",
+			"PotA",
+			"QftIS",
+			"RoT",
+			"SCC-ARiR",
+			"SCC-CK",
+			"SCC-TMM",
+			"SDW",
+			"SjA",
+			"SKT",
+			"TftYP-TSC",
+			"ToA",
+			"ToFW",
+			"VEoR",
+			"WBtW",
+			"WDH",
+			"WDMM"
+		],
+		"level": 2,
+		"school": "V",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "touch"
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": {
+				"text": "ruby dust worth 50 gp, which the spell consumes",
+				"cost": 5000,
+				"consume": true
+			}
+		},
+		"duration": [
+			{
+				"type": "permanent",
+				"ends": [
+					"dispel"
+				]
+			}
+		],
+		"entries": [
+			"A flame, equivalent in brightness to a torch, springs forth from an object that you touch. The effect looks like a regular flame, but it creates no heat and doesn't use oxygen. A continual flame can be covered or hidden but not smothered or quenched."
+		],
+		"miscTags": [
+			"LGT",
+			"OBJ"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Cleric",
+					"source": "PHB"
+				},
+				{
+					"name": "Wizard",
+					"source": "PHB"
+				},
+				{
+					"name": "Artificer",
+					"source": "TCE"
+				}
+			],
+			"fromClassListVariant": [
+				{
+					"name": "Druid",
+					"source": "PHB",
+					"definedInSource": "TCE"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Fighter",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Eldritch Knight",
+						"shortName": "Eldritch Knight",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Rogue",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Arcane Trickster",
+						"shortName": "Arcane Trickster",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				}
+			]
+		},
+		"races": [
+			{
+				"name": "Human (Mark of Making)",
+				"source": "ERLW",
+				"baseName": "Human",
+				"baseSource": "PHB"
+			}
+		]
+	},
+	{
+		"name": "Calm Emotions",
+		"source": "PHB",
+		"page": 221,
+		"srd": true,
+		"referenceSources": [
+			"BGDIA",
+			"CM",
+			"CoS",
+			"IDRotF",
+			"OotA",
+			"SDW",
+			"ToFW",
+			"VEoR",
+			"WBtW",
+			"WDMM"
+		],
+		"level": 2,
+		"school": "E",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 60
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 1
+				},
+				"concentration": true
+			}
+		],
+		"entries": [
+			"You attempt to suppress strong emotions in a group of people. Each humanoid in a 20-foot-radius sphere centered on a point you choose within range must make a Charisma saving throw; a creature can choose to fail this saving throw if it wishes. If a creature fails its saving throw, choose one of the following two effects.",
+			"You can suppress any effect causing a target to be {@condition charmed} or {@condition frightened}. When this spell ends, any suppressed effect resumes, provided that its duration has not expired in the meantime.",
+			"Alternatively, you can make a target indifferent about creatures of your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a spell or if it witnesses any of its friends being harmed. When the spell ends, the creature becomes hostile again, unless the DM rules otherwise."
+		],
+		"savingThrow": [
+			"charisma"
+		],
+		"affectsCreatureType": [
+			"humanoid"
+		],
+		"areaTags": [
+			"S"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Bard",
+					"source": "PHB"
+				},
+				{
+					"name": "Cleric",
+					"source": "PHB"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Oath of Redemption",
+						"shortName": "Redemption",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Aberrant Mind",
+						"shortName": "Aberrant Mind",
+						"source": "TCE"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "The Archfey",
+						"shortName": "Archfey",
+						"source": "PHB"
+					}
+				}
+			]
+		},
+		"races": [
+			{
+				"name": "Halfling (Mark of Hospitality)",
+				"source": "ERLW",
+				"baseName": "Halfling",
+				"baseSource": "PHB"
+			},
+			{
+				"name": "Human (Mark of Handling)",
+				"source": "ERLW",
+				"baseName": "Human",
+				"baseSource": "PHB"
+			}
+		],
+		"backgrounds": [
+			{
+				"name": "Azorius Functionary",
+				"source": "GGR"
+			},
+			{
+				"name": "Selesnya Initiate",
+				"source": "GGR"
+			},
+			{
+				"name": "Silverquill Student",
+				"source": "SCC"
+			}
+		],
+		"feats": [
+			{
+				"name": "Adept of the Black Robes",
+				"source": "DSotDQ"
+			}
+		]
+	},
+	{
+		"name": "Blindness/Deafness",
+		"source": "PHB",
+		"page": 219,
+		"srd": true,
+		"referenceSources": [
+			"CRCotN",
+			"KftGV",
+			"OotA",
+			"OoW",
+			"TftYP-AtG",
+			"US",
+			"WDH",
+			"WDMM"
+		],
+		"level": 2,
+		"school": "N",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+			}
+		},
+		"components": {
+			"v": true
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 1
+				}
+			}
+		],
+		"entries": [
+			"You can blind or deafen a foe. Choose one creature that you can see within range to make a Constitution saving throw. If it fails, the target is either {@condition blinded} or {@condition deafened} (your choice) for the duration. At the end of each of its turns, the target can make a Constitution saving throw. On a success, the spell ends."
+		],
+		"entriesHigherLevel": [
+			{
+				"type": "entries",
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+				]
+			}
+		],
+		"conditionInflict": [
+			"blinded",
+			"deafened"
+		],
+		"savingThrow": [
+			"constitution"
+		],
+		"miscTags": [
+			"SCT",
+			"SGT"
+		],
+		"areaTags": [
+			"ST"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Bard",
+					"source": "PHB"
+				},
+				{
+					"name": "Cleric",
+					"source": "PHB"
+				},
+				{
+					"name": "Sorcerer",
+					"source": "PHB"
+				},
+				{
+					"name": "Wizard",
+					"source": "PHB"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Death Domain",
+						"shortName": "Death",
+						"source": "DMG"
+					}
+				},
+				{
+					"class": {
+						"name": "Druid",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Circle of Spores",
+						"shortName": "Spores",
+						"source": "TCE"
+					}
+				},
+				{
+					"class": {
+						"name": "Fighter",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Eldritch Knight",
+						"shortName": "Eldritch Knight",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Rogue",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Arcane Trickster",
+						"shortName": "Arcane Trickster",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Lunar Sorcery",
+						"shortName": "Lunar",
+						"source": "DSotDQ"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "The Fiend",
+						"shortName": "Fiend",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "The Undying",
+						"shortName": "Undying",
+						"source": "SCAG"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "The Undead",
+						"shortName": "Undead",
+						"source": "VRGR"
+					}
+				}
+			]
+		},
+		"races": [
+			{
+				"name": "Gnome (Deep)",
+				"source": "DMG"
+			}
+		],
+		"feats": [
+			{
+				"name": "Adept of the Black Robes",
+				"source": "DSotDQ"
+			},
+			{
+				"name": "Svirfneblin Magic",
+				"source": "MTF"
+			}
+		]
+	},
+	{
+		"name": "Augury",
+		"source": "PHB",
+		"page": 215,
+		"srd": true,
+		"basicRules": true,
+		"otherSources": [
+			{
+				"source": "RMR",
+				"page": 50
+			}
+		],
+		"referenceSources": [
+			"CoS",
+			"HotDQ",
+			"JttRC",
+			"KftGV",
+			"LMoP",
+			"OotA",
+			"PaBTSO",
+			"SCC-HfMT",
+			"ToA",
+			"US",
+			"WDMM"
+		],
+		"level": 2,
+		"school": "D",
+		"time": [
+			{
+				"number": 1,
+				"unit": "minute"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "self"
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": {
+				"text": "specially marked sticks, bones, or similar tokens worth at least 25 gp",
+				"cost": 2500
+			}
+		},
+		"duration": [
+			{
+				"type": "instant"
+			}
+		],
+		"meta": {
+			"ritual": true
+		},
+		"entries": [
+			"By casting gem-inlaid sticks, rolling dragon bones, laying out ornate cards, or employing some other divining tool, you receive an omen from an otherworldly entity about the results of a specific course of action that you plan to take within the next 30 minutes. The DM chooses from the following possible omens:",
+			{
+				"type": "list",
+				"items": [
+					"Weal, for good results",
+					"Woe, for bad results",
+					"Weal and woe, for both good and bad results",
+					"Nothing, for results that aren't especially good or bad"
+				]
+			},
+			"The spell doesn't take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion.",
+			"If you cast the spell two or more times before completing your next long rest, there is a cumulative {@chance 25|||Random reading!|Regular reading} chance for each casting after the first that you get a random reading. The DM makes this roll in secret."
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Cleric",
+					"source": "PHB"
+				}
+			],
+			"fromClassListVariant": [
+				{
+					"name": "Druid",
+					"source": "PHB",
+					"definedInSource": "TCE"
+				},
+				{
+					"name": "Wizard",
+					"source": "PHB",
+					"definedInSource": "TCE"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Barbarian",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Path of the Ancestral Guardian",
+						"shortName": "Ancestral Guardian",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Knowledge Domain",
+						"shortName": "Knowledge",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Knowledge Domain (PSA)",
+						"shortName": "Knowledge (PSA)",
+						"source": "PSA"
+					}
+				},
+				{
+					"class": {
+						"name": "Fighter",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Eldritch Knight",
+						"shortName": "Eldritch Knight",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Rogue",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Arcane Trickster",
+						"shortName": "Arcane Trickster",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				}
+			]
+		},
+		"feats": [
+			{
+				"name": "Adept of the White Robes",
+				"source": "DSotDQ"
+			},
+			{
+				"name": "Divinely Favored",
+				"source": "DSotDQ"
+			}
+		]
+	},
+	{
+		"name": "Aid",
+		"source": "PHB",
+		"page": 211,
+		"srd": true,
+		"basicRules": true,
+		"otherSources": [
+			{
+				"source": "RMR",
+				"page": 50
+			}
+		],
+		"referenceSources": [
+			"PotA",
+			"TftYP-DiT"
+		],
+		"level": 2,
+		"school": "A",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a tiny strip of white cloth"
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "hour",
+					"amount": 8
+				}
+			}
+		],
+		"entries": [
+			"Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target's hit point maximum and current hit points increase by 5 for the duration."
+		],
+		"entriesHigherLevel": [
+			{
+				"type": "entries",
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 3rd level or higher, a target's hit points increase by an additional 5 for each slot level above 2nd."
+				]
+			}
+		],
+		"miscTags": [
+			"HL"
+		],
+		"areaTags": [
+			"MT"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Cleric",
+					"source": "PHB"
+				},
+				{
+					"name": "Paladin",
+					"source": "PHB"
+				},
+				{
+					"name": "Artificer",
+					"source": "TCE"
+				}
+			],
+			"fromClassListVariant": [
+				{
+					"name": "Bard",
+					"source": "PHB",
+					"definedInSource": "TCE"
+				},
+				{
+					"name": "Ranger",
+					"source": "PHB",
+					"definedInSource": "TCE"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Solidarity Domain (PSA)",
+						"shortName": "Solidarity (PSA)",
+						"source": "PSA"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Peace Domain",
+						"shortName": "Peace",
+						"source": "TCE"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Clockwork Soul",
+						"shortName": "Clockwork Soul",
+						"source": "TCE"
+					}
+				}
+			]
+		},
+		"races": [
+			{
+				"name": "Halfling (Mark of Hospitality)",
+				"source": "ERLW",
+				"baseName": "Halfling",
+				"baseSource": "PHB"
+			}
+		],
+		"backgrounds": [
+			{
+				"name": "Boros Legionnaire",
+				"source": "GGR"
+			},
+			{
+				"name": "Selesnya Initiate",
+				"source": "GGR"
+			}
+		],
+		"feats": [
+			{
+				"name": "Adept of the White Robes",
+				"source": "DSotDQ"
+			}
+		]
+	}
+]
