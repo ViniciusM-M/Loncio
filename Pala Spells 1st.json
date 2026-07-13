@@ -1,0 +1,2906 @@
+[
+	{
+		"name": "Bless",
+		"source": "XPHB",
+		"page": 247,
+		"srd52": true,
+		"basicRules2024": true,
+		"referenceSources": [
+			"DrDe-TDoN",
+			"UtHftLH"
+		],
+		"level": 1,
+		"school": "E",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": {
+				"text": "a Holy Symbol worth 5+ GP",
+				"cost": 500
+			}
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 1
+				},
+				"concentration": true
+			}
+		],
+		"entries": [
+			"You bless up to three creatures within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target adds {@dice 1d4} to the attack roll or save."
+		],
+		"entriesHigherLevel": [
+			{
+				"type": "entries",
+				"name": "Using a Higher-Level Spell Slot",
+				"entries": [
+					"You can target one additional creature for each spell slot level above 1."
+				]
+			}
+		],
+		"miscTags": [
+			"SCT"
+		],
+		"areaTags": [
+			"MT"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Cleric",
+					"source": "XPHB"
+				},
+				{
+					"name": "Paladin",
+					"source": "XPHB"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "College of Lore",
+						"shortName": "Lore",
+						"source": "XPHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Solidarity Domain (PSA)",
+						"shortName": "Solidarity (PSA)",
+						"source": "PSA"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Life Domain",
+						"shortName": "Life",
+						"source": "XPHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Life Domain",
+						"shortName": "Life",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Solidarity Domain (PSA)",
+						"shortName": "Solidarity (PSA)",
+						"source": "PSA"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				}
+			]
+		},
+		"feats": [
+			{
+				"name": "Divinely Favored",
+				"source": "DSotDQ"
+			},
+			{
+				"name": "Fey Touched",
+				"source": "TCE"
+			},
+			{
+				"name": "Fey-Touched",
+				"source": "XPHB"
+			},
+			{
+				"name": "Magic Initiate",
+				"source": "XPHB"
+			},
+			{
+				"name": "Magic Initiate",
+				"source": "PHB"
+			},
+			{
+				"name": "Strixhaven Initiate",
+				"source": "SCC"
+			},
+			{
+				"name": "Vampire Touched",
+				"source": "ABH"
+			}
+		]
+	},
+	{
+		"name": "Command",
+		"source": "XPHB",
+		"page": 251,
+		"srd52": true,
+		"basicRules2024": true,
+		"level": 1,
+		"school": "E",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 60
+			}
+		},
+		"components": {
+			"v": true
+		},
+		"duration": [
+			{
+				"type": "instant"
+			}
+		],
+		"entries": [
+			"You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. Choose the command from these options:",
+			{
+				"type": "list",
+				"style": "list-hang-notitle",
+				"items": [
+					{
+						"type": "item",
+						"name": "Approach",
+						"entries": [
+							"The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you."
+						]
+					},
+					{
+						"type": "item",
+						"name": "Drop",
+						"entries": [
+							"The target drops whatever it is holding and then ends its turn."
+						]
+					},
+					{
+						"type": "item",
+						"name": "Flee",
+						"entries": [
+							"The target spends its turn moving away from you by the fastest available means."
+						]
+					},
+					{
+						"type": "item",
+						"name": "Grovel",
+						"entries": [
+							"The target has the {@condition Prone|XPHB} condition and then ends its turn."
+						]
+					},
+					{
+						"type": "item",
+						"name": "Halt",
+						"entries": [
+							"On its turn, the target doesn't move and takes no action or {@variantrule Bonus Action|XPHB}."
+						]
+					}
+				]
+			}
+		],
+		"entriesHigherLevel": [
+			{
+				"type": "entries",
+				"name": "Using a Higher-Level Spell Slot",
+				"entries": [
+					"You can affect one additional creature for each spell slot level above 1."
+				]
+			}
+		],
+		"conditionInflict": [
+			"prone"
+		],
+		"savingThrow": [
+			"wisdom"
+		],
+		"miscTags": [
+			"SCT",
+			"SGT"
+		],
+		"areaTags": [
+			"ST"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Bard",
+					"source": "XPHB"
+				},
+				{
+					"name": "Cleric",
+					"source": "XPHB"
+				},
+				{
+					"name": "Paladin",
+					"source": "XPHB"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Bard",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "College of Glamour",
+						"shortName": "Glamour",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Knowledge Domain",
+						"shortName": "Knowledge",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Knowledge Domain (PSA)",
+						"shortName": "Knowledge (PSA)",
+						"source": "PSA"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Order Domain",
+						"shortName": "Order",
+						"source": "TCE"
+					}
+				},
+				{
+					"class": {
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Oath of the Crown",
+						"shortName": "Crown",
+						"source": "SCAG"
+					}
+				},
+				{
+					"class": {
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Oath of Conquest",
+						"shortName": "Conquest",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "The Fiend",
+						"shortName": "Fiend",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "College of Glamour",
+						"shortName": "Glamour",
+						"source": "XPHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "College of Lore",
+						"shortName": "Lore",
+						"source": "XPHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Knowledge Domain (PSA)",
+						"shortName": "Knowledge (PSA)",
+						"source": "PSA"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Order Domain",
+						"shortName": "Order",
+						"source": "TCE"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Knowledge Domain",
+						"shortName": "Knowledge",
+						"source": "FRHoF"
+					}
+				},
+				{
+					"class": {
+						"name": "Paladin",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Oath of the Crown",
+						"shortName": "Crown",
+						"source": "SCAG"
+					}
+				},
+				{
+					"class": {
+						"name": "Paladin",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Oath of Conquest",
+						"shortName": "Conquest",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Draconic Sorcery",
+						"shortName": "Draconic",
+						"source": "XPHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Fiend Patron",
+						"shortName": "Fiend",
+						"source": "XPHB"
+					}
+				}
+			]
+		},
+		"races": [
+			{
+				"name": "Elf",
+				"source": "LFL"
+			}
+		],
+		"backgrounds": [
+			{
+				"name": "Azorius Functionary",
+				"source": "GGR"
+			},
+			{
+				"name": "Orzhov Representative",
+				"source": "GGR"
+			}
+		],
+		"feats": [
+			{
+				"name": "Divinely Favored",
+				"source": "DSotDQ"
+			},
+			{
+				"name": "Fey Touched",
+				"source": "TCE"
+			},
+			{
+				"name": "Fey-Touched",
+				"source": "XPHB"
+			},
+			{
+				"name": "Magic Initiate",
+				"source": "XPHB"
+			},
+			{
+				"name": "Magic Initiate",
+				"source": "PHB"
+			},
+			{
+				"name": "Mark of Handling",
+				"source": "EFA"
+			},
+			{
+				"name": "Mark of Scribing",
+				"source": "EFA"
+			},
+			{
+				"name": "Rune Shaper",
+				"source": "BGG"
+			},
+			{
+				"name": "Strixhaven Initiate",
+				"source": "SCC"
+			},
+			{
+				"name": "Vampire Touched",
+				"source": "ABH"
+			}
+		],
+		"rewards": [
+			{
+				"name": "Azorius Charm",
+				"source": "GGR"
+			},
+			{
+				"name": "Klothys's Devotee",
+				"source": "MOT"
+			}
+		]
+	},
+	{
+		"name": "Compelled Duel",
+		"source": "XPHB",
+		"page": 252,
+		"level": 1,
+		"school": "E",
+		"time": [
+			{
+				"number": 1,
+				"unit": "bonus"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+			}
+		},
+		"components": {
+			"v": true
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 1
+				},
+				"concentration": true
+			}
+		],
+		"entries": [
+			"You try to compel a creature into a duel. One creature that you can see within range makes a Wisdom saving throw. On a failed save, the target has {@variantrule Disadvantage|XPHB} on attack rolls against creatures other than you, and it can't willingly move to a space that is more than 30 feet away from you.",
+			"The spell ends if you make an attack roll against a creature other than the target, if you cast a spell on an enemy other than the target, if an ally of yours damages the target, or if you end your turn more than 30 feet away from the target."
+		],
+		"savingThrow": [
+			"wisdom"
+		],
+		"miscTags": [
+			"SGT"
+		],
+		"areaTags": [
+			"ST"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Paladin",
+					"source": "XPHB"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Oath of the Crown",
+						"shortName": "Crown",
+						"source": "SCAG"
+					}
+				},
+				{
+					"class": {
+						"name": "Paladin",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Oath of the Crown",
+						"shortName": "Crown",
+						"source": "SCAG"
+					}
+				}
+			]
+		},
+		"races": [
+			{
+				"name": "Human (Mark of Sentinel)",
+				"source": "ERLW",
+				"baseName": "Human",
+				"baseSource": "PHB"
+			}
+		],
+		"backgrounds": [
+			{
+				"name": "Gruul Anarch",
+				"source": "GGR"
+			}
+		],
+		"feats": [
+			{
+				"name": "Fey Touched",
+				"source": "TCE"
+			},
+			{
+				"name": "Fey-Touched",
+				"source": "XPHB"
+			},
+			{
+				"name": "Mark of Sentinel",
+				"source": "EFA"
+			},
+			{
+				"name": "Vampire Touched",
+				"source": "ABH"
+			}
+		],
+		"rewards": [
+			{
+				"name": "Iroas's Devotee",
+				"source": "MOT"
+			}
+		]
+	},
+	{
+		"name": "Cure Wounds",
+		"source": "XPHB",
+		"page": 259,
+		"srd52": true,
+		"basicRules2024": true,
+		"referenceSources": [
+			"UtHftLH"
+		],
+		"level": 1,
+		"school": "A",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "touch"
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [
+			{
+				"type": "instant"
+			}
+		],
+		"entries": [
+			"A creature you touch regains a number of {@variantrule Hit Points|XPHB} equal to {@dice 2d8} plus your spellcasting ability modifier."
+		],
+		"entriesHigherLevel": [
+			{
+				"type": "entries",
+				"name": "Using a Higher-Level Spell Slot",
+				"entries": [
+					"The healing increases by {@scaledice 2d8|1-9|2d8} for each spell slot level above 1."
+				]
+			}
+		],
+		"miscTags": [
+			"HL"
+		],
+		"areaTags": [
+			"ST"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Bard",
+					"source": "XPHB"
+				},
+				{
+					"name": "Cleric",
+					"source": "XPHB"
+				},
+				{
+					"name": "Druid",
+					"source": "XPHB"
+				},
+				{
+					"name": "Ranger",
+					"source": "XPHB"
+				},
+				{
+					"name": "Paladin",
+					"source": "XPHB"
+				},
+				{
+					"name": "Artificer",
+					"source": "EFA"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "College of Lore",
+						"shortName": "Lore",
+						"source": "XPHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Life Domain",
+						"shortName": "Life",
+						"source": "XPHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Circle of Wildfire",
+						"shortName": "Wildfire",
+						"source": "TCE"
+					}
+				},
+				{
+					"class": {
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Circle of the Moon",
+						"shortName": "Moon",
+						"source": "XPHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Spellfire Sorcery",
+						"shortName": "Spellfire",
+						"source": "FRHoF"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Celestial Patron",
+						"shortName": "Celestial",
+						"source": "XPHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Life Domain",
+						"shortName": "Life",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Druid",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Circle of Wildfire",
+						"shortName": "Wildfire",
+						"source": "TCE"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "The Celestial",
+						"shortName": "Celestial",
+						"source": "XGE"
+					}
+				}
+			]
+		},
+		"races": [
+			{
+				"name": "Halfling (Mark of Healing)",
+				"source": "ERLW",
+				"baseName": "Halfling",
+				"baseSource": "PHB"
+			}
+		],
+		"backgrounds": [
+			{
+				"name": "Witherbloom Student",
+				"source": "SCC"
+			}
+		],
+		"feats": [
+			{
+				"name": "Artificer Initiate",
+				"source": "TCE"
+			},
+			{
+				"name": "Divinely Favored",
+				"source": "DSotDQ"
+			},
+			{
+				"name": "Gift of the Metallic Dragon",
+				"source": "FTD"
+			},
+			{
+				"name": "Magic Initiate",
+				"source": "PHB"
+			},
+			{
+				"name": "Magic Initiate",
+				"source": "XPHB"
+			},
+			{
+				"name": "Mark of Healing",
+				"source": "EFA"
+			},
+			{
+				"name": "Strixhaven Initiate",
+				"source": "SCC"
+			}
+		],
+		"rewards": [
+			{
+				"name": "Charm of Cure Wounds",
+				"source": "IDRotF"
+			}
+		]
+	},
+	{
+		"name": "Detect Evil and Good",
+		"source": "XPHB",
+		"page": 261,
+		"srd52": true,
+		"basicRules2024": true,
+		"level": 1,
+		"school": "D",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "sphere",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 10
+				},
+				"concentration": true
+			}
+		],
+		"entries": [
+			"For the duration, you sense the location of any Aberration, Celestial, Elemental, Fey, Fiend, or Undead within 30 feet of yourself. You also sense whether the {@spell Hallow|XPHB} spell is active there and, if so, where.",
+			"The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead."
+		],
+		"affectsCreatureType": [
+			"aberration",
+			"celestial",
+			"elemental",
+			"fey",
+			"fiend",
+			"undead"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Cleric",
+					"source": "XPHB"
+				},
+				{
+					"name": "Paladin",
+					"source": "XPHB"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "College of Lore",
+						"shortName": "Lore",
+						"source": "XPHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Grave Domain",
+						"shortName": "Grave",
+						"source": "RHW"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "The Genie",
+						"shortName": "Genie",
+						"source": "TCE"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "The Genie",
+						"shortName": "Genie",
+						"source": "TCE"
+					}
+				}
+			]
+		},
+		"races": [
+			{
+				"name": "Half-Elf (Variant; Mark of Detection)",
+				"source": "ERLW",
+				"baseName": "Half-Elf",
+				"baseSource": "PHB"
+			}
+		],
+		"feats": [
+			{
+				"name": "Divinely Favored",
+				"source": "DSotDQ"
+			},
+			{
+				"name": "Initiate of High Sorcery",
+				"source": "DSotDQ"
+			},
+			{
+				"name": "Fey Touched",
+				"source": "TCE"
+			},
+			{
+				"name": "Fey-Touched",
+				"source": "XPHB"
+			},
+			{
+				"name": "Magic Initiate",
+				"source": "XPHB"
+			},
+			{
+				"name": "Magic Initiate",
+				"source": "PHB"
+			},
+			{
+				"name": "Mark of Detection",
+				"source": "EFA"
+			},
+			{
+				"name": "Strixhaven Initiate",
+				"source": "SCC"
+			}
+		]
+	},
+	{
+		"name": "Detect Magic",
+		"source": "XPHB",
+		"page": 262,
+		"srd52": true,
+		"basicRules2024": true,
+		"referenceSources": [
+			"DrDe-TDoN",
+			"DrDe-TWoO",
+			"UtHftLH"
+		],
+		"level": 1,
+		"school": "D",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "sphere",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 10
+				},
+				"concentration": true
+			}
+		],
+		"meta": {
+			"ritual": true
+		},
+		"entries": [
+			"For the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such effects, you can take the {@action Magic|XPHB} action to see a faint aura around any visible creature or object in the area that bears the magic, and if an effect was created by a spell, you learn the spell's {@book school of magic|XPHB|7|Schools of Magic}.",
+			"The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead."
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Bard",
+					"source": "XPHB"
+				},
+				{
+					"name": "Cleric",
+					"source": "XPHB"
+				},
+				{
+					"name": "Druid",
+					"source": "XPHB"
+				},
+				{
+					"name": "Ranger",
+					"source": "XPHB"
+				},
+				{
+					"name": "Sorcerer",
+					"source": "XPHB"
+				},
+				{
+					"name": "Warlock",
+					"source": "XPHB"
+				},
+				{
+					"name": "Wizard",
+					"source": "XPHB"
+				},
+				{
+					"name": "Paladin",
+					"source": "XPHB"
+				},
+				{
+					"name": "Artificer",
+					"source": "EFA"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "College of Lore",
+						"shortName": "Lore",
+						"source": "XPHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Arcana Domain",
+						"shortName": "Arcana",
+						"source": "SCAG"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Knowledge Domain",
+						"shortName": "Knowledge",
+						"source": "FRHoF"
+					}
+				},
+				{
+					"class": {
+						"name": "Fighter",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Eldritch Knight",
+						"shortName": "Eldritch Knight",
+						"source": "XPHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Paladin",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Oath of the Watchers",
+						"shortName": "Watchers",
+						"source": "TCE"
+					}
+				},
+				{
+					"class": {
+						"name": "Rogue",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Arcane Trickster",
+						"shortName": "Arcane Trickster",
+						"source": "XPHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Diviner",
+						"shortName": "Diviner",
+						"source": "XPHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Arcana Domain",
+						"shortName": "Arcana",
+						"source": "SCAG"
+					}
+				},
+				{
+					"class": {
+						"name": "Fighter",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Eldritch Knight",
+						"shortName": "Eldritch Knight",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Oath of the Watchers",
+						"shortName": "Watchers",
+						"source": "TCE"
+					}
+				},
+				{
+					"class": {
+						"name": "Rogue",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Arcane Trickster",
+						"shortName": "Arcane Trickster",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				}
+			]
+		},
+		"races": [
+			{
+				"name": "Elf",
+				"source": "XPHB"
+			},
+			{
+				"name": "Firbolg",
+				"source": "MPMM"
+			},
+			{
+				"name": "Firbolg",
+				"source": "VGM"
+			},
+			{
+				"name": "Half-Elf (Variant; Mark of Detection)",
+				"source": "ERLW",
+				"baseName": "Half-Elf",
+				"baseSource": "PHB"
+			}
+		],
+		"optionalfeatures": [
+			{
+				"name": "Book of Ancient Secrets",
+				"source": "PHB",
+				"featureType": [
+					"EI"
+				]
+			},
+			{
+				"name": "Eldritch Sight",
+				"source": "PHB",
+				"featureType": [
+					"EI"
+				]
+			},
+			{
+				"name": "Pact of the Tome",
+				"source": "XPHB",
+				"featureType": [
+					"EI"
+				]
+			}
+		],
+		"feats": [
+			{
+				"name": "Aberrant Dragonmark",
+				"source": "EFA"
+			},
+			{
+				"name": "Boon of Siberys",
+				"source": "EFA"
+			},
+			{
+				"name": "Mark of Detection",
+				"source": "EFA"
+			},
+			{
+				"name": "Aberrant Dragonmark",
+				"source": "ERLW"
+			},
+			{
+				"name": "Artificer Initiate",
+				"source": "TCE"
+			},
+			{
+				"name": "Fey Touched",
+				"source": "TCE"
+			},
+			{
+				"name": "Divinely Favored",
+				"source": "DSotDQ"
+			},
+			{
+				"name": "Drow High Magic",
+				"source": "XGE"
+			},
+			{
+				"name": "Fey-Touched",
+				"source": "XPHB"
+			},
+			{
+				"name": "Magic Initiate",
+				"source": "XPHB"
+			},
+			{
+				"name": "Ritual Caster",
+				"source": "XPHB"
+			},
+			{
+				"name": "Magic Initiate",
+				"source": "PHB"
+			},
+			{
+				"name": "Ritual Caster",
+				"source": "PHB"
+			},
+			{
+				"name": "Quicksmithing",
+				"source": "PSK"
+			},
+			{
+				"name": "Strixhaven Initiate",
+				"source": "SCC"
+			}
+		],
+		"rewards": [
+			{
+				"name": "Kruphix's Devotee",
+				"source": "MOT"
+			}
+		]
+	},
+	{
+		"name": "Detect Poison and Disease",
+		"source": "XPHB",
+		"page": 262,
+		"srd52": true,
+		"basicRules2024": true,
+		"level": 1,
+		"school": "D",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "sphere",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a yew leaf"
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 10
+				},
+				"concentration": true
+			}
+		],
+		"meta": {
+			"ritual": true
+		},
+		"entries": [
+			"For the duration, you sense the location of poisons, poisonous or venomous creatures, and magical contagions within 30 feet of yourself. You sense the kind of poison, creature, or contagion in each case.",
+			"The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead."
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Cleric",
+					"source": "XPHB"
+				},
+				{
+					"name": "Druid",
+					"source": "XPHB"
+				},
+				{
+					"name": "Ranger",
+					"source": "XPHB"
+				},
+				{
+					"name": "Paladin",
+					"source": "XPHB"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "College of Lore",
+						"shortName": "Lore",
+						"source": "XPHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				}
+			]
+		},
+		"races": [
+			{
+				"name": "Half-Elf (Variant; Mark of Detection)",
+				"source": "ERLW",
+				"baseName": "Half-Elf",
+				"baseSource": "PHB"
+			}
+		],
+		"optionalfeatures": [
+			{
+				"name": "Book of Ancient Secrets",
+				"source": "PHB",
+				"featureType": [
+					"EI"
+				]
+			},
+			{
+				"name": "Pact of the Tome",
+				"source": "XPHB",
+				"featureType": [
+					"EI"
+				]
+			}
+		],
+		"backgrounds": [
+			{
+				"name": "Simic Scientist",
+				"source": "GGR"
+			}
+		],
+		"feats": [
+			{
+				"name": "Divinely Favored",
+				"source": "DSotDQ"
+			},
+			{
+				"name": "Fey Touched",
+				"source": "TCE"
+			},
+			{
+				"name": "Fey-Touched",
+				"source": "XPHB"
+			},
+			{
+				"name": "Magic Initiate",
+				"source": "XPHB"
+			},
+			{
+				"name": "Ritual Caster",
+				"source": "XPHB"
+			},
+			{
+				"name": "Magic Initiate",
+				"source": "PHB"
+			},
+			{
+				"name": "Ritual Caster",
+				"source": "PHB"
+			},
+			{
+				"name": "Quicksmithing",
+				"source": "PSK"
+			},
+			{
+				"name": "Strixhaven Initiate",
+				"source": "SCC"
+			}
+		]
+	},
+	{
+		"name": "Divine Favor",
+		"source": "XPHB",
+		"page": 265,
+		"srd52": true,
+		"basicRules2024": true,
+		"level": 1,
+		"school": "T",
+		"time": [
+			{
+				"number": 1,
+				"unit": "bonus"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "self"
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 1
+				}
+			}
+		],
+		"entries": [
+			"Until the spell ends, your attacks with weapons deal an extra {@damage 1d4} Radiant damage on a hit."
+		],
+		"damageInflict": [
+			"radiant"
+		],
+		"miscTags": [
+			"AAD"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Paladin",
+					"source": "XPHB"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "War Domain",
+						"shortName": "War",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Strength Domain (PSA)",
+						"shortName": "Strength (PSA)",
+						"source": "PSA"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Strength Domain (PSA)",
+						"shortName": "Strength (PSA)",
+						"source": "PSA"
+					}
+				}
+			]
+		}
+	},
+	{
+		"name": "Divine Smite",
+		"source": "XPHB",
+		"page": 265,
+		"srd52": true,
+		"basicRules2024": true,
+		"level": 1,
+		"school": "V",
+		"time": [
+			{
+				"number": 1,
+				"unit": "bonus",
+				"condition": "which you take immediately after hitting a target with a Melee weapon or an {@variantrule Unarmed Strike|XPHB}"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "self"
+			}
+		},
+		"components": {
+			"v": true
+		},
+		"duration": [
+			{
+				"type": "instant"
+			}
+		],
+		"entries": [
+			"The target takes an extra {@damage 2d8} Radiant damage from the attack. The damage increases by {@damage 1d8} if the target is a Fiend or an Undead."
+		],
+		"entriesHigherLevel": [
+			{
+				"type": "entries",
+				"name": "Using a Higher-Level Spell Slot",
+				"entries": [
+					"The damage increases by {@scaledamage 2d8|1-9|1d8} for each spell slot level above 1."
+				]
+			}
+		],
+		"damageInflict": [
+			"radiant"
+		],
+		"miscTags": [
+			"AAD"
+		],
+		"hasFluffImages": true,
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Paladin",
+					"source": "XPHB"
+				}
+			]
+		}
+	},
+	{
+		"name": "Heroism",
+		"source": "XPHB",
+		"page": 285,
+		"srd52": true,
+		"basicRules2024": true,
+		"level": 1,
+		"school": "E",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "touch"
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 1
+				},
+				"concentration": true
+			}
+		],
+		"entries": [
+			"A willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to the {@condition Frightened|XPHB} condition and gains {@variantrule Temporary Hit Points|XPHB} equal to your spellcasting ability modifier at the start of each of its turns."
+		],
+		"entriesHigherLevel": [
+			{
+				"type": "entries",
+				"name": "Using a Higher-Level Spell Slot",
+				"entries": [
+					"You can target one additional creature for each spell slot level above 1."
+				]
+			}
+		],
+		"conditionImmune": [
+			"frightened"
+		],
+		"miscTags": [
+			"SCT",
+			"THP"
+		],
+		"areaTags": [
+			"ST"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Bard",
+					"source": "XPHB"
+				},
+				{
+					"name": "Paladin",
+					"source": "XPHB"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					"subclass": {
+						"name": "Battle Smith",
+						"shortName": "Battle Smith",
+						"source": "TCE"
+					}
+				},
+				{
+					"class": {
+						"name": "Artificer",
+						"source": "EFA"
+					},
+					"subclass": {
+						"name": "Battle Smith",
+						"shortName": "Battle Smith",
+						"source": "EFA"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Order Domain",
+						"shortName": "Order",
+						"source": "TCE"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Peace Domain",
+						"shortName": "Peace",
+						"source": "TCE"
+					}
+				},
+				{
+					"class": {
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Oath of Glory",
+						"shortName": "Glory",
+						"source": "TCE"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Order Domain",
+						"shortName": "Order",
+						"source": "TCE"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Peace Domain",
+						"shortName": "Peace",
+						"source": "TCE"
+					}
+				},
+				{
+					"class": {
+						"name": "Paladin",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Oath of Glory",
+						"shortName": "Glory",
+						"source": "XPHB"
+					}
+				}
+			]
+		},
+		"races": [
+			{
+				"name": "Elf",
+				"source": "LFL"
+			}
+		],
+		"backgrounds": [
+			{
+				"name": "Boros Legionnaire",
+				"source": "GGR"
+			}
+		],
+		"feats": [
+			{
+				"name": "Fey Touched",
+				"source": "TCE"
+			},
+			{
+				"name": "Fey-Touched",
+				"source": "XPHB"
+			},
+			{
+				"name": "Magic Initiate",
+				"source": "PHB"
+			},
+			{
+				"name": "Strixhaven Initiate",
+				"source": "SCC"
+			},
+			{
+				"name": "Vampire Touched",
+				"source": "ABH"
+			}
+		],
+		"rewards": [
+			{
+				"name": "Gruul Charm",
+				"source": "GGR"
+			}
+		]
+	},
+	{
+		"name": "Protection from Evil and Good",
+		"source": "XPHB",
+		"page": 309,
+		"srd52": true,
+		"basicRules2024": true,
+		"referenceSources": [
+			"DrDe-TDoN"
+		],
+		"level": 1,
+		"school": "A",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "touch"
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": {
+				"text": "a flask of Holy Water worth 25+ GP, which the spell consumes",
+				"cost": 2500,
+				"consume": true
+			}
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 10
+				},
+				"concentration": true
+			}
+		],
+		"entries": [
+			"Until the spell ends, one willing creature you touch is protected against creatures that are Aberrations, Celestials, Elementals, Fey, Fiends, or Undead. The protection grants several benefits. Creatures of those types have {@variantrule Disadvantage|XPHB} on attack rolls against the target. The target also can't be possessed by or gain the {@condition Charmed|XPHB} or {@condition Frightened|XPHB} conditions from them. If the target is already possessed, {@condition Charmed|XPHB}, or {@condition Frightened|XPHB} by such a creature, the target has {@variantrule Advantage|XPHB} on any new saving throw against the relevant effect."
+		],
+		"affectsCreatureType": [
+			"aberration",
+			"celestial",
+			"elemental",
+			"fey",
+			"fiend",
+			"undead"
+		],
+		"miscTags": [
+			"ADV"
+		],
+		"areaTags": [
+			"ST"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Cleric",
+					"source": "XPHB"
+				},
+				{
+					"name": "Druid",
+					"source": "XPHB"
+				},
+				{
+					"name": "Warlock",
+					"source": "XPHB"
+				},
+				{
+					"name": "Wizard",
+					"source": "XPHB"
+				},
+				{
+					"name": "Paladin",
+					"source": "XPHB"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "College of Lore",
+						"shortName": "Lore",
+						"source": "XPHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Fighter",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Eldritch Knight",
+						"shortName": "Eldritch Knight",
+						"source": "XPHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Paladin",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Oath of Devotion",
+						"shortName": "Devotion",
+						"source": "XPHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Ranger",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Horizon Walker",
+						"shortName": "Horizon Walker",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Ranger",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Monster Slayer",
+						"shortName": "Monster Slayer",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Rogue",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Arcane Trickster",
+						"shortName": "Arcane Trickster",
+						"source": "XPHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Clockwork Sorcery",
+						"shortName": "Clockwork",
+						"source": "XPHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Abjurer",
+						"shortName": "Abjurer",
+						"source": "XPHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Fighter",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Eldritch Knight",
+						"shortName": "Eldritch Knight",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Oath of Devotion",
+						"shortName": "Devotion",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Horizon Walker",
+						"shortName": "Horizon Walker",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Monster Slayer",
+						"shortName": "Monster Slayer",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Rogue",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Arcane Trickster",
+						"shortName": "Arcane Trickster",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Clockwork Soul",
+						"shortName": "Clockwork Soul",
+						"source": "TCE"
+					}
+				}
+			]
+		},
+		"feats": [
+			{
+				"name": "Divinely Favored",
+				"source": "DSotDQ"
+			},
+			{
+				"name": "Initiate of High Sorcery",
+				"source": "DSotDQ"
+			},
+			{
+				"name": "Magic Initiate",
+				"source": "PHB"
+			},
+			{
+				"name": "Magic Initiate",
+				"source": "XPHB"
+			},
+			{
+				"name": "Strixhaven Initiate",
+				"source": "SCC"
+			}
+		]
+	},
+	{
+		"name": "Purify Food and Drink",
+		"source": "XPHB",
+		"page": 310,
+		"srd52": true,
+		"basicRules2024": true,
+		"level": 1,
+		"school": "T",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 10
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [
+			{
+				"type": "instant"
+			}
+		],
+		"meta": {
+			"ritual": true
+		},
+		"entries": [
+			"You remove poison and rot from nonmagical food and drink in a 5-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on a point within range."
+		],
+		"areaTags": [
+			"S"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Cleric",
+					"source": "XPHB"
+				},
+				{
+					"name": "Druid",
+					"source": "XPHB"
+				},
+				{
+					"name": "Paladin",
+					"source": "XPHB"
+				},
+				{
+					"name": "Artificer",
+					"source": "EFA"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "College of Lore",
+						"shortName": "Lore",
+						"source": "XPHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				}
+			]
+		},
+		"races": [
+			{
+				"name": "Halfling (Mark of Hospitality)",
+				"source": "ERLW",
+				"baseName": "Halfling",
+				"baseSource": "PHB"
+			}
+		],
+		"optionalfeatures": [
+			{
+				"name": "Book of Ancient Secrets",
+				"source": "PHB",
+				"featureType": [
+					"EI"
+				]
+			},
+			{
+				"name": "Pact of the Tome",
+				"source": "XPHB",
+				"featureType": [
+					"EI"
+				]
+			}
+		],
+		"feats": [
+			{
+				"name": "Artificer Initiate",
+				"source": "TCE"
+			},
+			{
+				"name": "Divinely Favored",
+				"source": "DSotDQ"
+			},
+			{
+				"name": "Magic Initiate",
+				"source": "PHB"
+			},
+			{
+				"name": "Ritual Caster",
+				"source": "PHB"
+			},
+			{
+				"name": "Magic Initiate",
+				"source": "XPHB"
+			},
+			{
+				"name": "Ritual Caster",
+				"source": "XPHB"
+			},
+			{
+				"name": "Mark of Hospitality",
+				"source": "EFA"
+			},
+			{
+				"name": "Quicksmithing",
+				"source": "PSK"
+			},
+			{
+				"name": "Strixhaven Initiate",
+				"source": "SCC"
+			}
+		]
+	},
+	{
+		"name": "Searing Smite",
+		"source": "XPHB",
+		"page": 314,
+		"srd52": true,
+		"basicRules2024": true,
+		"level": 1,
+		"school": "V",
+		"time": [
+			{
+				"number": 1,
+				"unit": "bonus",
+				"condition": "which you take immediately after hitting a target with a Melee weapon or an {@variantrule Unarmed Strike|XPHB}"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "self"
+			}
+		},
+		"components": {
+			"v": true
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 1
+				}
+			}
+		],
+		"entries": [
+			"As you hit the target, it takes an extra {@damage 1d6} Fire damage from the attack. At the start of each of its turns until the spell ends, the target takes {@damage 1d6} Fire damage and then makes a Constitution saving throw. On a failed save, the spell continues. On a successful save, the spell ends."
+		],
+		"entriesHigherLevel": [
+			{
+				"type": "entries",
+				"name": "Using a Higher-Level Spell Slot",
+				"entries": [
+					"All the damage increases by {@scaledamage 1d6|1-9|1d6} for each spell slot level above 1."
+				]
+			}
+		],
+		"damageInflict": [
+			"fire"
+		],
+		"savingThrow": [
+			"constitution"
+		],
+		"miscTags": [
+			"AAD"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Paladin",
+					"source": "XPHB"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Zeal Domain (PSA)",
+						"shortName": "Zeal (PSA)",
+						"source": "PSA"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Forge Domain",
+						"shortName": "Forge",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Zeal Domain (PSA)",
+						"shortName": "Zeal (PSA)",
+						"source": "PSA"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Forge Domain",
+						"shortName": "Forge",
+						"source": "XGE"
+					}
+				}
+			]
+		},
+		"races": [
+			{
+				"name": "Tiefling (Zariel)",
+				"source": "MTF",
+				"baseName": "Tiefling",
+				"baseSource": "PHB"
+			}
+		]
+	},
+	{
+		"name": "Shield of Faith",
+		"source": "XPHB",
+		"page": 316,
+		"srd52": true,
+		"basicRules2024": true,
+		"referenceSources": [
+			"UtHftLH"
+		],
+		"level": 1,
+		"school": "A",
+		"time": [
+			{
+				"number": 1,
+				"unit": "bonus"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 60
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a prayer scroll"
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 10
+				},
+				"concentration": true
+			}
+		],
+		"entries": [
+			"A shimmering field surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration."
+		],
+		"miscTags": [
+			"MAC"
+		],
+		"areaTags": [
+			"ST"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Cleric",
+					"source": "XPHB"
+				},
+				{
+					"name": "Paladin",
+					"source": "XPHB"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "College of Lore",
+						"shortName": "Lore",
+						"source": "XPHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Strength Domain (PSA)",
+						"shortName": "Strength (PSA)",
+						"source": "PSA"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "War Domain",
+						"shortName": "War",
+						"source": "XPHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Paladin",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Oath of Devotion",
+						"shortName": "Devotion",
+						"source": "XPHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "War Domain",
+						"shortName": "War",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Strength Domain (PSA)",
+						"shortName": "Strength (PSA)",
+						"source": "PSA"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "XGE"
+					}
+				}
+			]
+		},
+		"races": [
+			{
+				"name": "Human (Mark of Sentinel)",
+				"source": "ERLW",
+				"baseName": "Human",
+				"baseSource": "PHB"
+			}
+		],
+		"feats": [
+			{
+				"name": "Divinely Favored",
+				"source": "DSotDQ"
+			},
+			{
+				"name": "Magic Initiate",
+				"source": "PHB"
+			},
+			{
+				"name": "Magic Initiate",
+				"source": "XPHB"
+			},
+			{
+				"name": "Mark of Sentinel",
+				"source": "EFA"
+			},
+			{
+				"name": "Strixhaven Initiate",
+				"source": "SCC"
+			}
+		],
+		"rewards": [
+			{
+				"name": "Purphoros's Devotee",
+				"source": "MOT"
+			}
+		]
+	},
+	{
+		"name": "Thunderous Smite",
+		"source": "XPHB",
+		"page": 334,
+		"level": 1,
+		"school": "V",
+		"time": [
+			{
+				"number": 1,
+				"unit": "bonus",
+				"condition": "which you take immediately after hitting a target with a Melee weapon or an {@variantrule Unarmed Strike|XPHB}"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "self"
+			}
+		},
+		"components": {
+			"v": true
+		},
+		"duration": [
+			{
+				"type": "instant"
+			}
+		],
+		"entries": [
+			"Your strike rings with thunder that is audible within 300 feet of you, and the target takes an extra {@damage 2d6} Thunder damage from the attack. Additionally, if the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet away from you and have the {@condition Prone|XPHB} condition."
+		],
+		"entriesHigherLevel": [
+			{
+				"type": "entries",
+				"name": "Using a Higher-Level Spell Slot",
+				"entries": [
+					"The damage increases by {@scaledamage 2d6|1-9|1d6} for each spell slot level above 1."
+				]
+			}
+		],
+		"damageInflict": [
+			"thunder"
+		],
+		"conditionInflict": [
+			"prone"
+		],
+		"savingThrow": [
+			"strength"
+		],
+		"miscTags": [
+			"AAD",
+			"FMV"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Paladin",
+					"source": "XPHB"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Zeal Domain (PSA)",
+						"shortName": "Zeal (PSA)",
+						"source": "PSA"
+					}
+				},
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Zeal Domain (PSA)",
+						"shortName": "Zeal (PSA)",
+						"source": "PSA"
+					}
+				},
+				{
+					"class": {
+						"name": "Paladin",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Oath of the Noble Genies",
+						"shortName": "Noble Genies",
+						"source": "FRHoF"
+					}
+				}
+			]
+		}
+	},
+	{
+		"name": "Wrathful Smite",
+		"source": "XPHB",
+		"page": 343,
+		"level": 1,
+		"school": "N",
+		"time": [
+			{
+				"number": 1,
+				"unit": "bonus",
+				"condition": "which you take immediately after hitting a creature with a Melee weapon or an {@variantrule Unarmed Strike|XPHB}"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "self"
+			}
+		},
+		"components": {
+			"v": true
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 1
+				}
+			}
+		],
+		"entries": [
+			"The target takes an extra {@damage 1d6} Necrotic damage from the attack, and it must succeed on a Wisdom saving throw or have the {@condition Frightened|XPHB} condition until the spell ends. At the end of each of its turns, the {@condition Frightened|XPHB} target repeats the save, ending the spell on itself on a success."
+		],
+		"entriesHigherLevel": [
+			{
+				"type": "entries",
+				"name": "Using a Higher-Level Spell Slot",
+				"entries": [
+					"The damage increases by {@scaledamage 1d6|1-9|1d6} for each spell slot level above 1."
+				]
+			}
+		],
+		"damageInflict": [
+			"necrotic"
+		],
+		"conditionInflict": [
+			"frightened"
+		],
+		"savingThrow": [
+			"wisdom"
+		],
+		"miscTags": [
+			"AAD"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Paladin",
+					"source": "XPHB"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Ranger",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "Hollow Warden",
+						"shortName": "Hollow Warden",
+						"source": "RHW"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					"subclass": {
+						"name": "The Hexblade",
+						"shortName": "Hexblade",
+						"source": "XGE"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "The Hexblade",
+						"shortName": "Hexblade",
+						"source": "XGE"
+					}
+				}
+			]
+		},
+		"feats": [
+			{
+				"name": "Shadow Touched",
+				"source": "TCE"
+			},
+			{
+				"name": "Shadow-Touched",
+				"source": "XPHB"
+			}
+		]
+	}
+]
