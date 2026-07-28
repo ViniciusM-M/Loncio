@@ -1,0 +1,568 @@
+[
+	{
+		"name": "Undead Artillery",
+		"source": "BonfireTales",
+		"page": 165,
+		"size": [
+			"M"
+		],
+		"type": {
+			"type": "undead",
+			"tags": [
+				"Artillery"
+			]
+		},
+		"alignment": [
+			"L",
+			"E"
+		],
+		"ac": [
+			{
+				"ac": 16,
+				"from": [
+					"{@item studded leather armor|xphb}"
+				]
+			}
+		],
+		"hp": {
+			"formula": "7d8 + 21",
+			"average": 52
+		},
+		"speed": {
+			"walk": 30
+		},
+		"str": 12,
+		"dex": 18,
+		"con": 16,
+		"int": 8,
+		"wis": 14,
+		"cha": 6,
+		"skill": {
+			"stealth": "+9",
+			"perception": "+5"
+		},
+		"passive": 15,
+		"cr": "5",
+		"trait": [
+			{
+				"name": "Deadeye",
+				"entries": [
+					"The undead ignores half cover."
+				]
+			},
+			{
+				"name": "Grave Mark",
+				"entries": [
+					"When the undead hits a creature with a ranged weapon attack and deals damage to it, the target is exposed until the start of the undead's next turn.The next attack roll made against the exposed target by a creature other than the bombardier has advantage. Once that attack roll is made, the effect ends."
+				]
+			}
+		],
+		"tokenHref": {
+			"type": "external",
+			"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Human Trickshot.png"
+		},
+		"foundryTokenScale": 1.5,
+		"attachedItems": [
+			"heavy crossbow|phb"
+		],
+		"fluff": {
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/Fluff/Human%20Trickshot.webp"
+					},
+					"width": 512,
+					"height": 799
+				}
+			]
+		},
+		"save": {
+			"con": "+6",
+			"str": "+4"
+		},
+		"action": [
+			{
+				"name": "Multiattack",
+				"entries": [
+					"The bombardier makes two Bone Harpoon attacks."
+				]
+			},
+			{
+				"name": "Bone Harpoon",
+				"entries": [
+					"{@atk rw} {@hit 7} to hit, range 120/480 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage, plus 4 ({@damage 1d8}) necrotic damage. The target's speed is reduced by 10 feet until the start of the bombardier's next turn."
+				]
+			},
+			{
+				"name": "Crippling Shot",
+				"entries": [
+					"{@atk rw} {@hit 7} to hit, range 120/480 ft., one target. {@h}18 ({@damage 4d6 + 4}) piercing damage. The target must succeed on a {@dc 15} Constitution saving throw or become Dazed until the start of the bombardier's next turn."
+				]
+			},
+			{
+				"name": "Corpse Bomb {@recharge}",
+				"entries": [
+					"The bombardier launches an explosive corpse fragment at a point it can see within 120 feet. Each creature within a 15-foot-radius sphere centered on that point must make a {@dc 15} Dexterity saving throw. {@actSaveFail} 22 ({@damage 4d10}) necrotic damage, in a Success: Half damage. The area becomes difficult terrain until the end of the bombardier's next turn."
+				]
+			}
+		],
+		"actionTags": [
+			"Multiattack"
+		],
+		"miscTags": [
+			"RW",
+			"AOE"
+		],
+		"bonus": [
+			{
+				"name": "Take Aim",
+				"entries": [
+					"The bombardier targets a creature it can see within 120 feet.",
+					"Until the start of the bombardier's next turn:",
+					"-The target is considered marked.",
+					"-The bombardier has advantage on its next attack roll against that target.",
+					"-The attack ignores three-quarters cover."
+				]
+			}
+		],
+		"damageTags": [
+			"N",
+			"P"
+		],
+		"savingThrowForced": [
+			"constitution",
+			"dexterity"
+		]
+	},
+	{
+		"name": "Undead Soldier",
+		"isNamedCreature": true,
+		"source": "BonfireTales",
+		"page": 351,
+		"size": [
+			"M"
+		],
+		"type": {
+			"type": "undead",
+			"tags": [
+				"Soldier"
+			]
+		},
+		"alignment": [
+			"L",
+			"E"
+		],
+		"ac": [
+			{
+				"ac": 18,
+				"from": [
+					"{@item plate armor|xphb}"
+				]
+			}
+		],
+		"hp": {
+			"formula": "6d8 + 24",
+			"average": 51
+		},
+		"speed": {
+			"walk": 30
+		},
+		"str": 20,
+		"dex": 13,
+		"con": 18,
+		"int": 10,
+		"wis": 12,
+		"cha": 10,
+		"save": {
+			"str": "+8",
+			"con": "+7"
+		},
+		"skill": {
+			"athletics": "+8",
+			"intimidation": "+3",
+			"perception": "+4"
+		},
+		"senses": [
+			"darkvision 60 ft."
+		],
+		"passive": 14,
+		"cr": "5",
+		"trait": [
+			{
+				"name": "Pendant of Grave Regeneration",
+				"entries": [
+					"The soldier regains 5 hit points at the start of his turn if he has at least 1 hit point."
+				]
+			},
+			{
+				"name": "Sentinel",
+				"entries": [
+					"The soldier's vigilance and combat awareness make it exceptionally difficult for enemies to escape its reach.",
+					"When the soldier hits a target with an opportunity attack, the target's speed becomes 0 until the start of its next turn. ",
+					"Creatures within the creature's reach provoke opportunity attacks even if they take the Disengage action before leaving that reach.",
+					"When a creature within 5 feet of the soldier makes an attack against a target other than it, the soldier can use its Reaction to make one melee attack against the attacker."
+				]
+			},
+			{
+				"name": "Cruel Opportunist.",
+				"entries": [
+					"The soldier exploits the weakness of fallen foes. The soldier's melee attacks deal an extra 7 ({@damage 2d6}) damage when they hit a {@condition Prone|XPHB} creature."
+				]
+			}
+		],
+		"action": [
+			{
+				"name": "Multiattack",
+				"entries": [
+					"The soldier makes one Shield Slam attack and one Mace attack. If he hits the same creature with both attacks, the target has disadvantage on attack rolls against creatures other than soldier until the end of their next turn."
+				]
+			},
+			{
+				"name": "Mace",
+				"entries": [
+					"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) bludgeoning damage."
+				]
+			},
+			{
+				"name": "Shield Slam",
+				"entries": [
+					"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d4 + 5}) bludgeoning damage, and the target must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+				]
+			}
+		],
+		"reaction": [
+			{
+				"name": "Unyielding Protection",
+				"entries": [
+					"When a willing ally within 5 feet of the soldier is hit by an attack, he swaps places with that creature without provoking opportunity attacks and is hit by the attack instead. To use this reaction, the soldier must be able to see the ally and the attacker."
+				]
+			}
+		],
+		"attachedItems": [
+			"mace|phb"
+		],
+		"senseTags": [
+			"D"
+		],
+		"actionTags": [
+			"Multiattack"
+		],
+		"miscTags": [
+			"MW",
+			"MLW"
+		],
+		"conditionInflict": [
+			"prone"
+		],
+		"damageTags": [
+			"B"
+		],
+		"savingThrowForced": [
+			"strength"
+		]
+	},
+	{
+		"name": "Undead Skirmisher",
+		"source": "BonfireTales",
+		"page": 252,
+		"size": [
+			"M"
+		],
+		"type": {
+			"type": "undead",
+			"tags": [
+				"Skirmisher"
+			]
+		},
+		"alignment": [
+			"C",
+			"E"
+		],
+		"alignmentPrefix": "typically ",
+		"ac": [
+			15
+		],
+		"hp": {
+			"average": 45,
+			"formula": "6d8 + 18"
+		},
+		"speed": {
+			"walk": 40,
+			"climb": 40
+		},
+		"str": 10,
+		"dex": 20,
+		"con": 16,
+		"int": 14,
+		"wis": 10,
+		"cha": 8,
+		"senses": [
+			"darkvision 60 ft."
+		],
+		"passive": 10,
+		"immune": [
+			"poison"
+		],
+		"conditionImmune": [
+			"exhaustion",
+			"poisoned"
+		],
+		"languages": [
+			"the languages they knew in life"
+		],
+		"cr": "5",
+		"action": [
+			{
+				"name": "Multiattack",
+				"entries": [
+					"The ghoul makes two attacks: one with Rending Claw and one with Hooking Talon. If both attacks hit the same creature, the target is {@condition dazed|FleeMortals} until the end of the target's next turn."
+				]
+			},
+			{
+				"name": "Rending Claw (physical)",
+				"entries": [
+					"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage, and the target's speed is reduced by 10 feet until the end of their next turn. If the target is wearing nonmagical armor, the armor takes a cumulative −1 penalty to AC each time it is hit by this attack, to a maximum penalty of −5. If this penalty would become −6, the armor is destroyed and provides no AC bonus until repaired or replaced. If the target is wearing magical armor, the armor instead takes a −1 penalty to AC until the end of the target's next turn. Multiple penalties from this trait stack, but all such penalties end at the same time."
+				]
+			},
+			{
+				"name": "Hooking Talon",
+				"entries": [
+					"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d10 + 5}) slashing damage, and the target can't take reactions until the end of their next turn."
+				]
+			}
+		],
+		"bonus": [
+			{
+				"name": "Hungry Charge",
+				"entries": [
+					"The ghoul moves up to half their speed in a straight line. If the ghoul moves at least 15 feet and ends this movement within 5 feet of a creature, they have advantage on the next attack roll they make against that creature until the end of the ghoul's next turn."
+				]
+			},
+			{
+				"name": "Exploit Weakness",
+				"entries": [
+					"The ghoul targets one creature it can see within 30 feet that is {@condition Prone|XPHB} or has a speed of 0. Until the start of the ghoul's next turn, attacks made by the ghoul against that target score a critical hit on a roll of 19 or 20."
+				]
+			}
+		],
+		"tokenHref": {
+			"type": "external",
+			"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Ghoul.png"
+		},
+		"foundryTokenScale": 1.5,
+		"senseTags": [
+			"D"
+		],
+		"actionTags": [
+			"Multiattack"
+		],
+		"languageTags": [
+			"LF"
+		],
+		"miscTags": [
+			"MW"
+		],
+		"conditionInflict": [
+			"dazed|fleemortals"
+		],
+		"fluff": {
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://i.imgur.com/ldhCnUZ.png"
+					}
+				}
+			]
+		},
+		"save": {
+			"int": "+5",
+			"dex": "+8"
+		},
+		"reaction": [
+			{
+				"name": "Opportunistic Strike",
+				"entries": [
+					"When a creature within the Ghoul's reach falls {@condition Prone|XPHB}, the ghoul makes one Rending Claw attack against it."
+				]
+			}
+		],
+		"damageTags": [
+			"S"
+		]
+	},
+	{
+		"name": "Deathpriest Exarch of Orcus",
+		"source": "mme2-v2",
+		"page": 293,
+		"size": [
+			"M"
+		],
+		"type": "humanoid",
+		"alignment": [
+			{
+				"alignment": [
+					"N",
+					"E"
+				]
+			},
+			{
+				"alignment": [
+					"C",
+					"E"
+				]
+			}
+		],
+		"ac": [
+			{
+				"ac": 16,
+				"from": [
+					"{@item +2 chain shirt}"
+				]
+			}
+		],
+		"hp": {
+			"average": 130,
+			"formula": "20d8 + 40"
+		},
+		"speed": {
+			"walk": 30
+		},
+		"str": 16,
+		"dex": 12,
+		"con": 14,
+		"int": 16,
+		"wis": 18,
+		"cha": 12,
+		"save": {
+			"wis": "+8",
+			"cha": "+5"
+		},
+		"skill": {
+			"arcana": "+7",
+			"religion": "+7"
+		},
+		"passive": 14,
+		"languages": [
+			"any four languages (usually Common)"
+		],
+		"cr": "11",
+		"spellcasting": [
+			{
+				"name": "Spellcasting",
+				"type": "spellcasting",
+				"headerEntries": [
+					"The deathpriest casts one of the following spells using Wisdom as the spellcasting ability (spell save {@dc 16}, {@hit 8} to hit with spell attacks):"
+				],
+				"will": [
+					"{@spell guidance}",
+					"{@spell resistance}",
+					"{@spell thaumaturgy}"
+				],
+				"daily": {
+					"2e": [
+						"{@spell animate dead} (as an action)",
+						"{@spell blindness/deafness}",
+						"{@spell false life}",
+						"{@spell vampiric touch}"
+					],
+					"1e": [
+						"{@spell Abi-Dalzim's horrid wilting|XGE}",
+						"{@spell banishment}",
+						"{@spell circle of death}",
+						"{@spell cloudkill}",
+						"{@spell contagion}",
+						"{@spell finger of death}"
+					]
+				},
+				"ability": "wis",
+				"displayAs": "action"
+			}
+		],
+		"trait": [
+			{
+				"name": "Aura of Death",
+				"entries": [
+					"The deathpriest exarch emanates a deathly aura that extends 30 feet in every direction from its space while it isn't {@condition incapacitated}. The aura is blocked by total cover. While in the aura, the deathpriest exarch and any Undead ally are immune to the {@condition frightened} condition and have resistance to radiant damage. Enemies suffer disadvantage on death saving throws while in the aura."
+				]
+			},
+			{
+				"name": "Undying Soul (Recharges after a Short or Long Rest)",
+				"entries": [
+					"If the deathpriest exarch is reduced to 0 hit points, it immediately makes a {@dc 10} Constitution saving throw. lf it succeeds, it is instead reduced to 1 hit point."
+				]
+			}
+		],
+		"action": [
+			{
+				"name": "Multiattack",
+				"entries": [
+					"The deathpriest exarch makes two Bone Mace attacks or two Necrotic Bolt attacks."
+				]
+			},
+			{
+				"name": "Bone Mace",
+				"entries": [
+					"{@atk mw} {@hit +7} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d6 + 5}) bludgeoning damage plus 13 ({@damage 3d8}) necrotic damage. If the target is a creature, it must succeed on a {@dc 15} Constitution saving throw or its hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0."
+				]
+			},
+			{
+				"name": "Necrotic Bolt",
+				"entries": [
+					"{@atk rs} {@hit +8} to hit, reach 60 ft., one target. {@h}17 ({@damage 3d8 + 4}) necrotic damage, and the target can't regain hit points until the start of the high exarch's next turn."
+				]
+			},
+			{
+				"name": "Summon Undead (1/Day)",
+				"entries": [
+					"The deathpriest exarch conjures {@filter undead creatures no higher than CR 5 and whose combined average hit points don't exceed 150|bestiary|challenge rating=[&0;&5]|type=undead|average hit points=[0;150]}. These undead magically rise up from the ground or otherwise form in unoccupied spaces within 60 feet of the deathpriest exarch and obey its commands until they are destroyed, until it dismisses them as an action, or 8 hours have passed."
+				]
+			}
+		],
+		"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/mme2_v2/creatures/tokens/Deathpriest_Exarch_of_Orcus.webp",
+		"altArt": [
+			{
+				"name": "Roll20-style border",
+				"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/mme2_v2/creatures/token2/Deathpriest Exarch of Orcus.webp",
+				"source": "mme2-v2"
+			}
+		],
+		"actionTags": [
+			"Multiattack"
+		],
+		"languageTags": [
+			"X"
+		],
+		"damageTags": [
+			"B",
+			"N"
+		],
+		"miscTags": [
+			"MLW",
+			"MW",
+			"RCH"
+		],
+		"conditionInflict": [
+			"frightened"
+		],
+		"conditionInflictSpell": [
+			"blinded",
+			"incapacitated",
+			"poisoned",
+			"stunned"
+		],
+		"savingThrowForced": [
+			"constitution"
+		],
+		"savingThrowForcedSpell": [
+			"charisma",
+			"constitution"
+		],
+		"hasFluff": true,
+		"hasFluffImages": true,
+		"fluff": {}
+	}
+]
